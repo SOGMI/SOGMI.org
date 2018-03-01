@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+<div class="header-image" style="background-image: URL({{ .Params.FeaturedImage}}?w=1500&q=80)">
+    <div class="banner-container">
+      <h1 class="archive-heading">{{ .Title }}</h1>
+    </div>
+    <div class="image-overlay"></div>
+  </div>
+  <div class="content-section">
+    <div class="container">
+      <div class="video-top-buttons-archive"><a href="{{ .Permalink }}" class="button-5 w-button">Upcoming Events</a><a href="/archive-event-gallery" class="button-5 w-button">Past Events</a></div>
+      <div class="standard-grid-wrapper">
+        {{ range .Data.Pages }}
+        <div class="event-list-item">
+          <a href="{{ .Permalink }}" class="event-grid-link w-inline-block">
+            <div class="div-block-75">
+                {{ if eq .Params.freeEvent true }}
+                    <div>Free</div>
+                {{ else }}
+                    <div>{{ .Params.Price }}</div>
+                {{ end }}
+            </div>
+            <div class="event-grid-overlay" style="background-image: URL({{ .Params.featuredImage }}?w=400&q=80)"></div>
+            <div class="div-block-74">
+              <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
+              <h3 class="event-grid-title">{{ .Title }}</h3>
+              {{ with .Params.startdate }}
+              <div class="text-block-31">{{ . | dateFormat "January 2, 2006" }}</div>
+              {{ end }}
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ partial "footer.html" . }}

@@ -1,0 +1,116 @@
+{{ partial "header.html" . }}
+
+<!--<div class="header-image podcast">
+  <div class="banner-container">
+    <h1 class="archive-heading-podcast">{{ .Title }}</h1>
+  </div>
+</div>-->
+<div class="content-section podcast">
+  {{ partial "audio-player.html" }}
+  <div class="subscribe-modal-window">
+    <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>
+    {{ $t := .Title }}
+    {{ range .Site.Pages }} 
+        {{ if eq .Section "podcastSeries" }}
+          {{ if eq .Title $t }}
+          <div class="subscribe-modal-container" style="background-image: linear-gradient(342deg, #1e4d68, rgba(15, 31, 56, .73)), url({{ .Params.FeaturedImage }}?w=600&q=80)">
+            <div class="div-block-79" data-ix="subscribe-modal-dissappear">
+              <div class="text-block-36"></div>
+              <div class="text-block-35"> close</div>
+            </div>
+            <div class="subscribe-modal-beginning-content" style="z-index: 1">
+              <div class="text-block-34-copy">Subscribe to <br />{{ .Title }}</div>
+              <div class="text-block-34 hide-on-mobile">choose one of the following:</div>
+                <div class="div-block-17">
+                  <a href="{{ .Params.ItunesLink }}" target="_blank" class="subscribe-icon w-inline-block">
+                    <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0397b8bce8460001d67615_Apple_Podcast_Icon.png" width="30" class="image-2"/>
+                    <div>Apple Podcasts</div>
+                  </a>
+                  <a href="{{ .Params.GooglePlayLink }}" target="_blank" class="subscribe-icon w-inline-block">
+                    <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png" width="30" srcset="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon-p-500.png 500w, http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png 1024w" sizes="100vw" class="image-2"/>
+                    <div>Google Play</div>
+                  </a>
+                  <a href="#" class="subscribe-icon w-inline-block" data-ix="rss-option">
+                    <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="30" class="image-2"/>
+                    <div>RSS Feed</div>
+                  </a>
+                </div>
+                </div>
+                <div class="rss-option"><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="54" class="image-2" />
+                  <div class="text-block-34">copy this link into your RSS feed reader</div>
+                  <div class="w-embed"><input type="text" style="width:100%; color: #333; font-size: 14px; padding: 10px" value="{{ .Params.RssFeed }}" id="podcast-link">
+                    <button style="background: #ffb642; padding: 10px 20px 10px 20px; color: #333; margin-top: 20px;" onclick="copyText()">Copy Link</button></div>
+                </div>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  <div class="container">
+    <div class="column-row w-row">
+      <div class="column-6 w-col w-col-4">
+        {{ partial "podcast-sidebar.html" . }}
+      </div>
+      <div class="column-right w-col w-col-8">
+        <div class="div-block-15">
+          <div class="div-block-45">
+            <div class="heading-17-copy">{{ .Title }}</div>
+            <div class="text-block-19">with Pastor Cristina Sosso</div>
+            <a href="#" class="subscribe-button secondary w-inline-block" data-ix="subscribe-modal-appear">
+              <div class="text-block-33">Subscribe</div>
+            </a>
+          </div>
+          <div class="div-block-46">
+            <h1 class="heading-17">{{ .Title }}</h1>
+            {{ range .Site.Pages }} 
+                {{ if eq .Section "podcastSeries" }}
+                    {{ if eq .Title $t }}
+                      <p>{{ .Description }}</p>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            <a href="#" class="subscribe-button w-inline-block" data-ix="subscribe-modal-appear">
+              <div class="text-block-33">Subscribe</div>
+            </a>
+          </div>
+        </div>
+        <ul id="playlist" class="standard-grid-wrapper w-list-unstyled">
+          {{ range (.Paginator 20).Pages }}
+            {{ partial "grid-item.html" . }}
+          {{ end }}
+        </ul>
+        <div class="pagination">
+          <div class="pagination-button-wrap">
+            {{ if .Paginator.HasPrev }}
+              <a class="pagination-button" href="{{ .Paginator.First.URL }}">
+                  <span>&nbsp;</span>
+                  <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">first</span>
+              </a>
+            {{ end }}
+            {{ if .Paginator.HasPrev }}
+              <a class="pagination-button" href="{{ .Paginator.Prev.URL }}">
+                  <span></span>
+              </a>
+            {{ end }}
+          </div>
+          <div class="pagination-button-wrap">
+            {{ if .Paginator.HasNext }}
+                <a class="pagination-button" href="{{ .Paginator.Next.URL }}">
+                    <span></span>
+                </a>
+            {{ end }}
+            {{ if .Paginator.HasNext }}
+                <a class="pagination-button" href="{{ .Paginator.Last.URL }}">
+                    <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">last</span>
+                    <span>&nbsp;</span>
+                </a>
+            {{ end }}
+          </div>            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{{ partial "plistfooter.html" . }}

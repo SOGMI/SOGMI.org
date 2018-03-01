@@ -1,0 +1,21 @@
+{
+  "name": "sogmi-website",
+  "description": "Website for Sons of God Ministries International. Content is pulled from Contentful API and turned into Markdown files for Hugo to render as a static site.",
+  "version": "1.0.0",
+  "scripts": {
+    "prepublish": "node contentful.js",
+    "publish": "hugo",
+    "postpublish": "",
+    "pretest": "node contentful.js",
+    "test": "hugo",
+    "posttest": "hugo server"
+  },
+  "dependencies": {
+    "contentful": "^5.1.1",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.83.0",
+    "slugify": "^1.2.9"
+  }
+}

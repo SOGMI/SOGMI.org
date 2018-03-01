@@ -1,0 +1,180 @@
+{{ partial "header.html" . }}
+
+<div class="header-image podcast">
+        <div class="banner-container">
+          <h1 class="archive-heading-podcast">{{ .Title }}</h1>
+        </div>
+      </div>
+      <div class="content-section podcast">
+        <div data-ix="audio-player-initial-appearance" class="audio-player">
+          <div class="hide-player-button-container">
+            <a href="#" class="hide-player-button w-inline-block" data-ix="hide-player">
+              <div class="text-block-21"></div>
+              <div class="hide-player-initial-text"> hide player</div>
+            </a>
+          </div>
+          <h4 id="player-title" class="heading-21"><strong>Now playing</strong></h4>
+          <div class="html-embed-8 w-embed"><audio id="audio" preload="auto" tabindex="0" controls controlslist="" style="width: 100%">
+    <source src="">
+    Your browser does not support this audio player. Please upgrade your browse . We recommend chrome or firefox.
+  </audio></div>
+        </div>
+        <div class="expand-player-container" data-ix="audio-player-initial-appearance">
+          <div class="expand-player-button" data-ix="new-interaction-3">
+            <div class="text-block-22"></div>
+            <div>  expand player</div>
+          </div>
+        </div>
+        <div class="subscribe-modal-window">
+          <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>
+          <div class="subscribe-modal-container">
+            <div class="div-block-79" data-ix="subscribe-modal-dissappear">
+              <div class="text-block-36"></div>
+              <div class="text-block-35"> close</div>
+            </div>
+            <div class="subscribe-modal-beginning-content">
+              <div class="text-block-34-copy">Subscribe to The Prophetic <br/>Voice of Our Time</div>
+              <div class="text-block-34 hide-on-mobile">choose one of the following:</div>
+              <div class="div-block-17"><a href="https://itunes.apple.com/us/podcast/the-prophetic-voice-of-our-time/id1036387563?mt=2" target="_blank" class="subscribe-icon w-inline-block"><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0397b8bce8460001d67615_Apple_Podcast_Icon.png" width="30" class="image-2"/><div>Apple Podcasts</div></a><a href="https://itunes.apple.com/us/podcast/the-prophetic-voice-of-our-time/id1036387563?mt=2" target="_blank" class="subscribe-icon w-inline-block"><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png" width="30" srcset="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon-p-500.png 500w, http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png 1024w" sizes="100vw" class="image-2"/><div>Google Play</div></a><a href="#" class="subscribe-icon w-inline-block" data-ix="rss-option"><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="30" class="image-2"/><div>RSS Feed</div></a></div>
+            </div>
+            <div class="rss-option"><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="54" class="image-2" />
+              <div class="text-block-34">copy this link into your RSS feed reader</div>
+              <div class="w-embed"><input type="text" style="width:100%; color: #333; font-size: 14px; padding: 10px" value="https://sogmi.org/prophetic-voice-of-our-time/?format=rss" id="podcast-link">
+                <button style="background: #ffb642; padding: 10px 20px 10px 20px; color: #333; margin-top: 20px;" onclick="copyText()">Copy Link</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="container podcast">
+          <div class="column-row w-row">
+            <div class="column-6 w-col w-col-4">
+              <div class="podcast-sidebar">
+                <div class="div-block-12">
+                  <div class="div-block-13"></div><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0149d75e0eae000127ca77_prophetic%20voice.jpg" width="182" alt="The Prophetic Voice of Our Time" srcset="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0149d75e0eae000127ca77_prophetic%20voice-p-500.jpeg 500w, http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0149d75e0eae000127ca77_prophetic%20voice.jpg 750w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 193.72500610351562px, 27vw" class="image" /></div>
+                <div class="div-block-14">
+                  <div class="w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form"><input type="text" class="text-field w-input" maxlength="256" name="search" data-name="Search" placeholder="search episodes" id="search" required="" /><input type="submit" value="GO" data-wait="Please wait..." class="submit-button w-button" /></form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                  <h3 class="heading-14">Sort By Host:</h3>
+                  <ul class="w-list-unstyled">
+                    <li>Cristina Sosso</li>
+                    <li>Michael Sosso</li>
+                    <li>Joshua Sosso</li>
+                  </ul>
+                  <h3 class="heading-14">Sort By Tags:</h3>
+                  <ul class="unordered-list-2 w-list-unstyled">
+                    <li class="list-item-2">
+                      <div class="text-block-4">prophecy</div>
+                    </li>
+                    <li class="list-item-2">
+                      <div>transfer of wealth</div>
+                    </li>
+                    <li class="list-item-2">
+                      <div>prosperity</div>
+                    </li>
+                    <li class="list-item-2">
+                      <div>America</div>
+                    </li>
+                    <li class="list-item-2">
+                      <div>revival</div>
+                    </li>
+                    <li class="list-item-2">
+                      <div>ministry</div>
+                    </li>
+                    <li class="list-item-2">
+                      <div>politics</div>
+                    </li>
+                    <li class="list-item-2">
+                      <div>apostles</div>
+                    </li>
+                    <li class="list-item-2">
+                      <div>prophets</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="column-right w-col w-col-8">
+              <div class="div-block-15">
+                <div class="div-block-45">
+                  <div class="heading-17-copy">The Prophetic Voice of Our Time</div>
+                  <div class="text-block-19">with Pastor Cristina Sosso</div>
+                  <a href="#" class="subscribe-button secondary w-inline-block" data-ix="subscribe-modal-appear">
+                    <div class="text-block-33">Subscribe</div>
+                  </a>
+                </div>
+                <div class="div-block-46">
+                  <h1 class="heading-17">The Prophetic Voice of Our Time</h1>
+                  <p>The Prophetic Voice of Our Time is a weekly radio broadcast hosted by Pastor Cris that focuses on the spirit of Prophecy which is the testimony of Jesus Christ. It airs every weekend in South Texas on <a href="http://am630theword.com/programguidedaily?dayOfWeek=Saturday&amp;timeFilter=4" target="_blank"><strong class="bold-text-2">AM630 KSLR</strong></a> and <a href="http://luzsanantonio.com/guia-de-programacion/" target="_blank"><strong class="bold-text-3">AM1160 KRDY</strong></a>.</p>
+                  <div class="text-block-6">This feed is updated every Monday after it airs on the weekend.</div>
+                  <a href="#" class="subscribe-button w-inline-block" data-ix="subscribe-modal-appear">
+                    <div class="text-block-33">Subscribe</div>
+                  </a>
+                </div>
+              </div>
+              <ul id="playlist" class="standard-grid-wrapper w-list-unstyled">
+                {{ range .Data.Pages }}
+                <li data-title="{{ .Title }}" class="podcast-grid-item">
+                  <a href="{{ .Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block">
+                    {{ if.Params.Thumbnail }}
+                    <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}})">
+                      <div class="play-notification">PLAY</div>
+                      <div class="podcast-grid-image-overlay"></div>
+                    </div>
+                    {{ else }}
+                    {{ end }}
+                    
+                    <div class="podcast-grid-image-2">
+                      <div class="play-notification-2">PLAYING...</div>
+                    </div>
+                    <div class="podcast-grid-content">
+                      <h2 class="podcast-heading">{{ .Title }}</h2>
+                      <div class="text-block-5">{{ .Description }}</div>
+                    </div>
+                  </a>
+                  <div class="podcast-links-panel">
+                    <div class="share-popup">
+                      <a href="#" class="share-buttons-close w-inline-block" data-ix="share-close">
+                        <div>close </div>
+                        <div class="text-block-18"></div>
+                      </a>
+                      <h4 class="heading-39"><strong>Share this episode</strong></h4>
+                      <div class="div-block-43">
+                        <a href="http://www.facebook.com/sharer.php?u=http://sons-of-god.webflow.io/single-podcast" target="_blank" class="link-block-2 facebook w-inline-block">
+                          <div></div>
+                        </a>
+                        <a href="http://twitter.com/share?text=The Title Goes Here&amp;url=http://sons-of-god.webflow.io/single-podcast" target="_blank" class="link-block-2 twitter w-inline-block">
+                          <div></div>
+                        </a>
+                        <a href="http://pinterest.com/pin/create/button/?url=http://sons-of-god.webflow.io/single-podcast&amp;media=http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a020203f4680a0001f1bb98_gritte-346468-small-compressor.jpg" target="_blank" class="link-block-2 pinterest w-inline-block">
+                          <div></div>
+                        </a>
+                        <a href="https://plus.google.com/share?url=http://sons-of-god.webflow.io/single-podcast" target="_blank" class="link-block-2 google-plus w-inline-block">
+                          <div></div>
+                        </a>
+                        <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2 reddit w-inline-block">
+                          <div></div>
+                        </a>
+                      </div>
+                    </div>
+                    <a href="{{ .Permalink }}" class="podcast-button-link w-inline-block">
+                      <div class="text-block-2">details</div>
+                    </a>
+                    <div data-ix="social-popup" class="podcast-button-link share">
+                      <div class="text-block-2">share</div>
+                    </div>
+                  </div>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+{{ partial "plistfooter.html" . }}

@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+<!--
+<div class="header-image video">
+    <div class="banner-container">
+        <h1 class="archive-heading">{{ .Title }}</h1>
+    </div>
+</div>
+-->
+<div class="content-section">
+    <div class="container">
+        <div class="video-top-buttons-archive">
+            <a href="/archive-video" class="button-5 w-button">Featured</a>
+            <a href="{{ .Permalink }}" class="button-5 w-button w--current">All Videos</a>
+        </div>
+        <div class="video-archive-grid-wrapper">
+            <div class="video-grid-section">
+                {{ range (.Paginator 2).Pages }}
+                    {{ partial "grid-item.html" . }}
+                {{ end }}
+            </div>
+            <div class="div-block-32">
+                <div class="div-block-33">
+                <div class="form-block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form-copy"><input type="text" class="text-field w-input" maxlength="256" name="search" data-name="Search" placeholder="search videos" id="search" required="" /><input type="submit" value="GO" data-wait="Please wait..." class="submit-button w-button" /></form>
+                    <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                </div>
+                <h3>Tags</h3>
+                <div class="unordered-list-2-copy3 w-list-unstyled">
+                    {{ range first 10 .Site.Taxonomies.videokeywords.ByCount }}
+                    <a href="/videokeywords/{{ .Name | urlize }}" class="list-item-2">
+                        <div class="text-block-4">{{ replaceRE "-" " "  .Name }}</div>
+                    </a>
+                    {{ end }}
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Nicole Mendoza on Sons of God Ministries International</title>
+    <link>sogmi.org/hosts/nicole-mendoza/</link>
+    <description>Recent content in Nicole Mendoza on Sons of God Ministries International</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="sogmi.org/hosts/nicole-mendoza/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+        <title>Christmas Special with Nicole Mendoza</title>
+        
+        <link>sogmi.org/podcasts/prophetic-voice-302/</link>
+        <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
+        
+        <guid>sogmi.org/podcasts/prophetic-voice-302/</guid>
+        
+            <media:content url="//images.contentful.com/vfgh62eq5a4k/WscSVzYbO8sMmCUeumi4I/43f29aac1cc19196d3b23c36d1f6600d/tj-holowaychuk-177043-unsplash__1_.jpg?w=800" medium="image/jpg"/>
+        
+        <description></description>
+        <category>podcasts</category>
+    </item>
+    
+    <item>
+        <title>Spiritual Authority (Featuring Ptr. Charles Wickliffe)</title>
+        
+        <link>sogmi.org/podcasts/prophetic-voice-301/</link>
+        <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+        
+        <guid>sogmi.org/podcasts/prophetic-voice-301/</guid>
+        
+            <media:content url="//images.contentful.com/vfgh62eq5a4k/1qZ33aKNGEiWsWWGsYSQ2g/5fe6d0f9cc82c8f10a0fb6143f23384d/priscilla-du-preez-172593-unsplash__1_.jpg?w=800" medium="image/jpg"/>
+        
+        <description></description>
+        <category>podcasts</category>
+    </item>
+    
+  </channel>
+</rss>

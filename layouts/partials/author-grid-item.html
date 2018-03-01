@@ -1,0 +1,34 @@
+<!--will made child div with class "grid-item-image" go to 0.5 opacity-->
+<!--data-ix="artist-page-grid-item-hover"-->
+
+<!--will make child div with class "podcast-grid-image-overlay" and class "play-notification" appear-->
+<!-- data-ix="podcast-hover" -->
+
+{{ if eq .Section "articles" }}
+    <article class="blog-grid-item-smaller">
+        <a href="{{ .Permalink }}" class="grid-item-inner w-inline-block">
+        {{ if .Params.FeaturedImage }}
+            <figure class="author-grid-item-image-outer" style="background-image: URL({{ .Params.FeaturedImage }}?w=400&q=80)"></figure>
+        {{ end }}
+        <div class="div-block-4">
+            <h2 class="blog-grid-heading-copy">{{ .Title }}</h2>
+            <p class="blog-meta-text-copy">{{ .Date.Format "Jan 16, 2006"}}</p>
+            <p class="paragraph-9">{{ .Description | truncate 100 }}</p>
+        </div>
+        </a>
+    </article>
+{{ end }}
+
+{{ if eq .Section "podcasts" }}
+    <article id="test" class="podcast-grid-item author-profile">
+        <a href="{{ .Permalink }}" class="grid-item-inner artist-page w-inline-block">
+        {{ if .Params.FeaturedImage }}
+            <figure class="podcast-grid-image author-profile" style="background-image: URL({{.Params.FeaturedImage}}?w=400&q=80)"></figure>
+        {{ end }}
+        <div class="podcast-grid-content">
+            <h2 class="podcast-heading">{{ .Title }}</h2>
+            <div class="text-block-5">{{ .Description | truncate 100 }}</div>
+        </div>
+        </a>
+    </article>
+{{ end }}

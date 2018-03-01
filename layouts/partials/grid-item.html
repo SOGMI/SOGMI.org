@@ -1,0 +1,122 @@
+{{ if eq .Section "podcasts" }}
+    <li data-title="{{ .Title }}" class="podcast-grid-item">
+        <a href="{{ .Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block">
+          {{ if .Params.Thumbnail }}
+          <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}})">
+            <div class="play-notification">PLAY</div>
+            <div class="podcast-grid-image-overlay"></div>
+          </div>
+          <span></span>
+          <div class="podcast-grid-image-2" style="background-image: url({{ .Params.Thumbnail }}); background-size: cover; background-position: center center;">
+            <div class="play-notification-2">PLAYING...</div>
+          </div>
+          {{ else }}
+            {{ if .Params.FeaturedImage }}
+              <div class="podcast-grid-image" style="background-image: url({{ .Params.FeaturedImage }}?w=400&h=400)">
+                <div class="play-notification">PLAY</div>
+                <div class="podcast-grid-image-overlay"></div>
+              </div>
+              <span></span>
+              <div class="podcast-grid-image-2" style="background-image: url({{ .Params.FeaturedImage }}?w=400&h=400); background-size: cover; background-position: center center;">
+                <div class="play-notification-2">PLAYING...</div>
+              </div>
+            {{ else }}
+              <div class="podcast-grid-image" style="background: #adadad;">
+                <div style="position: absolute; font-family: Fontawesome webfont; color: white; font-size: 100px; opacity: 1"></div>
+                <div class="play-notification">PLAY</div>
+                <div class="podcast-grid-image-overlay"></div>
+              </div>
+              <span></span>
+              <div class="podcast-grid-image-2" style="background: #333;">
+                <div style="position: absolute; font-family: Fontawesome webfont; color: white; font-size: 100px; opacity: 0.1;"></div>
+                <div class="play-notification-2">PLAYING...</div>
+              </div>
+            {{ end }}
+          {{ end }}
+          <div class="podcast-grid-content">
+            <h2 class="podcast-heading">Episode {{ .Params.EpisodeNumber }}: {{ .Title }}</h2>
+            <div class="text-block-5">{{ .Description | truncate 200 }}</div>
+          </div>
+        </a>
+        <div class="podcast-links-panel">
+          <div class="share-popup">
+            <a href="#" class="share-buttons-close w-inline-block" data-ix="share-close">
+              <div>close </div>
+              <div class="text-block-18"></div>
+            </a>
+            <h4 class="heading-39"><strong>Share this episode</strong></h4>
+            <div class="div-block-43">
+              <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank" class="link-block-2 facebook w-inline-block">
+                <div></div>
+              </a>
+              <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" class="link-block-2 twitter w-inline-block">
+                <div></div>
+              </a>
+              <a href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Params.Thumbnail }}" target="_blank" class="link-block-2 pinterest w-inline-block">
+                <div></div>
+              </a>
+              <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="link-block-2 google-plus w-inline-block">
+                <div></div>
+              </a>
+              <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2 reddit w-inline-block">
+                <div></div>
+              </a>
+            </div>
+          </div>
+          <a href="{{ .Permalink }}" class="podcast-button-link w-inline-block">
+            <div class="text-block-2">details</div>
+          </a>
+          <div data-ix="social-popup" class="podcast-button-link share">
+            <div class="text-block-2">share</div>
+          </div>
+          <a href="{{ .Permalink }}#comments" class="podcast-button-link like w-inline-block">
+            <span class="disqus-comment-count" style="color: white" data-disqus-identifier="http://sogmi.org">comment</span>
+          </a>
+        </div>
+    </li>
+{{ else }}
+
+    {{ if eq .Section "videos" }}
+        <article class="video-grid-item">
+            <a href="{{ .Permalink }}" data-ix="video-grid-hover" class="video-grid-item-inner w-inline-block">
+                <div class="video-grid-image" 
+                style="background-image: URL({{ .Params.YoutubeThumbnail }})">
+                <div class="video-grid-image-overlay">
+                    <div class="video-play-button"></div>
+                </div>
+                </div>
+                <div class="div-block-30">
+                <h3 class="heading-26" style="line-height: 1.5rem">{{ .Title }}</h3>
+                <div class="text-block-11">{{ .Date.Format "Jan 2, 2006"}}</div>
+                </div>
+            </a>
+        </article>
+    {{ else }}
+        <article class="blog-grid-item">
+            <a href="{{ .Permalink }}" data-ix="blog-grid-hover" class="grid-item-inner w-inline-block">
+            <div class="div-block-64">
+                <div class="image-color-overlay"></div>
+                {{ if .Params.Thumbnail }}
+                <div class="grid-image" style="background-image:URL({{ .Params.Thumbnail }})">
+                {{ else }}
+                <div class="grid-image" style="background-image:URL({{ .Params.FeaturedImage }}?w=400&h=400&q=80)">
+                {{ end }}
+                <div class="blog-grid-read-more">Read More</div>
+                </div>
+            </div>
+            <div class="div-block-4">
+                <h2 class="blog-grid-heading">{{ .Title }}</h2>
+                <p>{{ .Description | truncate 150 }}</p>
+                <div class="blog-meta" >
+                    <span>
+                        {{ if .Params.Authors }}
+                            <span>{{ .Params.Authors }}</span>
+                        {{ end }}
+                    </span>
+                    <span>{{ .Date.Format "Jan 2, 2006"}}</span>
+                </div>
+            </div>
+            </a>
+        </article>
+    {{ end }}
+{{ end }}

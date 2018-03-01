@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>None on Sons of God Ministries International</title>
+    <link>sogmi.org/authors/none/</link>
+    <description>Recent content in None on Sons of God Ministries International</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="sogmi.org/authors/none/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+        <title>Articles</title>
+        
+            <dc:creator>None</dc:creator>
+        
+        <link>sogmi.org/articles/</link>
+        <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+        
+        <guid>sogmi.org/articles/</guid>
+        
+            <media:content url="//images.contentful.com/vfgh62eq5a4k/6fOyg8hKz6GocqOO2cEc46/f52d18fe0fbfec7b4aafbebab99c5142/nainoa-shizuru-80385-smaller-compressor.jpg?w=800" medium="image/jpg"/>
+        
+        <description>Here is my content. Wow this is so cool.</description>
+        <category>articles</category>
+    </item>
+    
+  </channel>
+</rss>

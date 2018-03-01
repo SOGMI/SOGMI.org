@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Sons of God Ministries International</title>
+    <link>//localhost:1313/series/</link>
+    <description>Recent content in Series on Sons of God Ministries International</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="//localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Prophetic Voice of Our Time</title>
+      <link>//localhost:1313/series/the-prophetic-voice-of-our-time/</link>
+      <pubDate>Sat, 03 Feb 2018 11:26:47 -0600</pubDate>
+      
+      <guid>//localhost:1313/series/the-prophetic-voice-of-our-time/</guid>
+      <description>The Prophetic Voice of Our Time is a weekly radio broadcast hosted by Pastor Cris that focuses on the spirit of Prophecy which is the testimony of Jesus Christ. It airs every weekend in South Texas on AM630 KSLR and AM1160 KRDY.</description>
+    </item>
+    
+  </channel>
+</rss>

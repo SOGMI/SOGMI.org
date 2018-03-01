@@ -1,0 +1,52 @@
+{{partial "header.html" . }}
+
+
+<div class="content-section">
+    <div class="container">
+        <div class="author-page-profile">
+        {{ if .Params.ProfilePhoto }}
+            <div class="div-block-39" style="background-image: URL({{ .Params.ProfilePhoto }}?w=500)">
+                <div class="div-block-80">
+                    <div class="author-heading secondary">{{ .Title }}</div>
+                </div>
+            </div>
+        {{ else }}
+            <div class="author-heading secondary">{{ .Title }}</div>
+        {{ end }}
+        <div class="author-page-profile-content">
+            <h1 class="author-heading">{{ .Title }}</h1>
+            <p class="paragraph-8"><b>{{ .Params.Position }}</b></p>
+            <p class="paragraph-8">{{ .Params.Bio }}</p>
+        </div>
+        </div>
+        {{ $t := .Title }}
+        {{ $author := $t | urlize }}
+        {{ if eq .Params.IsAuthor true }}
+            <div class="div-block-40">
+                <h2 class="heading-33">Recent Articles</h2>
+                <a href="/authors/{{ .Slug }}" class="button-8 w-button">View All</a>
+            </div>
+            <div class="standard-grid-wrapper with-bottom-margin">
+                {{ range first 4 (index .Site.Taxonomies.authors $author) }}
+                    {{ partial "author-grid-item.html" . }}
+                {{ end }}
+            </div>
+        {{ end }}     
+        {{ if eq .Params.IsHost true }}
+            <div class="div-block-40">
+                <h2 class="heading-33">Recent Podcast Episodes</h2>
+                <a href="/hosts/{{ .Slug }}" class="button-8 w-button">View All</a>
+            </div>
+            <div class="standard-grid-wrapper w-list-unstyled">
+                {{ range first 4 (index .Site.Taxonomies.hosts $author) }}
+                    {{ partial "author-grid-item.html" . }}
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+    </div>
+
+
+
+
+{{ partial "footer.html" . }}

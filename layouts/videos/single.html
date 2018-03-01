@@ -1,0 +1,134 @@
+{{ partial "header.html" . }}
+
+<div class="content-section videos">
+    <div class="container videos">
+        <div class="video-top-buttons">
+            <a href="/videos" class="w-inline-block">
+                <div>return to videos</div>
+            </a>
+        </div>
+        <div class="div-block-31 w-clearfix">
+            <div class="video-player-single"></div>
+            <div class="div-block-27-copy">
+                <div class="html-embed-14-copy w-embed w-iframe"><iframe id="video" style="position: absolute; z-index: 1" width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.YoutubeID }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <div style="position: absolute; z-index: 0; width: 100%; height: 100%; background: white; display: flex; flex-direction: column; justify-content: center; align-items: center; font-size: 50px">
+                    <i class="fa fa-video-camera" aria-hidden="true"></i>
+                    <p style="font-size: 20px; margin: 0px">Loading Video...</p>
+                </div>
+                </div>
+                <div class="video-single-content">
+                    <h1 class="video-single-title" style="font-size: 1.5rem">{{ .Title }}</h1>
+                    <div class="text-block-13" style="font-size: .9rem"><b>Published:</b> {{ .Date.Format "Jan 02, 2006"}}</div>
+                    <p class="paragraph-6">{{ .Description }}</p>                
+                    {{ with  .Params.VideoKeywords }}
+                    <div class="unordered-list-2-copy w-list-unstyled">
+                        {{ range . }}
+                            <a href="{{ "videokeywords" | absURL}}/{{ . | urlize }}" class="list-item-2-copy">
+                                <div class="text-block-4">{{ . }}</div>
+                            </a>
+                        {{ end }}
+                    </div>
+                    {{ end }}                    
+                    <div class="div-block-21-copy">
+                        <div class="div-block-22">
+                            <div>share</div>
+                        </div>    
+                        <div class="div-block-44">
+                            <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank" class="link-block-2-copy facebook w-inline-block">
+                                <div></div>
+                            </a>
+                            <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" class="link-block-2-copy twitter w-inline-block">
+                                <div></div>
+                            </a>
+                            <a href="http://pinterest.com/pin/create/button/?url={{ .Title }}&amp;media={{ .Params.YoutubeThumbnail }}" target="_blank" class="link-block-2-copy pinterest w-inline-block">
+                                <div></div>
+                            </a>
+                            <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="link-block-2-copy google-plus w-inline-block">
+                                <div></div>
+                            </a>
+                            <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2-copy reddit w-inline-block">
+                                <div></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div-block-32-copy">
+                <div class="div-block-35">
+                <h3 class="heading-29">Related Videos</h3>
+                <ul id="playlist" class="related-video-playlist-wrapper w-list-unstyled">
+                    <li class="video-playlist-item">
+                    <a href="/single-video" class="video-playlist-inner w-inline-block">
+                        <div class="video-playlist-image _4"></div>
+                        <div class="div-block-24">
+                        <h2 class="heading-23">Video Title Goes Here</h2>
+                        <p class="paragraph-5">Dec 11, 2017</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="video-playlist-item">
+                    <a href="/single-video" class="video-playlist-inner w-inline-block">
+                        <div class="video-playlist-image _4"></div>
+                        <div class="div-block-24">
+                        <h2 class="heading-23">Video Title Goes Here</h2>
+                        <p class="paragraph-5">Dec 11, 2017</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="video-playlist-item">
+                    <a href="/single-video" class="video-playlist-inner w-inline-block">
+                        <div class="video-playlist-image _4"></div>
+                        <div class="div-block-24">
+                        <h2 class="heading-23">Video Title Goes Here</h2>
+                        <p class="paragraph-5">Dec 11, 2017</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="video-playlist-item">
+                    <a href="/single-video" class="video-playlist-inner w-inline-block">
+                        <div class="video-playlist-image _4"></div>
+                        <div class="div-block-24">
+                        <h2 class="heading-23">Video Title Goes Here</h2>
+                        <p class="paragraph-5">Dec 11, 2017</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="video-playlist-item">
+                    <a href="/single-video" class="video-playlist-inner w-inline-block">
+                        <div class="video-playlist-image _4"></div>
+                        <div class="div-block-24">
+                        <h2 class="heading-23">Video Title Goes Here</h2>
+                        <p class="paragraph-5">Dec 11, 2017</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="video-playlist-item">
+                    <a href="/single-video" class="video-playlist-inner w-inline-block">
+                        <div class="video-playlist-image _4"></div>
+                        <div class="div-block-24">
+                        <h2 class="heading-23">Video Title Goes Here</h2>
+                        <p class="paragraph-5">Dec 11, 2017</p>
+                        </div>
+                    </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="video-single-comment-block">
+                <a href="#" class="show-comments hidden w-inline-block">
+                <div>Hide Comments</div>
+                </a>
+                <div class="html-embed-17 w-embed"><a href="#" class="show-comments rounded" onclick="disqus();return false;" data-ix="show-comments">Show Comments</a></div>
+                <div class="comment-wrapper-div">
+                <a href="#" class="hide-comments-button rounded w-inline-block" data-ix="hide-comments">
+                    <div class="hide-text">Hide Comments</div>
+                    <div class="show-text">Show Comments</div>
+                </a>
+                <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

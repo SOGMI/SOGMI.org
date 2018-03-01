@@ -1,0 +1,175 @@
+{{ partial "header.html" . }}
+
+<div class="content-section podcast">
+  <div class="container podcast">
+    <div class="w-row">
+      <div class="column-6 w-col w-col-4">
+        {{ partial "podcast-sidebar.html" . }}
+      </div>
+      <div class="column-right w-col w-col-8">
+        <div class="div-block-20">
+          {{ with .Params.Series }}
+           
+            <a href="{{ "series" | absURL}}/{{ . | urlize }}" class="link-block-3 w-inline-block">
+              <div>return to episode list</div>
+            </a>
+          
+          {{ end }}
+          {{ if .Params.FeaturedImage }}
+            <div class="div-block-19" style="background-image: URL({{ .Params.FeaturedImage }});">
+              <div id="playlist" class="html-embed-12">
+                <a href="{{ .Params.AudioLink }}" class="button podcast-single w-inline-block" data-ix="podcast-hover">
+                  <div class="text-block-20"></div>
+                  <div>&nbsp;&nbsp;Play Episode</div>
+                </a>
+              </div>
+              <a class="button podcast-single subscribe w-inline-block" data-ix="subscribe-modal-appear">
+                <div class="text-block-20"></div>
+                <div>&nbsp;&nbsp;Subscribe</div>
+              </a>
+              <div style="position: absolute; right: 20px; bottom: 20px; font-size: 10px; line-height: 10px;">
+                {{ safeHTML .Params.PhotoCredit }}
+              </div>
+            </div>
+          {{ else }}
+            <div class="div-block-19" style="background: #adadad;">
+                <div style="display: flex; align-items: center; justify-content: center; position: absolute; top: 0; left: 0; right: 0; bottom: 0; font-family: Fontawesome webfont; color: white; font-size: 150px"></div>
+                <div id="playlist" class="html-embed-12">
+                  <a href="{{ .Params.AudioLink }}" class="button podcast-single w-inline-block" data-ix="podcast-hover">
+                    <div class="text-block-20"></div>
+                    <div>&nbsp;&nbsp;Play Episode</div>
+                  </a>
+                </div>
+                <a class="button podcast-single subscribe w-inline-block" data-ix="subscribe-modal-appear">
+                  <div class="text-block-20"></div>
+                  <div>&nbsp;&nbsp;Subscribe</div>
+                </a>
+            </div>
+          {{ end }}
+          <h1 class="heading-19" style="font-size: 1.6rem">Episode {{ .Params.EpisodeNumber }}: {{ .Title }}</h1>
+          <div class="text-block-5" style="font-size: 1rem; line-height: 2rem; margin-bottom: 10px; margin-top: 10px">{{ .Description }}
+            {{ if eq .Params.ShowTranscript true }}  
+              <a href="#" data-ix="open-transcript">&nbsp; +View Transcript</a>
+            {{ end }}
+          </div>
+
+          <div style="display: flex; padding: 0px 0px 0px 0px">
+              <p class="heading-20" style="font-size: 1rem; line-height: 2rem; margin-bottom: 0px; margin-right: 20px"><b>Original Air Date:</b> {{ .Date.Format "January 02, 2006" }}</p>
+              {{ if .Params.Hosts }}
+              <p class="heading-20" style="font-size: 1rem; line-height: 2rem; margin-bottom: 0px"><b>Speakers:</b> {{ delimit .Params.hosts ", " | title }}
+              </p>
+              {{ end }}
+          </div>
+          {{ with  .Params.Keywords }}
+          <div class="unordered-list-2-copy w-list-unstyled">
+            {{ range . }}
+            <a href="{{ "keywords" | absURL}}/{{ . | urlize }}" class="list-item-2-copy">
+              <div class="text-block-4">{{ . }}</div>
+            </a>
+            {{ end }}
+          </div>
+          {{ end }}
+          <a href="#" class="show-comments hidden w-inline-block">
+            <div>Hide Comments</div>
+          </a>
+          {{ partial "share-buttons.html" . }}
+        </div>
+        <div id="comments" class="podcast-single-comment-block">
+          <div class="html-embed-17 w-embed"><a href="#" class="show-comments rounded" onclick="disqus();return false;" data-ix="show-comments">Show Comments</a></div>
+          <div class="comment-wrapper-div">
+            <a href="#" class="show-comments rounded hidden w-inline-block">
+              <div>Hide Comments</div>
+            </a>
+            <a href="#" class="hide-comments-button rounded w-inline-block" data-ix="hide-comments">
+              <div class="hide-text">Hide Comments</div>
+              <div class="show-text">Show Comments</div>
+            </a>
+            <div id="disqus_thread" class="disqus-thread"></div>
+          </div>
+        </div>
+        {{ partial "related-podcasts.html" . }}
+      </div>
+    </div>
+  </div>
+  {{ partial "transcript-popup.html" . }}
+  {{ partial "audio-player.html" }}
+  
+  {{ $s := .Params.Series }}
+  {{ range .Site.Pages }}
+    {{ if eq .Section "podcastSeries" }}
+      {{ if eq .Title $s }}
+        <div class="subscribe-modal-window">
+          <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>
+          <div class="subscribe-modal-container" style="background-image: linear-gradient(342deg, #1e4d68, rgba(15, 31, 56, .73)), url({{.Params.FeaturedImage}}?w=600&q=80)">
+            <div class="div-block-79" data-ix="subscribe-modal-dissappear">
+              <div class="text-block-36"></div>
+              <div class="text-block-35"> close</div>
+            </div>
+            <div class="subscribe-modal-beginning-content">
+              <div class="text-block-34-copy">Subscribe to <br/>{{ .Title }}</div>
+              <div class="text-block-34 hide-on-mobile">choose one of the following:</div>
+              <div class="div-block-17">
+                {{ if .Params.ItunesLink }}
+                <a href="{{ .Params.ItunesLink }}" target="_blank" class="subscribe-icon w-inline-block">
+                  <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0397b8bce8460001d67615_Apple_Podcast_Icon.png" width="30" class="image-2"/>
+                  <div>Apple Podcasts</div>
+                </a>
+                {{ end }}
+                {{ if .Params.GooglePlayLink }}
+                <a href="{{ .Params.GooglePlayLink }}" target="_blank" class="subscribe-icon w-inline-block">
+                  <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png" width="30" srcset="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon-p-500.png 500w, http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png 1024w" sizes="100vw" class="image-2"/>
+                  <div>Google Play</div>
+                </a>
+                {{ end }}
+                <a href="#" class="subscribe-icon w-inline-block" data-ix="rss-option">
+                  <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="30" class="image-2"/>
+                  <div>RSS Feed</div>
+                </a>
+              </div>
+            </div>
+            <div class="rss-option"><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="54" class="image-2" />
+              <div class="text-block-34">copy this link into your RSS feed reader</div>
+              <div class="w-embed"><input type="text" style="width:100%; color: #333; font-size: 14px; padding: 10px" value="{{ .Params.RssFeed }}" id="podcast-link">
+                <button style="background: #ffb642; padding: 10px 20px 10px 20px; color: #333; margin-top: 20px;" onclick="copyText()">Copy Link</button></div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+</div>
+
+<script type="text/javascript">
+    // Replace labnol with your disqus shortname
+    var disqus_shortname = "sogmi";
+
+    // Put the permalink of your web page / blog post
+    var disqus_url = "https://sogmi.org{{ .URL }}";
+
+    // Put the permalink of your web page / blog post
+    var disqus_identifier = "https://sogmi.org{{ .URL }}";
+
+    var disqus_loaded = false;
+
+    // This is the function that will load Disqus comments on demand
+    function disqus() {
+
+        if (!disqus_loaded) {
+
+        // This is to ensure that Disqus widget is loaded only once
+        disqus_loaded = true;
+
+        var e = document.createElement("script");
+        e.type = "text/javascript";
+        e.async = true;
+        e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+        (document.getElementsByTagName("head")[0] ||
+            document.getElementsByTagName("body")[0])
+        .appendChild(e);
+        }
+    }
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{{ partial "pfooter.html" . }}

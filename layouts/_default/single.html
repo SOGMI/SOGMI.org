@@ -1,0 +1,87 @@
+{{ partial "header.html" . }}
+<div class="blog-single-image-header-top" style="position: relative; background-image:URL( {{ .Params.featuredImage }}?w=1600&q=80 ); background-size: cover; background-position: center; background-repeat: no-repeat">
+        <div class="image-overlay blog">            
+        </div>
+        <div class="container" style="z-index: 1">
+          <div class="blog-single-banner-container">
+            <div class="blog-archive-link"><a href="/articles" class="link-3">return to articles</a></div>
+            <h1 class="archive-heading">{{ .Title }}</h1>
+            <div class="div-block-47">
+              <div class="blog-single-meta">by 
+                <a href="#author" onclick="return false;" class="link-6">
+                  <strong xmlns="http://www.w3.org/1999/xhtml">
+                    {{ if .Params.Authors }}
+                        {{ .Params.Authors }}
+                    {{ end }}
+                  </strong>
+                </a>
+                on {{ .Date.Format "January 2, 2006" }}
+              </div>
+            </div>
+            <div style="display:flex; justify-content: space-between; align-items: flex-end;">
+              <div class="div-block-47-copy">
+                {{ with .Params.Tags }}
+                
+                  {{ range . }}
+                  <a href="{{ "tags" | absURL}}/{{ . | urlize }}" class="link-block-5 w-inline-block">
+                    <div>{{ . }}</div>
+                  </a>
+                  {{ end }}
+
+                {{ end }}
+              </div>
+              <a href="#comments" style="padding-bottom: 10px;"><span class="disqus-comment-count" style="color: white" data-disqus-identifier="http://sogmi.org">comments</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-section">
+        <div class="container">
+          <div class="blog-wrapper">
+            <div class="blog-single-rich-text-element w-richtext">
+                {{ .Content }}
+            </div>
+            {{ partial "share-buttons.html" . }}
+          </div>
+          
+          {{ with  .Params.Collections }}
+            <div class="div-block-55">
+              <div class="div-block-56"></div>
+              <div class="div-block-54-copy"></div>
+              <div class="div-block-54"></div>
+              <div class="series-notification">
+                <div class="text-block-27">This post is part of the collection "<strong class="bold-text-4">{{ . }}</strong>"</div>
+                <a href="{{ "collections" | absURL}}/{{ . | urlize }}" class="button-10 w-button">More From This Series</a>
+              </div>
+            </div>
+          {{ end }}
+          
+          {{ partial "author-card.html" . }}
+          {{ partial "related-posts.html" . }}
+
+          <div class="blog-comment-wrapper">
+            <h2 id="comments" class="about-author">Comments</h2>
+            <div class="w-embed w-script">
+              <div id="disqus_thread"></div>
+              <script>
+                  /**
+                   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                  var disqus_config = function() {
+                    this.page.url = 'http://sogmi.org'; // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = 'http://sogmi.org'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                  };
+                  (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document,
+                      s = d.createElement('script');
+                    s.src = 'https://sogmi.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                  })();
+                </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+          </div>
+        </div>
+      </div>
+
+{{ partial "footer.html" }}

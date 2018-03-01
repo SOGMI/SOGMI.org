@@ -1,0 +1,40 @@
+baseURL = "sogmi.org"
+languageCode = "en-us"
+buildDrafts = false
+title = "Sons of God Ministries International"
+canonifyURLs = true
+
+[taxonomies]
+    tag="tags"
+    collection="collections"
+    series="series"
+    author="authors"
+    host="hosts"
+    keyword="keywords"
+    videokeyword="videokeywords"
+
+[related]
+
+    # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+    threshold = 80
+
+    # Includes pages that are newer than the current page
+    includeNewer = true
+
+    # Will lower case keywords in both queries and in the indexes.
+    toLower = true
+
+    [[related.indices]]
+    name = "keywords"
+    weight = 150
+    [[related.indices]]
+    name  = "authors"
+    toLower = true
+    weight = 30
+    [[related.indices]]
+    name  = "tags"
+    weight = 100
+    [[related.indices]]
+    name = "hosts"
+    toLower = true
+    weight = 100

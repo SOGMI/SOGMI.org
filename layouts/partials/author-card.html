@@ -1,0 +1,25 @@
+{{ if .Params.Authors }} 
+<!--store author name as variable $author-->
+{{ $author := .Params.Authors }}
+  <!--call all pages-->
+  {{ range .Site.Pages }}
+    <!--eq means "equals" | .Section refers to the folder in /content-->
+    {{ if eq .Section "people" }}
+      <!-- if title = $author -->
+      {{ if eq .Title $author }}
+        <div class="author-block">
+          <h2 id="author" class="about-author">About the Author</h2>
+          <div class="div-block-53">
+            <div class="author-profile-image" style="background-image: URL({{ .Params.ProfilePhoto }}?w=300)"></div>
+            <div class="author-info">
+              <h3 class="author-name">{{ .Title }}</h3>
+              <h5 class="author-profile-position">{{ .Params.Position }}</h5>
+              <p class="paragraph-4">{{ .Params.Bio }}</p>
+              <a href="{{ .Permalink }}" class="button-9 w-button">More From {{ .Params.FirstName }}</a>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

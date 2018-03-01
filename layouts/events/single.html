@@ -1,0 +1,147 @@
+{{ partial "header.html" . }}
+
+<div class="event-single-header" style="position: relative; background-image: URL({{ .Params.FeaturedImage }})">
+    <div class="image-overlay blog"></div>
+    <div class="event-banner-container" style="z-index: 1">
+        <div class="return-to-event-link"><a href="/events" class="return-to-event-link">return to events</a></div>
+        {{ with .Params.startdate }}
+        <h3 class="heading-37">{{ . | dateFormat "January 2, 2006" }}</h3>
+        {{ end }}
+        <h1 class="heading-12">{{ .Title }}</h1>
+        <h4 class="event-single-subheading">{{ .Params.Venue }}  |  {{ .Params.City }}, {{ .Params.State }}</h4>
+        {{ if eq .Params.registrationType "Eventbrite" }}
+            <!--EVENTBRITE CODE-->
+            <!-- Noscript content for added SEO -->
+            <noscript><a href="{{ .Params.EventbriteURL }}" rel="noopener noreferrer" target="_blank"></noscript>
+            <!-- You can customize this button any way you like -->
+            <button class="event-button w-button" id="eventbrite-widget-modal-trigger-{{ .Params.EventbriteId }}" type="button">Get Tickets</button>
+            <noscript></a>Buy Tickets on Eventbrite</noscript>
+            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>         
+            <script type="text/javascript">
+                var exampleCallback = function() {
+                    console.log('Order complete!');
+                };           
+                window.EBWidgets.createWidget({
+                    widgetType: 'checkout',
+                    eventId: '{{ .Params.EventbriteId }}',
+                    modal: true,
+                    modalTriggerElementId: 'eventbrite-widget-modal-trigger-{{ .Params.EventbriteId }}',
+                    onOrderComplete: exampleCallback
+                });
+            </script>
+            <!--END EVENTBRITE-->
+        {{ else }}
+            <a href="#" data-ix="event-button-click" class="event-button w-button">Get Tickets</a>
+            <div class="event-button-popup">
+                <div class="event-single-banner-container-copy">
+                <div class="event-button-popup-inner">
+                    <div data-ix="event-popup-close" class="html-embed-5 w-embed"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                    <h3 class="heading-13">Stuff to Register Goes Here</h3>
+                </div>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</div>
+<div class="content-section">
+    <div class="event-single-banner-container-copy">
+        <div class="event-details-wrapper">
+        <div data-duration-in="300" data-duration-out="300" class="w-tabs">
+            <div class="tabs-menu w-tab-menu">
+            <a data-w-tab="Basic Info" class="event-tab-link w-inline-block w-tab-link w--current">
+                <div>Details</div>
+            </a>
+            <a data-w-tab="Basic Info 2" class="event-tab-link w-inline-block w-tab-link">
+                <div>Directions</div>
+            </a>
+            {{ if .Params.speakers }}
+                <a data-w-tab="Speakers" class="event-tab-link w-inline-block w-tab-link">
+                    <div>Speakers</div>
+                </a>
+            {{ end }}
+            {{ if eq .Params.HideFaq false }}
+            <a data-w-tab="FAQ" class="event-tab-link w-inline-block w-tab-link">
+                <div>FAQs</div>
+            </a>
+            {{ end }}
+            </div>
+            <div class="event-tab-content w-tab-content">
+            <div data-w-tab="Basic Info" class="w-tab-pane w--tab-active">
+                {{ if .Description }}
+                <h1 class="heading-36">Short Description</h1>
+                <p class="paragraph-3">{{ .Description }}</p>
+                {{ end }}
+                <h1 class="heading-36">Date &amp; Time</h1>
+                <p class="paragraph-3">
+                    {{ with .Params.StartDate }}
+                        <b>Starts:&nbsp;</b>
+                        {{ . | dateFormat "Monday, January 2, 2006 at 03:04 PM" }}
+                        <br/>
+                    {{ end }}
+                    {{ with .Params.EndDate }}
+                        <b>End: &nbsp;</b>
+                        {{ . | dateFormat "Monday, January 2, 2006 at 03:04 PM" }}
+                    {{ end }}
+                </p>
+                <!--create variable for <faq> which will be used to split the main content of the .md file in the content directory-->
+                {{ $split := split .Content "<faq>" }}
+                
+                <!--grab any content before the first appearance of <faq> in the .md file-->
+                {{ range first 1 $split }}
+                    <h1 class="heading-36">Details</h1>
+                    <div class="w-richtext events">
+                    {{ markdownify . }}
+                    </div>
+                {{ end }}
+
+            </div>
+            <div data-w-tab="Basic Info 2" class="w-tab-pane">
+                <h1 class="heading-36">Directions</h1>
+                <p class="paragraph-3">111111 some street ave. <br/>San Antonio, TX 71234<br/> <br/>&lt;insert map here&gt;</p>
+                <h1 class="heading-36">Parking</h1>
+            </div>
+            <!--when speakers are set-->
+            {{ with .Params.Speakers }}
+            <div data-w-tab="Speakers" class="w-tab-pane" style="margin-bottom: 20px">
+                <h1 class="heading-36">Speakers</h1>
+                <div class="event-speaker-grid">
+                    <!--create a loop for each speaker "." represents the item name. Assign "." the variable $val-->
+                    {{ range $ind,$val := . }}
+                        <!--make $val url friendly and assign it a new variable "$speaker"-->
+                        {{ $speaker := $val | urlize }}
+                        <!--get pages in the "people" directory that match "$speaker"-->
+                        {{- with $.Site.GetPage "page" "people" $speaker }}
+                            <div class="event-speaker-item">
+                                <div class="event-speaker-inner">
+                                    <div class="speaker-photo" style="background-image: URL({{ .Params.ProfilePhoto }}?w=300)"></div>
+                                    <div class="div-block-82">
+                                        <h2 class="heading-11">{{ .Title }}</h2>
+                                        <p class="paragraph-13">{{ .Params.Bio }}</p>
+                                        <a href="{{ .Permalink }}" class="button-9 w-button events">View Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            <!--end speaker grid-->
+            {{ if eq .Params.hideFaq false }}
+                <div data-w-tab="FAQ" class="w-tab-pane">
+                <!--grab any content after the first appearance of <faq> in the .md file-->
+                {{ range after 1 $split }}
+                    <h1 class="heading-36">Frequently Asked Questions</h1>
+                    <div class="w-richtext events">
+                    {{ markdownify . }}
+                    </div>
+                {{ end }}
+            {{ end }}
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+ </div>
+
+{{ partial "footer.html" . }}
