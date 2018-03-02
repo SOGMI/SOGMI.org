@@ -645,25 +645,19 @@
   </url>
   
   <url>
-    <loc>/authors/cristina-sosso/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/hosts/cristina-sosso/</loc>
     <lastmod>2018-02-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/people/cristina-sosso/</loc>
+    <loc>/authors/cristina-sosso/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/discipleship/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/people/cristina-sosso/</loc>
   </url>
   
   <url>
@@ -673,14 +667,20 @@
   </url>
   
   <url>
-    <loc>/authors/ed-grubb/</loc>
-    <lastmod>2010-08-21T00:00:00+00:00</lastmod>
+    <loc>/tags/discipleship/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/hosts/ed-grubb/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/ed-grubb/</loc>
+    <lastmod>2010-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -726,14 +726,14 @@
   </url>
   
   <url>
-    <loc>/authors/joshua-sosso/</loc>
-    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+    <loc>/hosts/joshua-sosso/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/hosts/joshua-sosso/</loc>
-    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+    <loc>/authors/joshua-sosso/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -771,14 +771,14 @@
   </url>
   
   <url>
-    <loc>/authors/mike-sosso/</loc>
-    <lastmod>2016-02-26T00:00:00+00:00</lastmod>
+    <loc>/hosts/mike-sosso/</loc>
+    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/hosts/mike-sosso/</loc>
-    <lastmod>2017-12-30T00:00:00+00:00</lastmod>
+    <loc>/authors/mike-sosso/</loc>
+    <lastmod>2016-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
