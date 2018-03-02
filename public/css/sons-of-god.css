@@ -300,6 +300,9 @@ figcaption {
   z-index: 1;
   position: relative;
 }
+.banner-container.church {
+  text-align: left;
+}
 
 .banner-button {
   margin: 5px 10px;

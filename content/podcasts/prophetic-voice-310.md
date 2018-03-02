@@ -1,6 +1,7 @@
 ---
 title: Intimacy With God
 slug: prophetic-voice-310
+keywords: ["Intimacy with Jesus","Personal Prophesies","Discipleship"]
 showTranscript: false
 date: 2018-02-24
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E310_18_02_24-25_Intimacy_with_God.mp3

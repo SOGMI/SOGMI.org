@@ -5,6 +5,7 @@ date: 2016-02-26
 authors: Mike Sosso
 description: In Deuteronomy God spoke to Moses about appointing people to positions of leadership. Let’s look at the guidelines God gave Moses to give Israel when choosing who should rule over them.
 featuredImage: "//images.contentful.com/vfgh62eq5a4k/5UvagPHWDK62ws6Wy808ce/bf8e90962701acda5f785ee00663cefd/1456519101974"
+thumbnail: "//images.contentful.com/vfgh62eq5a4k/36we02TK0UIwaM2CQSOaus/dc38d84ade009abd60c86d10ecaf5096/IMG_1417__edit___1_.jpg"
 tags: ["church","politics","leadership"]
 ---
 Eight years ago, the Lord spoke to us prophetically saying “If My people will unite, this nation can have and will have the most righteous leaders and government she has ever had since its inception, and even greater.” You may ask, “Is that possible?” but nothing is impossible with God! However for this to happen, we have to unite, and the only way we will ever unite politically, is if we unite on the truth and principles found in God’s Word.

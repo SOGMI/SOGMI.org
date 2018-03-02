@@ -1,90 +1,110 @@
 {{ partial "header.html" . }}
 <div class="main-area-wrapper">
     {{ if eq .Params.Slide1.Active true }}
-        <div class="section" style="background-image: URL({{ .Params.Slide1.Imagelink }}); background-repeat:no-repeat; background-size:cover;">
-            <div class="slide-content">
-                <div data-ix="hover-entry" data-w-id="9b83a36e-c3a2-84b4-d677-5d7e7b5baf26" style="opacity:0" class="home-banner-container">
-                    <h1 class="banner-header">{{ .Params.Slide1.Header }}</h1>
-                    <div class="homepage-sub-header">{{ .Params.Slide1.Subheader }}</div>
-                    <div data-w-id="2bad5b24-1e88-417d-1fb0-a82626f0bc60" style="opacity:0" class="button-container"><a href="{{ .Params.Slide1.Button1 }}" class="banner-button w-button">{{ .Params.Slide1.Button1Text }}</a><a href="{{ .Params.Slide1.Button2 }}" class="banner-button w-button">{{ .Params.Slide1.Button2Text }}</a></div>
+    <div class="section" style="background-image: URL({{ .Params.Slide1.Imagelink }}); background-repeat:no-repeat; background-size:cover;">
+        <div class="slide-content">
+            <div data-ix="hover-entry" data-w-id="9b83a36e-c3a2-84b4-d677-5d7e7b5baf26" style="opacity:0" class="home-banner-container">
+                <h1 class="banner-header">{{ .Params.Slide1.Header }}</h1>
+                <div class="homepage-sub-header">{{ .Params.Slide1.Subheader }}</div>
+                <div data-w-id="2bad5b24-1e88-417d-1fb0-a82626f0bc60" style="opacity:0" class="button-container">
+                    <a href="{{ .Params.Slide1.Button1 }}" class="banner-button w-button">{{ .Params.Slide1.Button1Text }}</a>
+                    <a href="{{ .Params.Slide1.Button2 }}" class="banner-button w-button">{{ .Params.Slide1.Button2Text }}</a>
                 </div>
             </div>
-            <div class="slide-overlay"></div>
-            <div class="video-background-container">
-                {{ if .Params.Slide1.VideoId }}
-                <div class="html-embed-16 w-embed w-iframe"><iframe id="video" style="position: absolute; z-index: 1" width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.Slide1.VideoId }}?rel=0&controls=0&autoplay=1&mute=1&showinfo=0&loop=1&playlist={{ .Params.Slide1.Videoid }}" frameborder="0" allowfullscreen></iframe></div>
-                {{ end }}
-            </div>
         </div>
-    {{ end }}
-
+        <div class="slide-overlay"></div>
+        <div class="video-background-container">
+            {{ if .Params.Slide1.VideoId }}
+            <div class="html-embed-16 w-embed w-iframe">
+                <iframe id="video" style="position: absolute; z-index: 1" width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.Slide1.VideoId }}?rel=0&controls=0&autoplay=1&mute=1&showinfo=0&loop=1&playlist={{ .Params.Slide1.Videoid }}"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }} 
     {{ if eq .Params.Slide2.Active true }}
-        <div class="section" style="background-image: URL({{ .Params.Slide2.Imagelink }}); background-repeat:no-repeat; background-size:cover;">
-            <div class="slide-content">
-                <div data-ix="hover-entry" data-w-id="9b83a36e-c3a2-84b4-d677-5d7e7b5baf26" style="opacity:0" class="home-banner-container">
-                    <h1 class="banner-header">{{ .Params.Slide2.Header }}</h1>
-                    <div class="homepage-sub-header">{{ .Params.Slide2.Subheader }}</div>
-                    <div data-w-id="2bad5b24-1e88-417d-1fb0-a82626f0bc60" style="opacity:0" class="button-container"><a href="{{ .Params.Slide2.Button1 }}" class="banner-button w-button">{{ .Params.Slide2.Button1Text }}</a><a href="{{ .Params.Slide2.Button2 }}" class="banner-button w-button">{{ .Params.Slide2.Button2Text }}</a></div>
+    <div class="section" style="background-image: URL({{ .Params.Slide2.Imagelink }}); background-repeat:no-repeat; background-size:cover;">
+        <div class="slide-content">
+            <div data-ix="hover-entry" data-w-id="9b83a36e-c3a2-84b4-d677-5d7e7b5baf26" style="opacity:0" class="home-banner-container">
+                <h1 class="banner-header">{{ .Params.Slide2.Header }}</h1>
+                <div class="homepage-sub-header">{{ .Params.Slide2.Subheader }}</div>
+                <div data-w-id="2bad5b24-1e88-417d-1fb0-a82626f0bc60" style="opacity:0" class="button-container">
+                    <a href="{{ .Params.Slide2.Button1 }}" class="banner-button w-button">{{ .Params.Slide2.Button1Text }}</a>
+                    <a href="{{ .Params.Slide2.Button2 }}" class="banner-button w-button">{{ .Params.Slide2.Button2Text }}</a>
                 </div>
             </div>
-            <div class="slide-overlay"></div>
-            <div class="video-background-container">
-                {{ if .Params.Slide2.VideoId }}
-                <div class="html-embed-16 w-embed w-iframe"><iframe id="video" style="position: absolute; z-index: 1" width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.Slide2.VideoId }}?rel=0&controls=0&autoplay=1&mute=1&showinfo=0&loop=1&playlist={{ .Params.Slide2.Videoid }}" frameborder="0" allowfullscreen></iframe></div>
-                {{ end }}
-            </div>
         </div>
+        <div class="slide-overlay"></div>
+        <div class="video-background-container">
+            {{ if .Params.Slide2.VideoId }}
+            <div class="html-embed-16 w-embed w-iframe">
+                <iframe id="video" style="position: absolute; z-index: 1" width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.Slide2.VideoId }}?rel=0&controls=0&autoplay=1&mute=1&showinfo=0&loop=1&playlist={{ .Params.Slide2.Videoid }}"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+            {{ end }}
+        </div>
+    </div>
     {{ end }}
 
     <div class="content-section homepage">
         <div class="container">
             <div class="div-block-2">
                 <div class="homepage-grid-row w-row">
-                <div class="w-col w-col-7 w-col-medium-6">
-                    <a href="{{ .Params.Grid1.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                    <div class="homepage-grid-image-overlay"></div>
-                    <h2 class="home-grid-title">{{ .Params.Grid1.Header }}</h2>
-                    <h4 class="home-grid-subheading">{{ .Params.Grid1.Subheader }}</h4>
-                    {{ if .Params.Grid1.ButtonText }}
-                        <h4 class="home-grid-button">{{ .Params.Grid1.ButtonText }}</h4>
-                    {{ end }}
-                    </a>
-                </div>
-                <div class="w-col w-col-5 w-col-medium-6">
-                    <a href="{{ .Params.Grid2.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                    <div class="homepage-grid-image-overlay"></div>
-                    <h2 class="home-grid-title">{{ .Params.Grid2.Header }}</h2>
-                    <h4 class="home-grid-subheading">{{ .Params.Grid2.Subheader }}</h4>
-                    {{ if .Params.Grid2.ButtonText }}
-                        <h4 class="home-grid-button">{{ .Params.Grid2.ButtonText }}</h4>
-                    {{ end }}
-                    </a>
-                </div>
+                    <div class="w-col w-col-7 w-col-medium-6">
+                        <a href="{{ .Params.Grid1.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
+                            <div class="homepage-grid-image-overlay"></div>
+                            <h2 class="home-grid-title">{{ .Params.Grid1.Header }}</h2>
+                            <h4 class="home-grid-subheading">{{ .Params.Grid1.Subheader }}</h4>
+                            {{ if .Params.Grid1.ButtonText }}
+                            <h4 class="home-grid-button">{{ .Params.Grid1.ButtonText }}</h4>
+                            {{ end }}
+                        </a>
+                    </div>
+                    <div class="w-col w-col-5 w-col-medium-6">
+                        <a href="{{ .Params.Grid2.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
+                            <div class="homepage-grid-image-overlay"></div>
+                            <h2 class="home-grid-title">{{ .Params.Grid2.Header }}</h2>
+                            <h4 class="home-grid-subheading">{{ .Params.Grid2.Subheader }}</h4>
+                            {{ if .Params.Grid2.ButtonText }}
+                            <h4 class="home-grid-button">{{ .Params.Grid2.ButtonText }}</h4>
+                            {{ end }}
+                        </a>
+                    </div>
                 </div>
                 <div class="homepage-grid-row w-row">
-                <div class="w-col w-col-5 w-col-medium-6">
-                    <a href="{{ .Params.Grid3.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                    <div class="homepage-grid-image-overlay"></div>
-                    <h2 class="home-grid-title">{{ .Params.Grid3.Header }}</h2>
-                    <h4 class="home-grid-subheading">{{ .Params.Grid3.Subheader }}</h4>
-                    {{ if .Params.Grid3.Buttontext }}
-                        <h4 class="home-grid-button">{{ .Params.Grid3.Buttontext }}</h4>
-                    {{ end }}
-                    </a>
-                </div>
-                <div class="w-col w-col-7 w-col-medium-6">
-                    <a href="{{ .Params.Grid4.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                    <div class="homepage-grid-image-overlay"></div>
-                    <h2 class="home-grid-title">{{ .Params.Grid4.Header }}</h2>
-                    <h4 class="home-grid-subheading">{{ .Params.Grid4.Subheader }}</h4>
-                    {{ if .Params.Grid4.Buttontext }}
-                        <h4 class="home-grid-button">{{ .Params.Grid4.Buttontext }}</h4>
-                    {{ end }}
-                    </a>
-                </div>
+                    <div class="w-col w-col-5 w-col-medium-6">
+                        <a href="{{ .Params.Grid3.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
+                            <div class="homepage-grid-image-overlay"></div>
+                            <h2 class="home-grid-title">{{ .Params.Grid3.Header }}</h2>
+                            <h4 class="home-grid-subheading">{{ .Params.Grid3.Subheader }}</h4>
+                            {{ if .Params.Grid3.Buttontext }}
+                            <h4 class="home-grid-button">{{ .Params.Grid3.Buttontext }}</h4>
+                            {{ end }}
+                        </a>
+                    </div>
+                    <div class="w-col w-col-7 w-col-medium-6">
+                        <a href="{{ .Params.Grid4.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
+                            <div class="homepage-grid-image-overlay"></div>
+                            <h2 class="home-grid-title">{{ .Params.Grid4.Header }}</h2>
+                            <h4 class="home-grid-subheading">{{ .Params.Grid4.Subheader }}</h4>
+                            {{ if .Params.Grid4.Buttontext }}
+                            <h4 class="home-grid-button">{{ .Params.Grid4.Buttontext }}</h4>
+                            {{ end }}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--if today is Sunday-->
+    {{ $today := now.Format "Monday"}} 
+    {{ if eq $today "Sunday" }}
+        <div>{{ $.Site.Params.sunday }}</div>
+    {{ end }}
+    <!--if today is Saturday-->
+    {{ if eq $today "Saturday" }}
+        <div>{{ $.Site.Params.Saturday }}</div>
+    {{ end }}
 </div>
 {{ partial "footer.html" . }}

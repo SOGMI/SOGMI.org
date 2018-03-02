@@ -6,8 +6,103 @@
     --light-blue: #3898EC;
     --white: #ffffff;
     --light-gray-1: #dedede;
+    --light-gray-2: #e7e7e7;
 }
-
+.header-image.church {
+    padding-bottom: 50px;
+    text-align: left;
+}
+.location-heading {
+    max-width: 900px;
+    margin-bottom: 0px;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+.location-subheading {
+    max-width: 900px;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.location-button {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 2px solid var(--highlight);
+    transition: background-color 300ms ease, color 300ms ease;
+    -webkit-transition: background-color 300ms ease, color 300ms ease;
+    color: var(--highlight);
+    background-color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.location-button:hover {
+    background-color: var(--highlight);
+    color: var(--text)
+}
+.location-social-media {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: opacity 300ms ease;
+    font-family: 'Fontawesome webfont', sans-serif;
+    color: var(--white);
+    font-size: 22px;
+}
+.location-social-media:hover {
+    opacity: 0.7
+}
+.location-button-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: -10px;
+    flex-wrap: wrap;
+}
+.location-sidebar {
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    border: 1px solid var(--light-gray-2);
+    background-color: var(--white);
+}
+.sidebar-section {
+    margin-bottom: 20px;
+}
+.view-map {
+    font-size: 14px;
+    line-height: 24px;
+}
+#map {
+    width: 100%;
+    height: 50vh;
+}
+.map-modal {
+    width: 100%;
+    padding: 50px;
+    background: var(--white);
+}
+.div-block-84.map {
+    max-width: 1200px
+}
+.banner-container.left {
+    text-align: left;
+}
 .email-form-button {
     background-color: var(--light-blue);
     font-weight: bold;
@@ -149,6 +244,7 @@ a:hover .event-grid-title {
     justify-content: center;
     align-items: center;
     opacity: 0;
+    padding: 50px 0px;
 }
 .div-block-84 {
     position: relative;
@@ -159,7 +255,7 @@ a:hover .event-grid-title {
 }
 .close-popup {
     position: absolute;
-    top: 20px;
+    top: -30px;
     right: 0;
     color: white;
     font-size: 20px;
@@ -172,7 +268,6 @@ a:hover .event-grid-title {
     max-width: 800px;
     padding: 50px;
     background: white;
-    margin: 50px 0px;
     transition: padding 200ms ease;
     -moz-transition: padding 200ms ease;
 }
@@ -180,6 +275,22 @@ a:hover .event-grid-title {
     .transcript-modal {
         padding: 30px;
         max-height: 80vh;
+    }
+    .map-modal {
+        padding: 20px;
+        max-height: 80vh;
+        overflow-y: scroll;
+    }
+    .map-modal p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+    .map-modal h3 {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+    #map {
+        height: 200px;
     }
 }
 
@@ -254,7 +365,11 @@ footer {
 .sixty {
     width: 60%;
 }
-
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+}
 @media (max-width: 991px) {
     footer .flex-col {
         width: 100%;

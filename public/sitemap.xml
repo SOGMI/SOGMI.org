@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>sogmi.org/videos/sunday-livestream-03-01-18/</loc>
+    <lastmod>2018-03-01T02:36:06+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>sogmi.org/podcasts/prophetic-voice-310/</loc>
     <lastmod>2018-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -635,10 +640,6 @@
   </url>
   
   <url>
-    <loc>sogmi.org/people/coby-randal/</loc>
-  </url>
-  
-  <url>
     <loc>sogmi.org/collections/</loc>
     <priority>0</priority>
   </url>
@@ -657,6 +658,12 @@
   
   <url>
     <loc>sogmi.org/people/cristina-sosso/</loc>
+  </url>
+  
+  <url>
+    <loc>sogmi.org/keywords/discipleship/</loc>
+    <lastmod>2018-02-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -703,12 +710,18 @@
   
   <url>
     <loc>sogmi.org/</loc>
-    <lastmod>2018-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-01T02:36:06+00:00</lastmod>
   </url>
   
   <url>
     <loc>sogmi.org/hosts/</loc>
     <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>sogmi.org/keywords/intimacy-with-jesus/</loc>
+    <lastmod>2018-02-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -736,6 +749,7 @@
   
   <url>
     <loc>sogmi.org/keywords/</loc>
+    <lastmod>2018-02-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -795,6 +809,12 @@
   <url>
     <loc>sogmi.org/tags/personal-prophecy/</loc>
     <lastmod>2014-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>sogmi.org/keywords/personal-prophesies/</loc>
+    <lastmod>2018-02-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -907,7 +927,7 @@
   
   <url>
     <loc>sogmi.org/videos/</loc>
-    <lastmod>2016-10-09T07:15:46+00:00</lastmod>
+    <lastmod>2018-03-01T02:36:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   

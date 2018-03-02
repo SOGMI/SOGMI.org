@@ -1,0 +1,100 @@
+{{ partial "header.html" . }}
+
+<div class="header-image church" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, .46), rgba(0, 0, 0, .46)), url({{ .Params.FeaturedImage }})">
+    <div class="banner-container left">
+        <h1 class="location-heading">{{ .Title }}</h1>
+        <div class="location-subheading">{{ .Params.City }}, {{ .Params.Region }}</div>
+        <div class="location-button-wrap">
+            {{ if .Params.Website }}
+                <a href="{{ .Params.Website }}" target="_blank" class="location-button w-button">Visit Website</a>
+            {{ end }}
+            {{ if .Params.Facebook }}
+                <a href="{{ .Params.Facebook }}" target="_blank" class="location-social-media w-inline-block">
+                    <div></div>
+                </a>
+            {{ end }}
+            {{ if .Params.Twitter }}
+                <a href="{{ .Params.Twitter }}" target="_blank" class="location-social-media w-inline-block">
+                    <div></div>
+                </a>
+            {{ end }}
+            {{ if .Params.Instagram }}
+                <a href="{{ .Params.Instagram }}" target="_blank" class="location-social-media w-inline-block">
+                    <div></div>
+                </a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+<div class="content-section">
+    <div class="container">
+        <div class="flex-wrapper">
+            <div class="sixty column-left">
+                <div class="w-richtext">
+                    {{ .Content }}
+                </div>
+            </div>
+            <div class="forty column-right">
+                <div class="location-sidebar">
+                    <div class="sidebar-section">
+                        <div class="sidebar-heading">Basic Info</div>
+                        {{ if .Params.PhoneNumber }}<div><strong>Phone:</strong> <a href="tel:{{ .Params.PhoneNumber }}">{{ .Params.PhoneNumber }}</a></div>{{ end }}
+                        {{ if .Params.Email }}<div><strong>Email:</strong> <a href="mailto:{{ .Params.Email }}?Subject=">{{ .Params.Email }}</a></div>{{ end }}
+                        {{ if .Params.Website }}<div><strong>Website:</strong> <a href="{{ .Params.Website }}">{{ .Params.Website }}</a></div>{{ end }}
+                    </div>
+                    <div class="sidebar-section">
+                        <div class="sidebar-heading">Address</div>
+                        <div id="street_address">{{ .Params.StreetAddress}}</div>
+                        <div id="city_state_zip">{{ .Params.City }}, {{ .Params.Region }} {{ .Params.ZipCode }}</div>
+                        <!--opens modal for map-->
+                        <div class="view-map"><a data-ix="open-transcript" href="#" >view map</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--map modal-->
+{{ partial "transcript-popup.html" . }}
+<script>
+  var geocoder;
+  var map;
+  function codeAddress() {
+    geocoder = new google.maps.Geocoder();
+    var lat='';
+    var lng=''
+    var city_state_zip = document.getElementById("city_state_zip").innerHTML;
+    var street_address = document.getElementById("street_address").innerHTML;
+    var address = street_address + " " + city_state_zip;
+    geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+       lat = results[0].geometry.location.lat(); //getting the lat
+       lng = results[0].geometry.location.lng(); //getting the lng
+       map.setCenter(results[0].geometry.location);
+       var marker = new google.maps.Marker({
+           map: map,
+           position: results[0].geometry.location
+       });
+     } else {
+            alert("Geocode was not successful for the following reason: " + status);
+            }
+     });
+     var latlng = new google.maps.LatLng(lat, lng);
+     var myOptions = {
+         zoom: 15,
+         center: latlng,
+         mapTypeId: google.maps.MapTypeId.ROADMAP
+     }
+     map = new google.maps.Map(document.getElementById("map"), myOptions);
+     }
+
+
+window.onload = function(){
+       codeAddress();
+}
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxm0ubI8DIoOm_3kV7rTAiC7pkf1ASC34&callback=initMap">
+      </script>
+{{ partial "footer.html" . }}

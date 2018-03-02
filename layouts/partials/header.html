@@ -1,66 +1,60 @@
 <!DOCTYPE html>
 <!--  Last Published: Sun Jan 28 2018 21:50:55 GMT+0000 (UTC)  -->
 <html data-wf-page="5a0281c89a6ada000101512d" data-wf-site="59d9b3659215eb00015d7bab" lang="en">
+
 <head>
-    <meta charset="utf-8">
-    {{ if .Params.metaTitle }} 
-      <title>{{ .Params.MetaTitle }}</title>
-    {{ else }}
-      {{ if eq .Section "tags" }}
-      <title>Articles about "{{ .Title }}"</title>
-      {{ else }}
-        {{ if eq .Section "hosts" }}
-          <title>Podcasts featuring {{ .Title }}</title>  
-        {{ else }}
-          {{ if eq .Section "authors" }}
-            <title>Articles by {{ .Title }}</title>
-          {{ else }}
-            {{ if eq .Section "keywords" }}
-              <title>Podcasts tagged with "{{ .Title }}"</title>
-            {{ else }}
-              {{ if eq .Section "videokeywords" }}
-              <title>Videos tagged with "{{ .Title }}"</title>
-              {{ else }}
-              <title>{{ .Title }} | {{ .Site.Title }}</title>
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-    <meta content="{{ if .Description }}{{ truncate 160 .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}" name="description" />
-    <meta content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" property="og:title" />
-    <meta content="{{ truncate 160 .Description }}" property="og:description" />
-    <meta content="{{ .Params.Thumbnail }}" property="og:image" />
-    <meta content="summary" name="twitter:card" />
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href={{ "css/normalize.css" | absURL }} rel="stylesheet" type="text/css">
-    <link href={{ "css/components.css" | absURL }} rel="stylesheet" type="text/css">
-    <link href={{ "css/sons-of-god.css" | absURL }} rel="stylesheet" type="text/css">
-    <link href={{ "css/sogmi.css" | absURL }} rel="stylesheet" type="text/css">
+  <meta charset="utf-8"> {{ if .Params.metaTitle }}
+  <title>{{ .Params.MetaTitle }}</title>
+  {{ else }} {{ if eq .Section "tags" }}
+  <title>Articles about "{{ .Title }}"</title>
+  {{ else }} {{ if eq .Section "hosts" }}
+  <title>Podcasts featuring {{ .Title }}</title>
+  {{ else }} {{ if eq .Section "authors" }}
+  <title>Articles by {{ .Title }}</title>
+  {{ else }} {{ if eq .Section "keywords" }}
+  <title>Podcasts tagged with "{{ .Title }}"</title>
+  {{ else }} {{ if eq .Section "videokeywords" }}
+  <title>Videos tagged with "{{ .Title }}"</title>
+  {{ else }}
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ end }} {{ end }} {{ end }} {{ end }} {{ end }} {{ end }}
+  <meta name="description" content="{{ if .Description }}{{ truncate 160 .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}"
+  />
+  <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" />
+  <meta property="og:description" content="{{ truncate 160 .Description }}" />
+  <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.Youtubethumbnail }}{{ .Params.YoutubeThumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}"
+  />
+  <meta name="twitter:card" content="summary" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href={{ "css/normalize.css" | absURL }} rel="stylesheet" type="text/css">
+  <link href={{ "css/components.css" | absURL }} rel="stylesheet" type="text/css">
+  <link href={{ "css/sons-of-god.css" | absURL }} rel="stylesheet" type="text/css">
+  <link href={{ "css/sogmi.css" | absURL }} rel="stylesheet" type="text/css">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
+
 <body>
-    <div class="header-section">
-        <div class="mobile-menu-wrapper">
-            <div data-w-id="d3242deb-f5ec-69c4-a2ef-0fd638dc31b2" class="menu-dark-overlay"></div>
-            <div data-w-id="e1647646-0043-423f-743e-d0bcb7846416" class="navigation-mobile">
-              {{ partial "nav-menu.html" }}
-            </div>
-        </div>
-            {{ partial "top-nav.html" }}
-            <div class="navbar-container">
-              <div class="navbar w-clearfix">
-                <a href="/" class="brand w-nav-brand">
-                  <h1 class="logo-text">sog<strong class="bold-text">mi</strong></h1>
-                </a>
-                <div data-w-id="faff6c49-0934-4e9f-e9d2-9aa7f6b59f23" class="hamburger-button">
-                  <div class="menu-icon"></div>
-                </div>
-              <div class="navigation-main">
-                {{ partial "nav-menu.html" }}
-              </div>
-            </div>
-          </div>
+  <div class="header-section">
+    <div class="mobile-menu-wrapper">
+      <div data-w-id="d3242deb-f5ec-69c4-a2ef-0fd638dc31b2" class="menu-dark-overlay"></div>
+      <div data-w-id="e1647646-0043-423f-743e-d0bcb7846416" class="navigation-mobile">
+        {{ partial "nav-menu.html" }}
+      </div>
     </div>
+    {{ partial "top-nav.html" }}
+    <div class="navbar-container">
+      <div class="navbar w-clearfix">
+        <a href="/" class="brand w-nav-brand">
+          <h1 class="logo-text">sog<strong class="bold-text">mi</strong>
+          </h1>
+        </a>
+        <div data-w-id="faff6c49-0934-4e9f-e9d2-9aa7f6b59f23" class="hamburger-button">
+          <div class="menu-icon"></div>
+        </div>
+        <div class="navigation-main">
+          {{ partial "nav-menu.html" }}
+        </div>
+      </div>
+    </div>
+  </div>

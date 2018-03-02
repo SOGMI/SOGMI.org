@@ -1,8 +1,32 @@
+
+
 <div id="transcript" class="transcript-modal-window">
-    <div class="div-block-84">
+    {{ if eq .Section "locations" }}
+    <div class="div-block-84 map">
         <a href="#" data-ix="transcript-close" class="close-popup w-inline-block">
             <div><strong>X&nbsp;</strong>close</div>
         </a>
+        <div class="map-modal">
+            <div class="w-richtext">
+                <h3 style="margin:0px">{{ .Title }}</h3>
+                <p>
+                    {{ .Params.StreetAddress }}, {{ .Params.City }}, {{ .Params.Region }}, {{ .Params.Country }} <br/>
+                </p>
+                <div id="map" style="margin-bottom: 10px"></div>
+                <p style="margin: 0px">
+                    <a target="_blank" href="https://www.google.com/maps/dir//{{ .Title }},+{{ .Params.StreetAddress }},+{{ .Params.City }},+{{ .Params.Region }}+{{ .Params.ZipCode }}/">
+                    Get Directions
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    {{ else }}
+    <div class="div-block-84">
+            <a href="#" data-ix="transcript-close" class="close-popup w-inline-block">
+                <div><strong>X&nbsp;</strong>close</div>
+            </a>
         <div class="transcript-modal">
             <h2 class="heading-48">Transcript</h2>
             <div class="w-richtext">
@@ -10,5 +34,6 @@
             </div>
         </div>
     </div>
+    {{ end }}
     <div data-ix="transcript-close" class="image-overlay"></div>
 </div>
