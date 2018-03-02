@@ -1,4 +1,5 @@
 node_modules/
 .vscode/
 public/
-!public/robots.txt
+
+!robots.txt
