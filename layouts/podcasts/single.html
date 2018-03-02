@@ -10,7 +10,7 @@
         <div class="div-block-20">
           {{ with .Params.Series }}
            
-            <a href="{{ "series" | absURL}}/{{ . | urlize }}" class="link-block-3 w-inline-block">
+            <a href="{{ "series" | relURL}}/{{ . | urlize }}" class="link-block-3 w-inline-block">
               <div>return to episode list</div>
             </a>
           
