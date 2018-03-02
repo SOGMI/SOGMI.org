@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>PodcastSeries on Sons of God Ministries International</title>
-    <link>sogmi.org/podcastseries/</link>
+    <link>/podcastseries/</link>
     <description>Recent content in PodcastSeries on Sons of God Ministries International</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-        <atom:link href="sogmi.org/podcastseries/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/podcastseries/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
         <title>The Prophetic Voice of Our Time</title>
         
-        <link>sogmi.org/podcastseries/the-prophetic-voice-of-our-time/</link>
+        <link>/podcastseries/the-prophetic-voice-of-our-time/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>sogmi.org/podcastseries/the-prophetic-voice-of-our-time/</guid>
+        <guid>/podcastseries/the-prophetic-voice-of-our-time/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/1h4mkVhL9kcmmC2QA6agCa/0d89e11520cb13ff278f6ce1f4c22a11/mission_week1_757.jpg?w=800" medium="image/jpg"/>
         

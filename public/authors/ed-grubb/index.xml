@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Ed Grubb on Sons of God Ministries International</title>
-    <link>sogmi.org/authors/ed-grubb/</link>
+    <link>/authors/ed-grubb/</link>
     <description>Recent content in Ed Grubb on Sons of God Ministries International</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Aug 2010 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="sogmi.org/authors/ed-grubb/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/authors/ed-grubb/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,10 +16,10 @@
         
             <dc:creator>Ed Grubb</dc:creator>
         
-        <link>sogmi.org/articles/the-characteristics-of-a-true-prophet/</link>
+        <link>/articles/the-characteristics-of-a-true-prophet/</link>
         <pubDate>Sat, 21 Aug 2010 00:00:00 +0000</pubDate>
         
-        <guid>sogmi.org/articles/the-characteristics-of-a-true-prophet/</guid>
+        <guid>/articles/the-characteristics-of-a-true-prophet/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/34rFC5FS5a2Su4YQs0GW0K/bf8e90962701acda5f785ee00663cefd/bible.jpg?w=800" medium="image/jpg"/>
         

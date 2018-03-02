@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Announcements on Sons of God Ministries International</title>
-    <link>sogmi.org/tags/announcements/</link>
+    <link>/tags/announcements/</link>
     <description>Recent content in Announcements on Sons of God Ministries International</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="sogmi.org/tags/announcements/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/announcements/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,10 +16,10 @@
         
             <dc:creator>Coby Randal</dc:creator>
         
-        <link>sogmi.org/articles/new-radio-program-the-prophetic-voice-of-our-time/</link>
+        <link>/articles/new-radio-program-the-prophetic-voice-of-our-time/</link>
         <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
         
-        <guid>sogmi.org/articles/new-radio-program-the-prophetic-voice-of-our-time/</guid>
+        <guid>/articles/new-radio-program-the-prophetic-voice-of-our-time/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/4ZnFL8TtW0i6EoiUCI4MYE/3d494775182c64d906e1bef4e8be2e30/condenser-mic-compressor.jpg?w=800" medium="image/jpg"/>
         

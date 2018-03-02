@@ -1,3 +1,4 @@
+baseurl = "/"
 languageCode = "en-us"
 buildDrafts = false
 title = "Sons of God Ministries International"

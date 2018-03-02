@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Personal Prophecy on Sons of God Ministries International</title>
-    <link>sogmi.org/tags/personal-prophecy/</link>
+    <link>/tags/personal-prophecy/</link>
     <description>Recent content in Personal Prophecy on Sons of God Ministries International</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2014 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="sogmi.org/tags/personal-prophecy/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/personal-prophecy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,10 +16,10 @@
         
             <dc:creator>Coby Randal</dc:creator>
         
-        <link>sogmi.org/articles/prophecy-for-2014/</link>
+        <link>/articles/prophecy-for-2014/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
         
-        <guid>sogmi.org/articles/prophecy-for-2014/</guid>
+        <guid>/articles/prophecy-for-2014/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/4AOoedF1KEMmMU2SuOSKUo/1ab9ef10e297827ef1f36628355f2646/good-free-photos-561-unsplash.jpg?w=800" medium="image/jpg"/>
         
