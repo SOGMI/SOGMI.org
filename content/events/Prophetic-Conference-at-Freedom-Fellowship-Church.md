@@ -2,7 +2,6 @@
 title: Prophetic Conference at Freedom Fellowship Church
 slug: prophetic-conference-at-freedom-fellowship-church
 venue: Freedom Fellowship Church
-address: {"lon":-98.54725339999999,"lat":29.5169084}
 hideFaq: false
 description: Join us at Freedom Fellowship Church this March and experience a move of God! God already begun moving mightily this year 2018 so we will continue to pursue Him and his will with full abandon.
 speakers: ["Cristina Sosso","Mike Sosso","Joshua Sosso"]

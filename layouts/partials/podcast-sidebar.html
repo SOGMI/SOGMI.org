@@ -1,5 +1,6 @@
 <div class="podcast-sidebar">
     {{ $t := .Title }}
+    {{ if eq .Section "series" }}
     {{ range .Site.Pages }}
         {{ if eq .Section "podcastSeries" }}
             {{ if eq .Title $t }}
@@ -10,8 +11,10 @@
             {{ end }}
         {{ end }}
     {{ end }}
+    {{ end }}
     
     {{ $s := .Params.Series }}
+    {{ if eq .Section "podcasts" }}
     {{ range .Site.Pages }}
         {{ if eq .Section "podcastSeries" }}
             {{ if eq .Title $s }}
@@ -21,6 +24,7 @@
                 </div>
             {{ end }}
         {{ end }}
+    {{ end }}
     {{ end }}
 
     <div class="div-block-14">
