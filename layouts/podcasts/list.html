@@ -145,16 +145,16 @@
                       </a>
                       <h4 class="heading-39"><strong>Share this episode</strong></h4>
                       <div class="div-block-43">
-                        <a href="http://www.facebook.com/sharer.php?u=http://sons-of-god.webflow.io/single-podcast" target="_blank" class="link-block-2 facebook w-inline-block">
+                        <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank" class="link-block-2 facebook w-inline-block">
                           <div></div>
                         </a>
-                        <a href="http://twitter.com/share?text=The Title Goes Here&amp;url=http://sons-of-god.webflow.io/single-podcast" target="_blank" class="link-block-2 twitter w-inline-block">
+                        <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" class="link-block-2 twitter w-inline-block">
                           <div></div>
                         </a>
-                        <a href="http://pinterest.com/pin/create/button/?url=http://sons-of-god.webflow.io/single-podcast&amp;media=http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a020203f4680a0001f1bb98_gritte-346468-small-compressor.jpg" target="_blank" class="link-block-2 pinterest w-inline-block">
+                        <a href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Params.FeaturedImage }}" target="_blank" class="link-block-2 pinterest w-inline-block">
                           <div></div>
                         </a>
-                        <a href="https://plus.google.com/share?url=http://sons-of-god.webflow.io/single-podcast" target="_blank" class="link-block-2 google-plus w-inline-block">
+                        <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="link-block-2 google-plus w-inline-block">
                           <div></div>
                         </a>
                         <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2 reddit w-inline-block">
@@ -162,7 +162,7 @@
                         </a>
                       </div>
                     </div>
-                    <a href="{{ .Permalink }}" class="podcast-button-link w-inline-block">
+                    <a href="{{ .RelPermalink }}" class="podcast-button-link w-inline-block">
                       <div class="text-block-2">details</div>
                     </a>
                     <div data-ix="social-popup" class="podcast-button-link share">

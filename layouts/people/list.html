@@ -9,7 +9,7 @@
                 {{ range .Data.Pages.Reverse }}
                     {{ if eq .Params.mType "Leader" }}
                         <div class="author-grid-item">
-                            <a href="{{ .Permalink }}" class="author-grid-inner w-inline-block">
+                            <a href="{{ .RelPermalink }}" class="author-grid-inner w-inline-block">
                                 {{ if .Params.profilePhoto }}
                                 <div class="author-photo-circle" style="background-image: URL({{.Params.profilePhoto}}?w=300&h=300)">
                                     <div class="author-photo-circle-overlay"></div>
@@ -36,7 +36,7 @@
                 {{ range .Data.Pages.Reverse }}
                     {{ if eq .Params.mType "Worker" }}
                     <div class="author-grid-item">
-                        <a href="{{ .Permalink }}" class="author-grid-inner w-inline-block">
+                        <a href="{{ .RelPermalink }}" class="author-grid-inner w-inline-block">
                             {{ if .Params.profilePhoto }}
                             <div class="author-photo-circle" style="background-image: URL({{.Params.profilePhoto}}?w=300&h=300)">
                                 <div class="author-photo-circle-overlay"></div>
