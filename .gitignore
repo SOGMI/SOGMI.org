@@ -1,5 +1,6 @@
 node_modules/
 .vscode/
 public/*
+public/events/
 
 !public/robots.txt
