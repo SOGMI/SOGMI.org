@@ -271,6 +271,23 @@ a:hover .event-grid-title {
     transition: padding 200ms ease;
     -moz-transition: padding 200ms ease;
 }
+@media (max-width: 991px) {
+    .flex-wrapper.location .sixty, .flex-wrapper.location .forty{
+        width: 100%;
+        padding: 0px;
+    }
+    .flex-wrapper.location {
+        flex-direction: column-reverse;
+    }
+    .location-sidebar {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .sidebar-section {
+        margin: 0px 20px 20px 20px;
+    }
+}
 @media (max-width: 479px) {
     .transcript-modal {
         padding: 30px;

@@ -42,6 +42,6 @@ grid4:
     header: Services Times
     subheader: Join one of our church services
     buttontext: See Our Service Times
-    gridlink: 
+    gridlink: /locations/freedom-fellowship-church
     image: 
 ---
