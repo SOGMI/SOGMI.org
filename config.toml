@@ -2,7 +2,7 @@ baseURL = "sogmi.org"
 languageCode = "en-us"
 buildDrafts = false
 title = "Sons of God Ministries International"
-canonifyURLs = true
+canonifyURLs = false
 [params]
     saturday = "Tune into our livestream tomorrow morning at 11:00 AM CST"
     sunday = "Join our livestream today at 11:00 AM CST! Video of the livestream is uploaded every Sunday evening for viewing."
