@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Series on Sons of God Ministries International</title>
+    <link>/series/</link>
+    <description>Recent content in Series on Sons of God Ministries International</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+        <atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+        <title>The Prophetic Voice of Our Time</title>
+        
+        <link>/series/the-prophetic-voice-of-our-time/</link>
+        <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
+        
+        <guid>/series/the-prophetic-voice-of-our-time/</guid>
+        
+        <description></description>
+        <category>series</category>
+    </item>
+    
+  </channel>
+</rss>

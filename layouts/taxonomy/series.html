@@ -11,8 +11,8 @@
     <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>
     {{ $t := .Title }}
     {{ range .Site.Pages }} 
-        {{ if eq .Section "podcastSeries" }}
-          {{ if eq .Title $t }}
+      {{ if eq .Section "podcastSeries" }}
+        {{ if eq .Title $t }}
           <div class="subscribe-modal-container" style="background-image: linear-gradient(342deg, #1e4d68, rgba(15, 31, 56, .73)), url({{ .Params.FeaturedImage }}?w=600&q=80)">
             <div class="div-block-79" data-ix="subscribe-modal-dissappear">
               <div class="text-block-36"></div>
