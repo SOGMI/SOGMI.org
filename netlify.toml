@@ -7,3 +7,4 @@ command = "npm run publish"
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.36"
+  NODE_VERSION = "8.9.4"
