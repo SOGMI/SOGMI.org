@@ -3,33 +3,31 @@
 <html data-wf-page="5a0281c89a6ada000101512d" data-wf-site="59d9b3659215eb00015d7bab" lang="en">
 
 <head>
-  <meta charset="utf-8"> {{ if .Params.metaTitle }}
-  <title>{{ .Params.MetaTitle }}</title>
-  {{ else }} {{ if eq .Section "tags" }}
-  <title>Articles about "{{ .Title }}"</title>
-  {{ else }} {{ if eq .Section "hosts" }}
-  <title>Podcasts featuring {{ .Title }}</title>
-  {{ else }} {{ if eq .Section "authors" }}
-  <title>Articles by {{ .Title }}</title>
-  {{ else }} {{ if eq .Section "keywords" }}
-  <title>Podcasts tagged with "{{ .Title }}"</title>
-  {{ else }} {{ if eq .Section "videokeywords" }}
-  <title>Videos tagged with "{{ .Title }}"</title>
-  {{ else }}
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
-  {{ end }} {{ end }} {{ end }} {{ end }} {{ end }} {{ end }}
-  <meta name="description" content="{{ if .Description }}{{ truncate 160 .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}"
-  />
+  <meta charset="utf-8"> 
+  {{ if .Params.metaTitle }}<title>{{ .Params.MetaTitle }}</title>{{ else }} 
+    {{ if eq .Section "tags" }}<title>Articles about "{{ .Title }}"</title>{{ else }} 
+      {{ if eq .Section "hosts" }}<title>Podcasts featuring {{ .Title }}</title>{{ else }} 
+        {{ if eq .Section "authors" }}<title>Articles by {{ .Title }}</title>{{ else }} 
+          {{ if eq .Section "keywords" }}<title>Podcasts tagged with "{{ .Title }}"</title>{{ else }} 
+            {{ if eq .Section "videokeywords" }}<title>Videos tagged with "{{ .Title }}"</title>{{ else }}
+              <title>{{ .Title }} | {{ .Site.Title }}</title>
+            {{ end }} 
+          {{ end }} 
+        {{ end }}
+      {{ end }} 
+    {{ end }} 
+  {{ end }}
+  <meta name="description" content="{{ if .Description }}{{ truncate 160 .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}" />
   <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" />
   <meta property="og:description" content="{{ truncate 160 .Description }}" />
   <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.Youtubethumbnail }}{{ .Params.YoutubeThumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}"
   />
   <meta name="twitter:card" content="summary" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href={{ "css/normalize.css" | absURL }} rel="stylesheet" type="text/css">
-  <link href={{ "css/components.css" | absURL }} rel="stylesheet" type="text/css">
-  <link href={{ "css/sons-of-god.css" | absURL }} rel="stylesheet" type="text/css">
-  <link href={{ "css/sogmi.css" | absURL }} rel="stylesheet" type="text/css">
+  <link href={{ "css/normalize.css" | relURL }} rel="stylesheet" type="text/css">
+  <link href={{ "css/components.css" | relURL }} rel="stylesheet" type="text/css">
+  <link href={{ "css/sons-of-god.css" | relURL }} rel="stylesheet" type="text/css">
+  <link href={{ "css/sogmi.css" | relURL }} rel="stylesheet" type="text/css">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
