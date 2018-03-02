@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Church on Sons of God Ministries International</title>
-    <link>/tags/church/</link>
+    <link>http://sogmi.org/tags/church/</link>
     <description>Recent content in Church on Sons of God Ministries International</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Feb 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/church/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sogmi.org/tags/church/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,10 +16,10 @@
         
             <dc:creator>Mike Sosso</dc:creator>
         
-        <link>/articles/godsguidelineforelections/</link>
+        <link>http://sogmi.org/articles/godsguidelineforelections/</link>
         <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
         
-        <guid>/articles/godsguidelineforelections/</guid>
+        <guid>http://sogmi.org/articles/godsguidelineforelections/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/5UvagPHWDK62ws6Wy808ce/bf8e90962701acda5f785ee00663cefd/1456519101974?w=800" medium="image/jpg"/>
         

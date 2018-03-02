@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Judges on Sons of God Ministries International</title>
-    <link>/tags/judges/</link>
+    <link>http://sogmi.org/tags/judges/</link>
     <description>Recent content in Judges on Sons of God Ministries International</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/judges/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sogmi.org/tags/judges/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,10 +16,10 @@
         
             <dc:creator>Cristina Sosso</dc:creator>
         
-        <link>/articles/i-am-restoring-the-judges-as-in-the-days-of-old/</link>
+        <link>http://sogmi.org/articles/i-am-restoring-the-judges-as-in-the-days-of-old/</link>
         <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
         
-        <guid>/articles/i-am-restoring-the-judges-as-in-the-days-of-old/</guid>
+        <guid>http://sogmi.org/articles/i-am-restoring-the-judges-as-in-the-days-of-old/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/6o5dw9ihQAcmM0C2mAkSu0/b1d6f13daa41c774c03045f97f7395aa/Sans_C3_B3n_matando_al_le_C3_B3n_-_Pedro_Pablo_Rubens.jpg?w=800" medium="image/jpg"/>
         

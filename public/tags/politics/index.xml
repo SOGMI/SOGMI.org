@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Politics on Sons of God Ministries International</title>
-    <link>/tags/politics/</link>
+    <link>http://sogmi.org/tags/politics/</link>
     <description>Recent content in Politics on Sons of God Ministries International</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Feb 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sogmi.org/tags/politics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,10 +16,10 @@
         
             <dc:creator>Mike Sosso</dc:creator>
         
-        <link>/articles/godsguidelineforelections/</link>
+        <link>http://sogmi.org/articles/godsguidelineforelections/</link>
         <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
         
-        <guid>/articles/godsguidelineforelections/</guid>
+        <guid>http://sogmi.org/articles/godsguidelineforelections/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/5UvagPHWDK62ws6Wy808ce/bf8e90962701acda5f785ee00663cefd/1456519101974?w=800" medium="image/jpg"/>
         
@@ -32,27 +32,10 @@
         
             <dc:creator>Mike Sosso</dc:creator>
         
-        <link>/articles/urgent-message-gods-guidelines-for-choosing-our-nations-leaders/</link>
+        <link>http://sogmi.org/articles/urgent-message-gods-guidelines-for-choosing-our-nations-leaders/</link>
         <pubDate>Thu, 02 Feb 2012 00:00:00 +0000</pubDate>
         
-        <guid>/articles/urgent-message-gods-guidelines-for-choosing-our-nations-leaders/</guid>
-        
-            <media:content url="//images.contentful.com/vfgh62eq5a4k/zRSQiJ1LQyICyI8GM6aGa/f7809061e3f5f65fcc5569f234e75f72/jomar-271602-unsplash-compressor.jpg?w=800" medium="image/jpg"/>
-        
-        <description>Dear Partners and Friends,
-Four years ago, the Lord spoke prophetically and said; “If My people will unite, this nation can have the most righteous leaders and government she has ever had since its inception, and even greater.” You may say, is that possible? Is anything impossible for God? No! But for this to happen, we must meet the criteria and unite, and the only way we can unite politically, is to unite around truth found in God’s Word.</description>
-        <category>articles</category>
-    </item>
-    
-    <item>
-        <title>URGENT MESSAGE: God&#39;s Guidelines For Choosing Our Nations Leaders</title>
-        
-            <dc:creator>Mike Sosso</dc:creator>
-        
-        <link>/articles/urgent-message-gods-guidelines-for-choosing-our-nations-leaders/</link>
-        <pubDate>Thu, 02 Feb 2012 00:00:00 +0000</pubDate>
-        
-        <guid>/articles/urgent-message-gods-guidelines-for-choosing-our-nations-leaders/</guid>
+        <guid>http://sogmi.org/articles/urgent-message-gods-guidelines-for-choosing-our-nations-leaders/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/zRSQiJ1LQyICyI8GM6aGa/f7809061e3f5f65fcc5569f234e75f72/jomar-271602-unsplash-compressor.jpg?w=800" medium="image/jpg"/>
         
@@ -66,10 +49,10 @@ Four years ago, the Lord spoke prophetically and said; “If My people will unit
         
             <dc:creator>Cristina Sosso</dc:creator>
         
-        <link>/articles/what-a-great-time-to-be-alive/</link>
+        <link>http://sogmi.org/articles/what-a-great-time-to-be-alive/</link>
         <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
         
-        <guid>/articles/what-a-great-time-to-be-alive/</guid>
+        <guid>http://sogmi.org/articles/what-a-great-time-to-be-alive/</guid>
         
             <media:content url="//images.contentful.com/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg?w=800" medium="image/jpg"/>
         

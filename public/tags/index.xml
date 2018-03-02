@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Tags on Sons of God Ministries International</title>
-    <link>/tags/</link>
+    <link>http://sogmi.org/tags/</link>
     <description>Recent content in Tags on Sons of God Ministries International</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://sogmi.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
         <title>Announcements</title>
         
-        <link>/tags/announcements/</link>
+        <link>http://sogmi.org/tags/announcements/</link>
         <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
         
-        <guid>/tags/announcements/</guid>
+        <guid>http://sogmi.org/tags/announcements/</guid>
         
         <description></description>
         <category>tags</category>
@@ -26,10 +26,10 @@
     <item>
         <title>Church</title>
         
-        <link>/tags/church/</link>
+        <link>http://sogmi.org/tags/church/</link>
         <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
         
-        <guid>/tags/church/</guid>
+        <guid>http://sogmi.org/tags/church/</guid>
         
         <description></description>
         <category>tags</category>
@@ -38,10 +38,10 @@
     <item>
         <title>Discipleship</title>
         
-        <link>/tags/discipleship/</link>
+        <link>http://sogmi.org/tags/discipleship/</link>
         <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
         
-        <guid>/tags/discipleship/</guid>
+        <guid>http://sogmi.org/tags/discipleship/</guid>
         
         <description></description>
         <category>tags</category>
@@ -50,10 +50,10 @@
     <item>
         <title>False Prophets</title>
         
-        <link>/tags/false-prophets/</link>
+        <link>http://sogmi.org/tags/false-prophets/</link>
         <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
         
-        <guid>/tags/false-prophets/</guid>
+        <guid>http://sogmi.org/tags/false-prophets/</guid>
         
         <description></description>
         <category>tags</category>
@@ -62,10 +62,10 @@
     <item>
         <title>Judges</title>
         
-        <link>/tags/judges/</link>
+        <link>http://sogmi.org/tags/judges/</link>
         <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
         
-        <guid>/tags/judges/</guid>
+        <guid>http://sogmi.org/tags/judges/</guid>
         
         <description></description>
         <category>tags</category>
@@ -74,10 +74,10 @@
     <item>
         <title>Leadership</title>
         
-        <link>/tags/leadership/</link>
+        <link>http://sogmi.org/tags/leadership/</link>
         <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
         
-        <guid>/tags/leadership/</guid>
+        <guid>http://sogmi.org/tags/leadership/</guid>
         
         <description></description>
         <category>tags</category>
@@ -86,10 +86,10 @@
     <item>
         <title>Personal Prophecy</title>
         
-        <link>/tags/personal-prophecy/</link>
+        <link>http://sogmi.org/tags/personal-prophecy/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
         
-        <guid>/tags/personal-prophecy/</guid>
+        <guid>http://sogmi.org/tags/personal-prophecy/</guid>
         
         <description></description>
         <category>tags</category>
@@ -98,10 +98,10 @@
     <item>
         <title>Politics</title>
         
-        <link>/tags/politics/</link>
+        <link>http://sogmi.org/tags/politics/</link>
         <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
         
-        <guid>/tags/politics/</guid>
+        <guid>http://sogmi.org/tags/politics/</guid>
         
         <description></description>
         <category>tags</category>
@@ -110,10 +110,10 @@
     <item>
         <title>Prophecy</title>
         
-        <link>/tags/prophecy/</link>
+        <link>http://sogmi.org/tags/prophecy/</link>
         <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
         
-        <guid>/tags/prophecy/</guid>
+        <guid>http://sogmi.org/tags/prophecy/</guid>
         
         <description></description>
         <category>tags</category>
@@ -122,10 +122,10 @@
     <item>
         <title>Prophetic Instructions</title>
         
-        <link>/tags/prophetic-instructions/</link>
+        <link>http://sogmi.org/tags/prophetic-instructions/</link>
         <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
         
-        <guid>/tags/prophetic-instructions/</guid>
+        <guid>http://sogmi.org/tags/prophetic-instructions/</guid>
         
         <description></description>
         <category>tags</category>
@@ -134,10 +134,10 @@
     <item>
         <title>Prophetic Word</title>
         
-        <link>/tags/prophetic-word/</link>
+        <link>http://sogmi.org/tags/prophetic-word/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
         
-        <guid>/tags/prophetic-word/</guid>
+        <guid>http://sogmi.org/tags/prophetic-word/</guid>
         
         <description></description>
         <category>tags</category>
@@ -146,10 +146,10 @@
     <item>
         <title>Prophets</title>
         
-        <link>/tags/prophets/</link>
+        <link>http://sogmi.org/tags/prophets/</link>
         <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
         
-        <guid>/tags/prophets/</guid>
+        <guid>http://sogmi.org/tags/prophets/</guid>
         
         <description></description>
         <category>tags</category>
@@ -158,10 +158,10 @@
     <item>
         <title>Prosperity</title>
         
-        <link>/tags/prosperity/</link>
+        <link>http://sogmi.org/tags/prosperity/</link>
         <pubDate>Fri, 04 Feb 2011 00:00:00 +0000</pubDate>
         
-        <guid>/tags/prosperity/</guid>
+        <guid>http://sogmi.org/tags/prosperity/</guid>
         
         <description></description>
         <category>tags</category>
@@ -170,10 +170,10 @@
     <item>
         <title>Revival</title>
         
-        <link>/tags/revival/</link>
+        <link>http://sogmi.org/tags/revival/</link>
         <pubDate>Thu, 04 Feb 2010 00:00:00 +0000</pubDate>
         
-        <guid>/tags/revival/</guid>
+        <guid>http://sogmi.org/tags/revival/</guid>
         
         <description></description>
         <category>tags</category>
@@ -182,10 +182,10 @@
     <item>
         <title>Transfer of Wealth</title>
         
-        <link>/tags/transfer-of-wealth/</link>
+        <link>http://sogmi.org/tags/transfer-of-wealth/</link>
         <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
         
-        <guid>/tags/transfer-of-wealth/</guid>
+        <guid>http://sogmi.org/tags/transfer-of-wealth/</guid>
         
         <description></description>
         <category>tags</category>
@@ -194,10 +194,10 @@
     <item>
         <title>United States of America</title>
         
-        <link>/tags/united-states-of-america/</link>
+        <link>http://sogmi.org/tags/united-states-of-america/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
         
-        <guid>/tags/united-states-of-america/</guid>
+        <guid>http://sogmi.org/tags/united-states-of-america/</guid>
         
         <description></description>
         <category>tags</category>
