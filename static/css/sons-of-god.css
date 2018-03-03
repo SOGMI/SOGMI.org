@@ -898,6 +898,7 @@ figcaption {
   padding-right: 30px;
   padding-left: 30px;
   text-align: left;
+  width: 100%;
 }
 
 .return-to-event-link {
@@ -3860,7 +3861,7 @@ figcaption {
 }
 
 .event-grid-title {
-  display: inline-block;
+  display: block;
   margin-top: 0px;
   border-style: none none solid solid;
   border-width: 0px;

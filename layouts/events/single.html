@@ -5,7 +5,7 @@
     <div class="event-banner-container" style="z-index: 1">
         <div class="return-to-event-link"><a href="/events" class="return-to-event-link">return to events</a></div>
         {{ with .Params.startdate }}
-        <h3 class="heading-37">{{ . | dateFormat "January 2, 2006" }}</h3>
+            <h3 class="heading-37">{{ . | dateFormat "January 2, 2006"  }}</h3>
         {{ end }}
         <h1 class="heading-12">{{ .Title }}</h1>
         <h4 class="event-single-subheading">{{ .Params.Venue }}  |  {{ .Params.City }}, {{ .Params.State }}</h4>

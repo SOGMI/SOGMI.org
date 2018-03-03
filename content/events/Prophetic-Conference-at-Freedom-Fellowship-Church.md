@@ -6,8 +6,8 @@ hideFaq: false
 description: Join us at Freedom Fellowship Church this March and experience a move of God! God already begun moving mightily this year 2018 so we will continue to pursue Him and his will with full abandon.
 speakers: ["Cristina Sosso","Mike Sosso","Joshua Sosso"]
 freeEvent: true
-startDate: 2018-03-30T19:00:00
-endDate: 2018-03-31T16:00:00
+startDate: 2018-03-30
+endDate: 2018-03-31
 featuredImage: "//images.contentful.com/vfgh62eq5a4k/6fOyg8hKz6GocqOO2cEc46/f52d18fe0fbfec7b4aafbebab99c5142/nainoa-shizuru-80385-smaller-compressor.jpg"
 registrationType: Eventbrite
 eventbriteId: 43279056824
@@ -16,7 +16,7 @@ streetAddress: 8419 Callaghan Rd
 city: San Antonio
 state: Texas
 zipCode: 78023
-country: USA
+country: United States
 ---
 ## Event Schedule
 The event will last for 2 days. Please register for each day you will be attending.</P>
