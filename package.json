@@ -5,7 +5,7 @@
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
     "prepublish": "node contentful.js",
-    "publish": "hugo",
+    "publish": "node contentful.js | hugo",
     "pretest": "node contentful.js",
     "test": "hugo",
     "posttest": "hugo server"
