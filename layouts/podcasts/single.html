@@ -63,7 +63,7 @@
           {{ with  .Params.Keywords }}
           <div class="unordered-list-2-copy w-list-unstyled">
             {{ range . }}
-            <a href="{{ "keywords" | absURL}}/{{ . | urlize }}" class="list-item-2-copy">
+            <a href="{{ "keywords" | relURL}}/{{ . | urlize }}" class="list-item-2-copy">
               <div class="text-block-4">{{ . }}</div>
             </a>
             {{ end }}
