@@ -5,6 +5,7 @@
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
     "publish": "node contentful.js && hugo",
+    "postpublish": "hugo",
     "test": "node contentful.js && hugo server"
   },
   "dependencies": {
