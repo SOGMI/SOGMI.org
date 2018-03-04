@@ -1,6 +1,7 @@
 ---
 title: The Heart of God
 slug: prophetic-voice-308
+keywords: ["heart of god","relationship with god","valentines day"]
 showTranscript: false
 date: 2018-02-10
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E308_18_02_10-11_The_Heart_of_God.mp3

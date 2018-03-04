@@ -1,6 +1,7 @@
 ---
 title: Facing Your Goliaths
 slug: prophetic-voice-298
+keywords: ["thanksgiving","word of the lord","victory","confronting giants","strongholds"]
 showTranscript: false
 date: 2017-11-25
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E298_17_11_25-26_Facing_Your_Goliaths.mp3

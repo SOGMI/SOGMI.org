@@ -1,6 +1,7 @@
 ---
 title: Momentary Darkness Before the Light
 slug: prophetic-voice-287
+keywords: ["united states","body of christ","mind of christ"]
 showTranscript: false
 date: 2017-09-02
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E287_17_09_02-03_Momentary_Darkness_Before_the_Light.mp3

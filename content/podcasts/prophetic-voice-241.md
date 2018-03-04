@@ -1,6 +1,7 @@
 ---
 title: The Parable of the Sower
 slug: prophetic-voice-241
+keywords: ["seedtime and harvest","trust in god","kingdom principles"]
 showTranscript: false
 date: 2016-08-27
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E241_16_08_27-28_The_Parable_of_the_Sower.mp3

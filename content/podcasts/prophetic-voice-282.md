@@ -1,6 +1,7 @@
 ---
 title: Changes are Coming
 slug: prophetic-voice-282
+keywords: ["transformation","uprooting","promotions and replacements"]
 showTranscript: false
 date: 2017-07-29
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E282_17_07_29-30_Changes_are_Coming.mp3

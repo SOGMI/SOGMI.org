@@ -1,6 +1,7 @@
 ---
 title: God's Heavenly Ways
 slug: prophetic-voice-246
+keywords: ["kingdom principles","love of god","trusting god"]
 showTranscript: false
 date: 2016-10-08
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E246_16_10_08-09_God%27s_Heavenly_Ways.mp3

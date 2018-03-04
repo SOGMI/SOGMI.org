@@ -1,6 +1,7 @@
 ---
 title: Prophets and Prophecy
 slug: prophetic-voice-286
+keywords: ["prophecy","uprooting","greatness of the season"]
 showTranscript: false
 date: 2017-08-26
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E286_17_08_26-27_Prophets_and_Prophecy.mp3

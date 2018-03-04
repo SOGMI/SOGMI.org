@@ -1,6 +1,7 @@
 ---
 title: The Transfer of Wealth
 slug: prophetic-voice-245
+keywords: ["transfer of wealth","prophecy","keys to the kingdom"]
 showTranscript: false
 date: 2016-10-01
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E245_16_10_01-02_The_Transfer_of_Wealth.mp3

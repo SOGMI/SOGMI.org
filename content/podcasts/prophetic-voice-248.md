@@ -1,6 +1,7 @@
 ---
 title: We Are Now Occupying (Part 1 of 2)
 slug: prophetic-voice-248
+keywords: ["kingdom principles","trusting god","spiritual authority"]
 showTranscript: false
 date: 2016-10-22
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E248_16_10_22-23_We_Are_Now_Occupying.mp3

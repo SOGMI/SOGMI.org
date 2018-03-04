@@ -1,6 +1,7 @@
 ---
 title: Prophecy to the Church in 2016
 slug: prophetic-voice-212
+keywords: ["prophecy to the church","prosperity","seedtime and harvest","living in the supernatural","united states","texas"]
 showTranscript: false
 date: 2016-01-16
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E212_16_01_16-17_Prophecy_to_the_Church.mp3

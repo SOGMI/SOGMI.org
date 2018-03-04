@@ -1,6 +1,7 @@
 ---
 title: Believe from the Heart
 slug: prophetic-voice-215
+keywords: ["faith","prophecy","trust in god","valentines day"]
 showTranscript: false
 date: 2016-02-13
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E215_16_02_13-14_Believe_from_the_Heart.mp3

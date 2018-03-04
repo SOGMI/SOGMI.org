@@ -1,6 +1,7 @@
 ---
 title: Revelation for Our Time
 slug: prophetic-voice-299
+keywords: ["revelation","appointed time","kingdom of god","great commission","discipleship","apostles and prophets"]
 showTranscript: false
 date: 2017-12-03
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E299_17_12_02-03_Revelation_for_Our_Time.mp3

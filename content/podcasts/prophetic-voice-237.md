@@ -1,6 +1,7 @@
 ---
 title: Instant In and Out of Season
 slug: prophetic-voice-237
+keywords: ["faith","obedience","discipleship","transfer of wealth","appointed time"]
 showTranscript: false
 date: 2016-07-30
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E237_16_07_30-31_Instant_In_and_Out_of_Season.mp3

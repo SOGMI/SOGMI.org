@@ -1,6 +1,7 @@
 ---
 title: The Set Time Has Come (Featuring Ptr. Mike Sosso)
 slug: prophetic-voice-303
+keywords: ["appointed time","keys to the kingdom","body of christ","greatness of the season"]
 showTranscript: false
 date: 2017-12-30
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E302_12_30-31_The_Set_Time_Has_Come.mp3

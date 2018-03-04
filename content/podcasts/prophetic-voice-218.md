@@ -1,6 +1,7 @@
 ---
 title: Our Responsibility as His Church (Featuring Mike Sosso)
 slug: prophetic-voice-218
+keywords: ["spiritual authority","politics","united states","salt of the earth"]
 showTranscript: false
 date: 2016-03-05
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E218_16_03_05-06_Our_Responsibility_as_His_Church.mp3

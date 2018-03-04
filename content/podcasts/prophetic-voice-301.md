@@ -1,6 +1,7 @@
 ---
 title: Spiritual Authority (Featuring Ptr. Charles Wickliffe)
 slug: prophetic-voice-301
+keywords: ["spiritual authority","name of jesus","keys to the kingdom","relationship with god","power of words"]
 showTranscript: false
 date: 2017-12-16
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E300_17_12_16-17_Spiritual_Authority.mp3

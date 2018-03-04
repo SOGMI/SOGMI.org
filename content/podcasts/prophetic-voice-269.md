@@ -1,6 +1,7 @@
 ---
 title: Jesus is Our Passover
 slug: prophetic-voice-269
+keywords: ["passover","restoration","resurrection sunday"]
 showTranscript: false
 date: 2017-04-15
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E269_17_04_15-16_Jesus_is_Our_Passover.mp3

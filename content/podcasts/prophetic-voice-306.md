@@ -1,6 +1,7 @@
 ---
 title: Let There Be Light
 slug: prophetic-voice-306
+keywords: ["holy spirit","power of words","living in the supernatural"]
 showTranscript: false
 date: 2018-01-20
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E306_18_01_20-21_Let_There_Be_Light.mp3

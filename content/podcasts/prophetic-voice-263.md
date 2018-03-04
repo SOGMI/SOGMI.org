@@ -1,6 +1,7 @@
 ---
 title: Living by Faith
 slug: prophetic-voice-263
+keywords: ["obedience","trusting god","plan of god"]
 showTranscript: false
 date: 2017-03-03
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E263_17_03_04-05_Living_by_Faith.mp3

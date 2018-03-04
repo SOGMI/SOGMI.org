@@ -1,6 +1,7 @@
 ---
 title: Honoring God with Wealth
 slug: prophetic-voice-238
+keywords: ["seedtime and harvest","blessings"]
 showTranscript: false
 date: 2016-08-06
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E238_16_08_06-07_Honoring+God+with+Wealth.mp3

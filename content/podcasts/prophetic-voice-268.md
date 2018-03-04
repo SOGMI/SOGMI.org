@@ -1,6 +1,7 @@
 ---
 title: The New Covenant
 slug: prophetic-voice-268
+keywords: ["order of melchizedek","covenant","kingdom of god","kings and priests"]
 showTranscript: false
 date: 2017-04-08
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E268_17_04_08-09_The_New_Covenant.mp3

@@ -1,6 +1,7 @@
 ---
 title: Pentecost
 slug: prophetic-voice-275
+keywords: ["holy spirit","kingdom of god","israel","passover","pentecost"]
 showTranscript: false
 date: 2017-06-03
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E275_17_06_03-04_Pentecost.mp3

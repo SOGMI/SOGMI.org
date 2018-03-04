@@ -1,6 +1,7 @@
 ---
 title: God's Kingdom vs Babylon
 slug: prophetic-voice-240
+keywords: ["kingdom principles","transfer of wealth","trust in god","faith"]
 showTranscript: false
 date: 2016-08-20
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E240_16_08-20-21_God%27s_Kingdom_vs_Babylon.mp3

@@ -1,6 +1,7 @@
 ---
 title: The Year in Review (2016)
 slug: prophetic-voice-210
+keywords: ["transfer of wealth","political revival","prophecy","united states","philippines","prophecy to the church"]
 showTranscript: false
 date: 2016-01-02
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E210_16_01_02-03_Year_in_Review.mp3

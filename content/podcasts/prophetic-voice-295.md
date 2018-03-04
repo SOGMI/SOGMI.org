@@ -1,6 +1,7 @@
 ---
 title: Emerging Glory
 slug: prophetic-voice-295
+keywords: ["transfer of wealth","united states","repentance","body of christ","kingdom of god","yokes"]
 showTranscript: false
 date: 2017-11-04
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E295_17_11_04-05_Emerging_Glory.mp3

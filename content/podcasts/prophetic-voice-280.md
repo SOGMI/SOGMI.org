@@ -1,6 +1,7 @@
 ---
 title: Knowing God
 slug: prophetic-voice-280
+keywords: ["living in the supernatural","fruit of the spirit","mind of christ","sonship","servant of god"]
 showTranscript: false
 date: 2017-07-15
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E280_17_07_15-16_Knowing_God.mp3

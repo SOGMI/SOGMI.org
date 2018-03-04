@@ -1,6 +1,7 @@
 ---
 title: Living by Faith
 slug: prophetic-voice-265
+keywords: ["walking in excellency","prophecy","transfer of wealth","seedtime and harvest"]
 showTranscript: false
 date: 2017-03-18
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E265_17_03_18-19_Living_By_Faith.mp3

@@ -1,6 +1,7 @@
 ---
 title: Prophecy and Political Revival
 slug: prophetic-voice-253
+keywords: ["political revival","united states","prophecy"]
 showTranscript: false
 date: 2016-11-26
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E253_16_11_26-27_Prophecy_and_Political_Revival.mp3

@@ -1,6 +1,7 @@
 ---
 title: Philippines Mission Report
 slug: prophetic-voice-219
+keywords: ["philippines","signs and wonders","mission report"]
 showTranscript: false
 date: 2016-03-12
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E219_16_03_12-13_Philippines_Mission_Report.mp3

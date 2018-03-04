@@ -1,6 +1,7 @@
 ---
 title: Pondering His Goodness Past and Onward
 slug: prophetic-voice-257
+keywords: ["relationship with god","prophecy","keys to the kingdom"]
 showTranscript: false
 date: 2017-01-07
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E257_17_01_07-08_Pondering_His_Goodness_Past_and_Onward.mp3

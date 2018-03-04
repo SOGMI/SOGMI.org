@@ -1,6 +1,7 @@
 ---
 title: Sound Doctrine from the Holy Spirit
 slug: prophetic-voice-259
+keywords: ["order of melchizedek","kings and priests","holy spirit","signs and wonders","kingdom of god"]
 showTranscript: false
 date: 2017-01-21
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E259_17_01_21-22_Sound_Doctrine_from_the_Holy_Spirit.mp3

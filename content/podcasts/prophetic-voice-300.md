@@ -1,6 +1,7 @@
 ---
 title: The Reason for the Season
 slug: prophetic-voice-300
+keywords: ["christmas","celebration","philippines","greatness of the season","restoration"]
 showTranscript: false
 date: 2017-12-09
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E299_17_12_09-10_The_Reason_for_the_Season.mp3

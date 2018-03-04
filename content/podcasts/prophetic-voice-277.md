@@ -1,6 +1,7 @@
 ---
 title: Mission Report and Good News
 slug: prophetic-voice-277
+keywords: ["mission report","israel","greece","prophecy","politics","nations"]
 showTranscript: false
 date: 2017-06-17
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E277_17_06_17-18_Mission_Report_and_Good_News.mp3

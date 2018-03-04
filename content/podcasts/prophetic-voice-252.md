@@ -1,6 +1,7 @@
 ---
 title: Believe and Know God's Heart
 slug: prophetic-voice-252
+keywords: ["prophecy","kingdom of god","keys to the kingdom"]
 showTranscript: false
 date: 2016-11-19
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E252_16_11_19-20_Believe_and_Know_God%27s_Heart.mp3

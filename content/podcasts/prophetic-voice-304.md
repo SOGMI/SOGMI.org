@@ -1,6 +1,7 @@
 ---
 title: Revelation for the Appointed Time
 slug: prophetic-voice-304
+keywords: ["supernatural manifestation","holy spirit","order of melchizedek","move of god","revelation"]
 showTranscript: false
 date: 2018-01-06
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E303_18_01_06-07_Revelation_for_the_Appointed_Time.mp3

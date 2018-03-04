@@ -1,6 +1,7 @@
 ---
 title: Greater Works - Part 1
 slug: prophetic-voice-230
+keywords: ["living in the supernatural","signs and wonders","prophecy","faith","obedience"]
 date: 2016-06-04
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E230_16_06_04-05_Are_You_Ready_for_Greater_Works.mp3
 Series: The Prophetic Voice of Our Time

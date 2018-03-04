@@ -1,6 +1,7 @@
 ---
 title: Heavenly Sowing and Reaping
 slug: prophetic-voice-297
+keywords: ["relationship with god","transfer of wealth","seedtime and harvest","obedience","discipleship","great commission"]
 showTranscript: false
 date: 2017-11-18
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E297_17_11_18-19_Heavenly_Sowing_and_Reaping.mp3

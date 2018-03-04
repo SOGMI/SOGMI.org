@@ -1,6 +1,7 @@
 ---
 title: Knowing God
 slug: prophetic-voice-258
+keywords: ["relationship with god","revelation","prosperity"]
 showTranscript: false
 date: 2017-01-14
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E258_17_01_14-15_Knowing_God.mp3

@@ -1,6 +1,7 @@
 ---
 title: Prophecies Fulfilled and Prophecies for 2018
 slug: prophetic-voice-305
+keywords: ["appointed time","transformation","united states","israel","move of god","seedtime and harvest","politics","apostles and prophets"]
 showTranscript: false
 date: 2018-01-13
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E305_18_01_13-14_Prophecies_Fulfilled_and_for_2018.mp3

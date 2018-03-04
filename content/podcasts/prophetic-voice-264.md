@@ -1,6 +1,7 @@
 ---
 title: Knowing Our God and the Season
 slug: prophetic-voice-264
+keywords: ["uprooting","israel","promotions and replacements","pentecost"]
 showTranscript: false
 date: 2017-03-11
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E264_17_03_11-12_Knowing_Our_God_and_the_Season.mp3

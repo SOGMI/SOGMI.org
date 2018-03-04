@@ -1,6 +1,7 @@
 ---
 title: Look to the Truth Above the Facts
 slug: prophetic-voice-234
+keywords: ["truth","apostles and prophets","trust in god","faith","living in the supernatural"]
 showTranscript: false
 date: 2016-07-02
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E234_16_07_02-03_Look_to_the_Truth_Above_Facts.mp3

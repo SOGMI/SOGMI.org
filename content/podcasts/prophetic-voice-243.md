@@ -1,6 +1,7 @@
 ---
 title: The Heart of the Father
 slug: prophetic-voice-243
+keywords: ["prophecy","trust in god","love of god"]
 showTranscript: false
 date: 2016-09-17
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E243_16_09_17-18_The_Heart_of_the_Father.mp3

@@ -1,6 +1,7 @@
 ---
 title: Christmas Special with Nicole Mendoza
 slug: prophetic-voice-302
+keywords: ["christmas","greatness of the season","celebration","jesus christ"]
 date: 2017-12-23
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E301_17_12_23-24_Christmas_Special.mp3
 Series: The Prophetic Voice of Our Time

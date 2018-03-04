@@ -1,6 +1,7 @@
 ---
 title: The Heart of a Warrior
 slug: prophetic-voice-235
+keywords: ["prophecy","spiritual warfare","faith"]
 showTranscript: false
 date: 2016-07-09
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E235_16_07_09-10_The_Heart_of_a_Warrior.mp3

@@ -1,6 +1,7 @@
 ---
 title: Let Jesus be Revealed
 slug: prophetic-voice-261
+keywords: ["body of christ","kingdom principles","obedience"]
 showTranscript: false
 date: 2017-02-11
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E261_17_02_11-12_Let_Jesus_be_Revealed.mp3

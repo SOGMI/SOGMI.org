@@ -1,7 +1,7 @@
 ---
 title: Prophecies for 2018
 slug: prophetic-voice-309
-keywords: ["personal prophecies"]
+keywords: ["personal prophecies","order of melchizedek","prophecy to the church","year in review"]
 showTranscript: true
 date: 2018-02-17
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E309_02_17-18_Prophecies_for_2018.mp3

@@ -1,6 +1,7 @@
 ---
 title: Make Your Obedience Complete
 slug: prophetic-voice-229
+keywords: ["obedience","seedtime and harvest","relationship with god","faith"]
 showTranscript: false
 date: 2016-05-28
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E229_16_05_28-29_Make_Your_Obedience_Complete.mp3

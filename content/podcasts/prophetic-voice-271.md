@@ -1,6 +1,7 @@
 ---
 title: Have Faith in God
 slug: prophetic-voice-271
+keywords: ["united states","covenant","prophets"]
 showTranscript: false
 date: 2017-04-29
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E271_17_04_29-30_Have_Faith_in_God.mp3

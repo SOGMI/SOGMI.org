@@ -1,6 +1,7 @@
 ---
 title: "Being Kings and Priests (Guest Speaker: Ed Grubb)"
 slug: prophetic-voice-255
+keywords: ["kings and priests","kingdom of god","spiritual authority"]
 showTranscript: false
 date: 2016-12-17
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E255_16_12_17-18_Being_Kings_and_Priests.mp3

@@ -1,6 +1,7 @@
 ---
 title: Prophecy is Your Weapon
 slug: prophetic-voice-239
+keywords: ["prophecy","confronting giants","living in the supernatural","spiritual authority"]
 showTranscript: false
 date: 2016-08-13
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E239_16_08_13-14_Prophecy_is_Your_Weapon.mp3

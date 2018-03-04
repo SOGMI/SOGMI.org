@@ -1,6 +1,7 @@
 ---
 title: Prophetic Words to the Church in 2016
 slug: prophetic-voice-213
+keywords: ["prophecy to the church","prophecy","texas","united states"]
 showTranscript: false
 date: 2016-01-30
 audioLink: https://episodes.castos.com/propheticvoice/01-(23-24)-16+Prophetic+Voice+of+Our+Time+[Mixdown]+-+for+web.mp3

@@ -1,6 +1,7 @@
 ---
 title: Preparation for Greatness
 slug: prophetic-voice-284
+keywords: ["transfer of wealth","obedience","move of god"]
 showTranscript: false
 date: 2017-08-12
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E284_17_08_12-13_Preparation_for_Greatness.mp3

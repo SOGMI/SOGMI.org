@@ -1,6 +1,7 @@
 ---
 title: Get Ready for Glory
 slug: prophetic-voice-266
+keywords: ["political revival","transfer of wealth","intimacy with jesus","prophecy"]
 showTranscript: false
 date: 2017-03-25
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT_E266_17_03_25-26_Get_Ready_for_Glory.mp3
