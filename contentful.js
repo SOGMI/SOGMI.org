@@ -22,12 +22,7 @@ const client = contentful.createClient({
 })*/
 
 
-function wait() {
-    sleep.msleep(10)
-}
-
 function writeEntriesForType(contentType) {
-    sleep.msleep(1000)
     client.getEntries({
         content_type: contentType.sys.id
     })
