@@ -1,5 +1,5 @@
 ---
-title: Hi this is a new post 3.0
+title: Hi this is a new post
 slug: hi-this-is-a-new-post
 date: 2018-03-03
 authors: Mike Sosso
