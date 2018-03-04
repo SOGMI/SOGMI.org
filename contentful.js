@@ -4,7 +4,6 @@ var slugify = require('slugify')
 const mkdirp = require('mkdirp')
 var fs = require('fs')
 var argv = require('minimist')(process.argv.slice(2))
-var sleep = require('sleep');
 
 const SPACE_ID = 'vfgh62eq5a4k'
 const ACCESS_TOKEN = '00ae52ccc5d7e46ccbfcace0e86689f47068f627843cd0a7a7107824eb58b384'
