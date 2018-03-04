@@ -5,8 +5,7 @@
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
     "publish": "node contentful.js && hugo",
-    "pretest": "node contentful.js",
-    "test": "node contentful.js | hugo server"
+    "test": "node contentful.js && hugo server"
   },
   "dependencies": {
     "contentful": "^5.1.1",
