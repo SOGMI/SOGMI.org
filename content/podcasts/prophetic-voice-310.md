@@ -1,5 +1,5 @@
 ---
-title: Intimacy With God 3.0
+title: Intimacy With God 1
 slug: prophetic-voice-310
 keywords: ["love of god","bride of christ","intimacy with god","relationship with god"]
 showTranscript: false
