@@ -7,11 +7,12 @@
   "scripts": {
     "prepublish": "node wait.js && node contentful.js",
     "publish": "hugo && npm run minifyjson",
-    "postpublish": "atomic-algolia & npm run minify",
+    "postpublish": "atomic-algolia & npm run minify & npm run compressjs",
     "test": "node contentful.js && hugo server",
     "algolia": "atomic-algolia",
     "minify": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext html",
-    "minifyjson": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext json"
+    "minifyjson": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext json",
+    "compressjs": "uglifyjs ./public/js/sons-of-god.js --compress --mangle --output ./public/js/sons-of-god.js"
   },
   "dependencies": {
     "atomic-algolia": "^0.3.11",
@@ -23,6 +24,7 @@
     "mkdirp": "^0.5.1",
     "netlify-cli": "^1.2.2",
     "request": "^2.83.0",
-    "slugify": "^1.2.9"
+    "slugify": "^1.2.9",
+    "uglify-js": "^3.3.13"
   }
 }
