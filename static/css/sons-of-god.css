@@ -4574,7 +4574,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     margin-left: -150px;
   }
   .podcast-single-comment-block {
-    width: 65%;
+    width: 100%;
   }
   .mask-3 {
     overflow: hidden;

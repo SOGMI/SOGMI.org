@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  Last Published: Sun Jan 28 2018 21:50:55 GMT+0000 (UTC)  -->
-<html data-wf-page="5a0281c89a6ada000101512d" data-wf-site="59d9b3659215eb00015d7bab" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8"> 
@@ -17,7 +17,9 @@
       {{ end }} 
     {{ end }} 
   {{ end }}
+  <link rel="canonical" href="{{ .Permalink }}">
   <meta name="description" content="{{ if .Description }}{{ truncate 160 .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}" />
+  <meta name="generator" content="Hugo 0.36.1" />
   <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" />
   <meta property="og:description" content="{{ truncate 160 .Description }}" />
   <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.Youtubethumbnail }}{{ .Params.YoutubeThumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}"

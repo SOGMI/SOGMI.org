@@ -6,15 +6,18 @@
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
     "prepublish": "node wait.js && node contentful.js",
-    "publish": "hugo",
-    "postpublish": "npm run algolia",
+    "publish": "hugo && npm run minifyjson",
+    "postpublish": "atomic-algolia & npm run minify",
     "test": "node contentful.js && hugo server",
-    "algolia": "atomic-algolia"
+    "algolia": "atomic-algolia",
+    "minify": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext html",
+    "minifyjson": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext json"
   },
   "dependencies": {
     "atomic-algolia": "^0.3.11",
     "contentful": "^5.1.1",
     "fs": "0.0.1-security",
+    "html-minifier": "^3.5.10",
     "instantsearch.js": "^2.5.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",

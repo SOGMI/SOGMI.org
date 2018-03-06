@@ -98,6 +98,9 @@
     padding: 50px;
     background: var(--white);
 }
+.w-form {
+    display: none;
+}
 .div-block-84.map {
     max-width: 1200px
 }

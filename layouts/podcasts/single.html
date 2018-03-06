@@ -75,17 +75,23 @@
           {{ partial "share-buttons.html" . }}
         </div>
         <div id="comments" class="podcast-single-comment-block">
-          <div class="html-embed-17 w-embed"><a href="#" class="show-comments rounded" onclick="disqus();return false;" data-ix="show-comments">Show Comments</a></div>
-          <div class="comment-wrapper-div">
-            <a href="#" class="show-comments rounded hidden w-inline-block">
-              <div>Hide Comments</div>
-            </a>
-            <a href="#" class="hide-comments-button rounded w-inline-block" data-ix="hide-comments">
-              <div class="hide-text">Hide Comments</div>
-              <div class="show-text">Show Comments</div>
-            </a>
-            <div id="disqus_thread" class="disqus-thread"></div>
-          </div>
+          <div id="disqus_thread" class="disqus-thread" style="padding: 0px"></div>
+          <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            var disqus_config = function() {
+              this.page.url = '{{ .Permalink }}'; // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = '{{ .Permalink }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document,
+                s = d.createElement('script');
+              s.src = 'https://sogmi.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+          </script>
         </div>
         {{ partial "related-podcasts.html" . }}
       </div>
