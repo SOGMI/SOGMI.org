@@ -7,6 +7,19 @@ canonifyURLs = false
     saturday = "Tune into our livestream tomorrow morning at 11:00 AM CST"
     sunday = "Join our livestream today at 11:00 AM CST! Video of the livestream is uploaded every Sunday evening for viewing."
 
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "relpermalink", "description", "section", "content"]
+params = ["collections", "tags", "series", "hosts", "authors", "keywords", "videokeywords", "featuredimage", "thumbnail", "profilephoto", "position"]
+
 [taxonomies]
     tag="tags"
     collection="collections"

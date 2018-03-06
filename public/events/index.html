@@ -24,16 +24,40 @@
   />
   <meta name="twitter:card" content="summary" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.2/dist/instantsearch.min.css">
+  
   <link href=/css/normalize.css rel="stylesheet" type="text/css">
   <link href=/css/components.css rel="stylesheet" type="text/css">
   <link href=/css/sons-of-god.css rel="stylesheet" type="text/css">
   <link href=/css/sogmi.css rel="stylesheet" type="text/css">
+  
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 
 <body>
   <div class="header-section">
+    <div id="search-modal" class="">
+    <div class="container">
+        <div id="closeSearch" class="top-nav-link w-inline-block">
+            <span class="text-block-25"></span>
+            <span>&nbsp;close search</span>
+        </div>
+        <input type="text" id="search-input" name="search-input"/>
+
+        <div id="hits">
+            
+        </div>
+        <div style="display:flex; justify-content: space-between; align-items: center">
+        <div id="stats">
+            
+        </div>
+        <a href="https://www.algolia.com/"><img src="/img/search-by-algolia.png" width="100"/></a>
+        </div>
+    </div>
+</div>
     <div class="mobile-menu-wrapper">
       <div data-w-id="d3242deb-f5ec-69c4-a2ef-0fd638dc31b2" class="menu-dark-overlay"></div>
       <div data-w-id="e1647646-0043-423f-743e-d0bcb7846416" class="navigation-mobile">
@@ -83,9 +107,13 @@
     <div class="top-nav">
     <div class="navbar-container">
         <div class="top-nav-inner">
+        <label id="searchButton" for="search-input"class="top-nav-link w-inline-block">
+            <div class="text-block-25"></div>
+            <div class="text-block-26">&nbsp;Search Website</div>
+        </label>
         <a href="https://wpsogmi.modiimedia.com" class="top-nav-link w-inline-block">
-            <div class="text-block-25"></div>
-            <div class="text-block-26">&nbsp;&nbsp;Partner Login</div>
+            <div class="text-block-25"></div>
+            <div class="text-block-26">&nbsp;Partner Login</div>
         </a>
         </div>
     </div>
@@ -274,7 +302,7 @@
       families: ["Poppins:300,300italic,400,regular,italic,500,600,700"]
     }
   });
-
+  
 
 </script>
 
@@ -285,19 +313,38 @@
     n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
   }(window, document);
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-<script src=/js/sons-of-god.js type="text/javascript"></script>
 
-<script src="https://use.fontawesome.com/9c0dff1360.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.2"></script>
+<script src=/js/sons-of-god.js type="text/javascript"></script>
+<script src=/js/search.js type="text/javascript"></script>
+
+
+
 
 
 <script id="dsq-count-scr" src="https://sogmi.disqus.com/count.js" async></script>
 
+<script>
+  $('#searchButton, #closeSearch').click(function(){
+      $('#search-modal').toggleClass('');
+      $('#search-modal').toggleClass('active');
+  });
+</script>
 
 <script>
-        $('#show-transcript').click(function(){
-        $('#transcript').addClass("active");
-    });
+$( "#search-input" ).keyup(function() {
+
+  var input = $('#search-input');
+  var results = $('#hits');
+
+  if (input.val().length > 0) {
+    results.addClass('show');
+  } else {
+    results.removeClass('show')
+  }
+
+});
 </script>
 </body>
 </html>

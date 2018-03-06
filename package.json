@@ -1,17 +1,21 @@
 {
   "name": "sogmi-website",
   "version": "1.0.0",
-  "license": "",
+  "license": "Unlicensed",
   "description": "Website for Sons of God Ministries International. Content is pulled from Contentful API and turned into Markdown files for Hugo to render as a static site.",
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
     "prepublish": "node wait.js && node contentful.js",
     "publish": "hugo",
-    "test": "node contentful.js && hugo server"
+    "postpublish": "npm run algolia",
+    "test": "node contentful.js && hugo server",
+    "algolia": "atomic-algolia"
   },
   "dependencies": {
+    "atomic-algolia": "^0.3.11",
     "contentful": "^5.1.1",
     "fs": "0.0.1-security",
+    "instantsearch.js": "^2.5.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "netlify-cli": "^1.2.2",

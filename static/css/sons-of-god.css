@@ -369,16 +369,19 @@ figcaption {
 
 .top-nav-link {
   padding: 10px 10px 5px;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
+  -webkit-transition: color 200ms ease, opacity 200ms ease;
+  transition: color 200ms ease, opacity 200ms ease;
   color: #333;
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .top-nav-link:hover {
   color: #ffb642;
+  opacity: 1
 }
 
 .brand {

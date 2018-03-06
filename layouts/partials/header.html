@@ -24,16 +24,22 @@
   />
   <meta name="twitter:card" content="summary" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--algolia css-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.2/dist/instantsearch.min.css">
+  <!--css files-->
   <link href={{ "css/normalize.css" | relURL }} rel="stylesheet" type="text/css">
   <link href={{ "css/components.css" | relURL }} rel="stylesheet" type="text/css">
   <link href={{ "css/sons-of-god.css" | relURL }} rel="stylesheet" type="text/css">
   <link href={{ "css/sogmi.css" | relURL }} rel="stylesheet" type="text/css">
+  <!--favicon-->
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <!--weblip image: image that appears when you save the site as a shortcut on your phone-->
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 
 <body>
   <div class="header-section">
+    {{ partial "search-modal.html" }}
     <div class="mobile-menu-wrapper">
       <div data-w-id="d3242deb-f5ec-69c4-a2ef-0fd638dc31b2" class="menu-dark-overlay"></div>
       <div data-w-id="e1647646-0043-423f-743e-d0bcb7846416" class="navigation-mobile">

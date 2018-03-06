@@ -44,4 +44,5 @@ grid4:
     buttontext: See Our Service Times
     gridlink: /locations/freedom-fellowship-church
     image: 
+disableSearch: true
 ---
