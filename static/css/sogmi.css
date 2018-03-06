@@ -202,6 +202,7 @@ body
         font-weight: bold;
         transition: color 200ms ease;
         -webkit-transition: color 300ms ease;
+        margin-bottom: 5px
     }
     #search-modal.active {
         display: flex;
@@ -277,7 +278,15 @@ body
         border-bottom: 1px solid var(--light-gray-2);
     }
     .hit:hover .title{
-        color: var(--highlight);
+        color: var(--light-blue);
+    }
+    .hit .itemsection {
+        padding: 5px 10px;
+        border: 1px solid var(--light-blue);
+        color: var(--light-blue);
+        display: inline-block;
+        font-size: 0.7rem!important;
+        line-height: 0.7rem!important;
     }
     .ais-refinement-list--label {
         font-weight: normal;
@@ -312,6 +321,17 @@ body
     #stats {
         font-size: 12px;
         margin: 20px 0px;
+    }
+    .keyword-block {
+        font-size: 12px;
+        line-height: 20px;
+        margin: -5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .keyword-block div {
+        margin: 5px;
+        color: var(--light-blue);
     }
     @media (max-width: 479px) {
         .hit-image {
