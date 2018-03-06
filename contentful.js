@@ -15,12 +15,6 @@ const client = contentful.createClient({
   accessToken: ACCESS_TOKEN
 })
 
-/*const client = contentful.createClient({
-  space: argv['space'] ? argv['space'] : process.env.CONTENTFUL_SPACE,
-  accessToken: argv['token'] ? argv['token'] : process.env.CONTENTFUL_TOKEN
-})*/
-
-
 function writeEntriesForType(contentType) {
     client.getEntries({
         content_type: contentType.sys.id
