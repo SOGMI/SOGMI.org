@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<div class="header-image articles" style="background-image: URL({{ .Params.FeaturedImage}}?w=1800&q=80&fit=scale)">
+<div class="header-image articles" style="background-image: URL({{ .Params.FeaturedImage}}?w=2000&h=600&q=50&fit=crop)">
     <div class="banner-container">
       <h1 class="archive-heading">{{ .Title }}</h1>
     </div>
@@ -31,7 +31,7 @@
             <div class="div-block-63">
             {{ range $name, $taxonomy := .Site.Taxonomies.collections }}
               <div class="div-block-62">
-                <a href="/collections/{{ $name | urlize }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ $.Params.FeaturedImage}})">
+                <a href="/collections/{{ $name | urlize }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ $.Params.FeaturedImage}}?w=400&q=60&fit=scale)">
                   <div class="text-block-28">{{ replaceRE "-" " "  $name | title }}</div>
                   <div class="image-color-overlay"></div>
                 </a>

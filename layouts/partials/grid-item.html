@@ -2,22 +2,22 @@
     <li data-title="{{ .Title }}" class="podcast-grid-item">
         <a href="{{ .Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block">
           {{ if .Params.Thumbnail }}
-          <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}})">
+          <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}}?w=600&q=80&fit=scale)">
             <div class="play-notification">PLAY</div>
             <div class="podcast-grid-image-overlay"></div>
           </div>
           <span></span>
-          <div class="podcast-grid-image-2" style="background-image: url({{ .Params.Thumbnail }}); background-size: cover; background-position: center center;">
+          <div class="podcast-grid-image-2" style="background-image: url({{ .Params.Thumbnail }}?w=600&q=80&fit=scale); background-size: cover; background-position: center center;">
             <div class="play-notification-2">PLAYING...</div>
           </div>
           {{ else }}
             {{ if .Params.FeaturedImage }}
-              <div class="podcast-grid-image" style="background-image: url({{ .Params.FeaturedImage }}?w=400&h=400)">
+              <div class="podcast-grid-image" style="background-image: url({{ .Params.FeaturedImage }}?w=600&q=80&fit=scale)">
                 <div class="play-notification">PLAY</div>
                 <div class="podcast-grid-image-overlay"></div>
               </div>
               <span></span>
-              <div class="podcast-grid-image-2" style="background-image: url({{ .Params.FeaturedImage }}?w=400&h=400); background-size: cover; background-position: center center;">
+              <div class="podcast-grid-image-2" style="background-image: url({{ .Params.FeaturedImage }}?w=600&q=80&fit=scale); background-size: cover; background-position: center center;">
                 <div class="play-notification-2">PLAYING...</div>
               </div>
             {{ else }}
@@ -97,9 +97,9 @@
             <div class="div-block-64">
                 <div class="image-color-overlay"></div>
                 {{ if .Params.Thumbnail }}
-                <div class="grid-image" style="background-image:URL({{ .Params.Thumbnail }})">
+                <div class="grid-image" style="background-image:URL({{ .Params.Thumbnail }}?w=600&q=70&fit=scale)">
                 {{ else }}
-                <div class="grid-image" style="background-image:URL({{ .Params.FeaturedImage }}?w=400&h=400&q=80)">
+                <div class="grid-image" style="background-image:URL({{ .Params.FeaturedImage }}?w=600&q=70&fit=scale)">
                 {{ end }}
                 <div class="blog-grid-read-more">Read More</div>
                 </div>

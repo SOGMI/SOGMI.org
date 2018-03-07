@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<div class="donation-banner" style="background-image: URL({{.Params.FeaturedImage}}?w=1500&q=80)">
+<div class="donation-banner" style="background-image: URL({{.Params.FeaturedImage}}?w=1600&q=80&h=600&fit=crop)">
     <div class="image-overlay"></div>
     <div id="donation-wrapper" class="donation-wrapper">
         <div class="donation-wrapper-initial">
@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 {{ else }}
-                    <div class="section-dark" style="background-image: URL({{ $dark }})">
+                    <div class="section-dark" style="background-image: URL({{ $dark }}?w=1600&q=80&fit=scale)">
                         <div class="image-overlay"></div>
                         <div class="container">
                                 <div class="standard-grid-wrapper right-align">
