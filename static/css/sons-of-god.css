@@ -1627,7 +1627,7 @@ figcaption {
 .div-block-14 {
   position: relative;
   z-index: 1;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 .column-6 {

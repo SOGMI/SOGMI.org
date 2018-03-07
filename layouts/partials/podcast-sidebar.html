@@ -36,7 +36,7 @@
             {{ end }}
             </div>
         -->
-        <h3 class="heading-14">Sort by Topic:</h3>
+        <h3 class="sidebar-heading">Popular Topics</h3>
         <div class="unordered-list-2 w-list-unstyled">
             {{ range first 10 .Site.Taxonomies.keywords.ByCount }}
             <a href="/keywords/{{ .Name | urlize }}" class="list-item-2">

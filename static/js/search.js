@@ -18,7 +18,6 @@ const search = instantsearch({
     })
   );
 
-
   var hittemplate =
   '<a href={{relpermalink}} class="hit">' +
     '<div class="hit-image" style="background-image: URL({{featuredimage}}{{profilephoto}}?w=200&q=80)"></div>' +
@@ -28,7 +27,6 @@ const search = instantsearch({
       '<p class="itemsection">{{section}}</p>' +
     '</div>' +
   '</a>';
-
 
   search.addWidget(
     instantsearch.widgets.hits({
