@@ -3711,13 +3711,17 @@ figcaption {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-  background-attachment: scroll, fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   color: #fff;
   text-align: left;
 }
+.donation-banner .image-overlay {
+  opacity: .7
+}
+
 
 .donation-amount {
   padding: 5px 3px;
@@ -4069,7 +4073,7 @@ figcaption {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #e7e7e7;
-  background-image: url('../images/white_paperboard.png');
+  background-image: url('../img/white_paperboard.png');
   background-position: 50% 50%;
   background-size: 100px;
   background-repeat: repeat;
@@ -4081,10 +4085,27 @@ figcaption {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #0f1f38;
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-attachment: scroll, fixed;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
   color: #fff;
+}
+.section-dark .image-overlay {
+  opacity: .7;
+}
+.section-light h2 {
+  display: inline-block;
+  margin-top: 0px;
+  border-bottom: 5px solid #ffb642;
+  font-size: 40px;
+  line-height: 50px;
+}
+.section-dark h2 {
+  display: inline-block;
+  margin-top: 0px;
+  border-bottom: 5px solid #ffb642;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .page-rich-text blockquote {
@@ -4162,6 +4183,12 @@ figcaption {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
+  z-index: 100;
+}
+.donation-wrapper.fixed-form {
+  position: fixed;
+  top: 100px;
+  width: 100%;
 }
 
 .view-gallery-button {

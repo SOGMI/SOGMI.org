@@ -1,0 +1,79 @@
+{{ partial "header.html" . }}
+
+<div class="donation-banner" style="background-image: URL({{.Params.FeaturedImage}}?w=1500&q=80)">
+    <div class="image-overlay"></div>
+    <div id="donation-wrapper" class="donation-wrapper">
+        <div class="donation-wrapper-initial">
+            <h3 class="heading-46">Support SOGMI</h3>
+            <form>
+                <label>What kind of donation would you like to make?</label>
+                <select id="donation-type" onchange="window.location=this.value" name="option-picker" class="select-field w-select">
+                    <option value="">Select one...</option>
+                    <option value="{{ .Params.MonthlyDonation }}">monthly donation</option>
+                    <option value="{{ .Params.OneTimeDonation }}">one-time donation</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div class="container donation">
+        <div class="div-block-68">
+            <h1 class="heading-44">{{ .Params.Heading }}</h1>
+            <p>{{ .Params.Subheading }}</p>
+        </div>
+        <div class="donation-wrapper-smaller-devices">
+            <h3 class="heading-46">Support SOGMI</h3>
+            <label>What kind of donation would you like to make?</label>
+            <select id="donation-type" onchange="window.location=this.value" name="option-picker" class="select-field w-select">
+                <option value="">Select one...</option>
+                <option value="{{ .Params.MonthlyDonation }}">monthly donation</option>
+                <option value="{{ .Params.OneTimeDonation }}">one-time donation</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div id="main-content" class="div-block-81">
+    {{ $dark := .Params.DarkBackground }}
+    {{ if eq .Params.layout "lightdark" }}
+        {{ $split := split .Content "<section>" }}
+        {{ range first 1 $split }}
+            <div class="section-light first">
+                <div class="container">
+                    <div class="standard-grid-wrapper right-align">
+                        <div class="flex-item-expand">
+                            {{ markdownify . }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+        {{ range after 1 $split }}
+            {{ $.Scratch.Add "i" 1 }}
+            {{ $i := $.Scratch.Get "i" }}
+                {{ if modBool $i 2 }}
+                <div class="section-light">
+                    <div class="container">
+                        <div class="standard-grid-wrapper right-align">
+                            <div class="flex-item-expand">
+                                {{ markdownify . }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ else }}
+                    <div class="section-dark" style="background-image: URL({{ $dark }})">
+                        <div class="image-overlay"></div>
+                        <div class="container">
+                                <div class="standard-grid-wrapper right-align">
+                                    <div class="flex-item-expand">
+                                        {{ markdownify . }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                {{ end }}
+        {{ end }}
+    {{ end }}
+</div>
+</div>
+
+{{ partial "footer.html" . }}
