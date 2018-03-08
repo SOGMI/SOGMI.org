@@ -10,7 +10,7 @@ canonifyURLs = false
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
 section = ["HTML", "RSS"]
-taxonomy = ["HTML", "RSS"]
+taxonomy = ["HTML"]
 taxonomyTerm = ["HTML", "RSS"]
 
 [outputFormats.Algolia]
