@@ -9,5 +9,5 @@ Series: The Prophetic Voice of Our Time
 episodeNumber: 304
 description: 2018 is going to be a year of dreams coming true, of supernatural manifestation, supernatural revelation, and new things coming forth in our lives and in the Body of Christ. Moving into this year, it is so important that we follow the Holy Spirit instead of clinging to fruitless doctrines.
 hosts: ["Joshua Sosso"]
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/34rFC5FS5a2Su4YQs0GW0K/bf8e90962701acda5f785ee00663cefd/bible.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/34rFC5FS5a2Su4YQs0GW0K/bf8e90962701acda5f785ee00663cefd/bible.jpg"
 ---

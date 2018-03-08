@@ -9,5 +9,5 @@ Series: The Prophetic Voice of Our Time
 episodeNumber: 301
 description: God is really purposing in our hearts to prepare for this time and for what He has in store. Pastor Cris invited Ptr. Charles Wickliffe to elaborate more on the topic of spiritual authority.
 hosts: ["Nicole Mendoza","Charles Wickliffe"]
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/1qZ33aKNGEiWsWWGsYSQ2g/5fe6d0f9cc82c8f10a0fb6143f23384d/priscilla-du-preez-172593-unsplash__1_.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/1qZ33aKNGEiWsWWGsYSQ2g/5fe6d0f9cc82c8f10a0fb6143f23384d/priscilla-du-preez-172593-unsplash__1_.jpg"
 ---

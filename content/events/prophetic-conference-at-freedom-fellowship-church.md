@@ -8,7 +8,7 @@ speakers: ["Cristina Sosso","Mike Sosso","Joshua Sosso"]
 freeEvent: true
 startDate: 2018-03-30
 endDate: 2018-03-31
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/6t1oOVZIWWUo44sAKcASWk/75a9d281912c0f948f1d90ff792636fc/prophetic_gathering_2018_march_-_without_text__1_.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6t1oOVZIWWUo44sAKcASWk/75a9d281912c0f948f1d90ff792636fc/prophetic_gathering_2018_march_-_without_text__1_.jpg"
 registrationType: Eventbrite
 eventbriteId: 43279056824
 eventbriteURL: https://www.eventbrite.com/e/prophetic-conference-at-freedom-fellowship-church-tickets-43279056824

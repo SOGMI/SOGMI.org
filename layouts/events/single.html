@@ -108,19 +108,23 @@
                     <!--create a loop for each speaker "." represents the item name. Assign "." the variable $val-->
                     {{ range $ind,$val := . }}
                         <!--make $val url friendly and assign it a new variable "$speaker"-->
-                        {{ $speaker := $val | urlize }}
+                        {{ $speaker := $val | title }}
                         <!--get pages in the "people" directory that match "$speaker"-->
-                        {{- with $.Site.GetPage "page" "people" $speaker }}
-                            <div class="event-speaker-item">
-                                <div class="event-speaker-inner">
-                                    <div class="speaker-photo" style="background-image: URL({{ .Params.ProfilePhoto }}?w=300)"></div>
-                                    <div class="div-block-82">
-                                        <h2 class="heading-11">{{ .Title }}</h2>
-                                        <p class="paragraph-13">{{ .Params.Bio }}</p>
-                                        <a href="{{ .RelPermalink }}" class="button-9 w-button events">View Profile</a>
+                        {{ range $.Site.Pages }}
+                            {{ if eq .Section "people" }}
+                                {{ if eq .Title $speaker }}
+                                    <div class="event-speaker-item">
+                                        <div class="event-speaker-inner">
+                                            <div class="speaker-photo" style="background-image: URL({{ .Params.ProfilePhoto }}?w=300)"></div>
+                                            <div class="div-block-82">
+                                                <h2 class="heading-11">{{ .Title }}</h2>
+                                                <p class="paragraph-13">{{ .Params.Bio }}</p>
+                                                <a href="{{ .RelPermalink }}" class="button-9 w-button events">View Profile</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
+                                {{ end }}
+                            {{ end }}
                         {{ end }}
                     {{ end }}
                 </div>

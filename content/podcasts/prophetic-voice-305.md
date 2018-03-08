@@ -9,6 +9,6 @@ Series: The Prophetic Voice of Our Time
 episodeNumber: 305
 description: Pastor Cris is back to share some of the challeneges, prophecies, and encouragement for the Body. God fulfilled His word in glorious ways in 2017, and there's even greater things prophesied to come in 2018!
 hosts: ["Cristina Sosso"]
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/WAOOy3TbKSM0KQqYckOYK/25ab30062a940a41fdb217e8ddfe74c1/konstantin-planinski-395938-unsplash__1_.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/WAOOy3TbKSM0KQqYckOYK/25ab30062a940a41fdb217e8ddfe74c1/konstantin-planinski-395938-unsplash__1_.jpg"
 ---
 asdfasdfas

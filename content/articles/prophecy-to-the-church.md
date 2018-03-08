@@ -4,7 +4,7 @@ slug: prophecy-to-the-church
 date: 2010-11-01
 authors: Coby Randal
 description: The following is a prophecy released back in 2010 to the Body of Christ
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/5KH3rRY5FuC4iaYoykeUEs/0c30b64b0c4a40c192d2fc121fc6153a/ben-white-292680-unsplash__1_.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/5KH3rRY5FuC4iaYoykeUEs/0c30b64b0c4a40c192d2fc121fc6153a/ben-white-292680-unsplash__1_.jpg"
 tags: ["prophecy"]
 ---
 The following is a prophecy released back in 2010

@@ -4,7 +4,7 @@ slug: prophecy-for-2014
 date: 2014-01-03
 authors: Coby Randal
 description: The following is an excerpt from the December 31, 2013 Prophetic Conference
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/4AOoedF1KEMmMU2SuOSKUo/1ab9ef10e297827ef1f36628355f2646/good-free-photos-561-unsplash.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4AOoedF1KEMmMU2SuOSKUo/1ab9ef10e297827ef1f36628355f2646/good-free-photos-561-unsplash.jpg"
 tags: ["prophetic word","prophecy","united states of america","personal prophecy"]
 ---
 *The following is an excerpt from the December 31, 2013 Prophetic Conference:*

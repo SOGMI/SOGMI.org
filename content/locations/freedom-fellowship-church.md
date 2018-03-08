@@ -1,17 +1,17 @@
 ---
 Title: Freedom Fellowship Church
 slug: freedom-fellowship-church
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/3JcYYDy3rWqUoiwIyyG4c0/1975a10e18c51f8a690b2d17e11e166e/1476219649510"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3JcYYDy3rWqUoiwIyyG4c0/1975a10e18c51f8a690b2d17e11e166e/1476219649510"
 streetAddress: 8419 Callaghan Road
 city: San Antonio
 region: TX
 zipCode: 78230
 country: United States
 location: {"lon":-98.54725339999999,"lat":29.5169084}
-photo1: "//images.contentful.com/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg"
-photo2: "//images.contentful.com/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg"
-photo3: "//images.contentful.com/vfgh62eq5a4k/WAOOy3TbKSM0KQqYckOYK/25ab30062a940a41fdb217e8ddfe74c1/konstantin-planinski-395938-unsplash__1_.jpg"
-photo4: "//images.contentful.com/vfgh62eq5a4k/7zmKSP8tkA22YIUYWskyom/4f6819d848139d2b937518df8c3c64b2/bart-larue-314562-unsplash__2_.jpg"
+photo1: "//images.ctfassets.net/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg"
+photo2: "//images.ctfassets.net/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg"
+photo3: "//images.ctfassets.net/vfgh62eq5a4k/WAOOy3TbKSM0KQqYckOYK/25ab30062a940a41fdb217e8ddfe74c1/konstantin-planinski-395938-unsplash__1_.jpg"
+photo4: "//images.ctfassets.net/vfgh62eq5a4k/7zmKSP8tkA22YIUYWskyom/4f6819d848139d2b937518df8c3c64b2/bart-larue-314562-unsplash__2_.jpg"
 phoneNumber: +1 210 396 7891
 email: info@sogmi.org
 facebook: https://www.facebook.com/Freedom.Fellowship.International/

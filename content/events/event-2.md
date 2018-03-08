@@ -8,7 +8,7 @@ speakers: ["Joshua Sosso"]
 freeEvent: true
 startDate: 2018-04-01
 endDate: 2018-04-05
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/j1gmI3KT28wOoaGQagWCa/4d7e9f3a771eaa4a77e4d6e42e674f51/redd-angelo-110463_smaller.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/j1gmI3KT28wOoaGQagWCa/4d7e9f3a771eaa4a77e4d6e42e674f51/redd-angelo-110463_smaller.jpg"
 registrationType: Paypal
 city: San Antonio
 state: Texas

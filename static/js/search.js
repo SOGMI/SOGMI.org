@@ -23,7 +23,7 @@ const search = instantsearch({
     '<div class="hit-image" style="background-image: URL({{featuredimage}}{{profilephoto}}?w=200&q=80)"></div>' +
     '<div class="hit-content">'+
       '<p class="title">{{{_highlightResult.title.value}}}</p>' +
-      '<p>{{{_highlightResult.description.value}}}</p>' + 
+      '<p>{{{_snippetResult.description.value}}}...</p>' + 
       '<p class="itemsection">{{section}}</p>' +
     '</div>' +
   '</a>';

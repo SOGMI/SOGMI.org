@@ -4,7 +4,7 @@ slug: what-a-great-time-to-be-alive
 date: 2011-03-01
 authors: Cristina Sosso
 description: I cannot put into words the awesome wonders of our Lord Jesus Christ! All I can say is that it is great to be alive (in Christ). Right before our eyes, we see the transformation of our nation and this is just the beginning! What’s even more exciting than this is the fact the...
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg"
 tags: ["united states of america","politics","prophetic instructions"]
 ---
 I cannot put into words the awesome wonders of our Lord Jesus Christ! All I can say is that it is great to be alive (in Christ). Right before our eyes, we see the transformation of our nation and this is just the beginning! What’s even more exciting than this is the fact the Lord always shares His plans, His thoughts, and His heart with the Body of Christ if we have ears to hear and eyes to see! (John 15:15) He always tells us the end before it happens. We would not know how to do the things He does, but it is not our responsibility to figure things out (Isaiah 55:8-9). Our only responsibility is to believe (Romans 8:24) and obey what He commands us to do. Obey our instruction because the Word of God will never fail!

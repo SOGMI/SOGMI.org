@@ -9,6 +9,6 @@ Series: The Prophetic Voice of Our Time
 episodeNumber: 306
 description: “Once you allow your flesh and your own understanding to go back, you’re going back to the same challenges as before, but if you push through [by His Spirit] there is always something supernatural that will follow you.”
 hosts: ["Cristina Sosso","Joshua Sosso"]
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/1a8a4ks5ZioAYcEAse0aya/20bf54a5edad47c5d7f2ac064112d543/artem-kovalev-352626-unsplash.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/1a8a4ks5ZioAYcEAse0aya/20bf54a5edad47c5d7f2ac064112d543/artem-kovalev-352626-unsplash.jpg"
 photoCredit: photo by Artem Kovalev on Unsplash
 ---

@@ -9,7 +9,7 @@ Series: The Prophetic Voice of Our Time
 episodeNumber: 309
 description: Pastor Cris reviews prophecies released for 2018.
 hosts: ["Cristina Sosso"]
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/2AE9r5SIR6ogco6kAgy80Y/758afdb718203b2f8630551b62f95ad3/azgan-mjeshtri-435130-unsplash.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/2AE9r5SIR6ogco6kAgy80Y/758afdb718203b2f8630551b62f95ad3/azgan-mjeshtri-435130-unsplash.jpg"
 ---
 
 

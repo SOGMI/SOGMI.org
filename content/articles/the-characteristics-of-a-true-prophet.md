@@ -4,7 +4,7 @@ slug: the-characteristics-of-a-true-prophet
 date: 2010-08-21
 authors: Ed Grubb
 description: Understanding the difference between a real Prophet of God and a false prophet. Someone with a trained eye can recognize a fake piece of jewelry, because they know where to look and recognize the flaw. We can train ourselves to recognize false pro...
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/34rFC5FS5a2Su4YQs0GW0K/bf8e90962701acda5f785ee00663cefd/bible.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/34rFC5FS5a2Su4YQs0GW0K/bf8e90962701acda5f785ee00663cefd/bible.jpg"
 tags: ["prophecy","prophets"]
 collections: The Characteristics of a True Prophet
 ---

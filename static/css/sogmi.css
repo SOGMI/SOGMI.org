@@ -380,7 +380,25 @@ body
             height: 50px;
         }
     }
-
+    @media (max-width: 479px) {
+        #search-modal {
+            padding: 30px 0px 0px 0px;
+        }
+        #closeSearch {
+            position: absolute;
+            top: -25px;
+            right: auto;
+            left: 10px;
+            z-index: 1;
+        }
+        #search-modal .title {
+            font-size: 0.9rem;
+            line-height: .9rem;
+        }
+        #search-modal p {
+            font-size: .7rem;
+        }
+    }
 /* end search */
 
 .series-grid-inner:hover .series-grid-item-image .image-color-overlay {

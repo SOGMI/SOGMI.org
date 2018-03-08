@@ -9,5 +9,5 @@ Series: The Prophetic Voice of Our Time
 episodeNumber: 300
 description: Philippine Christmas missions stories, plus "The nativity scenes are restored in the White House. Praise You Lord! Why? Because you and I pressed forward and we continue to celebrate this season [with] Jesus front and center of our celebration."
 hosts: ["Cristina Sosso"]
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/2IP7qahvKgc4e0emkWKsC6/956c680f66260acbab87210d4264edee/joanna-kosinska-488795-unsplash__1_.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/2IP7qahvKgc4e0emkWKsC6/956c680f66260acbab87210d4264edee/joanna-kosinska-488795-unsplash__1_.jpg"
 ---

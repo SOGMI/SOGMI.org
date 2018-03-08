@@ -9,6 +9,6 @@ Series: The Prophetic Voice of Our Time
 episodeNumber: 310
 description: Pastor Cris shares on the deep hunger that God is putting in His people to seek Him out and to get to know Him intimately. She also shares some of her romantic and miraculous experiences with God.
 hosts: ["Cristina Sosso"]
-featuredImage: "//images.contentful.com/vfgh62eq5a4k/7zmKSP8tkA22YIUYWskyom/4f6819d848139d2b937518df8c3c64b2/bart-larue-314562-unsplash__2_.jpg"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/7zmKSP8tkA22YIUYWskyom/4f6819d848139d2b937518df8c3c64b2/bart-larue-314562-unsplash__2_.jpg"
 photoCredit: Photo by Bart LaRue on Unsplash
 ---
