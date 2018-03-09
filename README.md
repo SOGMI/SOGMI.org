@@ -16,7 +16,7 @@ The code in the Contentful.js file was taken from [this repository](https://gith
 
 ## Usage
 
-### Prerequesites
+### Prerequisites
 Before you can start working in a local environment you need to download [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm). I recommend the latest LTS version for Node.
 
 After that clone this repository and run the following in your command line.
