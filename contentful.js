@@ -4,15 +4,11 @@ var slugify = require('slugify')
 const mkdirp = require('mkdirp')
 var fs = require('fs')
 var argv = require('minimist')(process.argv.slice(2))
-
-const SPACE_ID = 'vfgh62eq5a4k'
-const ACCESS_TOKEN = '00ae52ccc5d7e46ccbfcace0e86689f47068f627843cd0a7a7107824eb58b384'
+var dotenv = require("dotenv").config()
 
 const client = contentful.createClient({
-  // This is the space ID. A space is like a project folder in Contentful terms
-  space: SPACE_ID,
-  // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
-  accessToken: ACCESS_TOKEN
+  space: process.env.CONTENTFUL_SPACE,
+  accessToken: process.env.CONTENTFUL_TOKEN
 })
 
 function writeEntriesForType(contentType) {

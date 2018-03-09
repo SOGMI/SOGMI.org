@@ -1,7 +1,7 @@
 {
   "name": "sogmi-website",
   "version": "1.0.0",
-  "license": "Unlicensed",
+  "license": "ICS",
   "description": "Website for Sons of God Ministries International. Content is pulled from Contentful API and turned into Markdown files for Hugo to render as a static site.",
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
@@ -17,6 +17,7 @@
   "dependencies": {
     "atomic-algolia": "^0.3.11",
     "contentful": "^5.1.1",
+    "dotenv": "^5.0.1",
     "fs": "0.0.1-security",
     "html-minifier": "^3.5.10",
     "instantsearch.js": "^2.5.2",

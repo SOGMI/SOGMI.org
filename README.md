@@ -1,10 +1,18 @@
 # This is the Repository For SOGMI.org
 
-SOGMI.org uses [Hugo](http:gohugo.io) to generate a static website from content stored in [Contentful](http://contentful.com).
+SOGMI.org uses [Hugo](http:gohugo.io) to generate a static website from content stored in [Contentful](http://contentful.com). 
 
-The static files are hosted on [Netlify](http://netlify.com), and [Algolia](http://algolia.com) is used to power the search.
+[Netlify](http://netlify.com) is used to host the website, and [Algolia](http://algolia.com) is used to power the search.
 
 All content (i.e. articles, videos, podcasts, ect) utilized in this site is the intellectual property of Sons of God Ministries International. You are however welcome to clone and/or use this project as an example for any of your endeavors.
+
+This site gives a strong example of how Contentful can be used to manage a Hugo website.
+
+## Basic Concept
+
+The concept is fairly straightforward. ```Node Contentful.js``` pulls all the records in a Contentful space and turns them into .md files which then are then stored in /content/ for Hugo. The .md files get arranged in subdirectories depending on the content type in Contentful. The .md filename is dependent on the "slug" field in Contentful, and the main content is assigned to the field with the field ID "content".
+
+The code in the Contentful.js file was taken from [this repository](https://github.com/ithic/contentful-hugo) by [ithic](https://github.com/ithic) then modified and updated for use on this project.
 
 ## Usage
 
@@ -17,6 +25,21 @@ After that clone this repository and run the following in your command line.
 
 Make sure you are in the same directory as the repository when you run the command. This will download all of the dependencies related to the project.
 
+### Environment Variables
+
+In order to get the content from Contentful, and send content to Algolia you need to create a .env file in the root directory of the project and add the appropriate API keys so that you can access the information in your local environment.
+
+Create the .env file and fill out the information as follows:
+
+```ALGOLIA_ADMIN_KEY = "[[ADMIN KEY]]"
+ALGOLIA_APP_ID = "[[APP ID]]"
+ALGOLIA_INDEX_FILE = "public/algolia.json"
+ALGOLIA_INDEX_NAME = "[[INDEX NAME]]"
+CONTENTFUL_SPACE = "[[CONTENTFUL SPACE ID]]"
+CONTENTFUL_TOKEN = "[[CONTENTFUL ACCESS TOKEN]]"
+```
+SOGMI staff who wish to play around with this in a local environment message Josh so he can forward you the access keys.
+
 ### Development
 
 While developing the site you can use:
@@ -27,7 +50,7 @@ This will pull all the Records in contentful and put it in the "content" folder 
 
 Press "ctrl+c" to cancel the live server.
 
-### List of CLI Commands
+### Complete List of CLI Commands
 
 Here's a complete list of your available cli scripts.
 
