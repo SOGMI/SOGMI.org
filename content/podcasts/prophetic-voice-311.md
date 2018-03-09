@@ -1,7 +1,7 @@
 ---
-title: Stories from Israel - Interview with Avishai Levi
+title: Discussing Israel with Avishai Levi
 slug: prophetic-voice-311
-keywords: ["israel","interview"]
+keywords: ["israel","interview","mission report","living in the supernatural"]
 showTranscript: false
 date: 2018-03-02
 audioLink: https://episodes.castos.com/propheticvoice/TPVOT-E311-18-03-03-04-Interview-and-Israel-Tour-Testments.mp3
