@@ -32,7 +32,7 @@ Press "ctrl+c" to cancel the live server.
 Here's a complete list of your available cli scripts.
 
 | Command   | Result                      |
-|-----------|-----------------------------|
+|----------------|-----------------------------|
 | hugo | Creates static html files from the items in "content" |
 | hugo server | Creates a live site at http://localhost:1313/ from the items in "content" based on the templates in "layout" |
 | node contentful.js | Dumps contentful records into "content" folder as .md files. The file names are based on the slug set in Contentful. Items without a slug do not get pulled |
