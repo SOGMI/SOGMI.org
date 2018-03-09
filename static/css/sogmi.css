@@ -401,6 +401,15 @@ body
     }
 /* end search */
 
+@media (max-width: 767px) {
+    .photoCredit {
+        display: none
+    }
+    .audioMeta {
+        flex-direction: column;
+    }
+}
+
 .series-grid-inner:hover .series-grid-item-image .image-color-overlay {
 	opacity: 1;
 }

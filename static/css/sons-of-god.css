@@ -4923,7 +4923,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   }
   .heading-19 {
     font-size: 22px;
-    line-height: 26px;
+    line-height: 2.2rem;
   }
   .div-block-20 {
     margin-top: -20px;
@@ -5211,10 +5211,11 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   }
   .related-post-wrapper {
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-right: -30px;
     margin-left: -30px;
-    padding: 10px 30px 20px;
+    margin-bottom: -20px;
+    padding: 20px 30px 20px;
     background-color: #fff;
   }
   .mask-3 {

@@ -27,7 +27,7 @@
                 <div class="text-block-20"></div>
                 <div>&nbsp;&nbsp;Subscribe</div>
               </a>
-              <div style="position: absolute; right: 20px; bottom: 20px; font-size: 10px; line-height: 10px;">
+              <div class="photoCredit"style="position: absolute; right: 20px; bottom: 20px; font-size: 10px; line-height: 10px;">
                 {{ safeHTML .Params.PhotoCredit }}
               </div>
             </div>
@@ -53,7 +53,7 @@
             {{ end }}
           </div>
 
-          <div style="display: flex; padding: 0px 0px 0px 0px">
+          <div class="audioMeta" style="display: flex; padding: 0px 0px 0px 0px">
               <p class="heading-20" style="font-size: 1rem; line-height: 2rem; margin-bottom: 0px; margin-right: 20px"><b>Original Air Date:</b> {{ .Date.Format "January 02, 2006" }}</p>
               {{ if .Params.Hosts }}
               <p class="heading-20" style="font-size: 1rem; line-height: 2rem; margin-bottom: 0px"><b>Speakers:</b> {{ delimit .Params.hosts ", " | title }}

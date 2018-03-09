@@ -17,25 +17,33 @@
               <div class="text-block-34-copy">Subscribe to <br />{{ .Title }}</div>
               <div class="text-block-34 hide-on-mobile">choose one of the following:</div>
                 <div class="div-block-17">
+                  {{ if .Params.ItunesLink }}
                   <a href="{{ .Params.ItunesLink }}" target="_blank" class="subscribe-icon w-inline-block">
                     <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0397b8bce8460001d67615_Apple_Podcast_Icon.png" width="30" class="image-2"/>
                     <div>Apple Podcasts</div>
                   </a>
+                  {{ end }}
+                  {{ if .Params.GooglePlayLink }}
                   <a href="{{ .Params.GooglePlayLink }}" target="_blank" class="subscribe-icon w-inline-block">
                     <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png" width="30" srcset="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon-p-500.png 500w, http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png 1024w" sizes="100vw" class="image-2"/>
                     <div>Google Play</div>
                   </a>
+                  {{ end }}
+                  {{ if .Params.RssFeed }}
                   <a href="#" class="subscribe-icon w-inline-block" data-ix="rss-option">
                     <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="30" class="image-2"/>
                     <div>RSS Feed</div>
                   </a>
+                  {{ end }}
                 </div>
                 </div>
+                {{ if .Params.RssFeed }}
                 <div class="rss-option"><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="54" class="image-2" />
                   <div class="text-block-34">copy this link into your RSS feed reader</div>
                   <div class="w-embed"><input type="text" style="width:100%; color: #333; font-size: 14px; padding: 10px" value="{{ .Params.RssFeed }}" id="podcast-link">
                     <button style="background: #ffb642; padding: 10px 20px 10px 20px; color: #333; margin-top: 20px;" onclick="copyText()">Copy Link</button></div>
                 </div>
+                {{ end }}
             </div>
         {{ end }}
       {{ end }}
@@ -48,13 +56,19 @@
       </div>
       <div class="column-right w-col w-col-8">
         <div class="div-block-15">
-          <div class="div-block-45">
-            <div class="heading-17-copy">{{ .Title }}</div>
-            <div class="text-block-19">with Pastor Cristina Sosso</div>
-            <a href="#" class="subscribe-button secondary w-inline-block" data-ix="subscribe-modal-appear">
-              <div class="text-block-33">Subscribe</div>
-            </a>
-          </div>
+        {{ range .Site.Pages }} 
+          {{ if eq .Section "podcastSeries" }}
+            {{ if eq .Title $t }}
+              <div class="div-block-45" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url({{ .Params.FeaturedImage }}?w=800&q=80&fit=scale)">
+                <div class="heading-17-copy">{{ .Title }}</div>
+                <div class="text-block-19">{{ .Params.SubHeading }}</div>
+                <a href="#" class="subscribe-button secondary w-inline-block" data-ix="subscribe-modal-appear">
+                  <div class="text-block-33">Subscribe</div>
+                </a>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
           <div class="div-block-46">
             <h1 class="heading-17">{{ .Title }}</h1>
             {{ range .Site.Pages }} 
