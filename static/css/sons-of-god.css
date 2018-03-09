@@ -3341,6 +3341,7 @@ figcaption {
   background-color: transparent;
 }
 
+
 .mask-3 {
   display: block;
   height: auto;
@@ -4709,6 +4710,9 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
 }
 
 @media (max-width: 767px) {
+  .slider-2 {
+    padding: 10px 0px;
+  }
   h4 {
     font-size: 24px;
   }
@@ -4799,7 +4803,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   .content-section.podcast {
     overflow: hidden;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   .content-section.videos {
     padding-top: 0px;
@@ -5215,7 +5219,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     margin-right: -30px;
     margin-left: -30px;
     margin-bottom: -20px;
-    padding: 20px 30px 20px;
+    padding: 30px 30px 20px;
     background-color: #fff;
   }
   .mask-3 {
@@ -5228,12 +5232,12 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   }
   .right-arrow-2 {
     left: auto;
-    top: -70px;
+    top: -60px;
     right: 0px;
     display: block;
   }
   .left-arrow-2 {
-    top: -70px;
+    top: -60px;
     right: auto;
     display: block;
   }
