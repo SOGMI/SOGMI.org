@@ -1,5 +1,5 @@
 node_modules/
 .vscode/
 public/
-.env
+/.env
 !public/robots.txt
