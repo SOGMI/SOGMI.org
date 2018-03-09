@@ -1,10 +1,10 @@
 # This is the Repository For SOGMI.org
 
-SOGMI.org uses [Hugo](http:gohugo.io) to generate a static website from content stored in [Contentful](http://contentful.com). 
+[SOGMI.org](http://sogmi.org) uses [Hugo](http:gohugo.io) to generate a static website from content stored in [Contentful](http://contentful.com). 
 
 [Netlify](http://netlify.com) is used to host the website, and [Algolia](http://algolia.com) is used to power the search.
 
-All content (i.e. articles, videos, podcasts, ect) utilized in this site is the intellectual property of Sons of God Ministries International. You are however welcome to clone and/or use this project as an example for any of your endeavors.
+All content items (i.e. articles, videos, podcasts, ect) utilized in this site are the intellectual property of Sons of God Ministries International. You are however welcome to clone and/or use this project as an example for any of your endeavors.
 
 This site gives a strong example of how Contentful can be used to manage a Hugo website.
 
