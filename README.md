@@ -33,7 +33,29 @@ Here's a complete list of your available cli scripts.
 
 | Command   | Result                      |
 |----------------|-----------------------------|
-| hugo | Creates static html files from the items in "content" |
-| hugo server | Creates a live site at http://localhost:1313/ from the items in "content" based on the templates in "layout" |
+| hugo | Creates static html files from the items in /content/ and dumps them in /public/ |
+| hugo server | Creates a live site at http://localhost:1313/ from the items in /content/ based on the templates in /layouts/ |
 | node contentful.js | Dumps contentful records into "content" folder as .md files. The file names are based on the slug set in Contentful. Items without a slug do not get pulled |
 | npm run test | Runs "node contentful.js" and then runs hugo "server" |
+| npm run algolia | Sends /public/algolia.json file to Algolia to add new search items and update current items. If "hugo" has not been run nothing will send as /public/algolia.json hasn't been created |
+| npm run publish | Script to publish website. It pulls content from contentful, creates html files from /content/ and publishes them in the /public/ directory, compresses all html, css, json, and javascript files, and then sends search items to Algolia. |
+
+### Structure
+
+```|--archetypes           // Archetypes for hugo. Not relevant unless you will be creating .md with Hugo's command structure instead of fetching content from Contentful.
+|--content              // Content that hugo will render
+|--layouts              // This is where all the templates go (For more info on Hugo template structure see Hugo docs at https://gohugo.io)
+    |--partials         // All partial templates go here (i.e. "header.html" or "sidebar.html")
+    |--index.html       // Homepage template
+|--static               // Static file folder
+    |--css              // CSS files go here. They can be called in templates at /css/FILENAME.CSS
+    |--js               // Client Side Javascript Files go here. They can be called in templates at /js/FILENAME.JS
+    |--img              // Image Folder. Any non-Contentful images will be stored here. /img/FILENAME.JPG
+    |--fonts            // Font Folder. /fonts/FILENAME.EXT
+.gitignore              // Tells git which files to ignore for source control.
+config.toml             // Config file for Hugo
+netlify.toml            // TOML file for Netlify. Includes information for Netlify to use during the build process. (i.e. What version of Node. What scripts to run. ect.)
+package.json            // Tells npm our project dependancies and scripts
+contentful.js           // Script to pull records from contentful and spit them out and .md files for Hugo.
+wait.js                 // Script that forces NPM to wait for 6 seconds before continuing. I use this to delay pulling from the Contentful API after the webhook so the data has time to propogate, otherwise it can result in the script not pulling the new information due to it triggering too fast.
+```
