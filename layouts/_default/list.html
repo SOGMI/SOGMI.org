@@ -10,9 +10,25 @@
       <div class="column-row w-row">
         <div class="column-left w-col w-col-8">
           <div class="standard-grid-wrapper">
-            {{ range .Data.Pages }}
+            {{ range (.Paginator 10).Pages }}
               {{ partial "grid-item.html" . }}
             {{ end }}
+          </div>
+          <div class="pagination">
+            <div class="pagination-button-wrap">
+              {{ if .Paginator.HasPrev }}
+                <a class="pagination-button" href="{{ .Paginator.Prev.URL }}">
+                    <span></span>
+                </a>
+              {{ end }}
+            </div>
+            <div class="pagination-button-wrap">
+              {{ if .Paginator.HasNext }}
+                  <a class="pagination-button" href="{{ .Paginator.Next.URL }}">
+                      <span></span>
+                  </a>
+              {{ end }}
+            </div>            
           </div>
         </div>
         <div class="column-right w-col w-col-4">
