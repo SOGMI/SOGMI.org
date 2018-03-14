@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+<div class="donation-banner">
+
+</div>
+
+<div class="content-section">
+    <div class="container">
+            <form name="contact" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
+            <div>
+                <label>Name:</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="text" name="email">
+            </div>
+            <div>
+                <label>Message:</label>
+                <textarea name="message"></textarea>
+            </div>
+            <div>
+                <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+            </div>
+            <div netlify-recaptcha></div>
+            <p>
+                <button type=”submit” class="button email-form-button" >Send</button>
+            </p>
+            </form>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
