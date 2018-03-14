@@ -19,13 +19,15 @@
               {{ if .Paginator.HasPrev }}
                 <a class="pagination-button" href="{{ .Paginator.Prev.URL }}">
                     <span></span>
+                    <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">&nbsp;&nbsp;prev</span>
                 </a>
               {{ end }}
             </div>
             <div class="pagination-button-wrap">
               {{ if .Paginator.HasNext }}
                   <a class="pagination-button" href="{{ .Paginator.Next.URL }}">
-                      <span></span>
+                    <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">next&nbsp;&nbsp;</span>
+                    <span></span>
                   </a>
               {{ end }}
             </div>            
@@ -46,12 +48,18 @@
             <h3 class="sidebar-heading">Collections</h3>
             <div class="div-block-63">
             {{ range $name, $taxonomy := .Site.Taxonomies.collections }}
-              <div class="div-block-62">
-                <a href="/collections/{{ $name | urlize }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ $.Params.FeaturedImage}}?w=400&q=60&fit=scale)">
-                  <div class="text-block-28">{{ replaceRE "-" " "  $name | title }}</div>
-                  <div class="image-color-overlay"></div>
-                </a>
-              </div>
+              {{ range $.Site.Pages }}
+                {{ if eq .Section "blogCollection" }}
+                  {{ if eq .Slug $name }}
+                  <div class="div-block-62">
+                    <a href="/collections/{{ .Slug }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ .Params.FeaturedImage }}?w=400&q=60&fit=scale)">
+                      <div class="text-block-28">{{ .Title }}</div>
+                      <div class="image-color-overlay"></div>
+                    </a>
+                  </div>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
             {{ end }}
             </div>
           </div>

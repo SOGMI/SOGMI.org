@@ -26,7 +26,7 @@ Let me quote you some Scripture that supports this and shows the heart of God, w
 
 __Any prophecy that is based on fear is not from the Lord!__
 
-Remember Y2K? How many of God’s people were led astray because of fear? The people of God cowered in fear, started hoarding food and other supplies, and some even fled to remote places which is rebellion (witchcraft) to what the Lord Jesus commanded us: To occupy until He comes (Luke 19:13). “Then Jesus came to them and said, “All authority in heaven and on earth has been given to me. Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.” (Matt 28:18-20).
+Remember Y2K? How many of God’s people were led astray because of fear? The people of God cowered in fear, started hoarding food and other supplies, and some even fled to remote places which in disobedience to what the Lord Jesus commanded us: To occupy until He comes (Luke 19:13). “Then Jesus came to them and said, “All authority in heaven and on earth has been given to me. Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.” (Matt 28:18-20).
 
 __Any program and any prophecy that turns the people of God and from obeying this great commission from the Lord is not from the Lord Jesus Christ!__ Do not remove your focus from our Lord Jesus Christ and His command, His faithfulness and His goodness!
 

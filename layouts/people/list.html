@@ -11,8 +11,9 @@
                         <div class="author-grid-item">
                             <a href="{{ .RelPermalink }}" class="author-grid-inner w-inline-block">
                                 {{ if .Params.profilePhoto }}
-                                <div class="author-photo-circle" style="background-image: URL({{.Params.profilePhoto}}?w=300&h=300)">
+                                <div class="author-photo-circle">
                                     <div class="author-photo-circle-overlay"></div>
+                                    <img src="{{ .Params.profilePhoto }}?fit=fill&w=400&h=400&f=face&r=300&q=80"width="150"/>
                                 </div>
                                 {{ else }}
                                 <div class="author-photo-circle" style="background: #d6d6d6; display: flex; align-items: center; justify-content: center">
@@ -38,9 +39,10 @@
                     <div class="author-grid-item">
                         <a href="{{ .RelPermalink }}" class="author-grid-inner w-inline-block">
                             {{ if .Params.profilePhoto }}
-                            <div class="author-photo-circle" style="background-image: URL({{.Params.profilePhoto}}?w=300&h=300)">
-                                <div class="author-photo-circle-overlay"></div>
-                            </div>
+                                <div class="author-photo-circle">
+                                    <div class="author-photo-circle-overlay"></div>
+                                    <img src="{{ .Params.profilePhoto }}?fit=fill&w=400&h=400&f=face&r=300&q=80"width="150"/>
+                                </div>
                             {{ else }}
                             <div class="author-photo-circle" style="background: #d6d6d6; display: flex; align-items: center; justify-content: center">
                                     <div style="font-family: 'Fontawesome webfont', sans-serif; font-size: 80px; color: white;"></div>

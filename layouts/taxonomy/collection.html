@@ -1,19 +1,26 @@
 {{ partial "header.html" . }}
 
-<div class="series-banner" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(30, 77, 104, .35)), url({{ .Params.FeaturedImage }})">
+<div class="series-banner" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(30, 77, 104, .35)), url({{ .Params.FeaturedImage }}?w=2000&q=80)">
         <div class="container series-taxonomy">
-          <div class="div-block-57">
-            <div class="blog-archive-link"><a href="/articles" class="link-3">return to articles</a></div>
-            <h1 class="archive-heading series">{{ .Title }}</h1>
-            <p class="paragraph-12">{{ .Description }}</p>
-            <!--<a href="#" class="button-11 w-button">Subscribe to this Feed</a></div>-->
-          <div class="div-block-60">
+          {{ $t := .Title }}
+          {{ range $.Site.Pages }}
+            {{ if eq .Section "blogCollection" }}
+            {{ if eq .Title $t }}
+              <div class="div-block-57">
+                <div class="blog-archive-link"><a href="/articles" class="link-3">return to articles</a></div>
+                <h1 class="archive-heading series">{{ .Title }}</h1>
+                <p class="paragraph-12">{{ .Description }}</p>
+                <!--<a href="#" class="button-11 w-button">Subscribe to this Feed</a></div>-->
+              <div class="div-block-60">
+            {{ end }}
+            {{ end }}
+          {{ end }}
             <h2 class="about-author series">Works from This Series</h2>
             <div class="taxonomy-series-grid-wrapper">
               {{ range .Data.Pages }}
               <div class="series-grid-item">
                 <a href="{{ .RelPermalink }}" class="series-grid-inner w-inline-block">
-                  <div class="series-grid-item-image" style="background-image: url({{ .Params.Thumbnail }})">
+                  <div class="series-grid-item-image" style="background-image: url({{ .Params.FeaturedImage }}?w=400&q=80)">
                     <div class="image-color-overlay"></div>
                   </div>
                   <div class="div-block-59">
