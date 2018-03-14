@@ -154,7 +154,23 @@
 .image-overlay.blog {
     opacity: 0.6;
 }
-
+.contactForm {
+    width: 100%;
+}
+.contactForm div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm textarea {
+    min-height: 150px;
+    padding: 10px;
+    border: 1px solid var(--light-gray-1);
+}
+.contactForm input {
+    padding: 10px;
+    border: 1px solid var(--light-gray-1);
+}
 .content-section {
     background-image: url('../img/white_paperboard.png') !important;
 }

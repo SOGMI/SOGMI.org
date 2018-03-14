@@ -1,26 +1,27 @@
 {{ partial "header.html" . }}
 
-<div class="donation-banner">
-
+<div class="donation-banner" style="background-image: URL({{.Params.FeaturedImage}}?w=1600&q=80&h=600&fit=crop)">
+    <div class="image-overlay"></div>
+    <div style="z-index: 1" class="container">
+        <h1 class="heading-44">{{ .Title }}</h1>
+        <p>{{ .Description }}</p>
+    </div>
 </div>
 
 <div class="content-section">
     <div class="container">
-            <form name="contact" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
+            <form class="contactForm" name="contact" method="POST" action="thank-you" netlify>
             <div>
                 <label>Name:</label>
                 <input type="text" name="name">
             </div>
             <div>
                 <label>Email:</label>
-                <input type="text" name="email">
+                <input type="email" name="email" required>
             </div>
             <div>
                 <label>Message:</label>
-                <textarea name="message"></textarea>
-            </div>
-            <div>
-                <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+                <textarea name="message" required></textarea>
             </div>
             <div netlify-recaptcha></div>
             <p>
