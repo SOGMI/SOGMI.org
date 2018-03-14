@@ -3,6 +3,7 @@ languageCode = "en-us"
 buildDrafts = false
 title = "Sons of God Ministries International"
 canonifyURLs = false
+enableRobotsTXT = true
 [params]
     saturday = "Tune into our livestream tomorrow morning at 11:00 AM CST"
     sunday = "Join our livestream today at 11:00 AM CST! Video of the livestream is uploaded every Sunday evening for viewing."
