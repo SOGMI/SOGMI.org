@@ -1,0 +1,51 @@
+{{ partial "header.html" . }}
+
+<div class="header-image" style="background-image: URL({{ .Params.FeaturedImage }}?w=2000&q=80)">
+    <div class="image-overlay"></div>
+    <div class="banner-container">
+      <h1 class="banner-header">{{ .Title }}</h1>
+    </div>
+  </div>
+  {{ range .Params.Sections }}
+    {{ if eq .layout "light" }}
+        <div class="section-light">
+            <div class="container">
+                <div class="row-8 w-row">
+                    <div class="column-left w-col w-col-5">
+                    {{ if .photo }}
+                        <img src="{{ .photo }}?w=600" alt="{{ .photoMeta }}" title="{{ .photoMeta }}"width="515" srcset="{{ .photo }}?w=600" sizes="(max-width: 479px) 88vw, (max-width: 767px) 92vw, 37vw" class="image-5" />
+                    {{ end }}
+                    </div>
+
+                    <div class="column-right w-col w-col-7">
+                        <h2 class="section-heading">{{ .heading }}</h2>
+                        <div class="page-rich-text w-richtext">
+                            {{ .text | markdownify }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+    {{ if eq .layout "dark" }}
+        <div class="section-dark" style="background-image: linear-gradient(180deg, rgba(15, 31, 56, .8), rgba(15, 31, 56, .8)), url({{ .backgroundPhoto }})">
+            <div class="container">
+              <div class="w-row">
+                <div class="column-left w-col w-col-7">
+                    <h2 class="section-heading">{{ .heading }}</h2>
+                    <div class="page-rich-text w-richtext">
+                    <p>{{ .text | markdownify }}</p>
+                    </div>
+                </div>
+                <div class="column-right w-col w-col-5">
+                    {{ if .photo }}
+                    <img src="{{ .photo }}?w=600" title="{{ .photoMeta }}" width="516" srcset="{{ .photo }}?w=600" sizes="(max-width: 479px) 88vw, (max-width: 767px) 92vw, 37vw" class="image-5" alt="{{ .photoMeta }}"/>
+                    {{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+    {{ end }}
+  {{ end }}
+
+{{ partial "footer.html" . }}
