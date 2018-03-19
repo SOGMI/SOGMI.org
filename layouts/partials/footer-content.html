@@ -4,8 +4,12 @@
             <div class="flex-col thirty">
                 <div class="footer-section">
                     <div>Follow us on Social Media</div>
-                    <a href="/" style="color: #333">
-                        <div class="logo-text">SO<strong>GMI</strong></div>
+                    <a href="/" style="color: #333; display: inline-block; padding: 10px 0px 0px 0px; margin: 0px -5px;">
+                        {{ if $.Site.Params.Logo }}
+                            <img src="{{ $.Site.Params.Logo }}?w=300" alt="{{ $.Site.Title }}" width="250" height="auto">
+                        {{ else }}
+                            <div class="logo-text">{{ $.Site.Title }}</div>
+                        {{ end }}
                     </a>
                 </div>
                 <a href="#" class="button w-button">Support SOGMI</a>

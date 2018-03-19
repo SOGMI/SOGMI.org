@@ -30,7 +30,7 @@ sections:
     text: 
       Sons of God Ministries International was founded by Mike and Cristina Sosso in 2002. <br/>
       <br/>
-      Mike Sosso is an ordained minister who has been working in the ministry since 19XX. <br/>
+      Mike Sosso is an ordained minister who’s been in the ministry for more than 35 years. In 1986, he was a founding member of the San Antonio chapter of Agape International, an apostolic and prophetic ministry that reached across denominational barriers to empower believers in the workings of the Holy Spirit. God later led him and Cristina to lay down their roles in Agape and found Sons of God International and Freedom Fellowship Church.<br/>
       <br/>
       Cristina is a former banker who was called by God in the apostolic and prophetic ministry in 1989. She served as the president of Agape International in the San Antonio chapter since 1990 until God called her and Mike to start Sons of God Ministries International.
     layout: light

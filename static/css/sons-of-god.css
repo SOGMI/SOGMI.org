@@ -357,8 +357,8 @@ figcaption {
 }
 
 .logo-text {
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 40px;
+  line-height: 50px;
   font-weight: 300;
 }
 
@@ -389,6 +389,7 @@ figcaption {
   left: 0px;
   top: 0px;
   margin-top: -25px;
+  max-width: 400px;
 }
 
 .header-image {
@@ -2578,13 +2579,13 @@ figcaption {
   margin-top: 10px;
   margin-bottom: 0px;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 26px;
 }
 
 .author-heading {
   margin-bottom: 0px;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .author-heading.secondary {

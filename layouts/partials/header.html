@@ -52,8 +52,12 @@
     <div class="navbar-container">
       <div class="navbar w-clearfix">
         <a href="/" class="brand w-nav-brand">
-          <h1 class="logo-text">sog<strong class="bold-text">mi</strong>
+          {{ if $.Site.Params.Logo }}
+          <img src="{{ $.Site.Params.Logo }}" alt="{{ $.Site.Title }}" width="auto" height="80">
+          {{ else }}
+          <h1 class="logo-text">{{ $.Site.Title }}</strong>
           </h1>
+          {{ end }}
         </a>
         <div data-w-id="faff6c49-0934-4e9f-e9d2-9aa7f6b59f23" class="hamburger-button">
           <div class="menu-icon"></div>
