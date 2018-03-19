@@ -9,6 +9,32 @@
     --light-gray-2: #e7e7e7;
     --hightlightb: #ffb6427a;
 }
+.nav-link.nav-button {
+    margin-top: 12px;
+    margin-left: 10px;
+    padding: 5px 15px;
+    /*border-style: none none solid;
+    border-width: 2px;
+    border-color: #ffb642 #ffb642 #0f1f38;*/
+    background-color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+    -webkit-transition: transform 200ms ease;
+    transition: transform 200ms ease;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .nav-link.nav-button:hover {
+    transform: scaleX(1.05) scaleY(1.05)
+  }
+.nav-link.nav-button.donate {
+    margin-left: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(228, 31, 47);
+    color: rgb(228, 31, 47);
+  }
 .header-image.church {
     padding-bottom: 50px;
     text-align: left;

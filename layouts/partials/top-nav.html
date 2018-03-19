@@ -1,14 +1,21 @@
 <div class="top-nav">
     <div class="navbar-container">
         <div class="top-nav-inner">
-        <label id="searchButton" for="search-input"class="top-nav-link w-inline-block">
-            <div class="text-block-25"></div>
-            <div class="text-block-26">&nbsp;Search Website</div>
-        </label>
-        <a href="https://wpsogmi.modiimedia.com" class="top-nav-link w-inline-block">
-            <div class="text-block-25"></div>
-            <div class="text-block-26">&nbsp;Partner Login</div>
-        </a>
+            <label id="searchButton" for="search-input"class="top-nav-link w-inline-block">
+                <div class="text-block-25"></div>
+                <div class="text-block-26">&nbsp;Search Website</div>
+            </label>
+            <!--<a href="https://wpsogmi.modiimedia.com" class="top-nav-link w-inline-block">
+                <div class="text-block-25"></div>
+                <div class="text-block-26">&nbsp;Partner Login</div>
+            </a>-->
+            <!--get current weekday-->
+            {{ $today := now.Format "Monday" }}
+            <!--conditional styling if $today equals "Sunday"-->
+            <a href="#" class="top-nav-link w-inline-block" {{ if eq $today "Sunday" }} style="opacity:1"{{ end }}>
+            <div {{ if eq $today "Sunday" }} style="color: rgb(228, 31, 47)" {{ end }} class="text-block-25"></div>
+                <div class="text-block-26">&nbsp;Watch Live</div>
+            </a>
         </div>
     </div>
 </div>

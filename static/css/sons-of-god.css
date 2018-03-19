@@ -181,38 +181,6 @@ figcaption {
   color: #ffb642;
 }
 
-.nav-link.nav-button {
-  margin-top: 12px;
-  margin-left: 10px;
-  padding: 5px 15px;
-  border-style: none none solid;
-  border-width: 2px;
-  border-color: #ffb642 #ffb642 #0f1f38;
-  background-color: #1e4d68;
-  -webkit-transition: none 0ms ease;
-  transition: none 0ms ease;
-  color: #fff;
-  font-weight: 500;
-}
-
-.nav-link.nav-button:hover {
-  top: 2px;
-  margin-top: 14px;
-  border-width: 0px;
-  background-color: #143649;
-  opacity: 1;
-  color: #fff;
-}
-
-.nav-link.nav-button.donate {
-  margin-left: 10px;
-  background-color: #ffb642;
-}
-
-.nav-link.nav-button.donate.hidden {
-  display: none;
-}
-
 .slide-nav {
   position: absolute;
   bottom: 53px;
@@ -390,6 +358,9 @@ figcaption {
   top: 0px;
   margin-top: -25px;
   max-width: 400px;
+}
+.brand img {
+  max-height: 80px
 }
 
 .header-image {
@@ -4388,6 +4359,8 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   }
   .brand {
     margin-top: 0px;
+    padding: 10px;
+    width: 225px;
   }
   .brand.w--current {
     margin-top: 3px;
