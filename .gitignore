@@ -2,4 +2,3 @@ node_modules/
 .vscode/
 public/
 /.env
-!public/robots.txt
