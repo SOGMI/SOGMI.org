@@ -686,8 +686,37 @@ footer {
     }
 }
 
+#liveWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#liveWrap iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+#liveVideo {
+    width: 70%;
+}
+#liveChat {
+    flex-grow: 2;
+    background: white;
+}
 
-
+@media (max-width: 991px) {
+    #liveVideo {
+        width: 100%;
+    }
+    #liveWrap iframe {
+        height: 350px;
+    }
+}
+@media (max-width: 767px) {
+    #liveWrap iframe {
+        height: 250px;
+    }
+}
 /*****TEXT******/
 
 p {

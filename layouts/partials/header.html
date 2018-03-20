@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<!--  Last Published: Sun Jan 28 2018 21:50:55 GMT+0000 (UTC)  -->
-<html data-wf-page="5a0281c89a6ada000101512d" lang="en">
-<head>
-  <meta charset="utf-8"> 
-  {{ if .Params.metaTitle }}<title>{{ .Params.MetaTitle }}</title>{{ else }} 
-    {{ if eq .Section "tags" }}<title>Articles about "{{ .Title }}"</title>{{ else }} 
-      {{ if eq .Section "hosts" }}<title>Podcasts featuring {{ .Title }}</title>{{ else }} 
-        {{ if eq .Section "authors" }}<title>Articles by {{ .Title }}</title>{{ else }} 
-          {{ if eq .Section "keywords" }}<title>Podcasts tagged with "{{ .Title }}"</title>{{ else }} 
-            {{ if eq .Section "videokeywords" }}<title>Videos tagged with "{{ .Title }}"</title>{{ else }}
-              <title>{{ .Title }} | {{ .Site.Title }}</title>
-            {{ end }} 
-          {{ end }} 
-        {{ end }}
-      {{ end }} 
-    {{ end }} 
-  {{ end }}
-  <link rel="canonical" href="{{ .Permalink }}">
-  <meta name="description" content="{{ if .Description }}{{ truncate 160 .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}" />
-  <meta name="generator" content="Hugo 0.36.1" />
-  <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" />
-  <meta property="og:description" content="{{ truncate 160 .Description }}" />
-  <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.Youtubethumbnail }}{{ .Params.YoutubeThumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--algolia css-->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.2/dist/instantsearch.min.css">
-  <!--css files-->
-  <link href={{ "css/normalize.css" | relURL }} rel="stylesheet" type="text/css">
-  <link href={{ "css/components.css" | relURL }} rel="stylesheet" type="text/css">
-  <link href={{ "css/sons-of-god.css" | relURL }} rel="stylesheet" type="text/css">
-  <link href={{ "css/sogmi.css" | relURL }} rel="stylesheet" type="text/css">
-  <!--favicon and other site icons-->
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/img/favicons/site.webmanifest">
-  <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#ffffff">
-  <meta name="msapplication-TileColor" content="#00aba9">
-  <meta name="theme-color" content="#c7dbfe">
-</head>
-
+{{ partial "head.html" . }}
 <body>
   <div class="header-section">
     {{ partial "search-modal.html" }}
