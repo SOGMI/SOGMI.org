@@ -12,6 +12,7 @@ enableRobotsTXT = true
     instagram = ""
     youtube = ""
     twitter = ""
+    Livestreaming = true
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]

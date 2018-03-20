@@ -730,7 +730,7 @@ footer {
     #liveWrap iframe {
         height: 250px;
     }
-    #liveChat {
+    #liveChat iframe {
         height: 50vh;
     }
 }
