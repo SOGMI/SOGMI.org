@@ -12,7 +12,7 @@
             <!--get current weekday-->
             {{ $today := now.Format "Monday" }}
             <!--conditional styling if $today equals "Sunday"-->
-            <a href="#" class="top-nav-link w-inline-block" {{ if eq $today "Sunday" }} style="opacity:1"{{ end }}>
+            <a href="/live" class="top-nav-link w-inline-block" {{ if eq $today "Sunday" }} style="opacity:1"{{ end }}>
             <div {{ if eq $today "Sunday" }} style="color: rgb(228, 31, 47)" {{ end }} class="text-block-25"></div>
                 <div class="text-block-26">&nbsp;Watch Live</div>
             </a>

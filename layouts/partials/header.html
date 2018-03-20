@@ -21,8 +21,7 @@
   <meta name="generator" content="Hugo 0.36.1" />
   <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" />
   <meta property="og:description" content="{{ truncate 160 .Description }}" />
-  <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.Youtubethumbnail }}{{ .Params.YoutubeThumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}"
-  />
+  <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.Youtubethumbnail }}{{ .Params.YoutubeThumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}" />
   <meta name="twitter:card" content="summary" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--algolia css-->
@@ -32,10 +31,14 @@
   <link href={{ "css/components.css" | relURL }} rel="stylesheet" type="text/css">
   <link href={{ "css/sons-of-god.css" | relURL }} rel="stylesheet" type="text/css">
   <link href={{ "css/sogmi.css" | relURL }} rel="stylesheet" type="text/css">
-  <!--favicon-->
-  <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <!--weblip image: image that appears when you save the site as a shortcut on your phone-->
-  <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+  <!--favicon and other site icons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#ffffff">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#c7dbfe">
 </head>
 
 <body>

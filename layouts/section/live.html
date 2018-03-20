@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<div class="content-section">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Description }}</p>
+        <iframe width="560" height="349" src="https://www.youtube.com/embed/live_stream?channel={{ .Params.YoutubeChannelId }}" frameborder="0" allowfullscreen></iframe>
+        <iframe allowfullscreen="" frameborder="0" height="270" src="https://www.youtube.com/live_chat?v=ou-TGTdr0Y8&embed_domain={{ $.Site.BaseURL }}" width="480"></iframe><br />
+    </div>
+</div>
+{{ partial "footer.html" . }}
