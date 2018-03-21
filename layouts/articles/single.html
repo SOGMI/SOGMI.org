@@ -6,19 +6,15 @@
           <div class="blog-single-banner-container">
             <div class="blog-archive-link"><a href="/articles" class="link-3">return to articles</a></div>
             <h1 class="archive-heading">{{ .Title }}</h1>
-            <div class="div-block-47">
-              <div class="blog-single-meta">by 
-                <a href="#author" onclick="return false;" class="link-6">
-                  <strong xmlns="http://www.w3.org/1999/xhtml">
+            <div class="blog-single-meta">by
+                <a href="#author" style="opacity: 1; font-weight: bold" onclick="return false;" class="link-6">
                     {{ if .Params.Authors }}
                         {{ .Params.Authors }}
                     {{ end }}
-                  </strong>
-                </a>
-                on {{ .Date.Format "January 2, 2006" }}
+                </a><br/>
+                {{ .Date.Format "January 2, 2006" }}
               </div>
-            </div>
-            <div style="display:flex; justify-content: space-between; align-items: flex-end;">
+            <div class="tags-and-comments">
               <div class="div-block-47-copy">
                 {{ with .Params.Tags }}
                 
@@ -30,7 +26,7 @@
 
                 {{ end }}
               </div>
-              <a href="#comments" style="padding-bottom: 10px;"><span class="disqus-comment-count" style="color: white" data-disqus-identifier="http://sogmi.org">comments</span></a>
+              <a href="#comments" style="padding-bottom: 10px;"><span class="disqus-comment-count" style="color: white" data-disqus-identifier="{{ .Permalink }}">comments</span></a>
             </div>
           </div>
         </div>

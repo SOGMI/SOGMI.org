@@ -52,9 +52,10 @@
                 {{ if eq .Section "blogCollection" }}
                   {{ if eq .Slug $name }}
                   <div class="div-block-62">
-                    <a href="/collections/{{ .Slug }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ .Params.FeaturedImage }}?w=400&q=60&fit=scale)">
+                    <a href="/collections/{{ .Slug }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ .Params.FeaturedImage }}?w=400&q=60&fit=fill); background-size: cover; background-position: center;">
                       <div class="text-block-28">{{ .Title }}</div>
                       <div class="image-color-overlay"></div>
+                      <div class="image-overlay"></div>
                     </a>
                   </div>
                   {{ end }}

@@ -35,6 +35,26 @@
     border-color: rgb(228, 31, 47);
     color: rgb(228, 31, 47);
   }
+.blog-single-meta {
+    padding: 10px 0px; 
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: left;
+/*    display: flex;
+    justify-content: space-between*/
+}
+.tags-and-comments {
+    display:flex; justify-content: space-between; align-items: center; flex-direction: row; margin-top: 20px;
+}
+@media (max-width: 767px) {
+    .blog-single-meta {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .tags-and-comments {
+        display:flex; flex-direction: column-reverse; align-items: flex-start; margin-top: 0px;
+    }
+}
 .header-image.church {
     padding-bottom: 50px;
     text-align: left;
@@ -787,25 +807,24 @@ p {
   .blog-single-rich-text-element p {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    line-height: 2.5rem;
+    line-height: 2.1rem;
     font-size: 1.1rem
   }
   
-  .blog-single-rich-text-element h3 {
+    .blog-single-rich-text-element h2 {
+        margin-top: 4rem;
+        margin-bottom: 0rem;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .blog-single-rich-text-element h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: var(--dark-blue); 
     font-size: 1.8rem;
     line-height: 2.5rem;
     font-weight: 500;
-  }
-  
-  .blog-single-rich-text-element h2 {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    line-height: 3.2rem;
-  }
+    }
   
   .blog-single-rich-text-element blockquote {
     margin-top: 1rem;
@@ -840,12 +859,27 @@ p {
     .blog-single-rich-text-element iframe {
         height: 300px;
     }
+    .blog-single-rich-text-element h2 {
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    }
+    .blog-single-rich-text-element h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--dark-blue); 
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    font-weight: 500;
+    }
 }
 
 @media (max-width: 479px) {
     .blog-single-rich-text-element iframe {
         height: 200px;
     }
+    .
 }
 
 /*pagination*/

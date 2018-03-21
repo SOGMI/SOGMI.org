@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
-
-<div class="series-banner" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(30, 77, 104, .35)), url({{ .Params.FeaturedImage }}?w=2000&q=80)">
+{{ $t := .Title }}
+<div class="series-banner" {{ range $.Site.Pages }} {{ if eq .Section "blogCollection" }} {{ if eq .Title $t }} style="background-image: linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(30, 77, 104, .35)), url({{ .Params.FeaturedImage }}?w=1800&q=60)"{{ end }} {{ end }} {{ end }}>
         <div class="container series-taxonomy">
-          {{ $t := .Title }}
           {{ range $.Site.Pages }}
             {{ if eq .Section "blogCollection" }}
             {{ if eq .Title $t }}

@@ -10,7 +10,7 @@ h1 {
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 4rem;
-  line-height: 4.5rem;
+  line-height: 5rem;
   font-weight: 700;
 }
 
@@ -3015,7 +3015,11 @@ figcaption {
   color: #fff;
 }
 @media (max-width: 479px) {
-  .link-block-5 {
+  .blog-single-meta {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+    .link-block-5 {
     font-size: 10px;
     padding: 3px 8px;
     line-height: 20px;
@@ -4850,8 +4854,8 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     padding: 15px;
   }
   .heading-12 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 3rem;
+    line-height: 4rem;
   }
   .author-profile-image {
     min-height: 100%;
@@ -5439,12 +5443,13 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     margin-bottom: 1px;
   }
   .event-single-subheading {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+    opacity: 0.8
   }
   .heading-12 {
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
   .author-profile-image {
     width: 100px;
@@ -5571,8 +5576,9 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     margin-top: 0px;
   }
   .heading-37 {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    opacity: 0.8;
   }
   .div-block-44 {
     margin-right: -10px;
