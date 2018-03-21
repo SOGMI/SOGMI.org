@@ -8,7 +8,7 @@ slide1:
     button2: "/events"
     button1text: Service Times
     button2text: Upcoming Events
-    imagelink: https://static.pexels.com/photos/414727/pexels-photo-414727.jpeg
+    imagelink: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     videoid: 3Zi_zG6o4pU
     active: true 
 slide2: 

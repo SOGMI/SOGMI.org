@@ -4,7 +4,7 @@ Slug: donate
 heading: Partner With Us
 subheading: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
 description: Support the preaching of the Gospel and discipleship for the Body of Christ today. All donations will by used to further our mission of establishing the Kingdom of God here on earth!
-featuredImage: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/19493a487904837c7ba27a7109c58204/download__2_.jpg
+featuredImage: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
 monthlyDonation: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KLR3R6BMV5RKJ
 oneTimeDonation: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KLR3R6BMV5RKJ
 layout: lightdark

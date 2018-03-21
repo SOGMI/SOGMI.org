@@ -3,7 +3,7 @@ title: What We Do
 slug: what-we-do
 aliases:
     - /what-we-do/
-featuredImage: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/19493a487904837c7ba27a7109c58204/download__2_.jpg
+featuredImage: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
 description: 
 sections:
   - heading: Our Mission

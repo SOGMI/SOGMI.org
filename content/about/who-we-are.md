@@ -14,7 +14,7 @@ sections:
         <br/>      
         Ephesians 4:11-13, "So Christ himself gave the apostles, the prophets, the evangelists, the pastors and teachers, to equip his people for works of service, so that the body of Christ may be built up until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ." (NIV)
     layout: light
-    photo: //images.contentful.com/vfgh62eq5a4k/vXz4JTyeSOEaKcOSeOE2A/c0a3f0fbc74571ea7161eb5d7d8fe4ba/1434047908374__1_.jpg
+    photo: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     photoMeta: Worship Concert in General Santos City
     backgroundPhoto: 
   - heading: The Name
