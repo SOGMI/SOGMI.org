@@ -7,7 +7,7 @@
   "scripts": {
     "prepublish": "node wait.js && node contentful.js",
     "publish": "hugo && npm run minifyjson",
-    "postpublish": "atomic-algolia & npm run minify & npm run compressjs",
+    "postpublish": "atomic-algolia & npm run compressjs",
     "test": "node contentful.js && hugo server",
     "algolia": "atomic-algolia",
     "minify": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext html",
