@@ -54,65 +54,7 @@
                 </div>
             </div>
             <div class="div-block-32-copy">
-                <div class="div-block-35">
-                <h3 class="heading-29">Related Videos</h3>
-                <ul id="playlist" class="related-video-playlist-wrapper w-list-unstyled">
-                    <li class="video-playlist-item">
-                    <a href="/single-video" class="video-playlist-inner w-inline-block">
-                        <div class="video-playlist-image _4"></div>
-                        <div class="div-block-24">
-                        <h2 class="heading-23">Video Title Goes Here</h2>
-                        <p class="paragraph-5">Dec 11, 2017</p>
-                        </div>
-                    </a>
-                    </li>
-                    <li class="video-playlist-item">
-                    <a href="/single-video" class="video-playlist-inner w-inline-block">
-                        <div class="video-playlist-image _4"></div>
-                        <div class="div-block-24">
-                        <h2 class="heading-23">Video Title Goes Here</h2>
-                        <p class="paragraph-5">Dec 11, 2017</p>
-                        </div>
-                    </a>
-                    </li>
-                    <li class="video-playlist-item">
-                    <a href="/single-video" class="video-playlist-inner w-inline-block">
-                        <div class="video-playlist-image _4"></div>
-                        <div class="div-block-24">
-                        <h2 class="heading-23">Video Title Goes Here</h2>
-                        <p class="paragraph-5">Dec 11, 2017</p>
-                        </div>
-                    </a>
-                    </li>
-                    <li class="video-playlist-item">
-                    <a href="/single-video" class="video-playlist-inner w-inline-block">
-                        <div class="video-playlist-image _4"></div>
-                        <div class="div-block-24">
-                        <h2 class="heading-23">Video Title Goes Here</h2>
-                        <p class="paragraph-5">Dec 11, 2017</p>
-                        </div>
-                    </a>
-                    </li>
-                    <li class="video-playlist-item">
-                    <a href="/single-video" class="video-playlist-inner w-inline-block">
-                        <div class="video-playlist-image _4"></div>
-                        <div class="div-block-24">
-                        <h2 class="heading-23">Video Title Goes Here</h2>
-                        <p class="paragraph-5">Dec 11, 2017</p>
-                        </div>
-                    </a>
-                    </li>
-                    <li class="video-playlist-item">
-                    <a href="/single-video" class="video-playlist-inner w-inline-block">
-                        <div class="video-playlist-image _4"></div>
-                        <div class="div-block-24">
-                        <h2 class="heading-23">Video Title Goes Here</h2>
-                        <p class="paragraph-5">Dec 11, 2017</p>
-                        </div>
-                    </a>
-                    </li>
-                </ul>
-                </div>
+                {{ partial "related-videos.html" . }}
             </div>
             <div class="video-single-comment-block">
                 <a href="#" class="show-comments hidden w-inline-block">
@@ -122,7 +64,7 @@
                 <div class="comment-wrapper-div">
                 <a href="#" class="hide-comments-button rounded w-inline-block" data-ix="hide-comments">
                     <div class="hide-text">Hide Comments</div>
-                    <div class="show-text">Show Comments</div>
+                    <div class="show-text">Show Comments</span></div>
                 </a>
                 <div id="disqus_thread" class="disqus-thread"></div>
                 </div>

@@ -6,7 +6,7 @@ description: "The Prophetic Voice of Our Time is a weekly radio show hosted by P
 albumImage: "//images.ctfassets.net/vfgh62eq5a4k/5pcTFnzW92wMi88y6OY0YU/261f0f4d99d41206fb9da9d7d97d86d1/download.jpg"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/2xDRvLC65KUIU2UIaomEOK/d4b6a5f4d1c66ced3ae1b0f6bc4053ec/headphones_podcast_default_1.jpg"
 itunesLink: https://itunes.apple.com/us/podcast/the-prophetic-voice-of-our-time/id1036387563
-rssFeed: http://www.sogmi.org/prophetic-voice-of-our-time/?format=rss
+rssFeed: http://propheticvoice.castos.com/feed
 ---
 The Prophetic Voice of Our Time is a weekly radio broadcast that focuses on the spirit of Prophecy which is the testimony of Jesus Christ. Join Pastor Cris as she talks about Jesus, the United States of America, and God's plan for the Body of Christ.
 
