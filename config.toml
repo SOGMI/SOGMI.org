@@ -15,12 +15,18 @@ enableRobotsTXT = true
     Livestreaming = true
 
 [outputs]
-home = ["HTML", "RSS", "Algolia"]
+home = ["HTML", "RSS", "Algolia", "Test"]
 section = ["HTML", "RSS"]
 taxonomy = ["HTML", "RSS"]
 
 [outputFormats.Algolia]
 baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[outputFormats.Test]
+baseName = "test"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true

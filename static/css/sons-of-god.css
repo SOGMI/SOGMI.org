@@ -1991,6 +1991,7 @@ figcaption {
   -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
   color: #333;
+  align-items: flex-start;
 }
 
 .video-playlist-inner:hover {
@@ -2014,9 +2015,8 @@ figcaption {
 }
 
 .video-playlist-image {
-  width: 40%;
-  height: 100%;
-  min-height: 100px;
+  width: 40% !important;
+  padding-top: 23%;
   background-color: #333;
   background-position: 50% 50%;
   background-size: cover;
@@ -2035,8 +2035,8 @@ figcaption {
 .heading-23 {
   margin-top: 0px;
   margin-bottom: 5px;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .paragraph-5 {
@@ -4485,12 +4485,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   }
   .video-playlist-image {
     width: 50%;
-    height: auto;
-    min-height: 100%;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
+    padding-top: 23%;
   }
   .div-block-24 {
     -webkit-box-flex: 1;
@@ -4500,7 +4495,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   }
   .heading-23 {
     font-size: 16px;
-    line-height: 16px;
+    line-height: 26px;
   }
   .paragraph-5 {
     font-size: 12px;
@@ -4924,7 +4919,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   }
   .video-playlist-image {
     width: 40%;
-    min-height: 100px;
+    padding-top: 23%
   }
   .div-block-24 {
     -webkit-box-orient: vertical;
@@ -5524,7 +5519,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   }
   .video-playlist-image {
     width: 50%;
-    min-height: 75px;
+    padding-top: 23%;
   }
   .div-block-27 {
     min-height: 65vw;

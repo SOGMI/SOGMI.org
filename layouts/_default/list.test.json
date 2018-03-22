@@ -1,0 +1,24 @@
+{{ range where .Site.Pages "Section" "podcasts"}}
+    {{ if ne .Title "Podcasts" }}
+        {{ $title := .Title }}{{ $description := .Description }}{{ $hosts := .Params.Hosts }}{{ $keywords := .Params.Keywords }}
+        {{ $pdate := .PublishDate }}{{ $rperm := .RelPermalink }}{{ $section := .Section }}{{ $series := .Params.Series }}
+        {{ $id := .UniqueID }}{{ $split := split .RawContent "<split>" }}
+            {{ range $split}}
+                {
+                    "title": "{{ $title }}",
+                    "date": 1475884800,
+                    "description": "{{ $description }}",
+                    "expirydate": -62135596800,
+                    "content": "{{ . }}",
+                    "hosts": {{ jsonify $hosts }},
+                    "keywords": {{ jsonify $keywords }},
+                    "publishdate": "{{ $pdate }}",
+                    "relpermalink": "{{ $rperm }}",
+                    "section": "{{ $section }}",
+                    "series": "{{ $series }}",
+                    "summary": "",
+                    "objectID": "{{ $id }}"
+                }
+            {{ end }}
+        {{ end }}
+{{ end }}
