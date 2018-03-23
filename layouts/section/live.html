@@ -13,12 +13,29 @@
             </div>
         </div>
     </div>
-{{ end }}
+    {{ else }}
+    <div id="liveBanner" style="background: URL(/img/green-fibers.png); background-size: 400px; color: white;">
+        <div class="image-overlay"></div>
+        <div class="container" style="z-index: 10; position: relative; text-align: center">
+                <h1 style="font-size: 2.5rem; line-height: 3rem;">Sorry we aren't streaming today</h1>
+                <h2 style="font-size: 1.2rem; line-height: 2rem;">Check below to see when you can catch our next broadcast!</h2>
+        </div>
+    </div>
+    {{ end }}
 <div class="content-section">
     <div class="container">
-        <h1>{{ .Title }}</h1>
-        <p>{{ .Description }}</p>
-
+        <h1 style="text-align: center; opacity: 0.5; color: var(--light-blue); margin-bottom: 20px;">Stream Schedule</h1>
+        {{ range .Params.livestreams }}
+            <div class="streamWrap">
+                <div class="streamImage" style="background-image: URL({{ .image }}?f=faces&w=400&h=350&fit=fill)">
+                </div>
+                <div class="streamContent">
+                    <h2>{{ .title }}</h2>
+                    <h3>{{ .subtitle }}</h3>
+                    <p>{{ markdownify .description }}</p>
+                </div>
+            </div>
+        {{ end }}
     </div>
 </div>
 {{ partial "footer.html" . }}

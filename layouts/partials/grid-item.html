@@ -46,19 +46,19 @@
             </a>
             <h4 class="heading-39"><strong>Share this episode</strong></h4>
             <div class="div-block-43">
-              <a href="http://www.facebook.com/sharer.php?u={{ .RelPermalink }}" target="_blank" class="link-block-2 facebook w-inline-block">
+              <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank" class="link-block-2 facebook w-inline-block">
                 <div></div>
               </a>
-              <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .RelPermalink }}" target="_blank" class="link-block-2 twitter w-inline-block">
+              <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" class="link-block-2 twitter w-inline-block">
                 <div></div>
               </a>
-              <a href="http://pinterest.com/pin/create/button/?url={{ .RelPermalink }}&amp;media={{ .Params.Thumbnail }}" target="_blank" class="link-block-2 pinterest w-inline-block">
+              <a href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Params.Thumbnail }}" target="_blank" class="link-block-2 pinterest w-inline-block">
                 <div></div>
               </a>
-              <a href="https://plus.google.com/share?url={{ .RelPermalink }}" target="_blank" class="link-block-2 google-plus w-inline-block">
+              <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="link-block-2 google-plus w-inline-block">
                 <div></div>
               </a>
-              <a href="http://www.reddit.com/submit?url={{ .RelPermalink }}" target="_blank" class="link-block-2 reddit w-inline-block">
+              <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2 reddit w-inline-block">
                 <div></div>
               </a>
             </div>
@@ -106,7 +106,7 @@
             </div>
             <div class="div-block-4">
                 <h2 class="blog-grid-heading">{{ .Title }}</h2>
-                <p>{{ .Description | truncate 150 }}</p>
+                <p>{{ if .Description }}{{ .Description | truncate 150 }}{{ else }}{{ .Summary | truncate 150 }}{{ end }}</p>
                 <div class="blog-meta" >
                     <span>
                         {{ if .Params.Authors }}

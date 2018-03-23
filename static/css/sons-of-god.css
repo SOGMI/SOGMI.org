@@ -2512,8 +2512,8 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 40px;
-  padding: 20px;
+  margin-bottom: 50px;
+  padding: 40px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -2528,7 +2528,7 @@ figcaption {
 
 .div-block-39 {
   width: 300px;
-  min-height: 250px;
+  height: 300px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -2538,8 +2538,8 @@ figcaption {
 }
 
 .author-page-profile-content {
-  padding-right: 40px;
-  padding-left: 20px;
+  padding-right: 0px;
+  padding-left: 40px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2549,8 +2549,8 @@ figcaption {
 .paragraph-8 {
   margin-top: 10px;
   margin-bottom: 0px;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 .author-heading {
@@ -4269,6 +4269,10 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
 }
 
 @media (max-width: 991px) {
+  .div-block-39 { 
+    width: 200px;
+    height: 200px;
+  }
   .home-grid-title {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -4313,13 +4317,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     background-color: transparent;
     color: #333;
   }
-  .nav-link.nav-button:hover {
-    margin-top: 12px;
-    border-width: 1px;
-    border-color: #ffb642;
-    background-color: transparent;
-    color: #ffb642;
-  }
+
   .nav-link.nav-button.donate {
     margin-left: 20px;
   }
@@ -4359,7 +4357,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     color: #ffb642;
   }
   .top-nav-link {
-    padding-top: 5px;
+    padding: 5px 20px;
   }
   .brand {
     margin-top: 0px;
@@ -4714,13 +4712,6 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   .nav-link.nav-button {
     margin-top: 15px;
   }
-  .nav-link.nav-button:hover {
-    margin-top: 15px;
-    border-width: 1px;
-    border-color: #ffb642;
-    background-color: transparent;
-    color: #ffb642;
-  }
   .slide-nav {
     bottom: 90px;
     -webkit-box-pack: start;
@@ -4810,10 +4801,10 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   .navigation-mobile {
     z-index: 1000;
     width: 200px;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     box-shadow: 1px 0 10px 0 rgba(0, 0, 0, .51);
   }
   .home-grid-button {
@@ -5049,7 +5040,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     border-top: 1px solid #dedede;
   }
   .author-page-profile {
-    padding-top: 250px;
+    padding: 250px 20px 20px 20px;
   }
   .div-block-39 {
     position: absolute;
@@ -5389,7 +5380,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     padding-left: 20px;
   }
   .navigation-mobile {
-    width: 150px;
+    width: 160px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;

@@ -1,7 +1,7 @@
 {{ $related := .Site.RegularPages.Related . | first 6 }}
   {{ with $related }}
     <div class="related-post-wrapper">
-      <h2 class="about-author related">Related Posts</h2>
+      <h2 class="about-author related">Related Episodes</h2>
       <div data-animation="slide" data-duration="500" data-infinite="1" class="slider-2 w-slider">
         <div class="mask-3 w-slider-mask">
             {{ range . }}
@@ -11,7 +11,13 @@
                     {{ if .Params.Thumbnail }}
                     <div class="related-post-image" style="background-image: url({{ .Params.Thumbnail }})"></div>
                     {{ else }}
+                    {{ if .Params.FeaturedImage }}
                     <div class="related-post-image" style="background-image: url({{ .Params.FeaturedImage }}?w=350&h=200&q=80)"></div>
+                    {{ else }}
+                    <div class="related-post-image" style="background: #adadad;">
+                      <div style="position: absolute; bottom: 0; top: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; font-family: Fontawesome webfont; color: white; font-size: 100px; opacity: 1"></div>
+                    </div>
+                    {{ end }}
                     {{ end }}
                     <div class="image-color-overlay blue"></div>
                   </div>

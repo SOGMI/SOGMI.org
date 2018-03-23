@@ -1,6 +1,10 @@
 {{ partial "header.html" . }}
-<div class="blog-single-image-header-top" style="position: relative; background-image:URL( {{ .Params.featuredImage }}?w=1600&q=80 ); background-size: cover; background-position: center; background-repeat: no-repeat">
-        <div class="image-overlay blog">            
+{{ if .Params.featuredImage }}
+  <div class="blog-single-image-header-top" style="position: relative; background-image:URL( {{ .Params.featuredImage }}?w=1600&q=80 ); background-size: cover; background-position: center; background-repeat: no-repeat">
+{{ else }}
+  <div class="blog-single-image-header-top" style="position: relative; background-image:URL( /img/green-fibers.png ); background-size: 400px; background-position: center; background-repeat: repeat">
+{{ end }}
+    <div class="image-overlay blog">            
         </div>
         <div class="container" style="z-index: 1">
           <div class="blog-single-banner-container">
@@ -64,8 +68,8 @@
                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
                   var disqus_config = function() {
-                    this.page.url = '{{ .Permalink }}'; // Replace PAGE_URL with your page's canonical URL variable
-                    this.page.identifier = '{{ .RelPermalink }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    this.page.url = 'http://sogmi.org{{ .RelPermalink }}'; // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = '{{ .UniqueID }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                   };
                   (function() { // DON'T EDIT BELOW THIS LINE
                     var d = document,
@@ -80,4 +84,4 @@
         </div>
       </div>
 
-{{ partial "footer.html" }}
+{{ partial "footer.html" . }}

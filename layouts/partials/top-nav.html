@@ -1,23 +1,7 @@
 <div class="top-nav">
     <div class="navbar-container">
         <div class="top-nav-inner">
-            <label id="searchButton" for="search-input"class="top-nav-link w-inline-block">
-                <div class="text-block-25"></div>
-                <div class="text-block-26">&nbsp;Search Website</div>
-            </label>
-            <!--<a href="https://wpsogmi.modiimedia.com" class="top-nav-link w-inline-block">
-                <div class="text-block-25"></div>
-                <div class="text-block-26">&nbsp;Partner Login</div>
-            </a>-->
-            <!--get current weekday-->
-            {{ $now := now.Format "Monday" }}
-            <!--site params for being live-->
-            {{ $live := .Site.Params.Livestreaming }}
-            <!--conditional styling if $now equals "Sunday" or if LiveStreaming is set to true-->
-            <a href="/live" {{ if (eq $now "Sunday" | or (eq $live true )) }} class="top-nav-link w-inline-block liveNow" {{ else }} class="top-nav-link w-inline-block" {{end}}>
-                <div class="text-block-25"></div>
-                <div class="text-block-26">&nbsp;Watch Live</div>
-            </a>
+            {{ partial "top-nav-menu.html" . }}
         </div>
     </div>
 </div>

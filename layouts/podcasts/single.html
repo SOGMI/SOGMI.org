@@ -152,10 +152,10 @@
     var disqus_shortname = "sogmi";
 
     // Put the permalink of your web page / blog post
-    var disqus_url = "https://sogmi.org{{ .URL }}";
+    var disqus_url = "https://sogmi.org{{ .RelPermalink }}";
 
     // Put the permalink of your web page / blog post
-    var disqus_identifier = "https://sogmi.org{{ .URL }}";
+    var disqus_identifier = "{{ .UniqueID }}";
 
     var disqus_loaded = false;
 

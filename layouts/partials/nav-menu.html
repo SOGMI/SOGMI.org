@@ -1,4 +1,7 @@
-{{ $today := now.Format "Monday" }}
+<!--get current weekday-->
+{{ $now := now.Format "Monday" }}
+<!--site params for being live-->
+{{ $live := $.Site.Params.Livestreaming }}
 <!--home-->
 <a href="/" class="nav-link w-inline-block">Home</a>
 <!--about-->
@@ -36,9 +39,10 @@
     </div>
 </div>
 
-<!--watch live-->
-<!--<a href="/live" {{ if ne $today "Monday" }} style="filter: saturate(0); opacity: 0.5" {{end}} class="nav-link nav-button donate w-inline-block">Watch Live</a>-->
 <!--donate-->
 <a href="/donate" class="nav-link nav-button w-inline-block">
     <div>Donate</div>
 </a>
+
+<!--watch live-->
+<a href="/live" {{ if (eq $now "Sunday" | or (eq $live true )) }} style="background-color: #e41f2f; border: 1px solid #e41f2f; opacity: 1" {{end}} class="nav-link nav-button live w-inline-block">Watch Live</a>
