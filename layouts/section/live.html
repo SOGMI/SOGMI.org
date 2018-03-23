@@ -10,6 +10,7 @@
             </div>
             <div id="liveChat">
                 <iframe width="100%" height="auto" src="https://www.youtube.com/live_chat?v={{ .Params.YoutubeId }}&amp;embed_domain=sogmisite.netlify.com"></iframe>    
+                <a class="ytbutton w-button" href="https://www.youtube.com/watch?v={{ .Params.YoutubeId }}">Join the live chat on Youtube</a>
             </div>
         </div>
     </div>
@@ -27,7 +28,7 @@
         <h1 style="text-align: center; opacity: 0.5; color: var(--light-blue); margin-bottom: 20px;">Stream Schedule</h1>
         {{ range .Params.livestreams }}
             <div class="streamWrap">
-                <div class="streamImage" style="background-image: URL({{ .image }}?f=faces&w=400&h=350&fit=fill)">
+                <div class="streamImage" style="background-image: URL({{ .image }}?f=faces&w=400&h=350&q=80&fit=fill)">
                 </div>
                 <div class="streamContent">
                     <h2>{{ .title }}</h2>

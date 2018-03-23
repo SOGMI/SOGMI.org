@@ -850,6 +850,9 @@ footer {
 #liveChat {
     flex-grow: 2;
 }
+#liveChat .ytbutton {
+    display: none;
+}
 
 @media (max-width: 991px) {
     #liveBanner {
@@ -871,6 +874,15 @@ footer {
     }
     #liveChat iframe {
         height: 50vh;
+        display: none;
+    }
+    #liveChat .ytbutton {
+        display: block;
+        padding: 25px;
+        left: auto;
+        right: auto;
+        border: 1px solid var(--light-blue);
+        text-align: center;
     }
 }
 /*****TEXT******/
