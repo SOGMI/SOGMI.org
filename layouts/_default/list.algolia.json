@@ -27,11 +27,10 @@
                     {{ if $authors }}"authors": {{ jsonify $authors }},{{ end }}
                     {{ if $vkeywords }}"videokeywords": {{ jsonify $vkeywords}},{{ end }}
                     "publishdate": "{{ $pdate }}",
-                    "relpermalink": "{{ $rperm }}",
                     "section": "{{ $section }}",
                     {{ if $series }}"series": "{{ $series }}",{{ end }}
                     {{ if eq $section "podcasts"}} "content": {{ jsonify . }},{{ end }}
-                    "summary": {{ jsonify $summary }}
+                    "relpermalink": "{{ $rperm }}"
                 },
             {{ end }}
         {{ else }}
