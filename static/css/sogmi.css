@@ -129,7 +129,7 @@
 /****LIVE NOTIFICATION*****/
 .top-nav-link.liveNow {
     opacity: 1;
-    animation: liveNotification 5s ease-in-out infinite;*/
+    animation: liveNotification 5s ease-in-out infinite;
     /*animation: liveGrow 10s ease infinite;
     -webkit-animation: liveGrow 10s ease infinite;*/
 }
