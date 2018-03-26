@@ -129,14 +129,14 @@
 /****LIVE NOTIFICATION*****/
 .top-nav-link.liveNow {
     opacity: 1;
-/*    animation: liveNotification 5s ease-in-out infinite;*/
-/*    animation: liveGrow 10s ease infinite;
+    animation: liveNotification 5s ease-in-out infinite;*/
+    /*animation: liveGrow 10s ease infinite;
     -webkit-animation: liveGrow 10s ease infinite;*/
 }
-.liveNow .text-block-25 {
+/*.liveNow .text-block-25 {
     animation: liveNotification 3s ease-in-out infinite;
     -webkit-animation: liveNotification 3s ease-in-out infinite;
-}
+}*/
 @keyframes liveNotification {
     0% {color: var(--text);}
     25% {color: var(--red);}

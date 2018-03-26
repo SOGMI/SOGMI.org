@@ -6,12 +6,11 @@
     <div class="text-block-25"></div>
     <div class="text-block-26">&nbsp;Partner Login</div>
 </a>-->
-<!--get current weekday-->
-{{ $now := now.Format "Monday" }}
-<!--site params for being live-->
-{{ $live := .Site.Params.Livestreaming }}
-<!--conditional styling if $now equals "Sunday" or if LiveStreaming is set to true-->
-<a href="/live" {{ if (eq $now "Sunday" | or (eq $live true )) }} class="top-nav-link w-inline-block liveNow" {{ else }} class="top-nav-link w-inline-block" {{end}}>
+
+<!--conditional styling if we LiveStreaming to "True"-->
+{{ with .Site.GetPage "section" "live" }}
+<a href="{{ .RelPermalink }}" {{ if eq .Params.currentlyLiveStreaming true }} class="top-nav-link w-inline-block liveNow" {{ else }} class="top-nav-link w-inline-block" {{end}}>
     <div class="text-block-25"></div>
     <div class="text-block-26">&nbsp;Watch Live</div>
 </a>
+{{ end }}

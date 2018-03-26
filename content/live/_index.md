@@ -1,18 +1,17 @@
 ---
 title: Livestreams
-slug: live
-description: Schedule for livestreaming of services and events.
-YoutubeID: aZu7c3Hx_80
+slug: _index
+currentlyLiveStreaming: true
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg"
 YoutubeChannel: UCRNMCaJ6wnwcZ_ShOfMG8Sw
-featuredImage: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/19493a487904837c7ba27a7109c58204/download__2_.jpg
-livestreams:
-  - title: Weekly Livestream At Freedom Fellowship Church
-    subtitle: Every Sunday Morning at 11:00 am CST
-    description: Every week we stream the morning service at Freedom Fellowship Church. Come join us and be blessed!
-    image: //images.ctfassets.net/vfgh62eq5a4k/4OnQWiQju0AYIqWceuEOm4/cf486854f20f00bcebb04c9b51863792/1512775280560__1_.jpg
+videoID: eF1pFm5VfJ8
+Description: Schedule for livestreaming of services and events.
 ---
+{{< StreamEvent image="//images.ctfassets.net/vfgh62eq5a4k/4OnQWiQju0AYIqWceuEOm4/cf486854f20f00bcebb04c9b51863792/1512775280560__1_.jpg" >}}
+## Weekly Livestream At Freedom Fellowship Church
 
-# Livestream Schedule
+### Every Sunday Morning at 11:00 am CST
 
-## Weekly Livestream at Freedom Fellowship Church
-Livestream of the Sunday morning services at Freedom Fellowship. __The broadcast starts every Sunday at 11:00 AM CST.__
+Every week we stream the morning service at Freedom Fellowship Church. Come join us and be blessed!
+
+{{< /StreamEvent >}}

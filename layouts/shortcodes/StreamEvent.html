@@ -1,0 +1,7 @@
+<div class="streamWrap">
+    <div class="streamImage" style="background-image: URL({{ .Get `image` }}?f=faces&w=400&h=350&q=80&fit=fill)">
+    </div>
+    <div class="streamContent">
+        {{ markdownify .Inner }}
+    </div>
+</div>
