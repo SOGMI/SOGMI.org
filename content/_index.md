@@ -26,23 +26,24 @@ grid1:
     subheader: with Pastor Cris
     buttontext: New Episodes Every Week
     gridlink: /series/the-prophetic-voice-of-our-time
-    image: 
+    image: //images.ctfassets.net/vfgh62eq5a4k/7mDAKtqV3OoiEqACykoIa6/4a6d3277b9deb857b30f5735771303fa/59de700b69f6bf000143ec7d_IMG_4878-as-Smart-Object-1-smaller-compressor.jpg
 grid2:
     header: Articles & Teachings
     subheader:
     buttontext: Recent Articles
     gridlink: /articles
-    image:
+    image: //images.ctfassets.net/vfgh62eq5a4k/1UbsL5gfbe6yAgcwYI8YcC/6089f0fd2bc76a28a01c56f10f305b52/aaron-burden-40490-unsplash__1_.jpg
 grid3:
     header: Trainings & Outreaches
     subheader: 
     buttontext: See What's Happening
     gridlink: 
+    image: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
 grid4:
     header: Services Times
     subheader: Join one of our church services
     buttontext: See Our Service Times
     gridlink: /locations/freedom-fellowship-church
-    image: 
+    image: //images.ctfassets.net/vfgh62eq5a4k/49m2PzZicgaSumWsWcqKMA/f10de288c6206f084449661c553e73ee/pmike_smiling__1_.jpg
 disableSearch: true
 ---

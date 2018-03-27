@@ -53,7 +53,8 @@
                 <div class="homepage-grid-row w-row">
                     <div class="w-col w-col-7 w-col-medium-6">
                         <a href="{{ .Params.Grid1.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                            <div class="homepage-grid-image-overlay"></div>
+                            <div class="homepage-grid-image-overlay" style="background-image: linear-gradient(119deg, rgba(0, 0, 0, .6), rgba(51, 51, 51, 0) 72%), URL({{.Params.Grid1.Image}}?w=700); -webkit-linear-gradient(331deg, rgba(0, 0, 0, .6), rgba(51, 51, 51, 0) 72%), URL({{.Params.Grid1.Image}}?w=700);">
+                            </div>
                             <h2 class="home-grid-title">{{ .Params.Grid1.Header }}</h2>
                             <h4 class="home-grid-subheading">{{ .Params.Grid1.Subheader }}</h4>
                             {{ if .Params.Grid1.ButtonText }}
@@ -63,7 +64,7 @@
                     </div>
                     <div class="w-col w-col-5 w-col-medium-6">
                         <a href="{{ .Params.Grid2.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                            <div class="homepage-grid-image-overlay"></div>
+                            <div class="homepage-grid-image-overlay" style="background-image: linear-gradient(119deg, rgba(0, 0, 0, .6), rgba(51, 51, 51, 0) 72%), URL({{.Params.Grid2.Image}}?w=700); -webkit-linear-gradient(331deg, rgba(0, 0, 0, .6), rgba(51, 51, 51, 0) 72%), URL({{.Params.Grid2.Image}}?w=700);"></div>
                             <h2 class="home-grid-title">{{ .Params.Grid2.Header }}</h2>
                             <h4 class="home-grid-subheading">{{ .Params.Grid2.Subheader }}</h4>
                             {{ if .Params.Grid2.ButtonText }}
@@ -75,7 +76,7 @@
                 <div class="homepage-grid-row w-row">
                     <div class="w-col w-col-5 w-col-medium-6">
                         <a href="{{ .Params.Grid3.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                            <div class="homepage-grid-image-overlay"></div>
+                            <div class="homepage-grid-image-overlay" style="background-image: linear-gradient(119deg, rgba(0, 0, 0, .6), rgba(51, 51, 51, 0) 72%), URL({{.Params.Grid3.Image}}?w=700); -webkit-linear-gradient(331deg, rgba(0, 0, 0, .6), rgba(51, 51, 51, 0) 72%), URL({{.Params.Grid3.Image}}?w=700);"></div>
                             <h2 class="home-grid-title">{{ .Params.Grid3.Header }}</h2>
                             <h4 class="home-grid-subheading">{{ .Params.Grid3.Subheader }}</h4>
                             {{ if .Params.Grid3.Buttontext }}
@@ -85,7 +86,7 @@
                     </div>
                     <div class="w-col w-col-7 w-col-medium-6">
                         <a href="{{ .Params.Grid4.GridLink }}" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                            <div class="homepage-grid-image-overlay"></div>
+                            <div class="homepage-grid-image-overlay" style="background-image: linear-gradient(119deg, rgba(0, 0, 0, .6), rgba(51, 51, 51, 0) 72%), URL({{.Params.Grid4.Image}}?w=700); -webkit-linear-gradient(331deg, rgba(0, 0, 0, .6), rgba(51, 51, 51, 0) 72%), URL({{.Params.Grid4.Image}}?w=700);"></div>
                             <h2 class="home-grid-title">{{ .Params.Grid4.Header }}</h2>
                             <h4 class="home-grid-subheading">{{ .Params.Grid4.Subheader }}</h4>
                             {{ if .Params.Grid4.Buttontext }}
