@@ -9,14 +9,34 @@
 <div class="content-section">
     <div class="container">
         <div class="video-top-buttons-archive">
-            <a href="/archive-video" class="button-5 w-button">Featured</a>
-            <a href="{{ .RelPermalink }}" class="button-5 w-button w--current">All Videos</a>
+            <!--<a href="/archive-video" class="button-5 w-button">Featured</a>-->
+            <a href="{{ .RelPermalink }}" class="button-5 w-button current">All Videos</a>
         </div>
         <div class="video-archive-grid-wrapper">
-            <div class="video-grid-section">
-                {{ range (.Paginator 2).Pages }}
-                    {{ partial "grid-item.html" . }}
-                {{ end }}
+            <div class="video-grid-wrap">
+                <div class="video-grid-section">
+                    {{ range (.Paginator 10).Pages }}
+                        {{ partial "grid-item.html" . }}
+                    {{ end }}
+                </div>
+                <div class="pagination">
+                    <div class="pagination-button-wrap">
+                    {{ if .Paginator.HasPrev }}
+                        <a class="pagination-button" href="{{ .Paginator.Prev.URL }}">
+                            <span></span>
+                            <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">&nbsp;&nbsp;prev</span>
+                        </a>
+                    {{ end }}
+                    </div>
+                    <div class="pagination-button-wrap">
+                    {{ if .Paginator.HasNext }}
+                        <a class="pagination-button" href="{{ .Paginator.Next.URL }}">
+                            <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">next&nbsp;&nbsp;</span>
+                            <span></span>
+                        </a>
+                    {{ end }}
+                    </div>            
+                </div>
             </div>
             <div class="div-block-32">
                 <div class="div-block-33">

@@ -10,7 +10,9 @@
         <div class="author-block">
           <h2 id="author" class="about-author">About the Author</h2>
           <div class="div-block-53">
-            <div class="author-profile-image" style="background-image: URL({{ .Params.ProfilePhoto }}?w=300)"></div>
+            <div class="author-profile-image">
+              <img src="{{ .Params.ProfilePhoto }}?w=200&h=200&fit=fill&f=face&r=300&q=80" alt="photo of {{ .Title }}" title="photo of {{ .Title }}" width="200" />
+            </div>
             <div class="author-info">
               <h3 class="author-name">{{ .Title }}</h3>
               <h5 class="author-profile-position">{{ .Params.Position }}</h5>

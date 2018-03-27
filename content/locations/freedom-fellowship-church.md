@@ -1,7 +1,7 @@
 ---
 Title: Freedom Fellowship Church
 slug: freedom-fellowship-church
-featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3JcYYDy3rWqUoiwIyyG4c0/1975a10e18c51f8a690b2d17e11e166e/1476219649510"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4VLQM9mH9SCWqieCQegGwO/e0033ce2e047c6583601b1a4c39790b9/pastor_cris_preaching.jpg"
 streetAddress: 8419 Callaghan Road
 city: San Antonio
 region: TX

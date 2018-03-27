@@ -11,7 +11,7 @@
     </div>
     <div class="dropdown-list w-dropdown-list">
         <a href="/about/who-we-are" class="nav-link w-dropdown-link">Who We Are</a>
-        <a href="/about/what-we-do" class="nav-link w-dropdown-link">What We Do</a>        
+        <!--<a href="/about/what-we-do" class="nav-link w-dropdown-link">What We Do</a>-->    
         <a href="/people" class="nav-link w-dropdown-link">Our Team</a>
     </div>
 </div>
@@ -45,4 +45,4 @@
 </a>
 
 <!--watch live-->
-<a href="/live" {{ if (eq $now "Sunday" | or (eq $live true )) }} style="background-color: #e41f2f; border: 1px solid #e41f2f; opacity: 1" {{end}} class="nav-link nav-button live w-inline-block">Watch Live</a>
+<a href="/live" {{ if eq .Params.currentlyLiveStreaming true }} style="background-color: #e41f2f; border: 1px solid #e41f2f; opacity: 1" {{end}} class="nav-link nav-button live w-inline-block">Watch Live</a>
