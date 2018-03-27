@@ -789,6 +789,21 @@ figcaption {
   -ms-transform: translate(-300px, 0px);
   transform: translate(-300px, 0px);
 }
+@media (max-height: 500px) {
+  .navigation-mobile {
+    overflow-y: scroll;
+    justify-content: flex-start !important;
+    width: 400px !important;
+    max-width: 80vw !important;
+  }
+  .navigation-mobile .dropdown-2 {
+    max-width: 200px;
+  }
+  .navigation-mobile .dropdown-list.w--open {
+    box-shadow: none;
+    border: 2px solid #dedede;
+  }
+}
 
 .navbar-container {
   display: block;
@@ -834,9 +849,9 @@ figcaption {
   right: 0px;
   bottom: 0px;
   z-index: 0;
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: scroll, scroll;
   box-shadow: inset 0 4px 10px -1px rgba(0, 0, 0, .2);
 }
@@ -2132,7 +2147,7 @@ figcaption {
   background-color: #f4f4f4;
 }
 
-.button-5.w--current {
+.button-5.current {
   background-color: #fff;
   color: #333;
   font-weight: 600;
@@ -2143,13 +2158,15 @@ figcaption {
   min-height: 200px;
   padding: 5px;
 }
-
+.video-grid-wrap {
+  width: 75%;
+}
 .video-grid-section {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 75%;
+  width: 100%;
   margin: -5px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -2158,7 +2175,7 @@ figcaption {
 
 .video-grid-item-inner {
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
   border: 1px solid #dedede;
   background-color: #fff;
   -webkit-transition: background-color 300ms ease, color 300ms ease;
@@ -2168,7 +2185,7 @@ figcaption {
 
 .video-grid-image {
   position: relative;
-  min-height: 250px;
+  padding-top: 56%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2189,8 +2206,8 @@ figcaption {
 .heading-26 {
   margin-top: 0px;
   margin-bottom: 5px;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 .text-block-11 {
@@ -4269,6 +4286,10 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
 }
 
 @media (max-width: 991px) {
+  .heading-26 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
   .div-block-39 { 
     width: 200px;
     height: 200px;
@@ -4437,10 +4458,8 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     padding-left: 0px;
   }
   .homepage-grid-image-overlay {
-    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), -webkit-linear-gradient(331deg, rgba(0, 0, 0, .46), rgba(51, 51, 51, 0) 67%), url('../images/IMG_4878-as-Smart-Object-1-smaller-compressor.jpg');
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), linear-gradient(119deg, rgba(0, 0, 0, .46), rgba(51, 51, 51, 0) 67%), url('../images/IMG_4878-as-Smart-Object-1-smaller-compressor.jpg');
     background-position: 0px 0px, 0px 0px, 0px 29%;
-    background-size: auto, auto, 110%;
+    background-size: cover;
   }
   .author-profile-image {
     width: 150px;
@@ -4510,12 +4529,12 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   .video-grid-item {
     width: 50%;
   }
-  .video-grid-section {
+  .video-grid-wrap {
     width: 65%;
   }
-  .video-grid-image {
+  /*.video-grid-image {
     min-height: 150px;
-  }
+  }*/
   .div-block-31 {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -4812,11 +4831,9 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     margin-left: 0px;
   }
   .homepage-grid-image-overlay {
-    background-image: -webkit-linear-gradient(331deg, rgba(0, 0, 0, .46), rgba(51, 51, 51, 0) 67%), url('../images/IMG_4878-as-Smart-Object-1-smaller-compressor.jpg');
-    background-image: linear-gradient(119deg, rgba(0, 0, 0, .46), rgba(51, 51, 51, 0) 67%), url('../images/IMG_4878-as-Smart-Object-1-smaller-compressor.jpg');
     background-position: 0px 0px, 0px 29%;
-    background-size: auto, 110%;
-    background-repeat: repeat, no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: scroll, scroll;
   }
   .event-single-header {
@@ -4943,7 +4960,7 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     padding: 20px;
     background-color: #fff;
   }
-  .video-grid-section {
+  .video-grid-wrap {
     width: 100%;
   }
   .div-block-31 {
