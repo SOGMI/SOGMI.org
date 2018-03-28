@@ -1,5 +1,5 @@
 ---
 title: People
-MetaTitle: Our Team | Sons of God Ministries International
+metaTitle: Our Team | Sons of God Ministries International
 disableSearch: true
 ---

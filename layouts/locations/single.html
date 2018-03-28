@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="forty column-right">
-                <div class="location-sidebar">
+                <address class="location-sidebar">
                     <div class="sidebar-section">
                         <div class="sidebar-heading">Basic Info</div>
                         {{ if .Params.PhoneNumber }}<div><strong>Phone:</strong> <a href="tel:{{ .Params.PhoneNumber }}">{{ .Params.PhoneNumber }}</a></div>{{ end }}
@@ -47,13 +47,14 @@
                         <div id="street_address">{{ .Params.StreetAddress}}</div>
                         <div id="city_state_zip">{{ .Params.City }}, {{ .Params.Region }} {{ .Params.ZipCode }}</div>
                         <!--opens modal for map-->
-                        <div class="view-map"><a data-ix="open-transcript" href="#" >view map</a></div>
+                        <div class="view-map"><a data-ix="open-transcript" href="#" >view map</div>
                     </div>
-                </div>
+                </address>
             </div>
         </div>
     </div>
 </div>
+
 
 <!--map modal-->
 {{ partial "transcript-popup.html" . }}

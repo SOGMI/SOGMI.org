@@ -246,6 +246,7 @@
     padding: 0px 20px;
     border: 1px solid var(--light-gray-2);
     background-color: var(--white);
+    font-style: normal !important;
 }
 .sidebar-section {
     margin-bottom: 20px;

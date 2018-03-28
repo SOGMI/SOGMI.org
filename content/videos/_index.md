@@ -1,5 +1,5 @@
 ---
-Title: Videos
-IgnoreLists: true
+title: Videos
+ignoreLists: true
 disableSearch: true
 ---

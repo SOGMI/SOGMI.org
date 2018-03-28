@@ -9,8 +9,9 @@
                 <label>What kind of donation would you like to make?</label>
                 <select id="donation-type" onchange="window.location=this.value" name="option-picker" class="select-field w-select">
                     <option value="">Select one...</option>
-                    <option value="{{ .Params.MonthlyDonation }}">monthly donation</option>
-                    <option value="{{ .Params.OneTimeDonation }}">one-time donation</option>
+                    {{ range .Params.formOptions }}
+                    <option value="{{ .link }}">{{.title}}</option>
+                    {{ end }}
                 </select>
             </form>
         </div>
@@ -25,8 +26,9 @@
             <label>What kind of donation would you like to make?</label>
             <select id="donation-type" onchange="window.location=this.value" name="option-picker" class="select-field w-select">
                 <option value="">Select one...</option>
-                <option value="{{ .Params.MonthlyDonation }}">monthly donation</option>
-                <option value="{{ .Params.OneTimeDonation }}">one-time donation</option>
+                {{ range .Params.formOptions }}
+                <option value="{{ .link }}">{{.title}}</option>
+                {{ end }}
             </select>
         </div>
     </div>
