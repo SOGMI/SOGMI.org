@@ -929,6 +929,12 @@ p {
     font-weight: 600;
 }
 
+::selection {
+    background: #ffb64280; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #ffb64280; /* Gecko Browsers */
+  }
 
 
 @media (max-width: 764px) {}

@@ -1,7 +1,7 @@
 ---
 title: Livestreams
 slug: _index
-currentlyLiveStreaming: true
+currentlyLiveStreaming: false
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg"
 YoutubeChannel: UCRNMCaJ6wnwcZ_ShOfMG8Sw
 videoID: eF1pFm5VfJ8

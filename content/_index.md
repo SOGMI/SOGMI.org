@@ -9,7 +9,7 @@ slide1:
     button1text: Service Times
     button2text: Upcoming Events
     imagelink: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
-    videoid: 3Zi_zG6o4pU
+    videoid: kTh3hP-HWnE
     active: true 
 slide2: 
     header: This is the second Header
@@ -44,6 +44,6 @@ grid4:
     subheader: Join one of our church services
     buttontext: See Our Service Times
     gridlink: /locations/freedom-fellowship-church
-    image: //images.ctfassets.net/vfgh62eq5a4k/49m2PzZicgaSumWsWcqKMA/f10de288c6206f084449661c553e73ee/pmike_smiling__1_.jpg
+    image: //images.ctfassets.net/vfgh62eq5a4k/22Xn5wJ9Lis6seu6i66W8M/c35e1635e0dc76a9e6415002a3e8e814/Pastor_Mike_Laughing_IMG_0148__1_.jpg
 disableSearch: true
 ---

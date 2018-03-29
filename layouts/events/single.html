@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<div class="event-single-header" style="position: relative; background-image: URL({{ .Params.FeaturedImage }})">
+<div class="event-single-header" style="position: relative; background-image: URL({{ .Params.FeaturedImage }}?w=1800&q=80)">
     <div class="image-overlay blog"></div>
     <div class="event-banner-container" style="z-index: 1">
         <div class="return-to-event-link"><a href="/events" class="return-to-event-link">return to events</a></div>
@@ -97,7 +97,13 @@
             </div>
             <div data-w-tab="Basic Info 2" class="w-tab-pane">
                 <h1 class="heading-36">Directions</h1>
-                <p class="paragraph-3">111111 some street ave. <br/>San Antonio, TX 71234<br/> <br/>&lt;insert map here&gt;</p>
+                <p class="paragraph-3"><span id="street_address"><b>{{ .Params.Venue }}</b><br/>{{ .Params.StreetAddress }}</span> <br/><span id="city_state_zip">{{ .Params.City }}, {{ .Params.State }} {{ .Params.ZipCode }}</span></p>
+                <div id="map" style="margin-bottom: 10px"></div>
+                <p style="margin: 0px">
+                    <a target="_blank" href="https://www.google.com/maps/dir//{{ .Params.Venue }},+{{ .Params.StreetAddress }},+{{ .Params.City }},+{{ .Params.Region }}+{{ .Params.ZipCode }}/">
+                    Get Directions
+                    </a>
+                </p>
                 <h1 class="heading-36">Parking</h1>
             </div>
             <!--when speakers are set-->
@@ -147,5 +153,46 @@
         </div>
     </div>
  </div>
+
+ <script>
+    var geocoder;
+    var map;
+    function codeAddress() {
+      geocoder = new google.maps.Geocoder();
+      var lat='';
+      var lng=''
+      var city_state_zip = document.getElementById("city_state_zip").innerHTML;
+      var street_address = document.getElementById("street_address").innerHTML;
+      var address = street_address + " " + city_state_zip;
+      geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+         lat = results[0].geometry.location.lat(); //getting the lat
+         lng = results[0].geometry.location.lng(); //getting the lng
+         map.setCenter(results[0].geometry.location);
+         var marker = new google.maps.Marker({
+             map: map,
+             position: results[0].geometry.location
+         });
+       } else {
+              alert("Geocode was not successful for the following reason: " + status);
+              }
+       });
+       var latlng = new google.maps.LatLng(lat, lng);
+       var myOptions = {
+           zoom: 15,
+           center: latlng,
+           mapTypeId: google.maps.MapTypeId.ROADMAP
+       }
+       map = new google.maps.Map(document.getElementById("map"), myOptions);
+       }
+  
+  
+  window.onload = function(){
+         codeAddress();
+  }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxm0ubI8DIoOm_3kV7rTAiC7pkf1ASC34&callback=initMap">
+</script>
 
 {{ partial "footer.html" . }}

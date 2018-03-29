@@ -8,6 +8,7 @@
                 <div class="author-grid-wrapper">
                 {{ range .Data.Pages.Reverse }}
                     {{ if eq .Params.mType "Leader" }}
+                    {{ if eq .Params.Show true }}
                         <div class="author-grid-item">
                             <a href="{{ .RelPermalink }}" class="author-grid-inner w-inline-block">
                                 {{ if .Params.profilePhoto }}
@@ -28,62 +29,65 @@
                             </a>
                         </div>
                     {{ end }}
-                {{ end }}
-                </div>
-            </div>
-        <div class="div-block-38">
-            <h2 class="heading-31">Website Contributors</h2>
-            <div class="author-grid-wrapper">
-                {{ range .Data.Pages.Reverse }}
-                    {{ if eq .Params.mType "Worker" }}
-                    <div class="author-grid-item">
-                        <a href="{{ .RelPermalink }}" class="author-grid-inner w-inline-block">
-                            {{ if .Params.profilePhoto }}
-                                <div class="author-photo-circle">
-                                    <div class="author-photo-circle-overlay"></div>
-                                    <img src="{{ .Params.profilePhoto }}?fit=fill&w=400&h=400&f=face&r=300&q=80"width="150"/>
-                                </div>
-                            {{ else }}
-                            <div class="author-photo-circle" style="background: #d6d6d6; display: flex; align-items: center; justify-content: center">
-                                    <div style="font-family: 'Fontawesome webfont', sans-serif; font-size: 80px; color: white;"></div>
-                                    <div class="author-photo-circle-overlay"></div>
-                            </div>
-                            {{ end }}
-                        <div class="div-block-37">
-                            <h3 class="heading-30">{{ .Title }}</h3>
-                            <div class="text-block-14">{{ .Params.Position }}</div>
-                        </div>
-                        </a>
-                    </div>
                     {{ end }}
                 {{ end }}
-            </div>
-        </div>
-        <div class="div-block-38">
-            <h2 class="heading-31">Affiliated Partners &amp; Guests</h2>
-            <div class="author-grid-wrapper">
-            <div class="author-grid-item">
-                <div class="author-grid-inner">
-                <div class="author-photo-circle"></div>
-                <div class="div-block-37">
-                    <h3 class="heading-30">Joel Jumalon</h3>
-                    <div class="text-block-14">Writer</div>
-                </div>
                 </div>
             </div>
-            <div class="author-grid-item">
-                <div class="author-grid-inner">
-                <div class="author-photo-circle"></div>
-                <div class="div-block-37">
-                    <h3 class="heading-30">Julnes Jumalon</h3>
-                    <div class="text-block-14">Editor</div>
-                </div>
+            <div class="div-block-38">
+                <h2 class="heading-31">Website Contributors</h2>
+                <div class="author-grid-wrapper">
+                    {{ range .Data.Pages.Reverse }}
+                        {{ if eq .Params.mType "Worker" }}
+                        {{ if eq .Params.Show true }}
+                        <div class="author-grid-item">
+                            <a href="{{ .RelPermalink }}" class="author-grid-inner w-inline-block">
+                                {{ if .Params.profilePhoto }}
+                                    <div class="author-photo-circle">
+                                        <div class="author-photo-circle-overlay"></div>
+                                        <img src="{{ .Params.profilePhoto }}?fit=fill&w=400&h=400&f=face&r=300&q=80"width="150"/>
+                                    </div>
+                                {{ else }}
+                                <div class="author-photo-circle" style="background: #d6d6d6; display: flex; align-items: center; justify-content: center">
+                                        <div style="font-family: 'Fontawesome webfont', sans-serif; font-size: 80px; color: white;"></div>
+                                        <div class="author-photo-circle-overlay"></div>
+                                </div>
+                                {{ end }}
+                            <div class="div-block-37">
+                                <h3 class="heading-30">{{ .Title }}</h3>
+                                <div class="text-block-14">{{ .Params.Position }}</div>
+                            </div>
+                            </a>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                    {{ end }}
                 </div>
             </div>
-            </div>
-        </div>
+            <!--<div class="div-block-38">
+                <h2 class="heading-31">Affiliated Partners &amp; Guests</h2>
+                <div class="author-grid-wrapper">
+                <div class="author-grid-item">
+                    <div class="author-grid-inner">
+                    <div class="author-photo-circle"></div>
+                    <div class="div-block-37">
+                        <h3 class="heading-30">Joel Jumalon</h3>
+                        <div class="text-block-14">Writer</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="author-grid-item">
+                    <div class="author-grid-inner">
+                    <div class="author-photo-circle"></div>
+                    <div class="div-block-37">
+                        <h3 class="heading-30">Julnes Jumalon</h3>
+                        <div class="text-block-14">Editor</div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>-->
         </div>
     </div>
-    </div>
+</div>
 
 {{ partial "footer.html" . }}

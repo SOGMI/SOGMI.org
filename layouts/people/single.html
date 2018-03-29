@@ -6,6 +6,7 @@
         <div class="author-page-profile">
         {{ if .Params.ProfilePhoto }}
             <div class="div-block-39" style="background-image: URL({{ .Params.ProfilePhoto }}?w=500&fit=scale)">
+                <img class="profilePhoto" src="{{.Params.ProfilePhoto}}?w=300&h=300&f=face&fit=fill" alt="photo of {{ .Title }}" title="photo of {{ .Title }}" />
                 <div class="div-block-80">
                     <div class="author-heading secondary">{{ .Title }}</div>
                 </div>

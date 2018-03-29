@@ -876,7 +876,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-position: 0px 0px, 50% 50%;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -3879,8 +3879,9 @@ figcaption {
   right: 0px;
   bottom: 0px;
   z-index: 0;
-  background-position: 0px 0px;
+  background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
   opacity: 0.5;
 }
 
@@ -4700,6 +4701,9 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
 }
 
 @media (max-width: 767px) {
+  .profilePhoto {
+    display: none
+  }
   .slider-2 {
     padding: 10px 0px;
   }
