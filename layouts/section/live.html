@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ $now := now.Format "Monday" }}
 {{ $live := .Params.CurrentlyLiveStreaming }}
-{{ if eq $live true }}
+{{ if .Params.videoId }}
     <div id="liveBanner" style="background: URL(/img/green-fibers.png); background-size: 400px;">
         <div class="image-overlay" style="background: #333333; opacity: .6"></div>
         <div id="liveWrap">
