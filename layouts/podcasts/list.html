@@ -41,11 +41,12 @@
               {{ if eq .Section "podcastSeries" }}
                 {{ if eq .Slug $name }}
                 <div class="div-block-62">
-                  <a href="/collections/{{ .Slug }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ .Params.FeaturedImage }}?w=800&q=60&fit=fill); background-size: cover; background-position: center; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
-                    <div class="text-block-28">{{ .Title }}</div>
-                    <div class="text-block-28" style="opacity: .5">View Episodes</div>
-                    <div class="image-color-overlay"></div>
-                    <div class="image-overlay"></div>
+                    <a href="/series/the-prophetic-voice-of-our-time" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
+                      <div class="homepage-grid-image-overlay" style="background-image: linear-gradient(119deg, rgba(0, 0, 0, 0.6), rgba(51, 51, 51, 0) 72%), url({{ .Params.FeaturedImage }}?w=800&q=80); transform-style: preserve-3d; transition: transform 300ms, opacity 300ms; opacity: 1; transform: scaleX(1) scaleY(1) scaleZ(1);">
+                      </div>
+                      <h2 class="home-grid-title">{{ .Title }}</h2>
+                      <h4 class="home-grid-subheading">with Pastor Cris</h4>        
+                      <h4 class="home-grid-button">View All Episodes</h4> 
                   </a>
                 </div>
                 {{ end }}
@@ -53,65 +54,42 @@
             {{ end }}
           {{ end }}
         </div>
-        <ul id="playlist" class="standard-grid-wrapper w-list-unstyled">
-          {{ range .Data.Pages }}
-          <li data-title="{{ .Title }}" class="podcast-grid-item">
-            <a href="{{ .Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block">
-              {{ if.Params.Thumbnail }}
-              <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}})">
-                <div class="play-notification">PLAY</div>
-                <div class="podcast-grid-image-overlay"></div>
-              </div>
-              {{ else }}
-              <div class="podcast-grid-image" style="background-image: url({{ .Params.FeaturedImage}})">
-                  <div class="play-notification">PLAY</div>
-                  <div class="podcast-grid-image-overlay"></div>
-                </div>
-              {{ end }}
-              
-              <div class="podcast-grid-image-2">
-                <div class="play-notification-2">PLAYING...</div>
-              </div>
-              <div class="podcast-grid-content">
-                <h2 class="podcast-heading">{{ .Title }}</h2>
-                <div class="text-block-5">{{ .Description }}</div>
-              </div>
-            </a>
-            <div class="podcast-links-panel">
-              <div class="share-popup">
-                <a href="#" class="share-buttons-close w-inline-block" data-ix="share-close">
-                  <div>close </div>
-                  <div class="text-block-18"></div>
-                </a>
-                <h4 class="heading-39"><strong>Share this episode</strong></h4>
-                <div class="div-block-43">
-                  <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank" class="link-block-2 facebook w-inline-block">
-                    <div></div>
-                  </a>
-                  <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" class="link-block-2 twitter w-inline-block">
-                    <div></div>
-                  </a>
-                  <a href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Params.FeaturedImage }}" target="_blank" class="link-block-2 pinterest w-inline-block">
-                    <div></div>
-                  </a>
-                  <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="link-block-2 google-plus w-inline-block">
-                    <div></div>
-                  </a>
-                  <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2 reddit w-inline-block">
-                    <div></div>
-                  </a>
-                </div>
-              </div>
-              <a href="{{ .RelPermalink }}" class="podcast-button-link w-inline-block">
-                <div class="text-block-2">details</div>
-              </a>
-              <div data-ix="social-popup" class="podcast-button-link share">
-                <div class="text-block-2">share</div>
-              </div>
+        <h2 class="sidebar-heading">Recent Podcasts</h2>
+        <div data-animation="slide" data-duration="500" data-infinite="1" class="slider-2 w-slider">
+            <div class="mask-3 w-slider-mask">
+                {{ range first 6  .Data.Pages }}
+                  <div class="slide-3 w-slide podcast">
+                    <a href="{{ .RelPermalink }}" class="related-post-inner w-inline-block">
+                      <div class="relative-wrapper">
+                        {{ if .Params.Thumbnail }}
+                        <div class="related-post-image" style="background-image: url({{ .Params.Thumbnail }})"></div>
+                        {{ else }}
+                        {{ if .Params.FeaturedImage }}
+                        <div class="related-post-image" style="background-image: url({{ .Params.FeaturedImage }}?w=400&h=200&q=80&fit=fill)"></div>
+                        {{ else }}
+                        <div class="related-post-image" style="background: #adadad;">
+                          <div style="position: absolute; bottom: 0; top: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; font-family: Fontawesome webfont; color: white; font-size: 100px; opacity: 1"></div>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                        <div class="image-color-overlay blue"></div>
+                      </div>
+                      <div class="div-block-52-copy">
+                        <h3 class="heading-40">{{ .Title }}</h3>
+                        <p class="paragraph-10">{{ .Description | truncate 50 }}</p>
+                      </div>
+                    </a>
+                  </div>
+                {{ end }}
             </div>
-          </li>
-          {{ end }}
-        </ul>
+                  <div class="left-arrow-2 w-slider-arrow-left">
+                    <div class="icon-5 w-icon-slider-left"></div>
+                  </div>
+            <div class="right-arrow-2 w-slider-arrow-right">
+              <div class="w-icon-slider-right"></div>
+            </div>
+            <div class="slide-nav-2 w-slider-nav w-round"></div>
+          </div>
       </div>
     </div>
   </div>
