@@ -34,11 +34,11 @@ grid2:
     gridlink: /articles
     image: //images.ctfassets.net/vfgh62eq5a4k/1UbsL5gfbe6yAgcwYI8YcC/6089f0fd2bc76a28a01c56f10f305b52/aaron-burden-40490-unsplash__1_.jpg
 grid3:
-    header: Trainings & Outreaches
+    header: Livestreams
     subheader: 
-    buttontext: See What's Happening
-    gridlink: 
-    image: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
+    buttontext: Watch Us Live
+    gridlink: /live
+    image: //images.ctfassets.net/vfgh62eq5a4k/4zb0uctwlyAOusgmoeCy2y/38fef6f7dc2f6f592b83a9f5798f22c3/elliot-teo-379059-unsplash__1_.jpg
 grid4:
     header: Services Times
     subheader: Join one of our church services
