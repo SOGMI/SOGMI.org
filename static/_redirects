@@ -1,5 +1,5 @@
 # Redirect Rules
 
-/prophetic-voice-of-our-time/*    http://propheticvoice.castos.com/feed   301
+/prophetic-voice-of-our-time/?format=rss    http://propheticvoice.castos.com/feed   301
 /prophetic-voice-of-our-time/    /series/the-prophetic-voice-of-our-time    301
 /prophetic-voice-player     /series/the-prophetic-voice-of-our-time     301
