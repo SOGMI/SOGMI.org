@@ -15,15 +15,3 @@ command = "npm run publish"
 
 [context.branch-deploy]
   command = "hugo -b $DEPLOY_PRIME_URL"
-
-redirects = [
-  {from = "/prophetic-voice-of-our-time", to = "/series/the-prophetic-voice-of-our-time/"},
-  {from = "/prophetic-voice-player", to = "/series/the-prophetic-voice-of-our-time/"}
-]
-
-[[redirects]]
-  from = "/prophetic-voice-of-our-time/?format=rss"
-  to = "http://propheticvoice.castos.com/feed"
-  status = 301
-  force = true
-  query = {path = ":path"} # COMMENT: apply this rule for /old-path?path=example
