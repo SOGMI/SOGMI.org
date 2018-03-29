@@ -35,13 +35,15 @@
       </div>
       <div class="column-right w-col w-col-8">
         <div>
+          <h2 class="sidebar-heading">Current Shows</h2>
           {{ range $name, $taxonomy := .Site.Taxonomies.series }}
             {{ range $.Site.Pages }}
               {{ if eq .Section "podcastSeries" }}
                 {{ if eq .Slug $name }}
                 <div class="div-block-62">
-                  <a href="/collections/{{ .Slug }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ .Params.FeaturedImage }}?w=400&q=60&fit=fill); background-size: cover; background-position: center;">
+                  <a href="/collections/{{ .Slug }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ .Params.FeaturedImage }}?w=800&q=60&fit=fill); background-size: cover; background-position: center; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
                     <div class="text-block-28">{{ .Title }}</div>
+                    <div class="text-block-28" style="opacity: .5">View Episodes</div>
                     <div class="image-color-overlay"></div>
                     <div class="image-overlay"></div>
                   </a>
