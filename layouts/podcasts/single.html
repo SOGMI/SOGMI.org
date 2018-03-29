@@ -105,42 +105,7 @@
   {{ range .Site.Pages }}
     {{ if eq .Section "podcastSeries" }}
       {{ if eq .Title $s }}
-        <div class="subscribe-modal-window">
-          <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>
-          <div class="subscribe-modal-container" style="background-image: linear-gradient(342deg, #1e4d68, rgba(15, 31, 56, .73)), url({{.Params.FeaturedImage}}?w=600&q=80)">
-            <div class="div-block-79" data-ix="subscribe-modal-dissappear">
-              <div class="text-block-36"></div>
-              <div class="text-block-35"> close</div>
-            </div>
-            <div class="subscribe-modal-beginning-content">
-              <div class="text-block-34-copy">Subscribe to <br/>{{ .Title }}</div>
-              <div class="text-block-34 hide-on-mobile">choose one of the following:</div>
-              <div class="div-block-17">
-                {{ if .Params.ItunesLink }}
-                <a href="{{ .Params.ItunesLink }}" target="_blank" class="subscribe-icon w-inline-block">
-                  <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0397b8bce8460001d67615_Apple_Podcast_Icon.png" width="30" class="image-2"/>
-                  <div>Apple Podcasts</div>
-                </a>
-                {{ end }}
-                {{ if .Params.GooglePlayLink }}
-                <a href="{{ .Params.GooglePlayLink }}" target="_blank" class="subscribe-icon w-inline-block">
-                  <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png" width="30" srcset="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon-p-500.png 500w, http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a0398368b7a55000133b101_GooglePlay-Icon.png 1024w" sizes="100vw" class="image-2"/>
-                  <div>Google Play</div>
-                </a>
-                {{ end }}
-                <a href="#" class="subscribe-icon w-inline-block" data-ix="rss-option">
-                  <img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="30" class="image-2"/>
-                  <div>RSS Feed</div>
-                </a>
-              </div>
-            </div>
-            <div class="rss-option"><img src="http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a03dd310245bc00019c5fe3_Communication-rss-icon-cropped.png" width="54" class="image-2" />
-              <div class="text-block-34">copy this link into your RSS feed reader</div>
-              <div class="w-embed"><input type="text" style="width:100%; color: #333; font-size: 14px; padding: 10px" value="{{ .Params.RssFeed }}" id="podcast-link">
-                <button style="background: #ffb642; padding: 10px 20px 10px 20px; color: #333; margin-top: 20px;" onclick="copyText()">Copy Link</button></div>
-            </div>
-          </div>
-        </div>
+        {{ partial "podcast-subscription-modal.html" . }}
       {{ end }}
     {{ end }}
   {{ end }}
