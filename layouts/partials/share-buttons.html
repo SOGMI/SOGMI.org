@@ -3,19 +3,19 @@
       <div>share</div>
     </div>
     <div class="div-block-44">
-      <a href="http://www.facebook.com/sharer.php?u={{ .Site.BaseURL }}{{ .URL }}" target="_blank" class="link-block-2-copy facebook w-inline-block">
+      <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank" class="link-block-2-copy facebook w-inline-block">
         <div></div>
       </a>
-      <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Site.BaseURL }}{{ .URL }}" target="_blank" class="link-block-2-copy twitter w-inline-block">
+      <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" class="link-block-2-copy twitter w-inline-block">
         <div></div>
       </a>
-      <a href="images/gritte-346468-small-compressor.jpg" target="_blank" class="link-block-2-copy pinterest w-inline-block">
+      <a href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}&description={{ .Title }}" target="_blank" class="link-block-2-copy pinterest w-inline-block">
         <div></div>
       </a>
-      <a href="https://plus.google.com/share?url={{ .Site.BaseURL }}{{ .URL }}" target="_blank" class="link-block-2-copy google-plus w-inline-block">
+      <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="link-block-2-copy google-plus w-inline-block">
         <div></div>
       </a>
-      <a href="http://www.reddit.com/submit?url={{ .Site.BaseURL }}{{ .URL }}" target="_blank" class="link-block-2-copy reddit w-inline-block">
+      <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2-copy reddit w-inline-block">
         <div></div>
       </a>
     </div>
