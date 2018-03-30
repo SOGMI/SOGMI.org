@@ -1,6 +1,7 @@
 ---
 title: Home
 metaTitle: Sons of God Ministries International | Empowering Leaders to Empower Nations
+featuredImage: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
 slide1: 
     header: Sons of God Ministries International
     subheader: "For as many as are led by the Spirit of God, those are the sons of God"
