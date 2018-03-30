@@ -15,8 +15,10 @@
     {{ range .Data.Pages }}
     <item>
         <title>{{ .Title }}</title>
-        {{ if .Params.Authors }}
-            <dc:creator>{{ .Params.Authors }}</dc:creator>
+        {{ if .Params.Authors }}<dc:creator>{{ .Params.Authors }}</dc:creator>
+        {{ else }}
+            {{ if .Params.Hosts}}<dc:creator>{{ .Params.Hosts }}</dc:creator>
+            {{ end }}
         {{ end }}
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
