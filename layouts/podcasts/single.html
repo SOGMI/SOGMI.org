@@ -100,16 +100,17 @@
   </div>
   {{ partial "transcript-popup.html" . }}
   {{ partial "audio-player.html" }}
-  
-  {{ $s := .Params.Series }}
-  {{ range .Site.Pages }}
-    {{ if eq .Section "podcastSeries" }}
-      {{ if eq .Title $s }}
-        {{ partial "podcast-subscription-modal.html" . }}
+  <div class="subscribe-modal-window">
+    <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>  
+    {{ $s := .Params.Series }}
+    {{ range .Site.Pages }}
+      {{ if eq .Section "podcastSeries" }}
+        {{ if eq .Title $s }}
+          {{ partial "podcast-subscription-modal.html" . }}
+        {{ end }}
       {{ end }}
     {{ end }}
-  {{ end }}
-
+  </div>
 </div>
 
 <script type="text/javascript">
