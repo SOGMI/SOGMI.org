@@ -75,12 +75,12 @@
                 <p class="paragraph-3">
                     {{ with .Params.StartDate }}
                         <b>Starts:&nbsp;</b>
-                        {{ . | dateFormat "Monday, January 2, 2006 at 03:04 PM" }}
+                        {{ . | dateFormat "Monday, January 2, 2006" }}
                         <br/>
                     {{ end }}
                     {{ with .Params.EndDate }}
                         <b>End: &nbsp;</b>
-                        {{ . | dateFormat "Monday, January 2, 2006 at 03:04 PM" }}
+                        {{ . | dateFormat "Monday, January 2, 2006" }}
                     {{ end }}
                 </p>
                 <!--create variable for <faq> which will be used to split the main content of the .md file in the content directory-->

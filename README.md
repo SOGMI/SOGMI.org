@@ -6,7 +6,7 @@
 
 All content items (i.e. articles, videos, podcasts, ect) utilized in this site are the intellectual property of Sons of God Ministries International. You are however welcome to clone and/or use the source code of this project as an example for any of your endeavors. You may not take any content items and redistribute them as your own.
 
-This site gives a strong example of how Contentful can be used to manage a Hugo website.
+This site gives a basic example of how Contentful can be used to manage a Hugo website.
 
 ## Basic Concept
 
