@@ -26,7 +26,7 @@
         <guid>{{ .UniqueID }}</guid>
         {{ if .Params.Thumbnail }}<media:content url="https:{{ .Params.Thumbnail }}?w=500" type="image/jpg"/>{{ else }}
             {{ if .Params.FeaturedImage }}<media:content url="https:{{ .Params.FeaturedImage}}?w=500" type="image/jpg"/>{{ else }}
-                {{ if .Params.YoutubeThumbnail }}<media:content url="{{ .Params.YoutubeThumbnail }}" type="image/jpg"/>
+                {{ if .Params.YoutubeID }}<media:content url="https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg" type="image/jpg"/>
                 {{ end }}
             {{ end }}
         {{ end }}

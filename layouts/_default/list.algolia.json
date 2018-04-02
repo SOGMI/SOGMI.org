@@ -6,7 +6,7 @@
         {{ $date := .Date.UTC.Unix }}
 
         {{ $thumbnail := .Params.Thumbnail }}{{ $image := .Params.FeaturedImage }}
-        {{ $ytimage := .Params.YoutubeThumbnail }}{{ $profilephoto := .Params.profilePhoto }}
+        {{ $ytimage := .Params.YoutubeID }}{{ $profilephoto := .Params.profilePhoto }}
 
         {{ $keywords := .Params.Keywords }}{{ $series := .Params.Series }}{{ $tags := .Params.Tags }}
         {{ $authors := .Params.Authors }}{{ $hosts := .Params.Hosts }}{{ $vkeywords := .Params.VideoKeywords }}
@@ -41,7 +41,7 @@
                 "objectID": "{{ $id }}",
                 {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}
                     {{ if $image }}"featuredImage": "{{ $image }}",{{ else }}
-                        {{ if $ytimage }}"featuredImage": "{{ $ytimage }}",{{ else }}
+                        {{ if $ytimage }}"featuredImage": "https://i.ytimg.com/vi/{{ $ytimage }}/hqdefault.jpg",{{ else }}
                             {{ if $profilephoto }}"featuredImage": "{{ $profilephoto }}",{{ end }}
                         {{ end }}
                     {{ end }}
@@ -67,7 +67,7 @@
         {{ $date := .Date.UTC.Unix }}
 
         {{ $thumbnail := .Params.Thumbnail }}{{ $image := .Params.FeaturedImage }}
-        {{ $ytimage := .Params.YoutubeThumbnail }}{{ $profilephoto := .Params.profilePhoto }}
+        {{ $ytimage := .Params.YoutubeID }}{{ $profilephoto := .Params.profilePhoto }}
 
         {{ $keywords := .Params.Keywords }}{{ $series := .Params.Series }}{{ $tags := .Params.Tags }}
         {{ $authors := .Params.Authors }}{{ $hosts := .Params.Hosts }}{{ $vkeywords := .Params.VideoKeywords }}
@@ -81,7 +81,7 @@
                 "objectID": "{{ $id }}",
                 {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}
                     {{ if $image }}"featuredImage": "{{ $image }}",{{ else }}
-                        {{ if $ytimage }}"featuredImage": "{{ $ytimage }}",{{ else }}
+                        {{ if $ytimage }}"featuredImage": "https://i.ytimg.com/vi/{{ $ytimage }}/hqdefault.jpg",{{ else }}
                             {{ if $profilephoto }}"featuredImage": "{{ $profilephoto }}",{{ end }}
                         {{ end }}
                     {{ end }}

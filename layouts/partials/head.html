@@ -21,7 +21,7 @@
   <meta name="generator" content="Hugo 0.36.1" />
   <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" />
   <meta property="og:description" content="{{ truncate 160 .Description }}" />
-  <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.Youtubethumbnail }}{{ .Params.YoutubeThumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}" />
+  <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.YoutubeID }}https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}" />
   <meta name="twitter:card" content="summary" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--algolia css-->

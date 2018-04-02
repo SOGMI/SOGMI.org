@@ -80,7 +80,9 @@
         <article class="video-grid-item">
             <a href="{{ .RelPermalink }}" data-ix="video-grid-hover" class="video-grid-item-inner w-inline-block">
                 <div class="video-grid-image" 
-                style="background-image: URL({{ .Params.YoutubeThumbnail }})">
+                {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail}}?w=500&q=80)"
+                  {{ else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"
+                {{ end }}>
                 <div class="video-grid-image-overlay">
                     <div class="video-play-button"></div>
                 </div>

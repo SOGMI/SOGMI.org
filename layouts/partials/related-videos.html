@@ -22,7 +22,7 @@
     {{ if ne .Params.IgnoreLists true }}
         <li class="video-playlist-item">
             <a href="{{ .RelPermalink }}" title="{{.Title}}" class="video-playlist-inner w-inline-block">
-                <div class="video-playlist-image _4" {{ if .Params.FeaturedImage }}style="background-image: URL({{ .Params.FeaturedImage }})"{{ else }}style="background-image: URL({{ .Params.YoutubeThumbnail }})"{{end}}></div>
+                <div class="video-playlist-image _4" {{ if .Params.FeaturedImage }}style="background-image: URL({{ .Params.FeaturedImage }})"{{ else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"{{end}}></div>
                 <div class="div-block-24">
                 <h2 class="heading-23">{{ .Title | truncate 40 }}</h2>
                 <p class="paragraph-5">{{ .Date.Format "Jan 02, 2006" }}</p>
