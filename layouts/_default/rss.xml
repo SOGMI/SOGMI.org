@@ -18,7 +18,7 @@
         <title>{{ .Title }}</title>
         {{ if .Params.Authors }}<dc:creator>{{ .Params.Authors }}</dc:creator>
         {{ else }}
-            {{ if .Params.Hosts}}<dc:creator>{{ .Params.Hosts }}</dc:creator>
+            {{ if .Params.Hosts}}<dc:creator>{{ delimit .Params.hosts ", " | title }}</dc:creator>
             {{ end }}
         {{ end }}
         <link>{{ .Permalink }}</link>
