@@ -57,11 +57,13 @@
     display: flex;
     flex-direction: row;
     border: 1px solid var(--light-gray-1);
-    background: var(--white);
+    border-left: none;
+    border-right: none;
+    /*background: var(--white);*/
     margin-bottom: 20px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);*/
     overflow: hidden;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 .streamContent {
     padding: 30px;
@@ -80,12 +82,15 @@
     color: var(--text);
 }
 .streamImage {
-    min-width: 300px;
-    min-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 200px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 20px 0px;
 }
 @media (max-width: 991px) {
     .streamImage {
@@ -857,8 +862,28 @@ footer {
 #liveChat .ytbutton {
     display: none;
 }
-
+.container.livepage {
+    max-width: 1600px;
+    padding: 0px 50px;
+}
+.container.livepage .column-left {
+    background: var(--white);
+    padding: 20px;
+    border: 1px solid var(--light-gray-1);
+}
+.liveContentHeader {
+    text-align: left; 
+    /*opacity: 0.5; */
+    /*color: var(--light-blue);*/ 
+    margin-bottom: 20px;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
 @media (max-width: 991px) {
+    .container.livepage {
+        padding: 30px;
+        margin: -30px 0px -40px 0px;;
+    }
     #liveBanner {
         padding: 50px 30px;
     }
@@ -873,6 +898,29 @@ footer {
     }
 }
 @media (max-width: 767px) {
+    .liveContentHeader {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    #liveVideo iframe {
+        height: 54vw !important;
+    }
+    #liveBanner {
+        padding: 0px;
+    }
+    #liveBanner .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .container.livepage {
+        padding: 0px;
+    }
+    .container.livepage .column-left {
+        border: none;
+    }
     #liveWrap iframe {
         height: 250px;
     }
