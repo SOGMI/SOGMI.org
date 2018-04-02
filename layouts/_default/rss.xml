@@ -13,6 +13,7 @@
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
     {{ range .Data.Pages }}
+    {{ if (eq .Section "articles" | or (eq .Section "podcasts" | or (eq .Section "videos"))) }}
     <item>
         <title>{{ .Title }}</title>
         {{ if .Params.Authors }}<dc:creator>{{ .Params.Authors }}</dc:creator>
@@ -33,6 +34,7 @@
         <description>{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | html }}{{ end }}</description>
         <category>{{ .Section }}</category>
     </item>
+    {{ end }}
     {{ end }}
   </channel>
 </rss>
