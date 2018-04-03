@@ -7,7 +7,7 @@
     --white: #ffffff;
     --light-gray-1: #dedede;
     --light-gray-2: #e7e7e7;
-    --hightlightb: #ffb6427a;
+    --highlightb: #ffb6427a;
     --red: #e41f2f;
 }
 .nav-link.nav-button {
@@ -467,7 +467,7 @@ body
         display: none;
     }
     #hits em {
-        background: var(--hightlightb);
+        background: var(--highlightb);
         font-style: normal;
     }
     #hits {
