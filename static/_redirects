@@ -1,19 +1,24 @@
 # Redirect Rules
 
+# PAGES
+
 /prophetic-voice-of-our-time/ format=:format    http://propheticvoice.castos.com/feed   301
 /prophetic-voice-of-our-time/    /series/the-prophetic-voice-of-our-time    301
 /prophetic-voice-player     /series/the-prophetic-voice-of-our-time     301
 /the-characteristics-of-a-true-prophet/ /articles/the-characteristics-of-a-true-prophet/    301
 /church/    /locations/freedom-fellowship-church/   301
-
-# old article / podcast links
-/prophetic-voice-of-our-time/february-10-11-2018-the-heart-of-god   /podcasts/prophetic-voice-308/  301
-/revival-is-here-old/   /articles/revival-is-here/  301
 /blogcollection/:slug   /collections/:slug   301
 /sogmi-blog /articles   301
 /welcome-to-the-sogmi-blog  /articles   301
 /services.php   /locations/freedom-fellowship-church/   301
-/podcasts.php   /series/the-prophetic-voice-of-our-time     301
+/podcasts.php   /podcasts     301
 /seed.php   /donate 301
 /thechurch.html  /locations/freedom-fellowship-church    301
 /thechurch.php  /locations/freedom-fellowship-church    301
+
+# old article / podcast links
+
+/prophetic-voice-of-our-time/february-10-11-2018-the-heart-of-god   /podcasts/prophetic-voice-308/  301
+/revival-is-here-old/   /articles/revival-is-here/  301
+/blog/prophecy-to-the-church/july-12-2009-prophecy/ /articles/prophecy-from-july-12-2009/   301
+/blog/prophecy-to-the-church/   /articles/prophecy-to-the-church/   301
