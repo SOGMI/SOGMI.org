@@ -63,8 +63,7 @@
 
 <!--<script src="https://use.fontawesome.com/9c0dff1360.js"></script>-->
 <!--load disqus js-->
-<script id="dsq-count-scr" src="https://sogmi.disqus.com/count.js" async></script>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+{{ if eq .Section "articles" }}<script id="dsq-count-scr" src="https://sogmi.disqus.com/count.js" async></script>{{ end }}<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 <script>
     $(function() {
           //caches a jQuery object containing the header element
