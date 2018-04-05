@@ -2,22 +2,22 @@
     <li data-title="{{ .Title }}" class="podcast-grid-item">
         <a href="{{ .Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block">
           {{ if .Params.Thumbnail }}
-          <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}}?w=600&q=80&fit=scale)">
+          <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}}?w=600&q=50)">
             <div class="play-notification">PLAY</div>
             <div class="podcast-grid-image-overlay"></div>
           </div>
           <span></span>
-          <div class="podcast-grid-image-2" style="background-image: url({{ .Params.Thumbnail }}?w=600&q=80&fit=scale); background-size: cover; background-position: center center;">
+          <div class="podcast-grid-image-2" style="background-image: url({{ .Params.Thumbnail }}?w=600&q=50); background-size: cover; background-position: center center;">
             <div class="play-notification-2">PLAYING...</div>
           </div>
           {{ else }}
             {{ if .Params.FeaturedImage }}
-              <div class="podcast-grid-image" style="background-image: url({{ .Params.FeaturedImage }}?w=600&q=80&fit=scale)">
+              <div class="podcast-grid-image" style="background-image: url({{ .Params.FeaturedImage }}?w=600&q=50)">
                 <div class="play-notification">PLAY</div>
                 <div class="podcast-grid-image-overlay"></div>
               </div>
               <span></span>
-              <div class="podcast-grid-image-2" style="background-image: url({{ .Params.FeaturedImage }}?w=600&q=80&fit=scale); background-size: cover; background-position: center center;">
+              <div class="podcast-grid-image-2" style="background-image: url({{ .Params.FeaturedImage }}?w=600&q=50); background-size: cover; background-position: center center;">
                 <div class="play-notification-2">PLAYING...</div>
               </div>
             {{ else }}
@@ -80,7 +80,7 @@
         <article class="video-grid-item">
             <a href="{{ .RelPermalink }}" data-ix="video-grid-hover" class="video-grid-item-inner w-inline-block">
                 <div class="video-grid-image" 
-                {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail}}?w=500&q=80)"
+                {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail}}?w=500&q=50)"
                   {{ else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"
                 {{ end }}>
                 <div class="video-grid-image-overlay">
@@ -99,10 +99,10 @@
             <div class="div-block-64">
                 <div class="image-color-overlay"></div>
                 {{ if .Params.Thumbnail }}
-                <div class="grid-image" style="background-image:URL({{ .Params.Thumbnail }}?w=600&q=70&fit=scale)">
+                <div class="grid-image" style="background-image:URL({{ .Params.Thumbnail }}?w=600&q=50)">
                 {{ else }}
                   {{ if .Params.FeaturedImage }}
-                  <div class="grid-image" style="background-image:URL({{ .Params.FeaturedImage }}?w=600&q=70&fit=scale)">
+                  <div class="grid-image" style="background-image:URL({{ .Params.FeaturedImage }}?w=600&q=50)">
                   {{ else }}
                   <div class="grid-image" style="background-image: URL( /img/green-fibers.png ); background-size: 400px; background-repeat: repeat">
                     <div class="image-overlay"></div>

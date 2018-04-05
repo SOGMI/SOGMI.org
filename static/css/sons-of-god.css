@@ -3220,7 +3220,7 @@ figcaption {
   line-height: 1.5rem;
 }
 .blog-comment-wrapper.mailchimpForm {
-  background-image: URL(//images.ctfassets.net/vfgh62eq5a4k/4lscfppxbiiyuyeUUO6sYW/3368ca706725af2115a455d993a66b54/alvaro-serrano-133360-unsplash__1_.jpg?w=900&q=60);
+  background-image: URL(//images.ctfassets.net/vfgh62eq5a4k/4lscfppxbiiyuyeUUO6sYW/3368ca706725af2115a455d993a66b54/alvaro-serrano-133360-unsplash__1_.jpg?w=900&h=300&q=50&fit=fill);
   background-size: cover;
   background-position: center center;
   padding: 30px;
