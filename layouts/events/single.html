@@ -1,5 +1,9 @@
 {{ partial "header.html" . }}
 
+{{ $d := .Params.endDate }}
+{{ $t := dateFormat "20060102" $d }}
+{{ $n := dateFormat "20060102" now }}
+{{ if ge $t $n }}
 <div class="event-single-header" style="position: relative; background-image: URL({{ .Params.FeaturedImage }}?w=1800&q=80)">
     <div class="image-overlay blog"></div>
     <div class="event-banner-container" style="z-index: 1">
@@ -153,7 +157,105 @@
         </div>
     </div>
  </div>
+{{ else }}
+<!--gallery page-->
 
+<div class="event-gallery-header" style="position: relative; background-image: URL({{ .Params.FeaturedImage }}?w=1800&q=80); background-size: cover; background-position: center center">
+    <div class="image-overlay"></div>
+    <div class="banner-container gallery">
+        <div><a href="/events/past-events/" class="return-to-event-link gallery">return to gallery archive </a></div>
+        {{ with .Params.startDate }}
+            <h3 class="gallery-date">{{ . | dateFormat "January 2, 2006"  }}</h3>
+        {{ end }}
+      <h1 class="gallery-header">{{ .Title }}</h1>
+      <h4 class="gallery-single-subheading">{{ .Params.Venue }} &nbsp;|&nbsp; {{ .Params.City }}, {{ .Params.State }}</h4>
+    </div>
+</div>
+<div class="content-section">
+    <div class="container">
+        {{ with .Params.Speakers }}
+            <div style="margin: -5px -5px 45px -5px; text-align: left">
+                <p style="margin: 0px 0px 10px 0px; font-size: 20px; font-weight: bold">Speakers</p>
+                <div>
+                    <!--create a loop for each speaker "." represents the item name. Assign "." the variable $val-->
+                    {{ range $ind,$val := . }}
+                        <!--make $val url friendly and assign it a new variable "$speaker"-->
+                        {{ $speaker := $val | title }}
+                        <!--get pages in the "people" directory that match "$speaker"-->
+                        {{ range $.Site.Pages }}
+                            {{ if eq .Section "people" }}
+                                {{ if eq .Title $speaker }}
+                                    <a style="display:inline-block; padding: 5px" href="{{ .RelPermalink }}" title="{{ .Title }}">
+                                        <div style="border-radius: 100px; overflow: hidden;">
+                                            <img src="{{ .Params.ProfilePhoto }}?w=75&h=75&fit=fill&f=face&r=100">
+                                        </div>
+                                    </a>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        {{ end }}
+        {{ if .Params.contentfulId }}
+        <div id="gallery" class="gallery-grid-wrapper">
+            
+            {{ $urlPre := "https://cdn.contentful.com"}}
+            {{ $urlmid := "/spaces/vfgh62eq5a4k/environments/master/entries/" }}
+            {{ $id := .Params.contentfulId }}
+            {{ $token := "?access_token=00ae52ccc5d7e46ccbfcace0e86689f47068f627843cd0a7a7107824eb58b384" }}
+            {{ $dataJ := getJSON $urlPre $urlmid $id $token }}
+
+            {{ $printurl := print $urlPre $urlmid $id $token }}
+            <!--<a href="{{ $printurl }}">{{ $printurl }}</a>-->
+            {{ range $dataJ }}
+                {{ range .gallery }}
+                    {{ $imageId := .sys.id }}
+                    {{ $urlmid2 := "/spaces/vfgh62eq5a4k/environments/master/assets/" }}
+                    {{ $imageData := getJSON $urlPre $urlmid2 $imageId $token }}
+                    
+                    {{ range $imageData }}
+                        {{ $iUrl := .file.url }}
+                        {{ $iWidth := .file.details.image.width }}
+                        {{ $iHeight := .file.details.image.height }}
+                        {{ $deets := .description }}
+                        {{ if eq .id $imageId }}
+                        {{ else }}
+                        <a href="#" class="gallery-grid-item w-inline-block w-lightbox">
+                            <img src="{{ $iUrl }}?w=500&h=500&q=70&fit=fill" width="auto" alt="{{ $deets }}"/>
+                            <!--<div class="gallery-grid-photo" style="background-image:URL({{ $iUrl }}?w=500&h=500&q=70&fit=fill); background-size: cover;"></div>-->
+                            <script type="application/json" class="w-json">
+                                {
+                                "items": [{
+                                    "type": "image",
+                                    "_id": "{{ $imageId }}",
+                                    "origFileName": "{{ .file.fileName }}",
+                                    "width": {{ $iWidth }},
+                                    "height": {{ .file.details.image.height }},
+                                    "fileSize": {{ .file.details.size }},
+                                    "url": "{{ .file.url }}"
+                                }],
+                                "group": "Gallery"
+                                }
+                            </script>
+                        </a>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+
+
+{{ end }}
+
+{{ $d := .Params.endDate }}
+{{ $t := dateFormat "20060102" $d }}
+{{ $n := dateFormat "20060102" now }}
+{{ if ge $t $n }}
  <script>
     var geocoder;
     var map;
@@ -190,9 +292,10 @@
   window.onload = function(){
          codeAddress();
   }
-        </script>
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxm0ubI8DIoOm_3kV7rTAiC7pkf1ASC34&callback=initMap">
 </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxm0ubI8DIoOm_3kV7rTAiC7pkf1ASC34&callback=initMap"></script>
+{{ else }}
+<script src="/js/gallery.js"></script>
+{{ end }}
 
 {{ partial "footer.html" . }}

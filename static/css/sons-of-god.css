@@ -1,3 +1,191 @@
+/*gallery page*/
+.return-to-event-link.gallery {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+}
+.banner-container.gallery {
+  text-align: left;
+}
+.event-grid-link.gallery {
+  min-height: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.event-gallery-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("http://uploads.webflow.com/59d9b3659215eb00015d7bab/59db2fac44723e00014fcf74_raphael-schaller-204592-smaller-compressor.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("http://uploads.webflow.com/59d9b3659215eb00015d7bab/59db2fac44723e00014fcf74_raphael-schaller-204592-smaller-compressor.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.gallery-header {
+  max-width: 900px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.gallery-single-subheading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.gallery-date {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.gallery-grid-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 20%;
+  padding: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.gallery-grid-photo {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url("http://uploads.webflow.com/59d9b3659215eb00015d7bab/5a4f262743b1600001dc1f0a_jazmin-quaynor-35845.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery-grid-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -5px;
+  padding-left: 0px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.gallery-grid-wrapper.with-bottom-margin {
+  margin-bottom: 30px;
+}
+
+.gallery-grid-wrapper.right-align {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.image-7 {
+  position: absolute;
+}
+
+@media (max-width: 991px) {
+  .gallery-grid-item {
+    min-width: 25%;
+  }
+}
+@media (max-width: 767px) {
+  .return-to-event-link.gallery {
+    margin-bottom: 25px;
+  }
+  .event-gallery-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .gallery-header {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .gallery-single-subheading {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  .gallery-grid-item {
+    min-height: 125px;
+    min-width: 33.33%;
+  }
+}
+@media (max-width: 479px) {
+  .banner-container.gallery {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .gallery-header {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .gallery-single-subheading {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .gallery-date {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .gallery-grid-item {
+    min-height: 100px;
+    min-width: 50%;
+  }  .gallery-header {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .gallery-single-subheading {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .gallery-date {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .gallery-grid-item {
+    min-height: 100px;
+    min-width: 50%;
+  }
+}
+
 body {
   font-family: Poppins, sans-serif;
   color: #333;
