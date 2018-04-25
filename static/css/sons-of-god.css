@@ -119,6 +119,9 @@
 .image-7 {
   position: absolute;
 }
+a:hover .view-gallery-button {
+  height: 40px;
+}
 
 @media (max-width: 991px) {
   .gallery-grid-item {
@@ -4090,7 +4093,7 @@ figcaption {
 }
 
 .event-grid-link.gallery {
-  min-height: 300px;
+  min-height: 350px;
   padding-top: 20px;
   padding-bottom: 20px;
   -webkit-box-pack: end;

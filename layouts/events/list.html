@@ -46,7 +46,47 @@
         {{ $t := dateFormat "20060102" $d }}
         {{ $n := dateFormat "20060102" now }}
           {{ if ge $n $t }}
-            <div class="event-list-item">
+          <div class="event-list-item">
+              <a href="{{ .RelPermalink }}" class="event-grid-link gallery w-inline-block">
+                <div class="event-grid-overlay"  style="background-image: URL({{ .Params.FeaturedImage }}?w=500&q=80); background-size: cover;"></div>
+                <div class="div-block-74">
+                  <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
+                  <h3 class="event-grid-title" style="border: none; padding: 0px !important">{{ .Title }}</h3>
+                  <div class="text-block-31">{{ dateFormat "January 02, 2006" $d }}</div>
+                </div>
+                <div class="div-block-75">
+                    {{ $urlPre := "https://cdn.contentful.com"}}
+                    {{ $urlmid := "/spaces/vfgh62eq5a4k/environments/master/entries/" }}
+                    {{ $id := .Params.contentfulId }}
+                    {{ $token := "?access_token=00ae52ccc5d7e46ccbfcace0e86689f47068f627843cd0a7a7107824eb58b384" }}
+                    {{ $dataJ := getJSON $urlPre $urlmid $id $token }}
+        
+                    {{ $printurl := print $urlPre $urlmid $id $token }}
+                    <!--<a href="{{ $printurl }}">{{ $printurl }}</a>-->
+                    <script>
+                    var count = document.querySelectorAll('#{{ .UniqueID }} li').length;
+                    alert(count);
+                    </script>
+                    <div style="font-size: 14px" id="{{ .UniqueID }}">
+                    {{ range $dataJ }}
+                        {{ range $i, $e := .gallery }}
+                          {{ if gt $i -1 }}
+                            {{ if eq $i 0 }}
+                              Photos Available
+                            {{ end }}
+                          {{ else }}
+                            No Photos
+                          {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    </div>
+                </div>
+                <div class="view-gallery-button">
+                  <div>View Gallery</div>
+                </div>
+              </a>
+            </div>
+            <!--<div class="event-list-item">
               <a href="{{ .RelPermalink }}" class="event-grid-link gallery w-inline-block">
                 <div class="div-block-75">
                         <div>View Gallery</div>
@@ -60,7 +100,7 @@
                   {{ end }}
                 </div>
               </a>
-            </div>
+            </div>-->
           {{ end }}
         {{ end }}
       {{ end }}
