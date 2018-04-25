@@ -54,7 +54,7 @@
                   <h3 class="event-grid-title" style="border: none; padding: 0px !important">{{ .Title }}</h3>
                   <div class="text-block-31">{{ dateFormat "January 02, 2006" $d }}</div>
                 </div>
-                <div class="div-block-75">
+                <div style="display: none" class="div-block-75">
                     {{ $urlPre := "https://cdn.contentful.com"}}
                     {{ $urlmid := "/spaces/vfgh62eq5a4k/environments/master/entries/" }}
                     {{ $id := .Params.contentfulId }}
@@ -63,10 +63,6 @@
         
                     {{ $printurl := print $urlPre $urlmid $id $token }}
                     <!--<a href="{{ $printurl }}">{{ $printurl }}</a>-->
-                    <script>
-                    var count = document.querySelectorAll('#{{ .UniqueID }} li').length;
-                    alert(count);
-                    </script>
                     <div style="font-size: 14px" id="{{ .UniqueID }}">
                     {{ range $dataJ }}
                         {{ range $i, $e := .gallery }}
