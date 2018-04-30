@@ -35,7 +35,7 @@
                 <div class="div-block-35">
                     <h3 class="heading-29">Recent Broadcasts</h3>
                     <ul id="playlist" class="related-video-playlist-wrapper w-list-unstyled">
-                        {{ range .Site.Taxonomies.videokeywords.livestream }}
+                        {{ range first 4 .Site.Taxonomies.videokeywords.livestream }}
                         <li class="video-playlist-item">
                         <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="video-playlist-inner w-inline-block">
                             <div class="video-playlist-image _4" 
