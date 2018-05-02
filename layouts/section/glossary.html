@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+<div class="header-image" style="background-image: URL({{ .Params.FeaturedImage }}?w=2000&amp;q=80)">
+    <div class="image-overlay"></div>
+    <div class="banner-container">
+      <h1 class="banner-header">{{ .Title }}</h1>
+    </div>
+  </div>
+<div class="content-section">
+    <div class="container">
+        <div class="div-block-51">
+            <div class="div-block-38">
+                <h2 class="section-heading" style="margin: 0px 0px 20px 0px">Article Keywords</h2>
+                <div class="col4">
+                    {{ range .Site.Taxonomies.tags.Alphabetical }}
+                        <div>
+                            <a href="/tags/{{ .Name | urlize }}" style="display:inline-block">{{ replaceRE "-" " " .Name }} ({{ .Count }})</a>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="div-block-38">
+                <h2 class="section-heading" style="margin: 0px 0px 20px 0px">Podcast Keywords</h2>
+                <div class="col4">
+                    {{ range .Site.Taxonomies.keywords.Alphabetical }}
+                        <div>
+                            <a href="/keywords/{{ .Name | urlize }}" style="display:inline-block">{{ replaceRE "-" " " .Name }} ({{ .Count }})</a>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="div-block-38">
+                <h2 class="section-heading" style="margin: 0px 0px 20px 0px">Video Keywords</h2>
+                <div class="col4">
+                    {{ range .Site.Taxonomies.videokeywords.Alphabetical }}
+                        <div>
+                            <a href="/videokeywords/{{ .Name | urlize }}" style="display:inline-block">{{ replaceRE "-" " " .Name }} ({{ .Count }})</a>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "footer.html" . }}
