@@ -60,7 +60,7 @@
         {{ end }}
     {{ end }}
 {{ end }}
-{{ range last 1 .Site.RegularPages }}
+{{ with .Site.GetPage "section" "glossary" }}
     {{ if ne .Params.DisableSearch true }}
         {{ $title := .Title }}{{ $description := .Description }}{{ $summary := .Summary }}
         {{ $pdate := .PublishDate }}{{ $rperm := .RelPermalink }}{{ $section := .Section }}
