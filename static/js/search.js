@@ -21,7 +21,7 @@ const search = instantsearch({
 
   var hittemplate =
   '<a href={{relpermalink}} class="hit">' +
-    '<div class="hit-image" style="background-image: URL({{featuredImage}}{{profilephoto}}?w=200&q=80)"></div>' +
+    '<div class="hit-image" style="background-image: URL({{featuredImage}}?w=150&h=150&fit=fill&f=face&q=80)"></div>' +
     '<div class="hit-content">'+
       '<p class="title">{{{_highlightResult.title.value}}}</p>' +
       '<p>{{{_snippetResult.description.value}}}...</p>' + 
