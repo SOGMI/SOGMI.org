@@ -4942,6 +4942,10 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
 }
 
 @media (max-width: 767px) {
+  .section-heading {
+    font-size: 25px;
+    line-height: 35px;
+  }
   .profilePhoto {
     display: none
   }

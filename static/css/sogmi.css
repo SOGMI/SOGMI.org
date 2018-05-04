@@ -778,6 +778,9 @@ footer {
     }
 }
 /****FLEX COL*****/
+.col4 {
+    column-count: 4;
+}
 .flex-col {
     padding: 0px 10px;
 }
@@ -811,6 +814,9 @@ footer {
     direction: row;
 }
 @media (max-width: 991px) {
+    .col4 {
+        column-count: 3
+    }
     footer .flex-col {
         width: 100%;
         margin-bottom: 50px; 
@@ -821,6 +827,9 @@ footer {
 }
 
 @media (max-width: 767px) {
+    .col4 {
+        column-count: 2
+    }
     footer .flex-col {
         width: 100%;
         margin-bottom: 50px; 
@@ -828,6 +837,11 @@ footer {
     }
     footer .thirty.flex-col {
         width: 100%;
+    }
+}
+@media (max-width: 479px) {
+    .col4 {
+        column-count: 1
     }
 }
 #liveBanner {
