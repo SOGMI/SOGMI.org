@@ -11,6 +11,7 @@ enableRobotsTXT = true
     youtube = ""
     twitter = ""
     announcement = ""
+    imageplaceholder = "//images.ctfassets.net/vfgh62eq5a4k/CUILu9hmSc84kgEWGAsUo/d1c97cf78771e4222e83c9a331fbc07f/sogmi_logo_placeholder.png"
 
 [outputs]
 home = ["HTML", "RSS", "Algolia", "Test"]

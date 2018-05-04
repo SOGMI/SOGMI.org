@@ -1,3 +1,4 @@
+{{ $ph := .Site.Params.imageplaceholder }}
 [
     {{ range .Site.RegularPages }}
     {{ if ne .Params.DisableSearch true }}
@@ -20,7 +21,7 @@
                     "date": {{ $date }},
                     {{ if $description }}"description": {{ jsonify $description }},{{ end }}
                     {{ if eq $index 0 }}"objectID": "{{ $id }}",{{ else }}"objectID": "{{ $id }}{{ $index }}",{{ end }}
-                    {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}{{ if $image }}"featuredImage": "{{ $image }}",{{ end }}{{ end }}
+                    {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}{{ if $image }}"featuredImage": "{{ $image }}",{{ else }}"featuredImage": "{{ $ph }}",{{ end }}{{ end }}
                     {{ if $hosts }}"hosts": {{ jsonify $hosts }},{{ end }}
                     {{ if $keywords }}"keywords": {{ jsonify $keywords }},{{ end }}
                     {{ if $tags }}"tags": {{ jsonify $tags }},{{ end }}
@@ -42,7 +43,7 @@
                 {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}
                     {{ if $image }}"featuredImage": "{{ $image }}",{{ else }}
                         {{ if $ytimage }}"featuredImage": "https://i.ytimg.com/vi/{{ $ytimage }}/hqdefault.jpg",{{ else }}
-                            {{ if $profilephoto }}"featuredImage": "{{ $profilephoto }}",{{ end }}
+                            {{ if $profilephoto }}"featuredImage": "{{ $profilephoto }}",{{ else }}"featuredImage": "{{ $ph }}",{{ end }}
                         {{ end }}
                     {{ end }}
                 {{ end }}
@@ -82,7 +83,7 @@
                 {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}
                     {{ if $image }}"featuredImage": "{{ $image }}",{{ else }}
                         {{ if $ytimage }}"featuredImage": "https://i.ytimg.com/vi/{{ $ytimage }}/hqdefault.jpg",{{ else }}
-                            {{ if $profilephoto }}"featuredImage": "{{ $profilephoto }}",{{ end }}
+                        {{ if $profilephoto }}"featuredImage": "{{ $profilephoto }}",{{ else }}"featuredImage": "{{ $ph }}",{{ end }}
                         {{ end }}
                     {{ end }}
                 {{ end }}
