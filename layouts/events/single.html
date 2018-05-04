@@ -173,30 +173,7 @@
 </div>
 <div class="content-section">
     <div class="container">
-        {{ with .Params.Speakers }}
-            <div style="margin: -5px -5px 45px -5px; text-align: left">
-                <p style="margin: 0px 0px 10px 0px; font-size: 20px; font-weight: bold">Speakers</p>
-                <div>
-                    <!--create a loop for each speaker "." represents the item name. Assign "." the variable $val-->
-                    {{ range $ind,$val := . }}
-                        <!--make $val url friendly and assign it a new variable "$speaker"-->
-                        {{ $speaker := $val | title }}
-                        <!--get pages in the "people" directory that match "$speaker"-->
-                        {{ range $.Site.Pages }}
-                            {{ if eq .Section "people" }}
-                                {{ if eq .Title $speaker }}
-                                    <a style="display:inline-block; padding: 5px" href="{{ .RelPermalink }}" title="{{ .Title }}">
-                                        <div style="border-radius: 100px; overflow: hidden;">
-                                            <img src="{{ .Params.ProfilePhoto }}?w=75&h=75&fit=fill&f=face&r=100">
-                                        </div>
-                                    </a>
-                                {{ end }}
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}
-                </div>
-            </div>
-        {{ end }}
+        <p style="margin-bottom: 50px">This event has ended&nbsp;&nbsp;<br/><a href="#" data-ix="open-transcript">+View Event Details</a></p>
         {{ if .Params.contentfulId }}
         <div id="gallery" class="gallery-grid-wrapper">
             
@@ -247,15 +224,9 @@
         {{ end }}
     </div>
 </div>
-
-
-
+{{ partial "transcript-popup.html" . }}
 {{ end }}
 
-{{ $d := .Params.endDate }}
-{{ $t := dateFormat "20060102" $d }}
-{{ $n := dateFormat "20060102" now }}
-{{ if ge $t $n }}
  <script>
     var geocoder;
     var map;
@@ -294,7 +265,7 @@
   }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxm0ubI8DIoOm_3kV7rTAiC7pkf1ASC34&callback=initMap"></script>
-{{ else }}
+{{ if ge $n $t }}
 <script src="/js/gallery.js"></script>
 {{ end }}
 
