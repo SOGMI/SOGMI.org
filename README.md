@@ -1,4 +1,4 @@
-# This is the Repository For SOGMI.org
+# This is the Repository For SOGMI.org!
 
 [SOGMI.org](http://sogmi.org) uses [Hugo](http:gohugo.io) to generate a static website from content stored in [Contentful](http://contentful.com). 
 
