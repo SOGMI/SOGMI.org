@@ -1,7 +1,7 @@
 ---
 title: Obedience is Better than Sacrifice
 slug: prophetic-voice-319
-keywords: ["Instruction","Obedience","Sacrifice","Finances","Prophecy"]
+keywords: ["transfer of wealth","prophecy","obedience","sacrifice","instruction"]
 hosts: ["Cristina Sosso"]
 originalAirDate: 2018-04-28
 date: 2018-04-30
