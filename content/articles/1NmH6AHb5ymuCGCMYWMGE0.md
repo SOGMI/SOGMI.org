@@ -1,5 +1,5 @@
 ---
-title: "\"URGENT MESSAGE: God's Guidelines For Choosing Our Nations Leaders\""
+title: "URGENT MESSAGE: God's Guidelines For Choosing Our Nations Leaders"
 slug: "urgent-message-gods-guidelines-for-choosing-our-nations-leaders"
 date: "2012-02-02"
 authors: "Mike Sosso"
