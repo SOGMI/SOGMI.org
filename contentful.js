@@ -53,7 +53,12 @@ function writeEntriesForType(contentType) {
                 fileContent += `${item.fields['content']}\n`
 
             mkdirp.sync(`./content/${contentType.sys.id}`)
+
+            if (contentType.sys.id == 'live') {
+                fs.writeFile(`./content/${contentType.sys.id}/${slugify('_index')}.md`, fileContent, (error) => { /* handle error */ })
+            } else {
             fs.writeFile(`./content/${contentType.sys.id}/${slugify(item.sys.id)}.md`, fileContent, (error) => { /* handle error */ })
+            }
         }
     })
     .catch(console.error)
