@@ -23,6 +23,7 @@ function writeEntriesForType(contentType) {
                     continue
                 switch (typeof(item.fields[field])) {
                     case 'object':
+                        //Single Assets i.e. photos and videos
                         if ('sys' in item.fields[field]) {
                             switch(item.fields[field].sys.type) {
                                 case 'Asset':
@@ -32,11 +33,18 @@ function writeEntriesForType(contentType) {
                                     continue
                             }
                         } else {
+                            //content links (WORK IN PROGRESS >.>)
+                            //if ('0' in item.fields[field]) {
+                            //    fileContent += `${field}: Test\n`
+                            //} 
+                            //standard arrays
+                            //else {
                             fileContent += `${field}: ${JSON.stringify(item.fields[field])}\n`
+                            //}
                         }
                         break;
                     default:
-                        fileContent += `${field}: ${item.fields[field]}\n`
+                        fileContent += `${field}: ${JSON.stringify(item.fields[field])}\n`
                 }
             }
             fileContent += '---\n'
@@ -45,7 +53,7 @@ function writeEntriesForType(contentType) {
                 fileContent += `${item.fields['content']}\n`
 
             mkdirp.sync(`./content/${contentType.sys.id}`)
-            fs.writeFile(`./content/${contentType.sys.id}/${slugify(item.fields.slug)}.md`, fileContent, (error) => { /* handle error */ })
+            fs.writeFile(`./content/${contentType.sys.id}/${slugify(item.sys.id)}.md`, fileContent, (error) => { /* handle error */ })
         }
     })
     .catch(console.error)
