@@ -4,7 +4,7 @@
     {{ if ne .Params.DisableSearch true }}
         {{ $title := .Title }}{{ $description := .Description }}{{ $summary := .Summary }}
         {{ $pdate := .PublishDate }}{{ $rperm := .RelPermalink }}{{ $section := .Section }}
-        {{ $date := .Date.UTC.Unix }}
+        {{ $date := .Date.UTC.Unix }}{{ $episode := .Params.EpisodeNumber }}
 
         {{ $thumbnail := .Params.Thumbnail }}{{ $image := .Params.FeaturedImage }}
         {{ $ytimage := .Params.YoutubeID }}{{ $profilephoto := .Params.profilePhoto }}
@@ -25,6 +25,7 @@
                     {{ if $hosts }}"hosts": {{ jsonify $hosts }},{{ end }}
                     {{ if $keywords }}"keywords": {{ jsonify $keywords }},{{ end }}
                     {{ if $tags }}"tags": {{ jsonify $tags }},{{ end }}
+                    {{ if $episode }}"episode": {{ jsonify $episode }},{{ end }}
                     {{ if $authors }}"authors": {{ jsonify $authors }},{{ end }}
                     {{ if $vkeywords }}"videokeywords": {{ jsonify $vkeywords}},{{ end }}
                     "publishdate": "{{ $pdate }}",
