@@ -4,7 +4,8 @@ slug: "prophetic-voice-296"
 keywords: ["spiritual authority","restoration","living in the supernatural","healing","comfort"]
 hosts: ["Cristina Sosso"]
 showTranscript: false
-date: "2016-11-11"
+originalAirDate: "2017-11-11"
+date: "2017-11-11"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E296_17_11_11-12_Double_Portion_Restoration.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 296
