@@ -28,14 +28,14 @@
       <div>  expand player</div>
     </div>
   </div>
-  <div class="container podcast">
+  <div class="container">
     <div class="column-row w-row">
       <div class="column-6 w-col w-col-4">
         {{ partial "podcast-sidebar.html" . }}
       </div>
       <div class="column-right w-col w-col-8">
         <div>
-          <h2 class="sidebar-heading">Current Shows</h2>
+          <h2 style="margin-top: 0px" class="sidebar-heading">Current Shows</h2>
           {{ range $name, $taxonomy := .Site.Taxonomies.series }}
             {{ range $.Site.Pages }}
               {{ if eq .Section "podcastSeries" }}
@@ -54,7 +54,7 @@
             {{ end }}
           {{ end }}
         </div>
-        <h2 class="sidebar-heading">Recent Podcasts</h2>
+        <h2 class="sidebar-heading">Recent Episodes</h2>
         <div data-animation="slide" data-duration="500" data-infinite="1" class="slider-2 w-slider">
             <div class="mask-3 w-slider-mask">
                 {{ range first 6  .Data.Pages }}
@@ -82,10 +82,10 @@
                   </div>
                 {{ end }}
             </div>
-                  <div class="left-arrow-2 w-slider-arrow-left">
+                  <div class="left-arrow-2 w-slider-arrow-left podcast-page">
                     <div class="icon-5 w-icon-slider-left"></div>
                   </div>
-            <div class="right-arrow-2 w-slider-arrow-right">
+            <div class="right-arrow-2 w-slider-arrow-right podcast-page">
               <div class="w-icon-slider-right"></div>
             </div>
             <div class="slide-nav-2 w-slider-nav w-round"></div>

@@ -159,7 +159,6 @@
  </div>
 {{ else }}
 <!--gallery page-->
-
 <div class="event-gallery-header" style="position: relative; background-image: URL({{ .Params.FeaturedImage }}?w=1800&q=80); background-size: cover; background-position: center center">
     <div class="image-overlay"></div>
     <div class="banner-container gallery">
@@ -174,13 +173,14 @@
 <div class="content-section">
     <div class="container">
         <p style="margin-bottom: 50px">This event has ended&nbsp;&nbsp;<br/><a href="#" data-ix="open-transcript">+View Event Details</a></p>
-        {{ if .Params.contentfulId }}
         <div id="gallery" class="gallery-grid-wrapper">
-            
+            {{ $file := print .File }}
+            {{ $env := getenv "SOGMI_CDAPI"}}
+            {{ $space := getenv "SOGMI_SPACEID" }}
             {{ $urlPre := "https://cdn.contentful.com"}}
-            {{ $urlmid := "/spaces/vfgh62eq5a4k/environments/master/entries/" }}
-            {{ $id := .Params.contentfulId }}
-            {{ $token := "?access_token=00ae52ccc5d7e46ccbfcace0e86689f47068f627843cd0a7a7107824eb58b384" }}
+            {{ $urlmid := add "/spaces/" (add $space "/environments/master/entries/") }}
+            {{ $id := $file }}
+            {{ $token := add "?access_token=" $env }}
             {{ $dataJ := getJSON $urlPre $urlmid $id $token }}
 
             {{ $printurl := print $urlPre $urlmid $id $token }}
@@ -188,7 +188,7 @@
             {{ range $dataJ }}
                 {{ range .gallery }}
                     {{ $imageId := .sys.id }}
-                    {{ $urlmid2 := "/spaces/vfgh62eq5a4k/environments/master/assets/" }}
+                    {{ $urlmid2 := add "/spaces/" (add $space "/environments/master/assets/") }}
                     {{ $imageData := getJSON $urlPre $urlmid2 $imageId $token }}
                     
                     {{ range $imageData }}
@@ -221,7 +221,6 @@
                 {{ end }}
             {{ end }}
         </div>
-        {{ end }}
     </div>
 </div>
 {{ partial "transcript-popup.html" . }}

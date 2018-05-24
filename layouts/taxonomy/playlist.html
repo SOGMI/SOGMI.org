@@ -1,0 +1,56 @@
+{{ partial "header.html" . }}
+<!--
+<div class="header-image video">
+    <div class="banner-container">
+        <h1 class="archive-heading">{{ .Title }}</h1>
+    </div>
+</div>
+-->
+<div class="content-section">
+    <div class="container">
+            <!--<a href="/archive-video" class="button-5 w-button">Featured</a>-->
+            <a href="/videos/">Return to Videos</a>
+        <h1 class="playlist-title">Viewing Playlist: {{ .Title }}</h1>
+        <div class="video-archive-grid-wrapper">
+            <div class="video-grid-wrap">
+                <div class="video-grid-section">
+                    {{ range (.Paginator 10).Pages }}
+                        {{ partial "grid-item.html" . }}
+                    {{ end }}
+                </div>
+                <div class="pagination">
+                    <div class="pagination-button-wrap">
+                    {{ if .Paginator.HasPrev }}
+                        <a class="pagination-button" href="{{ .Paginator.Prev.URL }}">
+                            <span></span>
+                            <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">&nbsp;&nbsp;prev</span>
+                        </a>
+                    {{ end }}
+                    </div>
+                    <div class="pagination-button-wrap">
+                    {{ if .Paginator.HasNext }}
+                        <a class="pagination-button" href="{{ .Paginator.Next.URL }}">
+                            <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">next&nbsp;&nbsp;</span>
+                            <span></span>
+                        </a>
+                    {{ end }}
+                    </div>            
+                </div>
+            </div>
+            <div class="div-block-32">
+                <div class="sidebar-wrapper">
+                    <h3 class="sidebar-heading">Popular Tags</h3>
+                    <div class="unordered-list-2-copy3 w-list-unstyled">
+                        {{ range first 10 .Site.Taxonomies.videokeywords.ByCount }}
+                        <a href="/videokeywords/{{ .Name | urlize }}" class="list-item-2">
+                            <div class="text-block-4">{{ replaceRE "-" " "  .Name }}</div>
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
