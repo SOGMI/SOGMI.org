@@ -1,5 +1,5 @@
 <label id="searchButton" for="search-input"class="top-nav-link w-inline-block">
-    <div class="text-block-25"></div>
+    <div class="text-block-25"><i class="fas fa-search"></i></div>
     <div class="text-block-26">&nbsp;Search Website</div>
 </label>
 <!--<a href="https://wpsogmi.modiimedia.com" class="top-nav-link w-inline-block">
@@ -10,7 +10,7 @@
 <!--conditional styling if we LiveStreaming to "True"-->
 {{ with .Site.GetPage "section" "live" }}
 <a href="{{ .RelPermalink }}" {{ if eq .Params.currentlyLiveStreaming true }} class="top-nav-link w-inline-block liveNow" {{ else }} class="top-nav-link w-inline-block" {{end}}>
-    <div class="text-block-25"></div>
+    <div class="text-block-25"><i class="fas fa-video"></i></div>
     <div class="text-block-26">&nbsp;Watch Live</div>
 </a>
 {{ end }}

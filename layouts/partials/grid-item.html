@@ -47,19 +47,19 @@
             <h4 class="heading-39"><strong>Share this episode</strong></h4>
             <div class="div-block-43">
               <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank" class="link-block-2 facebook w-inline-block">
-                <div></div>
+                <i class="fab fa-facebook"></i>
               </a>
               <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" class="link-block-2 twitter w-inline-block">
-                <div></div>
+                <i class="fab fa-twitter"></i>
               </a>
               <a href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Params.Thumbnail }}" target="_blank" class="link-block-2 pinterest w-inline-block">
-                <div></div>
+                <i class="fab fa-pinterest"></i>
               </a>
               <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="link-block-2 google-plus w-inline-block">
-                <div></div>
+                <i class="fab fa-google"></i>
               </a>
               <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2 reddit w-inline-block">
-                <div></div>
+                <i class="fab fa-reddit"></i>
               </a>
             </div>
           </div>
@@ -80,11 +80,11 @@
         <article class="video-grid-item">
             <a href="{{ .RelPermalink }}" data-ix="video-grid-hover" class="video-grid-item-inner w-inline-block">
                 <div class="video-grid-image" 
-                {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail}}?w=500&q=50)"
-                  {{ else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"
+                {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail }}?w=500&q=50)"
+                  {{ else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/maxresdefault.jpg)"
                 {{ end }}>
                 <div class="video-grid-image-overlay">
-                    <div class="video-play-button"></div>
+                    <div class="video-play-button"><i class="fas fa-play-circle"></i></div>
                 </div>
                 </div>
                 <div class="div-block-30">

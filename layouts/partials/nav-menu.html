@@ -10,22 +10,22 @@
         <div>About</div>  
     </div>
     <div class="dropdown-list w-dropdown-list">
-        <a href="/about/who-we-are" class="nav-link w-dropdown-link">Who We Are</a>
+        <a href="/about/who-we-are/" class="nav-link w-dropdown-link">Who We Are</a>
         <!--<a href="/about/what-we-do" class="nav-link w-dropdown-link">What We Do</a>-->    
-        <a href="/people" class="nav-link w-dropdown-link">Our Team</a>
+        <a href="/people/" class="nav-link w-dropdown-link">Our Team</a>
     </div>
 </div>
 <!--events-->
-<a href="/events" class="nav-link w-inline-block">Events</a>
+<a href="/events/" class="nav-link w-inline-block">Events</a>
 <!--resources-->
 <div class="dropdown-2 w-dropdown" data-delay="0">
     <div class="nav-link dropdown w-dropdown-toggle">
         <div>Resources</div>  
     </div>
     <div class="dropdown-list w-dropdown-list">
-        <a href="/articles" class="nav-link w-dropdown-link">Articles</a>
-        <a href="/series/the-prophetic-voice-of-our-time" class="nav-link w-dropdown-link">Podcasts</a>        
-        <a href="/videos" class="nav-link w-dropdown-link">Videos</a>
+        <a href="/articles/" class="nav-link w-dropdown-link">Articles</a>
+        <a href="/series/the-prophetic-voice-of-our-time/" class="nav-link w-dropdown-link">Podcasts</a>        
+        <a href="/videos/" class="nav-link w-dropdown-link">Videos</a>
     </div>
 </div>    
 <!--connect-->
@@ -34,8 +34,8 @@
         <div>Connect</div>  
     </div>
     <div class="dropdown-list w-dropdown-list">
-        <a href="/locations/freedom-fellowship-church" class="nav-link w-dropdown-link">Service Times</a>
-        <a href="/contact" class="nav-link w-dropdown-link">Contact Us</a>        
+        <a href="/locations/freedom-fellowship-church/" class="nav-link w-dropdown-link">Service Times</a>
+        <a href="/contact/" class="nav-link w-dropdown-link">Contact Us</a>        
     </div>
 </div>
 
@@ -46,5 +46,5 @@
 
 <!--watch live-->
 {{ with .Site.GetPage "section" "live" }}
-<a href="/live" {{ if eq .Params.currentlyLiveStreaming true }} style="background-color: #e41f2f; border: 1px solid #e41f2f; opacity: 1" {{end}} class="nav-link nav-button live w-inline-block">Watch Live</a>
+<a href="/live/" {{ if eq .Params.currentlyLiveStreaming true }} style="background-color: #e41f2f; border: 1px solid #e41f2f; opacity: 1" {{end}} class="nav-link nav-button live w-inline-block">Watch Live</a>
 {{ end }}
