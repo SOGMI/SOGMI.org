@@ -175,8 +175,8 @@
         <p style="margin-bottom: 50px">This event has ended&nbsp;&nbsp;<br/><a href="#" data-ix="open-transcript">+View Event Details</a></p>
         <div id="gallery" class="gallery-grid-wrapper">
             {{ $file := print .File }}
-            {{ $env := getenv "SOGMI_CDAPI"}}
-            {{ $space := getenv "SOGMI_SPACEID" }}
+            {{ $env := getenv "CONTENTFUL_TOKEN"}}
+            {{ $space := getenv "CONTENTFUL_SPACE" }}
             {{ $urlPre := "https://cdn.contentful.com"}}
             {{ $urlmid := add "/spaces/" (add $space "/environments/master/entries/") }}
             {{ $id := $file }}
