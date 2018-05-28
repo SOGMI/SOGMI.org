@@ -71,3 +71,12 @@ notAlternative = true
     name = "hosts"
     toLower = true
     weight = 100
+    [[related.indices]]
+    name = "videokeywords"
+    weight = 150
+    [[related.indices]]
+    name = "speakers"
+    weight = 50
+    [[related.indices]]
+    name = "playlists"
+    weight = 70

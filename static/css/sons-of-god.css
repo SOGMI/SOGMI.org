@@ -2242,8 +2242,8 @@ figcaption {
 .heading-23 {
   margin-top: 0px;
   margin-bottom: 5px;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .paragraph-5 {
@@ -4761,8 +4761,8 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
     flex: 1;
   }
   .heading-23 {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .paragraph-5 {
     font-size: 12px;

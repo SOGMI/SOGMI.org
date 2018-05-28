@@ -10,6 +10,8 @@
     --highlightb: #ffb6427a;
     --red: #e41f2f;
 }
+.social-icons {display: inline-block; font-size: 40px; margin: 5px; transition: opacity 0.3s ease}
+.social-icons:hover {opacity: 0.65}
 .nav-link.nav-button {
     margin-top: 12px;
     margin-left: 10px;
@@ -756,7 +758,7 @@ footer {
 
 .footer-link {
     display: block;
-
+    max-width: 150px;
 }
 
 .footer-menu-header {

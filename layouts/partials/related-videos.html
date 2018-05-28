@@ -1,4 +1,4 @@
-{{ $related := .Site.RegularPages.Related . | first 6 }}
+{{ $related := .Site.RegularPages.Related . | first 5 }}
 <div class="div-block-35">
 {{ with $related }}
     <h3 class="heading-29">Related Videos</h3>
@@ -6,10 +6,10 @@
         {{ range . }}
         <li class="video-playlist-item">
         <a href="{{ .RelPermalink }}" title="{{.Title}}" class="video-playlist-inner w-inline-block">
-            <div class="video-playlist-image _4" style="background-image: URL({{ .Params.FeaturedImage }})"></div>
+            <div class="video-playlist-image _4" {{ if .Params.FeaturedImage }}style="background-image: URL({{ .Params.FeaturedImage }})"{{ else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"{{end}}></div>
             <div class="div-block-24">
             <h2 class="heading-23">{{ .Title | truncate 40 }}</h2>
-            <p class="paragraph-5">{{ .Date.Format "Jan 06, 2002" }}</p>
+            <p class="paragraph-5">{{ .Date.Format "Jan 02, 2006" }}</p>
             </div>
         </a>
         </li>
@@ -18,7 +18,7 @@
 {{ else }}
 <h3 class="heading-29">Recent Videos</h3>
 <ul id="playlist" class="related-video-playlist-wrapper w-list-unstyled">
-{{ range where .Site.Pages "Section" "videos" | first 6 }}
+{{ range where .Site.Pages "Section" "videos" | first 5 }}
     {{ if ne .Params.IgnoreLists true }}
         <li class="video-playlist-item">
             <a href="{{ .RelPermalink }}" title="{{.Title}}" class="video-playlist-inner w-inline-block">
