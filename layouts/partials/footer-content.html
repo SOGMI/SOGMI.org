@@ -3,7 +3,6 @@
         <div class="footer-container">
             <div class="flex-col thirty">
                 <div class="footer-section">
-                    <div>Follow us on Social Media</div>
                     <a href="/" style="color: #333; display: inline-block; padding: 10px 0px 0px 0px; margin: 0px -5px;">
                         {{ if $.Site.Params.Logo }}
                             <img src="{{ $.Site.Params.Logo }}?w=306" alt="{{ $.Site.Title }}" width="250" height="auto">
@@ -13,6 +12,14 @@
                     </a>
                 </div>
                 <a href="/donate" class="button w-button">Support SOGMI</a>
+                <div style="margin-top: 40px;">Follow us on Social Media</div>
+                <div style="margin: 10px -5px 0px -5px">
+                    {{ range $.Site.Data.info.social_media }}
+                    <a href="{{ .url }}" target="_blank" class="social-icons" style="color: {{ .color }}">
+                        <i class="fab fa-{{ .icon }}"></i>
+                    </a>
+                    {{ end }}
+                </div>
             </div>
             <div class="flex-col thirty">
                 <div class="footer-section">

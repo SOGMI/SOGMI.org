@@ -1,0 +1,14 @@
+social_media:
+  - icon: "facebook"
+    url: "https://www.facebook.com/sonsofgodministries/"
+    color: "#3B5998"
+  - icon: "youtube"
+    url: "https://www.youtube.com/channel/UCRNMCaJ6wnwcZ_ShOfMG8Sw"
+    color: "#ff0000"
+contact_info:
+  phone: 12106951630
+  email: sonsofgod@satx.rr.com
+  street_address: PO Box 1679
+  city: Helotes
+  state: TX
+  zipcode: 78023
