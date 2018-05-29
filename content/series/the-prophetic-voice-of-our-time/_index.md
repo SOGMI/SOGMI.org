@@ -1,0 +1,5 @@
+---
+title: The Prophetic Voice of Our Time
+description: "The Prophetic Voice of Our Time is a weekly radio show hosted by Pastor Cristina Sosso. It airs every weekend on AM 630 the Word in South Texas at 5:00 PM. Join Pastor Cris as she covers a wide range of topics including: The United States of America, prophecy, developing a relationship with Jesus and more. Revelation 19:10, “Then I fell at his feet to worship him. But he said to me, “Do not do that; I am a fellow servant of yours and your brethren who hold the testimony of Jesus; worship God. For the testimony of Jesus is the spirit of prophecy.” (NIV)"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/7mDAKtqV3OoiEqACykoIa6/4a6d3277b9deb857b30f5735771303fa/59de700b69f6bf000143ec7d_IMG_4878-as-Smart-Object-1-smaller-compressor.jpg"
+---
