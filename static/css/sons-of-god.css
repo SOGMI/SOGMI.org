@@ -1501,6 +1501,12 @@ figcaption {
   background-color: #fff;
   box-shadow: none;
 }
+.podcast-sidebar.mailchimpForm {
+  background-image: URL(//images.ctfassets.net/vfgh62eq5a4k/4lscfppxbiiyuyeUUO6sYW/3368ca706725af2115a455d993a66b54/alvaro-serrano-133360-unsplash__1_.jpg?w=400&h=350&q=50&fit=fill);
+  background-size: cover;
+  background-position: center center;
+
+}
 
 .podcast-grid-image {
   position: relative;
@@ -2814,6 +2820,7 @@ figcaption {
   background-color: #000;
   background-position: 50% 50%;
   background-size: cover;
+  margin-bottom: 0px;
 }
 
 .heading-33 {
@@ -3425,6 +3432,9 @@ figcaption {
   padding: 30px;
   margin-top: 30px 
 }
+.blog-comment-wrapper.mailchimpForm.sidebar {
+  padding: 0px;
+}
 .fieldGroupFlex {
   display: flex;
   flex-direction: row;
@@ -3451,6 +3461,10 @@ figcaption {
   line-height: 2.5rem;
   margin: 0px 0px 20px 0px;
   display: inline-block;
+}
+.mailingList.sidebar {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 @media (max-width: 767px) {
