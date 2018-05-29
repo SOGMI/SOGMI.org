@@ -2,7 +2,8 @@
 <!--  Last Published: Sun Jan 28 2018 21:50:55 GMT+0000 (UTC)  -->
 <html data-wf-page="5a0281c89a6ada000101512d" lang="en">
 <head>
-  <meta charset="utf-8"> 
+  <meta charset="utf-8">
+  {{ .Hugo.Generator }} 
   {{ if .Params.metaTitle }}<title>{{ .Params.MetaTitle }}</title>{{ else }} 
     {{ if eq .Section "tags" }}<title>Articles about "{{ .Title }}"</title>{{ else }} 
       {{ if eq .Section "hosts" }}<title>Podcasts featuring {{ .Title }}</title>{{ else }} 
@@ -17,10 +18,9 @@
     {{ end }} 
   {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
-  <meta name="description" content="{{ if .Description }}{{ truncate 160 .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}" />
-  <meta name="generator" content="Hugo 0.36.1" />
+  <meta name="description" content="{{ if .Description }}{{ truncate 200 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}" />
   <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" />
-  <meta property="og:description" content="{{ truncate 160 .Description }}" />
+  <meta property="og:description" content="{{ truncate 200 .Description }}" />
   <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.YoutubeID }}https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}" />
   <meta name="twitter:card" content="summary" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
