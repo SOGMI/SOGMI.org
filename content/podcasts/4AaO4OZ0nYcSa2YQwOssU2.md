@@ -1,5 +1,5 @@
 ---
-title: "\"The Love that Passes all Knowledge (Guest Speaker: Joshua Sosso)\""
+title: "The Love that Passes all Knowledge (Guest Speaker: Joshua Sosso)"
 slug: "prophetic-voice-216"
 keywords: ["philippines","love of god","relationship with god","restoration","valentines day"]
 hosts: ["Joshua Sosso"]

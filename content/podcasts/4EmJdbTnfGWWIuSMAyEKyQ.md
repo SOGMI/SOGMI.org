@@ -1,5 +1,5 @@
 ---
-title: "\"Passing Over to God's Mindset (Guest Speaker: Joshua Sosso)\""
+title: "Passing Over to God's Mindset (Guest Speaker: Joshua Sosso)"
 slug: "prophetic-voice-225"
 keywords: ["kingdom principles","mind of christ","victory"]
 hosts: ["Joshua Sosso"]

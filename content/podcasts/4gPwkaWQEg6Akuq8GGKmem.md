@@ -1,5 +1,5 @@
 ---
-title: "\"Being Kings and Priests (Guest Speaker: Ed Grubb)\""
+title: "Being Kings and Priests (Guest Speaker: Ed Grubb)"
 slug: "prophetic-voice-255"
 keywords: ["kings and priests","kingdom of god","spiritual authority"]
 hosts: ["Ed Grubb"]
