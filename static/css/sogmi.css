@@ -235,7 +235,6 @@
     -ms-flex-align: center;
     align-items: center;
     transition: opacity 300ms ease;
-    font-family: 'Fontawesome webfont', sans-serif;
     color: var(--white);
     font-size: 22px;
 }
@@ -1104,7 +1103,6 @@ p {
 .pagination-button {
     border: 1px solid var(--light-gray-1);
     padding: 3px 15px;
-    font-family: "fontawesome webfont";
     background: var(--white);
     font-size: 20px;
     margin: 2px;

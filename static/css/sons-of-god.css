@@ -1672,7 +1672,7 @@ figcaption {
   padding: 10px;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
-  font-family: 'Fontawesome webfont', sans-serif;
+  
   font-size: 26px;
 }
 
@@ -2314,7 +2314,7 @@ figcaption {
 
 .html-embed-15 {
   margin-top: 0px;
-  font-family: 'Fontawesome webfont', sans-serif;
+  
   font-size: 50px;
   line-height: 50px;
 }
@@ -2988,7 +2988,6 @@ figcaption {
 }
 
 .text-block-18 {
-  font-family: 'Fontawesome webfont', sans-serif;
 }
 
 .heading-39 {
@@ -3000,7 +2999,7 @@ figcaption {
   padding: 0.6rem;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
-  font-family: 'Fontawesome webfont', sans-serif;
+  
   font-size: 1.7rem;
   line-height: 1.7rem;
   font-weight: 400;
@@ -3089,7 +3088,7 @@ figcaption {
 }
 
 .text-block-20 {
-  font-family: 'Fontawesome webfont', sans-serif;
+  
   font-weight: 400;
 }
 
@@ -3137,7 +3136,7 @@ figcaption {
 }
 
 .text-block-21 {
-  font-family: 'Fontawesome webfont', sans-serif;
+  
   font-size: 16px;
   font-weight: 400;
 }
@@ -3175,7 +3174,7 @@ figcaption {
 }
 
 .text-block-22 {
-  font-family: 'Fontawesome webfont', sans-serif;
+  
   font-size: 22px;
 }
 
@@ -3380,7 +3379,7 @@ figcaption {
 }
 
 .video-play-button {
-  font-family: 'Fontawesome webfont', sans-serif;
+  
   font-size: 70px;
   font-weight: 400;
 }
@@ -3403,7 +3402,7 @@ figcaption {
 
 .text-block-25 {
   display: inline-block;
-  font-family: 'Fontawesome webfont', sans-serif;
+  
 }
 
 .text-block-26 {
@@ -4319,7 +4318,7 @@ figcaption {
 
 .text-block-36 {
   display: inline-block;
-  font-family: 'Fontawesome webfont', sans-serif;
+  
 }
 
 .div-block-80 {
@@ -4402,7 +4401,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: 'Fontawesome webfont', sans-serif;
+  
   font-size: 35px;
   line-height: 35px;
 }
@@ -6007,17 +6006,4 @@ html.w-mod-js *[data-ix="audio-player-initial-appearance"] {
   .div-block-82 {
     padding-left: 0px;
   }
-}
-
-@font-face {
-  font-family: 'Fontawesome webfont';
-  src: url('../fonts/fontawesome-webfont.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Fontawesome webfont';
-  src: url('../fonts/fontawesome-webfont.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
 }
