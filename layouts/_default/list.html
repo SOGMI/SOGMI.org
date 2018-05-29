@@ -18,7 +18,7 @@
             <div class="pagination-button-wrap">
               {{ if .Paginator.HasPrev }}
                 <a class="pagination-button" href="{{ .Paginator.Prev.URL }}">
-                    <span></span>
+                    <span style="font-size: 14px"><i class="fas fa-chevron-left"></i></span>
                     <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">&nbsp;&nbsp;prev</span>
                 </a>
               {{ end }}
@@ -27,7 +27,7 @@
               {{ if .Paginator.HasNext }}
                   <a class="pagination-button" href="{{ .Paginator.Next.URL }}">
                     <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">next&nbsp;&nbsp;</span>
-                    <span></span>
+                    <span style="font-size: 14px"><i class="fas fa-chevron-right"></i></span>
                   </a>
               {{ end }}
             </div>            
@@ -63,6 +63,7 @@
               {{ end }}
             {{ end }}
             </div>
+            {{ partial "mailchimp-form-sidebar.html" . }}
           </div>
         </div>
       </div>
