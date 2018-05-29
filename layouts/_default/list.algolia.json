@@ -17,7 +17,7 @@
         {{ if eq .Section "podcasts" }}
             {{ range $index, $split := split .Content "<split>"}}
                 {
-                    "title": {{ jsonify $title }},
+                    "title": "Episode {{ $episode }}: {{ $title }}",
                     "date": {{ $date }},
                     {{ if $description }}"description": {{ jsonify $description }},{{ end }}
                     {{ if eq $index 0 }}"objectID": "{{ $id }}",{{ else }}"objectID": "{{ $id }}{{ $index }}",{{ end }}

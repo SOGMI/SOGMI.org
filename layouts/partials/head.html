@@ -10,7 +10,7 @@
         {{ if eq .Section "authors" }}<title>Articles by {{ .Title }}</title>{{ else }} 
           {{ if eq .Section "keywords" }}<title>Podcasts tagged with "{{ .Title }}"</title>{{ else }} 
             {{ if eq .Section "videokeywords" }}<title>Videos tagged with "{{ .Title }}"</title>{{ else }}
-              <title>{{ .Title }} | {{ .Site.Title }}</title>
+              <title>{{ if .Params.episodeNumber }}Episode {{ .Params.episodeNumber }}: {{ .Title }} | {{ .Params.Series | title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
             {{ end }} 
           {{ end }} 
         {{ end }}
