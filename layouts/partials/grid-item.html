@@ -33,7 +33,7 @@
     {{ end }} {{ end }}
     <div class="podcast-grid-content">
       <h2 class="podcast-heading">Episode {{ .Params.EpisodeNumber }}: {{ .Title }}</h2>
-      <div class="text-block-5">{{ .Description | truncate 200 }}</div>
+      <div class="text-block-5">{{ $d := .Description | plainify }}{{ $d | truncate 200 }}</div>
     </div>
   </a>
   <div class="podcast-links-panel">
