@@ -17,7 +17,7 @@
 /thechurch.php  /locations/freedom-fellowship-church    301
 /event-tickets  /events     301
 /mailinglist    /#mailing-list     301
-/podcastSeries/:slug    /series/:slug   301
+/podcastseries/:slug    /series/:slug   301
 
 # old article / podcast links
 
