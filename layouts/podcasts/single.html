@@ -49,7 +49,7 @@
             </div>
           {{ end }}
           <h1 class="heading-19" style="font-size: 1.6rem">Episode {{ .Params.EpisodeNumber }}: {{ .Title }}</h1>
-          <div class="text-block-5" style="font-size: 1rem; line-height: 2rem; margin-bottom: 10px; margin-top: 10px">{{ .Description | markdownify }}
+          <div class="text-block-5" style="font-size: 1rem; line-height: 2rem; margin-bottom: 10px; margin-top: 10px">{{ if .Description }}{{ .Description | markdownify }}{{ else }}{{ .Params.MetaDescription }}{{ end }}
             {{ if eq .Params.ShowTranscript true }}  
               <a href="#" data-ix="open-transcript">&nbsp; +View Transcript</a>
             {{ end }}
