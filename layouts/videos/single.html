@@ -19,7 +19,8 @@
                 <div class="video-single-content">
                     <h1 class="video-single-title" style="font-size: 1.5rem">{{ .Title }}</h1>
                     <div class="text-block-13" style="font-size: .9rem"><b>Published:</b> {{ .Date.Format "Jan 02, 2006"}}</div>
-                    <p class="paragraph-6">{{ .Description }}</p>                
+                    {{ if .Description }}{{ .Description | markdownify }}{{ else }}
+                    <p class="paragraph-6">{{ .Params.MetaDescription }}</p>{{ end }}                
                     {{ with  .Params.VideoKeywords }}
                     <div class="unordered-list-2-copy w-list-unstyled">
                         {{ range . }}

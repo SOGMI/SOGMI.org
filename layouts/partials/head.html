@@ -18,11 +18,15 @@
     {{ end }} 
   {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
-  <meta name="description" content="{{ if .Description }}{{ truncate 200 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}" />
-  <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}" />
-  <meta property="og:description" content="{{ truncate 200 .Description }}" />
+  <meta name="description" content="{{ if .Params.MetaDescription }}{{ .Params.MetaDescription }}{{ else }}{{ if .Description }}{{ truncate 256 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}" />
+  <meta property="og:title" content="{{ if .Title }}{{ if .Params.episodeNumber }}Episode {{ .Params.episodeNumber }}: {{ end }}{{ .Title }} | {{ end }}{{ if .Params.Series }}{{ .Params.Series }}{{ else }}{{ .Site.Title }}{{ end }}" />
+  <meta property="og:description" content="{{ if .Params.MetaDescription }}{{ .Params.MetaDescription }}{{ else }}{{ if .Description }}{{ truncate 256 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}" />
   <meta property="og:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ if .Params.YoutubeID }}https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg{{ else }}{{ .Params.FeaturedImage }}{{ end }}{{ end }}" />
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ if .Title }}{{ if .Params.episodeNumber }}Episode {{ .Params.episodeNumber }}: {{ end }}{{ .Title }} | {{ end }}{{ if .Params.Series }}{{ .Params.Series }}{{ else }}{{ .Site.Title }}{{ end }}" />
+  <meta name="twitter:description" content="{{ if .Params.MetaDescription }}{{ .Params.MetaDescription }}{{ else }}{{ if .Description }}{{ truncate 256 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}" />
+  <meta name="twitter:image" content="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}" />
+  <meta name="twitter:site" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--algolia css-->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.2/dist/instantsearch.min.css">
