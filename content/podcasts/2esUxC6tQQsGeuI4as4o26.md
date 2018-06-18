@@ -1,5 +1,5 @@
 ---
-title: "How to Hear the Voice of God"
+title: "How to Hear the Voice of God - Part 1"
 slug: "prophetic-voice-324"
 keywords: ["holy spirit","apostles and prophets","body of christ","love of god","sonship","relationship with god","intimacy with god"]
 hosts: ["Cristina Sosso"]
