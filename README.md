@@ -10,7 +10,7 @@ This site gives a basic example of how Contentful can be used to manage a Hugo w
 
 ## Basic Concept
 
-The concept is fairly straightforward. ```Contentful.js``` pulls all the records in a Contentful space and turns them into .md files which then are then stored in /content/ for Hugo. The .md files get arranged in subdirectories depending on the content type in Contentful. The .md filename is dependent on the "slug" field in Contentful, and the main content is assigned to the field with the field ID "content".
+```Contentful.js``` pulls all the records in a Contentful space and turns them into .md files which then are then stored in /content/ for Hugo. The .md files get arranged in subdirectories depending on the content type in Contentful. The .md filename is dependent on the item's entry ID in Contentful, and the main content is assigned to the field with the field ID "content".
 
 The code in the Contentful.js file was taken from [this repository](https://github.com/ithic/contentful-hugo) by [ithic](https://github.com/ithic) then modified and updated for use on this project.
 
