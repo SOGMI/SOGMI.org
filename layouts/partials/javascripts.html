@@ -11,7 +11,6 @@
     }
   });*/
 </script>
-<!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
 {{if eq .Section "videos"}}
 <script type="text/javascript">
   // Replace labnol with your disqus shortname
@@ -59,7 +58,8 @@
 <script src={{ "/js/sons-of-god.js" | relURL }} type="text/javascript"></script>
 <script src={{ "/js/search.js" | relURL }} type="text/javascript"></script>
 
-<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+{{ `<!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->` | safeHTML}}
+{{`<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->` | safeHTML }}
 
 <!--<script src="https://use.fontawesome.com/9c0dff1360.js"></script>-->
 <!--load disqus js-->
@@ -99,3 +99,5 @@ $( "#search-input" ).keyup(function() {
 
 });
 </script>
+
+    {{"<!--[if lt IE 7]>" | safeHTML }} <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>{{"<![endif]-->" | safeHTML }}
