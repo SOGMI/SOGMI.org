@@ -3,6 +3,10 @@
 <html data-wf-page="5a0281c89a6ada000101512d" lang="en">
 <head>
   <meta charset="utf-8">
+  
+  <!-- uncomment this to test appearance on on IE9-->
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">-->
+
   {{ .Hugo.Generator }} 
   {{ if .Params.metaTitle }}<title>{{ .Params.MetaTitle }}</title>{{ else }} 
     {{ if eq .Section "tags" }}<title>Articles about "{{ .Title }}"</title>{{ else }} 
@@ -44,5 +48,4 @@
   <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#ffffff">
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="theme-color" content="#1e4d68">
-  {{`<!--[if IE]><style>.nav-button {background-color: #333333 !important;}</style><![endif]-->` | safeHTML }}
 </head>
