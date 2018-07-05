@@ -1,109 +1,109 @@
 {{ $ph := .Site.Params.imageplaceholder }}
 [
-    {{ range .Site.RegularPages }}
-    {{ if ne .Params.DisableSearch true }}
-        {{ $title := .Title }}{{ $description := .Description }}{{ $summary := .Summary }}
-        {{ $pdate := .PublishDate }}{{ $rperm := .RelPermalink }}{{ $section := .Section }}
-        {{ $date := .Date.UTC.Unix }}{{ $episode := .Params.EpisodeNumber }}
+    {{- range .Site.RegularPages -}}
+    {{- if ne .Params.DisableSearch true -}}
+        {{- $title := .Title -}}{{- $description := .Description -}}{{- $summary := .Summary -}}
+        {{- $pdate := .PublishDate -}}{{- $rperm := .RelPermalink -}}{{- $section := .Section -}}
+        {{- $date := .Date.UTC.Unix -}}{{- $episode := .Params.EpisodeNumber -}}
 
-        {{ $thumbnail := .Params.Thumbnail }}{{ $image := .Params.FeaturedImage }}
-        {{ $ytimage := .Params.YoutubeID }}{{ $profilephoto := .Params.profilePhoto }}
+        {{- $thumbnail := .Params.Thumbnail -}}{{- $image := .Params.FeaturedImage -}}
+        {{- $ytimage := .Params.YoutubeID -}}{{- $profilephoto := .Params.profilePhoto -}}
 
-        {{ $keywords := .Params.Keywords }}{{ $series := .Params.Series }}{{ $tags := .Params.Tags }}
-        {{ $authors := .Params.Authors }}{{ $hosts := .Params.Hosts }}{{ $vkeywords := .Params.VideoKeywords }}
+        {{- $keywords := .Params.Keywords -}}{{- $series := .Params.Series -}}{{- $tags := .Params.Tags -}}
+        {{- $authors := .Params.Authors -}}{{- $hosts := .Params.Hosts -}}{{- $vkeywords := .Params.VideoKeywords -}}
         
-        {{ $id := .UniqueID }}
+        {{- $id := .UniqueID -}}
 
-        {{ if eq .Section "podcasts" }}
-            {{ range $index, $split := split .Content "<split>"}}
-            {{ $ep := print $episode }}
-            {{ $e := add "Episode " $ep }}
-            {{ $t := add ": " $title }}
-            {{ $et := add $e $t }}
+        {{- if eq .Section "podcasts" -}}
+            {{- range $index, $split := split .Content "<split>" -}}
+            {{- $ep := print $episode -}}
+            {{- $e := add "Episode " $ep -}}
+            {{- $t := add ": " $title -}}
+            {{- $et := add $e $t -}}
                 {
-                    "title": {{ jsonify $et }},
-                    "date": {{ $date }},
-                    {{ if $description }}"description": {{ jsonify $description }},{{ end }}
-                    {{ if eq $index 0 }}"objectID": "{{ $id }}",{{ else }}"objectID": "{{ $id }}{{ $index }}",{{ end }}
-                    {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}{{ if $image }}"featuredImage": "{{ $image }}",{{ else }}"featuredImage": "{{ $ph }}",{{ end }}{{ end }}
-                    {{ if $hosts }}"hosts": {{ jsonify $hosts }},{{ end }}
-                    {{ if $keywords }}"keywords": {{ jsonify $keywords }},{{ end }}
-                    {{ if $tags }}"tags": {{ jsonify $tags }},{{ end }}
-                    {{ if $episode }}"episode": {{ jsonify $episode }},{{ end }}
-                    {{ if $authors }}"authors": {{ jsonify $authors }},{{ end }}
-                    {{ if $vkeywords }}"videokeywords": {{ jsonify $vkeywords}},{{ end }}
+                    "title": {{- jsonify $et -}},
+                    "date": {{- $date -}},
+                    {{ if $description -}}"description": {{- jsonify $description -}},{{- end }}
+                    {{ if eq $index 0 -}}"objectID": "{{ $id }}",{{- else -}}"objectID": "{{ $id }}{{ $index }}",{{- end }}
+                    {{ if $thumbnail -}}"featuredImage": "{{ $thumbnail }}",{{- else -}}{{- if $image -}}"featuredImage": "{{ $image }}",{{- else -}}"featuredImage": "{{ $ph }}",{{- end -}}{{- end }}
+                    {{ if $hosts -}}"hosts": {{ jsonify $hosts }},{{- end }}
+                    {{ if $keywords -}}"keywords": {{ jsonify $keywords }},{{- end }}
+                    {{ if $tags -}}"tags": {{ jsonify $tags }},{{- end }}
+                    {{ if $episode -}}"episode": {{ jsonify $episode }},{{- end }}
+                    {{ if $authors -}}"authors": {{ jsonify $authors }},{{- end }}
+                    {{ if $vkeywords -}}"videokeywords": {{ jsonify $vkeywords}},{{- end }}
                     "publishdate": "{{ $pdate }}",
                     "section": "{{ $section }}",
-                    {{ if $series }}"series": "{{ $series }}",{{ end }}
-                    {{ if eq $section "podcasts"}} "content": {{ jsonify . }},{{ end }}
+                    {{ if $series -}}"series": "{{ $series }}",{{- end }}
+                    {{ if eq $section "podcasts" -}} "content": {{ jsonify . }},{{- end }}
                     "relpermalink": "{{ $rperm }}"
                 },
-            {{ end }}
-        {{ else }}
+            {{- end -}}
+        {{- else -}}
             {
                 "title": {{ jsonify $title }},
                 "date": {{ $date }},
-                {{ if $description }}"description": {{ jsonify $description }},{{ end }}
+                {{ if $description -}}"description": {{ jsonify $description }},{{ end }}
                 "objectID": "{{ $id }}",
-                {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}
-                    {{ if $image }}"featuredImage": "{{ $image }}",{{ else }}
-                        {{ if $ytimage }}"featuredImage": "https://i.ytimg.com/vi/{{ $ytimage }}/hqdefault.jpg",{{ else }}
-                            {{ if $profilephoto }}"featuredImage": "{{ $profilephoto }}",{{ else }}"featuredImage": "{{ $ph }}",{{ end }}
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
-                {{ if $hosts }}"hosts": {{ jsonify $hosts }},{{ end }}
-                {{ if $keywords }}"keywords": {{ jsonify $keywords }},{{ end }}
-                {{ if $tags }}"tags": {{ jsonify $tags }},{{ end }}
-                {{ if $authors }}"authors": {{ jsonify $authors }},{{ end }}
-                {{ if $vkeywords }}"videokeywords": {{ jsonify $vkeywords}},{{ end }}
+                {{ if $thumbnail -}}"featuredImage": "{{ $thumbnail }}",{{- else -}}
+                    {{- if $image -}}"featuredImage": "{{ $image }}",{{- else -}}
+                        {{- if $ytimage -}}"featuredImage": "https://i.ytimg.com/vi/{{ $ytimage }}/hqdefault.jpg",{{- else -}}
+                            {{- if $profilephoto -}}"featuredImage": "{{ $profilephoto }}",{{- else -}}"featuredImage": "{{ $ph }}",{{- end -}}
+                        {{- end -}}
+                    {{- end -}}
+                {{- end }}
+                {{ if $hosts -}}"hosts": {{ jsonify $hosts }},{{- end }}
+                {{ if $keywords -}}"keywords": {{ jsonify $keywords }},{{- end }}
+                {{ if $tags -}}"tags": {{ jsonify $tags }},{{- end }}
+                {{ if $authors -}}"authors": {{ jsonify $authors }},{{- end }}
+                {{ if $vkeywords -}}"videokeywords": {{ jsonify $vkeywords}},{{- end }}
                 "publishdate": "{{ $pdate }}",
                 "relpermalink": "{{ $rperm }}",
                 "section": "{{ $section }}",
-                {{ if $series }}"series": "{{ $series }}",{{ end }}
+                {{ if $series -}}"series": "{{ $series }}",{{- end }}
                 "summary": {{ jsonify $summary }}
             },
-        {{ end }}
-    {{ end }}
-{{ end }}
-{{ with .Site.GetPage "section" "glossary" }}
-    {{ if ne .Params.DisableSearch true }}
-        {{ $title := .Title }}{{ $description := .Description }}{{ $summary := .Summary }}
-        {{ $pdate := .PublishDate }}{{ $rperm := .RelPermalink }}{{ $section := .Section }}
-        {{ $date := .Date.UTC.Unix }}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Site.GetPage "section" "glossary" -}}
+    {{- if ne .Params.DisableSearch true -}}
+        {{- $title := .Title -}}{{- $description := .Description -}}{{- $summary := .Summary -}}
+        {{- $pdate := .PublishDate -}}{{ $rperm := .RelPermalink -}}{{- $section := .Section -}}
+        {{- $date := .Date.UTC.Unix -}}
 
-        {{ $thumbnail := .Params.Thumbnail }}{{ $image := .Params.FeaturedImage }}
-        {{ $ytimage := .Params.YoutubeID }}{{ $profilephoto := .Params.profilePhoto }}
+        {{- $thumbnail := .Params.Thumbnail -}}{{- $image := .Params.FeaturedImage -}}
+        {{- $ytimage := .Params.YoutubeID -}}{{- $profilephoto := .Params.profilePhoto -}}
 
-        {{ $keywords := .Params.Keywords }}{{ $series := .Params.Series }}{{ $tags := .Params.Tags }}
-        {{ $authors := .Params.Authors }}{{ $hosts := .Params.Hosts }}{{ $vkeywords := .Params.VideoKeywords }}
+        {{- $keywords := .Params.Keywords -}}{{- $series := .Params.Series -}}{{- $tags := .Params.Tags -}}
+        {{- $authors := .Params.Authors -}}{{- $hosts := .Params.Hosts -}}{{- $vkeywords := .Params.VideoKeywords -}}
         
-        {{ $id := .UniqueID }}
+        {{- $id := .UniqueID -}}
 
             {
                 "title": {{ jsonify $title }},
                 "date": {{ $date }},
-                {{ if $description }}"description": {{ jsonify $description }},{{ end }}
+                {{ if $description -}}"description": {{ jsonify $description }},{{ end }}
                 "objectID": "{{ $id }}",
-                {{ if $thumbnail }}"featuredImage": "{{ $thumbnail }}",{{ else }}
-                    {{ if $image }}"featuredImage": "{{ $image }}",{{ else }}
+                {{ if $thumbnail -}}"featuredImage": "{{ $thumbnail }}",{{ else }}
+                    {{ if $image -}}"featuredImage": "{{ $image }}",{{ else }}
                         {{ if $ytimage }}"featuredImage": "https://i.ytimg.com/vi/{{ $ytimage }}/hqdefault.jpg",{{ else }}
                         {{ if $profilephoto }}"featuredImage": "{{ $profilephoto }}",{{ else }}"featuredImage": "{{ $ph }}",{{ end }}
                         {{ end }}
                     {{ end }}
-                {{ end }}
-                {{ if $hosts }}"hosts": {{ jsonify $hosts }},{{ end }}
-                {{ if $keywords }}"keywords": {{ jsonify $keywords }},{{ end }}
-                {{ if $tags }}"tags": {{ jsonify $tags }},{{ end }}
-                {{ if $authors }}"authors": {{ jsonify $authors }},{{ end }}
-                {{ if $vkeywords }}"videokeywords": {{ jsonify $vkeywords}},{{ end }}
+                {{- end }}
+                {{ if $hosts -}}"hosts": {{ jsonify $hosts }},{{- end }}
+                {{ if $keywords -}}"keywords": {{ jsonify $keywords }},{{- end }}
+                {{ if $tags -}}"tags": {{ jsonify $tags }},{{- end }}
+                {{ if $authors -}}"authors": {{ jsonify $authors }},{{- end }}
+                {{ if $vkeywords -}}"videokeywords": {{ jsonify $vkeywords}},{{- end }}
                 "publishdate": "{{ $pdate }}",
                 "relpermalink": "{{ $rperm }}",
                 "section": "{{ $section }}",
-                {{ if $series }}"series": "{{ $series }}",{{ end }}
-                "summary": {{ jsonify $summary }}
+                {{ if $series -}}"series": "{{ $series }}",{{- end }}
+                "summary": {{- jsonify $summary -}}
             }
 
-    {{ end }}
-{{ end }}
+    {{- end -}}
+{{- end -}}
 ]
