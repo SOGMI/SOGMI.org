@@ -1,37 +1,37 @@
-{{ partial "header.html" . }}
-{{ $now := now.Format "Monday" }}
-{{ $live := .Params.CurrentlyLiveStreaming }}
-{{ if .Params.videoId }}
-    <div id="liveBanner" style="background: URL(/img/green-fibers.png); background-size: 400px;">
-        <div class="image-overlay" style="background: #333333; opacity: .6"></div>
-        <div id="liveWrap">
-            <div id="liveVideo">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.VideoID }}?modestbranding=1&rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div id="liveChat">
-                <iframe width="100%" height="auto" src="https://www.youtube.com/live_chat?v={{ .Params.VideoID }}&embed_domain=www.sogmi.org"></iframe>    
-                <a class="ytbutton w-button" href="https://www.youtube.com/watch?v={{ .Params.VideoID }}">Join the live chat on Youtube</a>
-            </div>
+{{ partial "header.html" . }} {{ $now := now.Format "Monday" }} {{ $live := .Params.CurrentlyLiveStreaming }} {{ if .Params.videoId }}
+<div id="liveBanner" style="background: URL(/img/green-fibers.png); background-size: 400px;">
+    <div class="image-overlay" style="background: #333333; opacity: .6"></div>
+    <div id="liveWrap">
+        <div id="liveVideo">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ .Params.VideoID }}?modestbranding=1&rel=0&autoplay=1"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div id="liveChat">
+            <iframe width="100%" height="auto" src="https://www.youtube.com/live_chat?v={{ .Params.VideoID }}&embed_domain=www.sogmi.org"></iframe>
+            <a class="ytbutton w-button" href="https://www.youtube.com/watch?v={{ .Params.VideoID }}">Join the live chat on Youtube</a>
         </div>
     </div>
-    {{ else }}
-    <div id="liveBanner" style="background: URL(/img/green-fibers.png); background-size: 400px; color: white;">
-        <div class="image-overlay"></div>
-        <div class="container" style="z-index: 10; position: relative; text-align: center">
-                <h1 style="font-size: 2.5rem; line-height: 3rem;">Sorry our past livestream had some technical issues.</h1>
-                <!--<h1 style="font-size: 2.5rem; line-height: 3rem;">Sorry we aren't streaming today</h1>-->
-                <!--<h2 style="font-size: 1.2rem; line-height: 2rem;">Check below to see when you can catch our next broadcast!</h2>-->
-                <h2 style="font-size: 1.2rem; line-height: 2rem;">We will be uploading a replay of the stream today or tomorrow. Thanks for your patience.</h2>
-                <a class="button email-form-button" style="display: inline-block; margin-top: 20px" href="/videokeywords/livestream">View Previous Broadcasts</a>
-        </div>
+</div>
+{{ else }}
+<div id="liveBanner" style="background: URL(/img/green-fibers.png); background-size: 400px; color: white;">
+    <div class="image-overlay"></div>
+    <div class="container" style="z-index: 10; position: relative; text-align: center">
+        <h1 style="font-size: 2.5rem; line-height: 3rem;">Sorry we aren't streaming today</h1>
+        <h2 style="font-size: 1.2rem; line-height: 2rem;">Check below to see when you can catch our next broadcast!</h2>
+
+        <!-- last stream had issues -->
+        <!--<h1 style="font-size: 2.5rem; line-height: 3rem;">Sorry our past livestream had some technical issues.</h1>-->
+        <!--<h2 style="font-size: 1.2rem; line-height: 2rem;">We will be uploading a replay of the stream today or tomorrow. Thanks for your patience.</h2>-->
+        <a class="button email-form-button" style="display: inline-block; margin-top: 20px" href="/videokeywords/livestream">View Previous Broadcasts</a>
     </div>
-    {{ end }}
+</div>
+{{ end }}
 <div class="content-section">
     <div class="container livepage">
         <v class="col-row w-row">
             <div class="column-left w-col w-col-8">
                 <h1 class="liveContentHeader">Stream Schedule</h1>
-                {{ .Content }} 
+                {{ .Content }}
             </div>
             <aside class="column-right w-col w-col-4">
                 <div class="div-block-35">
@@ -39,23 +39,22 @@
                     <ul id="playlist" class="related-video-playlist-wrapper w-list-unstyled">
                         {{ range first 4 .Site.Taxonomies.playlists.livestreams }}
                         <li class="video-playlist-item">
-                        <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="video-playlist-inner w-inline-block">
-                            <div class="video-playlist-image _4" 
-                                {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail }})"
-                                    {{ else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"
-                                {{ end }}>
-                            </div>
-                            <div class="div-block-24">
-                            <h2 class="heading-23">{{ .Title | truncate 40 }}</h2>
-                            <p class="paragraph-5">{{ .Date.Format "Jan 02, 2006" }}</p>
-                            </div>
-                        </a>
+                            <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="video-playlist-inner w-inline-block">
+                                <div class="video-playlist-image _4" {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail }})" {{
+                                    else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"
+                                    {{ end }}>
+                                </div>
+                                <div class="div-block-24">
+                                    <h2 class="heading-23">{{ .Title | truncate 40 }}</h2>
+                                    <p class="paragraph-5">{{ .Date.Format "Jan 02, 2006" }}</p>
+                                </div>
+                            </a>
                         </li>
                         {{ end }}
                     </ul>
                 </div>
             </aside>
-        </div>
     </div>
+</div>
 </div>
 {{ partial "footer.html" . }}
