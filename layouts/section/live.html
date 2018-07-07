@@ -1,4 +1,7 @@
-{{ partial "header.html" . }} {{ $now := now.Format "Monday" }} {{ $live := .Params.CurrentlyLiveStreaming }} {{ if .Params.videoId }}
+{{- partial "header.html" . -}}
+{{- $now := now.Format "Monday" -}}
+{{- $live := .Params.CurrentlyLiveStreaming -}} 
+{{ if .Params.videoId }}
 <div id="liveBanner" style="background: URL(/img/green-fibers.png); background-size: 400px;">
     <div class="image-overlay" style="background: #333333; opacity: .6"></div>
     <div id="liveWrap">
@@ -12,7 +15,7 @@
         </div>
     </div>
 </div>
-{{ else }}
+{{- else -}}
 <div id="liveBanner" style="background: URL(/img/green-fibers.png); background-size: 400px; color: white;">
     <div class="image-overlay"></div>
     <div class="container" style="z-index: 10; position: relative; text-align: center">
@@ -25,24 +28,24 @@
         <a class="button email-form-button" style="display: inline-block; margin-top: 20px" href="/videokeywords/livestream">View Previous Broadcasts</a>
     </div>
 </div>
-{{ end }}
+{{- end -}}
 <div class="content-section">
     <div class="container livepage">
         <v class="col-row w-row">
             <div class="column-left w-col w-col-8">
                 <h1 class="liveContentHeader">Stream Schedule</h1>
-                {{ .Content }}
+                {{- .Content -}}
             </div>
             <aside class="column-right w-col w-col-4">
                 <div class="div-block-35">
                     <h3 class="heading-29">Recent Broadcasts</h3>
                     <ul id="playlist" class="related-video-playlist-wrapper w-list-unstyled">
-                        {{ range first 4 .Site.Taxonomies.playlists.livestreams }}
+                        {{- range first 4 .Site.Taxonomies.playlists.livestreams -}}
                         <li class="video-playlist-item">
                             <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="video-playlist-inner w-inline-block">
-                                <div class="video-playlist-image _4" {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail }})" {{
-                                    else }}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"
-                                    {{ end }}>
+                                <div class="video-playlist-image _4" {{ if .Params.Thumbnail -}}style="background-image: URL({{ .Params.Thumbnail }})" 
+                                {{- else -}}style="background-image: URL(https://i.ytimg.com/vi/{{ .Params.YoutubeID }}/hqdefault.jpg)"
+                                    {{- end -}}>
                                 </div>
                                 <div class="div-block-24">
                                     <h2 class="heading-23">{{ .Title | truncate 40 }}</h2>
@@ -50,7 +53,7 @@
                                 </div>
                             </a>
                         </li>
-                        {{ end }}
+                        {{- end -}}
                     </ul>
                 </div>
             </aside>
