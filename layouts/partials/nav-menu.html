@@ -1,7 +1,7 @@
 <!--get current weekday-->
-{{ $now := now.Format "Monday" }}
+{{- $now := now.Format "Monday" -}}
 <!--site params for being live-->
-{{ $live := $.Site.Params.Livestreaming }}
+{{- $live := $.Site.Params.Livestreaming -}}
 <!--home-->
 <a href="/" class="nav-link w-inline-block">Home</a>
 <!--about-->
@@ -45,6 +45,6 @@
 </a>
 
 <!--watch live-->
-{{ with .Site.GetPage "section" "live" }}
+{{- with .Site.GetPage "section" "live" -}}
 <a href="/live/" {{ if eq .Params.currentlyLiveStreaming true }} style="background-color: #e41f2f; border: 1px solid #e41f2f; opacity: 1" {{end}} class="nav-link nav-button live w-inline-block">Watch Live</a>
-{{ end }}
+{{- end -}}

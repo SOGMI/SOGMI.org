@@ -1,7 +1,7 @@
 
 
 <div id="transcript" class="transcript-modal-window">
-    {{ if eq .Section "events" }}
+    {{- if eq .Section "events" -}}
         <div class="div-block-84 map">
             <a href="#" data-ix="transcript-close" class="close-popup w-inline-block">
                 <div><strong>X&nbsp;</strong>close</div>
@@ -10,61 +10,61 @@
                 <div class="w-richtext events">
                     <h1 style="font-size: 30px; line-height: 40px; margin-bottom: 10px">{{ .Title }}</h1>
                     <p class="paragraph-3" style="margin-bottom: 10px; font-weight: bold; opacity: 0.75">
-                            {{ with .Params.StartDate }}
-                                {{ . | dateFormat "Monday, January 2, 2006" }}
+                            {{- with .Params.StartDate -}}
+                                {{- . | dateFormat "Monday, January 2, 2006" -}}
                             {{ end }}
                             {{ with .Params.EndDate }}
                                 to {{ . | dateFormat "Monday, January 2, 2006" }}
-                            {{ end }}
+                            {{- end -}}
                     </p>
-                    {{ if .Description }}<p>{{ .Description }}</p>{{ end }}
-                    {{ with .Params.Speakers }}
+                    {{- if .Description -}}<p>{{ .Description }}</p>{{- end -}}
+                    {{- with .Params.Speakers -}}
                     <div style="margin: 45px -5px 45px -5px; text-align: left">
                         <h2 class="heading-36" style="margin: 0px 0px 10px 0px; font-size: 20px; font-weight: bold">Speakers</h2>
                         <div>
                             <!--create a loop for each speaker "." represents the item name. Assign "." the variable $val-->
-                            {{ range $ind,$val := . }}
+                            {{- range $ind,$val := . -}}
                                 <!--make $val url friendly and assign it a new variable "$speaker"-->
-                                {{ $speaker := $val | title }}
+                                {{- $speaker := $val | title -}}
                                 <!--get pages in the "people" directory that match "$speaker"-->
-                                {{ range $.Site.Pages }}
-                                    {{ if eq .Section "people" }}
-                                        {{ if eq .Title $speaker }}
+                                {{- range $.Site.Pages -}}
+                                    {{- if eq .Section "people" -}}
+                                        {{- if eq .Title $speaker -}}
                                             <a style="display:inline-block; padding: 5px" href="{{ .RelPermalink }}" title="{{ .Title }}">
                                                 <div style="border-radius: 100px; overflow: hidden;">
                                                     <img src="{{ .Params.ProfilePhoto }}?w=75&h=75&fit=fill&f=face&r=100">
                                                 </div>
                                             </a>
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-                            {{ end }}
+                                        {{- end -}}
+                                    {{- end -}}
+                                {{- end -}}
+                            {{- end -}}
                         </div>
                     </div>
-                    {{ end }}
-                    {{ $split := split .Content "<faq>" }}
+                    {{- end -}}
+                    {{- $split := split .Content "<faq>" -}}
                     <h2 class="heading-36">Details</h2>
-                        {{ range first 1 $split }}
+                        {{- range first 1 $split -}}
                         <div>
-                            {{ markdownify . }}
+                            {{- markdownify . -}}
                         </div>
-                    {{ end }}
+                    {{- end -}}
                     <h2 class="heading-36">Directions</h1>
                     <p class="paragraph-3"><span id="street_address"><b>{{ .Params.Venue }}</b><br/>{{ .Params.StreetAddress }}</span> <br/><span id="city_state_zip">{{ .Params.City }}, {{ .Params.State }} {{ .Params.ZipCode }}</span></p>
                     <div id="map" style="margin-bottom: 10px"></div>
-                    {{ if eq .Params.hideFaq false }}
-                    {{ range after 1 $split }}
+                    {{- if eq .Params.hideFaq false -}}
+                    {{- range after 1 $split -}}
                         <h2 class="heading-36">Frequently Asked Questions</h1>
                         <div class="w-richtext events">
-                        {{ markdownify . }}
+                        {{- markdownify . -}}
                         </div>
-                    {{ end }}
-                    {{ end }}
+                    {{- end -}}
+                    {{- end -}}
                 </div>
             </div>
         </div>
-    {{ else }}
-        {{ if eq .Section "locations" }}
+    {{- else -}}
+        {{- if eq .Section "locations" -}}
         <div class="div-block-84 map">
             <a href="#" data-ix="transcript-close" class="close-popup w-inline-block">
                 <div><strong>X&nbsp;</strong>close</div>
@@ -85,7 +85,7 @@
 
             </div>
         </div>
-        {{ else }}
+        {{- else -}}
         <div class="div-block-84">
                 <a href="#" data-ix="transcript-close" class="close-popup w-inline-block">
                     <div><strong>X&nbsp;</strong>close</div>
@@ -97,7 +97,7 @@
                 </div>
             </div>
         </div>
-        {{ end }}
-    {{ end }}
+        {{- end -}}
+    {{- end -}}
     <div data-ix="transcript-close" class="image-overlay"></div>
 </div>

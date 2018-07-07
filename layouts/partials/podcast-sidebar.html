@@ -1,31 +1,31 @@
 <div class="podcast-sidebar">
-    {{ $t := .Title }}
-    {{ if eq .Section "series" }}
-    {{ range .Site.Pages }}
-        {{ if eq .Section "podcastSeries" }}
-            {{ if eq .Title $t }}
+    {{- $t := .Title -}}
+    {{- if eq .Section "series" -}}
+    {{- range .Site.Pages -}}
+        {{- if eq .Section "podcastSeries" -}}
+            {{- if eq .Title $t -}}
                 <div class="div-block-12">
                     <div class="div-block-13"></div>
                     <img src="{{ .Params.AlbumImage }}?w=340&q=85" width="182" alt="{{ .Title }}" srcset="{{ .Params.AlbumImage }}?w=340&q=85" sizes="(max-width: 479px) 100vw, (max-width: 767px) 193.72500610351562px, 27vw" class="image" />
                 </div>
-            {{ end }}
-        {{ end }}
-    {{ end }}
-    {{ end }}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+    {{- end -}}
     
-    {{ $s := .Params.Series }}
-    {{ if eq .Section "podcasts" }}
-    {{ range .Site.Pages }}
-        {{ if eq .Section "podcastSeries" }}
-            {{ if eq .Title $s }}
+    {{- $s := .Params.Series -}}
+    {{- if eq .Section "podcasts" -}}
+    {{- range .Site.Pages -}}
+        {{ if eq .Section "podcastSeries" -}}
+            {{- if eq .Title $s -}}
                 <div class="div-block-12">
                     <div class="div-block-13"></div>
                     <img src="{{ .Params.AlbumImage }}?w=340&q=85" width="182" alt="{{ .Title }}" srcset="{{ .Params.AlbumImage }}?w=340&q=85" sizes="(max-width: 479px) 100vw, (max-width: 767px) 193.72500610351562px, 27vw" class="image" />
                 </div>
-            {{ end }}
-        {{ end }}
-    {{ end }}
-    {{ end }}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+    {{- end -}}
 
     <div class="div-block-14">
         <!--
@@ -38,17 +38,17 @@
         -->
         <h3 class="sidebar-heading">Popular Topics</h3>
         <div class="unordered-list-2 w-list-unstyled">
-            {{ range first 10 .Site.Taxonomies.keywords.ByCount }}
+            {{- range first 10 .Site.Taxonomies.keywords.ByCount -}}
             <a href="/keywords/{{ .Name | urlize }}" class="list-item-2">
               <div class="text-block-4">{{ replaceRE "-" " "  .Name }}</div>
             </a>
-            {{ end }}
+            {{- end -}}
         </div>
     </div>
 </div>
 <div class="podcast-sidebar mailchimpForm" style="margin-top: 20px">
     <div class="image-overlay"></div>
     <div class="div-block-14">
-        {{ partial "mailchimp-form-sidebar.html" . }}
+        {{- partial "mailchimp-form-sidebar.html" . -}}
     </div>
 </div>

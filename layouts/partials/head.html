@@ -3,24 +3,22 @@
 <html data-wf-page="5a0281c89a6ada000101512d" lang="en">
 <head>
   <meta charset="utf-8">
-  
   <!-- uncomment this to test appearance on on IE9-->
   <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">-->
-
-  {{ .Hugo.Generator }} 
-  {{ if .Params.metaTitle }}<title>{{ .Params.MetaTitle }}</title>{{ else }} 
-    {{ if eq .Section "tags" }}<title>Articles about "{{ .Title }}"</title>{{ else }} 
-      {{ if eq .Section "hosts" }}<title>Podcasts featuring {{ .Title }}</title>{{ else }} 
-        {{ if eq .Section "authors" }}<title>Articles by {{ .Title }}</title>{{ else }} 
-          {{ if eq .Section "keywords" }}<title>Podcasts tagged with "{{ .Title }}"</title>{{ else }} 
-            {{ if eq .Section "videokeywords" }}<title>Videos tagged with "{{ .Title }}"</title>{{ else }}
-              <title>{{ if .Params.episodeNumber }}Episode {{ .Params.episodeNumber }}: {{ .Title }} | {{ .Params.Series | title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-            {{ end }} 
-          {{ end }} 
-        {{ end }}
-      {{ end }} 
-    {{ end }} 
-  {{ end }}
+  {{- .Hugo.Generator -}} 
+  {{- if .Params.metaTitle -}}<title>{{- .Params.MetaTitle -}}</title>{{- else -}} 
+    {{- if eq .Section "tags" -}}<title>Articles about "{{ .Title }}"</title>{{- else -}} 
+      {{- if eq .Section "hosts" -}}<title>Podcasts featuring {{ .Title }}</title>{{- else -}} 
+        {{- if eq .Section "authors" -}}<title>Articles by {{ .Title }}</title>{{- else -}} 
+          {{- if eq .Section "keywords" -}}<title>Podcasts tagged with "{{- .Title -}}"</title>{{- else -}} 
+            {{- if eq .Section "videokeywords" -}}<title>Videos tagged with "{{- .Title -}}"</title>{{- else -}}
+              <title>{{- if .Params.episodeNumber -}}Episode {{ .Params.episodeNumber -}}: {{ .Title }} | {{ .Params.Series | title -}}{{- else -}}{{- .Title }} | {{ .Site.Title -}}{{- end -}}</title>
+            {{- end -}} 
+          {{- end -}} 
+        {{- end -}}
+      {{- end -}} 
+    {{- end -}} 
+  {{- end -}}
   <link rel="canonical" href="{{ .Permalink }}">
   <meta name="description" content="{{ if .Params.MetaDescription }}{{ .Params.MetaDescription }}{{ else }}{{ if .Description }}{{ truncate 256 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}" />
   <meta property="og:title" content="{{ if .Title }}{{ if .Params.episodeNumber }}Episode {{ .Params.episodeNumber }}: {{ end }}{{ .Title }} | {{ end }}{{ if .Params.Series }}{{ .Params.Series }}{{ else }}{{ .Site.Title }}{{ end }}" />

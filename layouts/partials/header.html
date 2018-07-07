@@ -12,11 +12,11 @@
     <div class="navbar-container">
       <div class="navbar w-clearfix">
         <a href="/" class="brand w-nav-brand">
-          {{ if $.Site.Params.Logo }}
+          {{- if $.Site.Params.Logo -}}
             <img src="{{ $.Site.Params.Logo }}?w=306" alt="{{ $.Site.Title }}" width="auto" height="auto">
-          {{ else }}
+          {{- else -}}
             <h1 class="logo-text">{{ $.Site.Title }}</h1>
-          {{ end }}
+          {{- end -}}
         </a>
         <div data-w-id="faff6c49-0934-4e9f-e9d2-9aa7f6b59f23" class="hamburger-button">
           <div class="menu-icon"><i class="fas fa-bars"></i></div>

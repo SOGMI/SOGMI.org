@@ -7,31 +7,31 @@
       <div class="text-block-34-copy">Subscribe to <br />{{ .Title }}</div>
       <div class="text-block-34 hide-on-mobile">choose one of the following:</div>
         <div class="div-block-17">
-          {{ if .Params.ItunesLink }}
+          {{- if .Params.ItunesLink -}}
           <a href="{{ .Params.ItunesLink }}" target="_blank" class="subscribe-icon w-inline-block">
             <img src="/img/apple-podcast-icon.png" width="30" class="image-2"/>
             <div>Apple Podcasts</div>
           </a>
-          {{ end }}
-          {{ if .Params.GooglePlayLink }}
+          {{- end -}}
+          {{- if .Params.GooglePlayLink -}}
           <a href="{{ .Params.GooglePlayLink }}" target="_blank" class="subscribe-icon w-inline-block">
             <img src="/img/google-play-icon.png" width="30" class="image-2"/>
             <div>Google Play</div>
           </a>
-          {{ end }}
-          {{ if .Params.RssFeed }}
+          {{- end -}}
+          {{- if .Params.RssFeed -}}
           <a href="#" class="subscribe-icon w-inline-block" data-ix="rss-option">
             <img src="/img/rss-icon.png" width="30" class="image-2"/>
             <div>RSS Feed</div>
           </a>
-          {{ end }}
+          {{- end -}}
         </div>
     </div>
-    {{ if .Params.RssFeed }}
+    {{- if .Params.RssFeed -}}
     <div class="rss-option"><img src="/img/rss-icon.png" width="54" class="image-2" />
         <div class="text-block-34">copy this link into your RSS feed reader</div>
         <div class="w-embed"><input type="text" style="width:100%; color: #333; font-size: 14px; padding: 10px" value="{{ .Params.RssFeed }}" id="podcast-link">
         <button style="background: #ffb642; padding: 10px 20px 10px 20px; color: #333; margin-top: 20px;" onclick="copyText()">Copy Link</button></div>
     </div>
-    {{ end }}
+    {{- end -}}
 </div>
