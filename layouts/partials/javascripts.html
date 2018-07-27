@@ -1,4 +1,10 @@
+
+<!--algolia css-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.2/dist/instantsearch.min.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+
 <script type="text/javascript">
   WebFont.load({
     google: {
@@ -11,7 +17,7 @@
     }
   });*/
 </script>
-{{if eq .Section "videos"}}
+{{- if eq .Section "videos" -}}
 <script type="text/javascript">
   // Replace labnol with your disqus shortname
   var disqus_shortname = "sogmi";
@@ -43,7 +49,7 @@
   }
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{{ end }}
+{{- end -}}
 
 <script type="text/javascript">
   ! function(o, c) {
