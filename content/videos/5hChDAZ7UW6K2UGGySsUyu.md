@@ -1,16 +1,12 @@
 ---
-title: "The Mind of Christ: Truth Above the Facts"
-slug: "prophetic-voice-327"
-keywords: ["goodness","faith","comfort","opportunities","mind of christ","love of god","move of god","power of words","revelation","restoration","spiritual authority","spiritual warfare","strongholds","transformation","truth"]
-hosts: ["Cristina Sosso"]
-showTranscript: false
-originalAirDate: "2018-06-30"
-date: "2018-07-02"
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E327-18-06-30-07-01-The-Mind-of-Christ-Truth-Above-the-Facts.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 327
-description: "You see what is before you. Those are the facts. But the facts cannot change the Truth. But the Truth, which is Jesus Christ, CAN change the facts for you. Then you'll be transformed into a new person and you'll end up transforming other people's lives by the way you live. If we focus on our weaknesses, then we will lack self-esteem. We'll be walking and living as a Christian by guilt. If we focus on the good things and our abilities, we will operate in pride. But if we focus on the love of God, then we are grateful, excited, and we share Him and His principles with others.\n\n- Philippians 4:4-8\n- 2 Corinthians 10:3-6\n- Romans 8:28\n- Luke 6:45\n- Romans 8:35-39\n- 1 Corinthians 2:16\n- Jude 1:20-21\n- Psalm 71:5\n- 2 Corinthians 3:5"
-featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/keFr74NliSc4QwCI6yYQc/6f6939a8afb760d865ebdf216c6e727a/andressa-voltolini-202193-unsplash.jpg"
-photoCredit: "Photo by Andressa Voltolini on Unsplash"
+title: "07/22/2018 | Priesthood Under The New Covenant (Pastor Cris)"
+slug: "O9OQiJ6iJUU"
+date: "2018-07-22"
+videoLink: "https://www.youtube.com/watch?v=O9OQiJ6iJUU"
+YoutubeID: "O9OQiJ6iJUU"
+description: "Support SOGMI: https://sogmi.org/donate\nLike us on Facebook: https://facebook.com/sonsofgodministries"
+videoKeywords: ["priesthood","new covenant","levites"]
+playlists: ["full sermons","livestreams"]
+speakers: ["Cristina Sosso","Dora Wageneck","Esther Garcia"]
 people: [{"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"vfgh62eq5a4k"}},"id":"3zLvufAtlKgiiGIaEYs4S4","type":"Entry","createdAt":"2018-02-23T06:16:18.990Z","updatedAt":"2018-03-29T06:21:52.070Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":14,"contentType":{"sys":{"type":"Link","linkType":"ContentType","id":"people"}},"locale":"en-US"},"fields":{"title":"Cristina Sosso","slug":"cristina-sosso","show":true,"firstName":"Cristina","lastName":"Sosso","position":"Executive Vice President & Co-Founder","bio":"Cristina Sosso founded Sons of God Ministries International (SOGMI) with her husband Michael back in 2002. With the inspiration of the Holy Spirit she opened the prophetic and business schools at SOGMI and spearheaded the start of the \"Empower A Leader, Empower A Nation\" Conference which has mentored and trained thousands of ministers and business leaders all over the world. She also hosts a weekly radio program called \"The Prophetic Voice of Our Time\" and is presently the Senior Pastor at Freedom Fellowship Church in San Antonio, Texas.","description":"Cristina Sosso founded Sons of God Ministries International (SOGMI) with her husband Michael back in 2002. With the inspiration of the Holy Spirit she opened the prophetic and business schools at SOGMI and spearheaded the start of the \"Empower A Leader...","mType":"Leader","profilePhoto":{"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"vfgh62eq5a4k"}},"id":"96QJj81azCMMwMSuSuIEY","type":"Asset","createdAt":"2018-03-28T17:16:22.968Z","updatedAt":"2018-03-28T17:16:22.968Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":1,"locale":"en-US"},"fields":{"title":"Pastor Cris Portrait at FFCI","file":{"url":"//images.ctfassets.net/vfgh62eq5a4k/96QJj81azCMMwMSuSuIEY/cb10e257ae13a038cccff77963a9ac74/IMG_0293_Pastor_Cris_Portrait_at_FFCI.jpg","details":{"size":160088,"image":{"width":2000,"height":1333}},"fileName":"IMG_0293 Pastor Cris Portrait at FFCI.jpg","contentType":"image/jpeg"}}},"isAuthor":true,"isHost":true,"facebook":"https://facebook.com/PastorCristinaSosso"}}]
 ---

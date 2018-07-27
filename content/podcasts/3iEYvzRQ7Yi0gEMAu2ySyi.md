@@ -1,0 +1,16 @@
+---
+title: "Preparation to Establish God's Kingdom"
+slug: "prophetic-voice-330"
+keywords: ["kingdom of god","transfer of wealth","prosperity","trust in god","obedience","promotions and replacements"]
+hosts: ["Joshua Sosso"]
+showTranscript: false
+originalAirDate: "2018-07-21"
+date: "2018-07-23"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E330-18-07-21-22-Preparation-to-Establish-God-s-Kingdom.mp3"
+Series: "The Prophetic Voice of Our Time"
+episodeNumber: 330
+description: "We’re going to be talking about the life of David and how it applies to the time that we’re in right now. For the past several weeks at Freedom Fellowship, we’ve been talking about how God is setting up the church to be in a position to where we're going to subdue and overtake kingdoms in order to establish the kingdom of God. And when we refer to nations and kingdoms and establishing the kingdom of God in those nations and kingdoms, we don’t just mean into political nations but are also referring to how God is sending people in the body of Christ to the media industries, to the entertainment industries, to the technology industries etc. Those are also nations."
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/2Tapa0d8Hu4OIoU8aAs8Uw/ec3c8f9aae2c27b31c11cd12d3049061/battle-black-blur-260024.jpg"
+photoCredit: "Photo by Pixabay from Pexels"
+people: [{"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"vfgh62eq5a4k"}},"id":"2fn2KHOWEow0K6EqCkaywa","type":"Entry","createdAt":"2018-02-23T06:15:12.490Z","updatedAt":"2018-05-28T21:06:06.390Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":9,"contentType":{"sys":{"type":"Link","linkType":"ContentType","id":"people"}},"locale":"en-US"},"fields":{"title":"Joshua Sosso","slug":"joshua-sosso","show":true,"firstName":"Josh","lastName":"Sosso","position":"Project Manager / Senior Editor","bio":"Josh is the project manager for SOGMI's online outreaches. He is passionate about bringing transformative change to the media and technology industries, and works as a web develop and designer when he isn't working with SOGMI. He also preaches Sunday nights at Freedom Fellowship Church in San Antonio, TX and frequently appears as a speaker on the Prophetic Voice of Our Time.","description":"Josh acts as the project manager for all goin-ons at sogmi.org. He is passionate about bringing transformative change to the media and technology industries, and probably spends a little too much time immersed in internet culture.","mType":"Worker","profilePhoto":{"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"vfgh62eq5a4k"}},"id":"5Z8yh73o2sqMAiO8aKmsIc","type":"Asset","createdAt":"2018-02-18T04:46:50.513Z","updatedAt":"2018-02-18T04:46:50.513Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":1,"locale":"en-US"},"fields":{"title":"Josh Profile Pic","file":{"url":"//images.ctfassets.net/vfgh62eq5a4k/5Z8yh73o2sqMAiO8aKmsIc/bf8e90962701acda5f785ee00663cefd/13923804_1743051489302951_3753627575376913860_o.jpg","details":{"size":458408,"image":{"width":2048,"height":1365}},"fileName":"13923804_1743051489302951_3753627575376913860_o.jpg","contentType":"image/jpeg"}}},"isAuthor":true,"isHost":true,"inVideos":true,"instagram":"https://instagram.com/joshsosso"}}]
+---
