@@ -34,7 +34,8 @@
                 });
             </script>
             <!--END EVENTBRITE-->
-        {{ else }}
+        {{ end }}
+        {{ if eq .Params.registrationType "Paypal" }}
             <a href="#" data-ix="event-button-click" class="event-button w-button">Get Tickets</a>
             <div class="event-button-popup">
                 <div class="event-single-banner-container-copy">
@@ -44,6 +45,12 @@
                 </div>
                 </div>
             </div>
+        {{ end }}
+        {{ if eq .Params.registrationType "Registration is Closed" }}
+            <a href="#" class="event-button w-button">Registration for this event is currently closed</a>
+        {{ end }}
+        {{ if eq .Params.registrationType "No Registration Required" }}
+            <a href="#" class="event-button w-button">Registration is not required.</a>
         {{ end }}
     </div>
 </div>

@@ -12,7 +12,7 @@
       <a href="/events/past-events/" class="button-5 w-button {{if eq .Title "Past SOGMI Events"}}current{{end}}">Event Galleries</a>
     </div>
     <div class="standard-grid-wrapper">
-      {{ if eq .Title "Events" }}
+      {{ if eq .Title "Upcoming Events" }}
       {{ range .Data.Pages }}
         {{ $d := .Params.endDate }}
         {{ $t := dateFormat "20060102" $d }}
