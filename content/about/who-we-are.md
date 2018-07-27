@@ -3,7 +3,7 @@ title: Who We Are
 slug: who-we-are
 aliases:
     - /who-we-are/
-featuredImage: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/19493a487904837c7ba27a7109c58204/download__2_.jpg
+featuredImage: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/19493a487904837c7ba27a7109c58204/download__2_.jpg
 description: 
 sections:
   - heading: Our Mission
@@ -14,7 +14,7 @@ sections:
         <br/>      
         Ephesians 4:11-13, "So Christ himself gave the apostles, the prophets, the evangelists, the pastors and teachers, to equip his people for works of service, so that the body of Christ may be built up until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ." (NIV)
     layout: light
-    photo: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
+    photo: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     photoMeta: Worship Concert in General Santos City
     backgroundPhoto: 
   - heading: The Name
@@ -25,7 +25,7 @@ sections:
     layout: dark
     photo:
     photoMeta: 
-    backgroundPhoto: //images.contentful.com/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg
+    backgroundPhoto: //images.ctfassets.net/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg
   - heading: The Founders
     text: 
       Sons of God Ministries International was founded by Mike and Cristina Sosso in 2002. <br/>
@@ -34,7 +34,7 @@ sections:
       <br/>
       Cristina is a former banker who was called by God in the apostolic and prophetic ministry in 1989. She served as the president of Agape International in the San Antonio chapter since 1990 until God called her and Mike to start Sons of God Ministries International.
     layout: light
-    photo: //images.contentful.com/vfgh62eq5a4k/4OnQWiQju0AYIqWceuEOm4/cf486854f20f00bcebb04c9b51863792/1512775280560__1_.jpg
+    photo: //images.ctfassets.net/vfgh62eq5a4k/4OnQWiQju0AYIqWceuEOm4/cf486854f20f00bcebb04c9b51863792/1512775280560__1_.jpg
     photoMeta: Pastors Mike and Cristina Sosso at the Botanical Gardens
     backgroundPhoto: 
 ---

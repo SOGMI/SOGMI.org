@@ -4,7 +4,7 @@ Slug: donate
 heading: Partner With Us
 subheading: Support the preaching of the Gospel and discipleship for the Body of Christ today. All donations will by used to further our mission of establishing the Kingdom of God here on earth!
 description: Support the preaching of the Gospel and discipleship for the Body of Christ today. All donations will by used to further our mission of establishing the Kingdom of God here on earth!
-featuredImage: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
+featuredImage: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
 formOptions: 
   - title: Online Donation
     link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KLR3R6BMV5RKJ
@@ -12,7 +12,7 @@ formOptions:
     link: /donate/mail-donation
 oneTimeDonation: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KLR3R6BMV5RKJ
 layout: lightdark
-darkBackground: //images.contentful.com/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/19493a487904837c7ba27a7109c58204/download__2_.jpg
+darkBackground: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/19493a487904837c7ba27a7109c58204/download__2_.jpg
 lightBackground: 
 disableSearch: true
 ---
