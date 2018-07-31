@@ -3,13 +3,31 @@ const contentful = require('contentful')
 var slugify = require('slugify')
 const mkdirp = require('mkdirp')
 var fs = require('fs')
-var argv = require('minimist')(process.argv.slice(2))
+
+//not needed for some reason
+//var argv = require('minimist')(process.argv.slice(2))
+
+//reads environment variables from .env file
 var dotenv = require("dotenv").config()
 
 const client = contentful.createClient({
   space: process.env.CONTENTFUL_SPACE,
   accessToken: process.env.CONTENTFUL_TOKEN
 })
+
+function typeOf(value) {
+    var s = typeof value;
+    if (s === 'object') {
+        if (value) {
+            if (value instanceof Array) {
+                s = 'array';
+            }
+        } else {
+            s = 'null';
+        }
+    }
+    return s;
+}
 
 function writeEntriesForType(contentType) {
     client.getEntries({
@@ -32,15 +50,10 @@ function writeEntriesForType(contentType) {
                                 default:
                                     continue
                             }
-                        } else {
-                            //content links (WORK IN PROGRESS >.>)
-                            //if ('0' in item.fields[field]) {
-                            //    fileContent += `${field}: Test\n`
-                            //} 
-                            //standard arrays
-                            //else {
-                            fileContent += `${field}: ${JSON.stringify(item.fields[field])}\n`
-                            //}
+                        } 
+                        else {
+                            var itemResult = item.fields[field]
+                            fileContent += `${field}: ${JSON.stringify(itemResult)}\n`
                         }
                         break;
                     default:
@@ -56,13 +69,20 @@ function writeEntriesForType(contentType) {
 
             if (contentType.sys.id == 'live') {
                 fs.writeFile(`./content/${contentType.sys.id}/${slugify('_index')}.md`, fileContent, (error) => { /* handle error */ })
-            } else {
+                console.log(item.sys.id + ".md created in /content/" + contentType.sys.id )
+            } 
+            else {
             fs.writeFile(`./content/${contentType.sys.id}/${slugify(item.sys.id)}.md`, fileContent, (error) => { /* handle error */ })
+                console.log(item.sys.id + ".md created in /content/" + contentType.sys.id )
             }
         }
     })
     .catch(console.error)
 }
+
+// client.getEntries()
+// .then((response) => console.log(response.items))
+// .catch(console.error)
 
 client.getContentTypes()
 .then((response) => {
