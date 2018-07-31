@@ -69,11 +69,11 @@ function writeEntriesForType(contentType) {
 
             if (contentType.sys.id == 'live') {
                 fs.writeFile(`./content/${contentType.sys.id}/${slugify('_index')}.md`, fileContent, (error) => { /* handle error */ })
-                console.log(item.sys.id + ".md created in /content/" + contentType.sys.id )
+                console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
             } 
             else {
             fs.writeFile(`./content/${contentType.sys.id}/${slugify(item.sys.id)}.md`, fileContent, (error) => { /* handle error */ })
-                console.log(item.sys.id + ".md created in /content/" + contentType.sys.id )
+                console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
             }
         }
     })
