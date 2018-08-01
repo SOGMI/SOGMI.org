@@ -51,8 +51,11 @@ function writeEntriesForType(contentType) {
                                     arrayList += `- ` + x + `\n`
                                 }
                                 else if(Object.getOwnPropertyDescriptor(x.sys, 'type' ).value === 'Asset') {
-                                    arrayList += `- title: ` + oj(x.fields, "title").value + `\n  description: ` +
-                                    oj(x.fields, "description").value + `\n  url: ` + oj(x.fields.file, "url").value + `\n`
+                                    arrayList += `- title: ` + oj(x.fields, "title").value + `\n  url: ` + oj(x.fields.file, "url").value + `\n`
+                                    
+                                    if(typeof oj(x.fields, "description") !== 'undefined'){
+                                        arrayList += `  description: ` + oj(x.fields, "description").value + `\n`
+                                    }
                                 }
                                 else {
                                     arrayList += `- title: ` + oj(x.fields, 'title').value + `\n  slug: ` + oj(x.fields, 'slug').value +
