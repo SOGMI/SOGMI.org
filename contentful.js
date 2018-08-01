@@ -41,7 +41,7 @@ function writeEntriesForType(contentType) {
                     continue
                 switch (typeof(item.fields[field])) {
                     case 'object':
-                        //Single Assets i.e. photos and videos
+                        // Single Assets i.e. photos and videos
                         if ('sys' in item.fields[field]) {
                             switch(item.fields[field].sys.type) {
                                 case 'Asset':
@@ -51,17 +51,41 @@ function writeEntriesForType(contentType) {
                                     continue
                             }
                         } 
+                        // Arrays
                         else {
                             var itemResult = item.fields[field]
-                            fileContent += `${field}: ${JSON.stringify(itemResult)}\n`
+
+                            // Old method. Only grabs standard arrays. Doesn't get linked content (assets or entries)
+                            // fileContent += `${field}: ${JSON.stringify(itemResult)}\n`
+
+                            // New method. Retrieves standard array content and linked content.
+                            // Linked entries will give the entry id, and linked assets will give a "title" "description" and "url"
+                            var arrayList = ``
+                            for(var i = 0; i < itemResult.length; i++ ) {
+                                value = itemResult[i]
+                                if(typeof(value) !== `object`) {
+                                    arrayList += `- ` + value + `\n`
+                                }
+                                else if(Object.getOwnPropertyDescriptor(value.sys, 'type' ).value === 'Asset') {
+                                    var oj = Object.getOwnPropertyDescriptor
+                                    arrayList += `- title: ` + oj(value.fields, "title").value + `\n  description: ` +
+                                        oj(value.fields, "description").value + `\n  url: ` + oj(value.fields.file, "url").value + `\n`                                }
+                                else {
+                                    arrayList += `- ` + Object.getOwnPropertyDescriptor(value.sys, 'id').value + `\n`
+                                }
+                            }
+                            fileContent += `${field}:\n${arrayList}`
+                            arrayList = ``
                         }
                         break;
+                    // Simple text content
                     default:
-                        fileContent += `${field}: ${JSON.stringify(item.fields[field])}\n`
+                    fileContent += `${field}: ${JSON.stringify(item.fields[field])}\n`
                 }
             }
             fileContent += '---\n'
 
+            // field with ID 'content' will be set as the main content in the .md file 
             if ('content' in item.fields)
                 fileContent += `${item.fields['content']}\n`
 
