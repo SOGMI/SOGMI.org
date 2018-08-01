@@ -3,11 +3,7 @@ const contentful = require('contentful')
 var slugify = require('slugify')
 const mkdirp = require('mkdirp')
 var fs = require('fs')
-
-//not needed for some reason
 //var argv = require('minimist')(process.argv.slice(2))
-
-//reads environment variables from .env file
 var dotenv = require("dotenv").config()
 
 const client = contentful.createClient({
