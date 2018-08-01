@@ -43,7 +43,6 @@ notAlternative = true
     host="hosts"
     keyword="keywords"
     videokeyword="videokeywords"
-    speaker="speakers"
     playlist="playlists"
 
 [related]
