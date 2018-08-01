@@ -2,6 +2,7 @@
 title: "The Prophetic Gathering Of The Saints 2018"
 slug: "prophetic-gathering-2018"
 venue: "Venue TBA"
+address:
 hideFaq: true
 freeEvent: false
 startDate: "2018-12-31"

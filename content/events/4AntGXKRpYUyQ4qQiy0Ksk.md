@@ -1,23 +1,8 @@
 ---
 title: "Prophetic Conference at Freedom Fellowship Church"
 slug: "prophetic-conference-at-freedom-fellowship-church"
-gallery:
-- title: air force skydivers jumping
-  description: air force skydivers jumping
-  url: //images.ctfassets.net/vfgh62eq5a4k/4zhaw28LUskg0esWuc8CuU/3b2ae58fbff60ba87833b9514bf4313f/aerial-air-airforce-38523.jpg
-- title: chess pawn wearing royal crown
-  description: chess pawn wearing royal crown
-  url: //images.ctfassets.net/vfgh62eq5a4k/2Tapa0d8Hu4OIoU8aAs8Uw/ec3c8f9aae2c27b31c11cd12d3049061/battle-black-blur-260024.jpg
-- title: man gently holding leafy sprout to plant in field
-  description: man gently holding leafy sprout to plant in field
-  url: //images.ctfassets.net/vfgh62eq5a4k/42DfREltoksSI8CKMimwgq/35b2420253ede47db19ee0821d34820e/beautiful-blur-bright-1088175.jpg
-- title: Fireworks display
-  description: photo by Ray Hennessy on Unsplash
-  url: //images.ctfassets.net/vfgh62eq5a4k/3dNPAXaQ1qkcQuQEiOQs4S/7688f01fa99d7d62dd2dffa6fcb13928/ray-hennessy-299620-unsplash__1_.jpg
-- title: people-jump-backlit-beach-1000445
-  description: silhouette of ecstatic people jumping above beach at sunset
-  url: //images.ctfassets.net/vfgh62eq5a4k/2LSFtcodxuu0WykCAKUkMi/9f5c29a5359e78bf81a0ecfa50b6f177/people-jump-backlit-beach-1000445.jpg
 venue: "Freedom Fellowship Church"
+address:
 hideFaq: false
 description: "Join us at Freedom Fellowship Church this March and experience a move of God! God has already begun moving mightily this year 2018 so we will continue to pursue Him and his will with full abandon."
 people:
