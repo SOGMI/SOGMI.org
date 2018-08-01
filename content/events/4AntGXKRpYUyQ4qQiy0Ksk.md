@@ -20,22 +20,6 @@ gallery:
 venue: "Freedom Fellowship Church"
 hideFaq: false
 description: "Join us at Freedom Fellowship Church this March and experience a move of God! God has already begun moving mightily this year 2018 so we will continue to pursue Him and his will with full abandon."
-speakers:
-- Cristina Sosso
-- Mike Sosso
-- Joshua Sosso
-freeEvent: true
-startDate: "2018-03-30"
-endDate: "2018-03-31"
-featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6t1oOVZIWWUo44sAKcASWk/75a9d281912c0f948f1d90ff792636fc/prophetic_gathering_2018_march_-_without_text__1_.jpg"
-registrationType: "Eventbrite"
-eventbriteId: 43279056824
-eventbriteURL: "https://www.eventbrite.com/e/prophetic-conference-at-freedom-fellowship-church-tickets-43279056824"
-streetAddress: "8419 Callaghan Rd"
-city: "San Antonio"
-state: "Texas"
-zipCode: 78023
-country: "United States"
 people:
 - title: Cristina Sosso
   slug: cristina-sosso
@@ -49,6 +33,18 @@ people:
   slug: mike-sosso
   contentType: people
   id: 6aQjATkbJuOcIYwuGcSciQ
+freeEvent: true
+startDate: "2018-03-30"
+endDate: "2018-03-31"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6t1oOVZIWWUo44sAKcASWk/75a9d281912c0f948f1d90ff792636fc/prophetic_gathering_2018_march_-_without_text__1_.jpg"
+registrationType: "Eventbrite"
+eventbriteId: 43279056824
+eventbriteURL: "https://www.eventbrite.com/e/prophetic-conference-at-freedom-fellowship-church-tickets-43279056824"
+streetAddress: "8419 Callaghan Rd"
+city: "San Antonio"
+state: "Texas"
+zipCode: 78023
+country: "United States"
 ---
 ## Event Schedule
 The event will last for 2 days. Please register for each day you will be attending.</P>
