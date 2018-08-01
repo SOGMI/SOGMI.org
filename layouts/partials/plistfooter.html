@@ -2,7 +2,6 @@
 {{- partial "javascripts.html" . -}}
 <!--audio player js-->
 <script>
-
 $(document).ready(function() {
     init();
 
@@ -38,6 +37,10 @@ $(document).ready(function() {
       par.addClass('active').siblings().removeClass('active');
       player.load();
       player.play();
+      var currentTitle = document.querySelector(".podcast-grid-item.active h2").innerHTML
+      var currentImage = document.querySelector(".podcast-grid-item.active").getAttribute("data-image")
+      document.getElementById("player-title").innerHTML = currentTitle
+      document.querySelector(".audio-player img").src = currentImage + "?w=150&h=150&q=50&fit=fill"
     }
   });
 

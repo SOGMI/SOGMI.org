@@ -5,11 +5,17 @@
         <div class="hide-player-initial-text">&nbsp; hide player</div>
         </a>
     </div>
-    <h4 id="player-title" class="heading-21"><strong>Now playing</strong></h4>
-    <div class="html-embed-8 w-embed"><audio id="audio" preload="auto" tabindex="0" controls controlslist="" style="width: 100%">
-        <source src="">
-        Your browser does not support this audio player. Please upgrade your browser. We recommend chrome or firefox.
-        </audio>
+    <div class="audio-player-content">
+        <img src="{{ .Params.featuredImage }}?w=150&h=150&fit=fill&q=85"/>
+        <div class="audio-player-text">
+            <!--class="heading-21"-->
+            <p>Now Playing</p>
+            <p id="player-title">Episode {{ .Params.episodeNumber }}: {{ .Title }}</p>
+            <audio id="audio" preload="auto" tabindex="0" controls controlslist="" style="max-height: 100%; width: 100%; background: #f1f3f4">
+                <source src="">
+                Your browser does not support this audio player. Please upgrade your browser. We recommend chrome or firefox.
+            </audio>
+        </div>
     </div>
 </div>
 <div class="expand-player-container" data-ix="audio-player-initial-appearance">
