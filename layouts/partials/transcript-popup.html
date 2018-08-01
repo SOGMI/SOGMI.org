@@ -18,27 +18,23 @@
                             {{- end -}}
                     </p>
                     {{- if .Description -}}<p>{{ .Description }}</p>{{- end -}}
-                    {{- with .Params.Speakers -}}
+                    <!-- speaker images / links -->
+                    {{- if .Params.people -}}
                     <div style="margin: 45px -5px 45px -5px; text-align: left">
                         <h2 class="heading-36" style="margin: 0px 0px 10px 0px; font-size: 20px; font-weight: bold">Speakers</h2>
                         <div>
-                            <!--create a loop for each speaker "." represents the item name. Assign "." the variable $val-->
-                            {{- range $ind,$val := . -}}
-                                <!--make $val url friendly and assign it a new variable "$speaker"-->
-                                {{- $speaker := $val | title -}}
-                                <!--get pages in the "people" directory that match "$speaker"-->
-                                {{- range $.Site.Pages -}}
-                                    {{- if eq .Section "people" -}}
-                                        {{- if eq .Title $speaker -}}
-                                            <a style="display:inline-block; padding: 5px" href="{{ .RelPermalink }}" title="{{ .Title }}">
-                                                <div style="border-radius: 100px; overflow: hidden;">
-                                                    <img src="{{ .Params.ProfilePhoto }}?w=75&h=75&fit=fill&f=face&r=100">
-                                                </div>
-                                            </a>
-                                        {{- end -}}
-                                    {{- end -}}
+                        {{- range .Params.people -}}
+                            {{- $id := add .id ".md" -}}
+                            {{- range where $.Site.RegularPages "Section" "=" "people" -}}
+                                {{- if eq .File.LogicalName $id -}}
+                                    <a style="display:inline-block; padding: 5px" href="{{ .RelPermalink }}" title="{{ .Title }}">
+                                        <div style="border-radius: 100px; overflow: hidden;">
+                                            <img src="{{ .Params.ProfilePhoto }}?w=75&h=75&fit=fill&f=face&r=100">
+                                        </div>
+                                    </a>
                                 {{- end -}}
                             {{- end -}}
+                        {{- end -}}
                         </div>
                     </div>
                     {{- end -}}

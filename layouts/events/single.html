@@ -65,7 +65,7 @@
             <a data-w-tab="Basic Info 2" class="event-tab-link w-inline-block w-tab-link">
                 <div>Directions</div>
             </a>
-            {{ if .Params.speakers }}
+            {{ if .Params.people }}
                 <a data-w-tab="Speakers" class="event-tab-link w-inline-block w-tab-link">
                     <div>Speakers</div>
                 </a>
@@ -118,35 +118,32 @@
                 <h1 class="heading-36">Parking</h1>
             </div>
             <!--when speakers are set-->
-            {{ with .Params.Speakers }}
+            {{- if .Params.people -}}
             <div data-w-tab="Speakers" class="w-tab-pane" style="margin-bottom: 20px">
                 <h1 class="heading-36">Speakers</h1>
                 <div class="event-speaker-grid">
                     <!--create a loop for each speaker "." represents the item name. Assign "." the variable $val-->
-                    {{ range $ind,$val := . }}
-                        <!--make $val url friendly and assign it a new variable "$speaker"-->
-                        {{ $speaker := $val | title }}
-                        <!--get pages in the "people" directory that match "$speaker"-->
-                        {{ range $.Site.Pages }}
-                            {{ if eq .Section "people" }}
-                                {{ if eq .Title $speaker }}
-                                    <div class="event-speaker-item">
-                                        <div class="event-speaker-inner">
-                                            <div class="speaker-photo" style="background-image: URL({{ .Params.ProfilePhoto }}?w=300)"></div>
-                                            <div class="div-block-82">
-                                                <h2 class="heading-11">{{ .Title }}</h2>
-                                                <p class="paragraph-13">{{ truncate 250 .Params.Bio  }}</p>
-                                                <a href="{{ .RelPermalink }}" class="button-9 w-button events">View Profile</a>
-                                            </div>
-                                        </div>
+                    {{- range .Params.people -}}
+                        {{ $id := add .id ".md" }}
+                        {{ $name := .title }}
+                        {{- range where $.Site.RegularPages "Section" "=" "people" -}}
+                        {{- if eq .File.LogicalName $id -}}
+                            <div class="event-speaker-item">
+                                <div class="event-speaker-inner">
+                                    <div class="speaker-photo" style="background-image: URL({{ .Params.ProfilePhoto }}?w=300)"></div>
+                                    <div class="div-block-82">
+                                        <h2 class="heading-11">{{ $name }}</h2>
+                                        <p class="paragraph-13">{{ truncate 250 .Params.Bio  }}</p>
+                                        <a href="{{ .RelPermalink }}" class="button-9 w-button events">View Profile</a>
                                     </div>
-                                {{ end }}
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}
+                                </div>
+                            </div>
+                        {{- end -}}
+                        {{- end -}}
+                    {{- end -}}
                 </div>
             </div>
-            {{ end }}
+            {{- end -}}
             <!--end speaker grid-->
             {{ if eq .Params.hideFaq false }}
                 <div data-w-tab="FAQ" class="w-tab-pane">
@@ -181,50 +178,22 @@
     <div class="container">
         <p style="margin-bottom: 50px">This event has ended&nbsp;&nbsp;<br/><a href="#" data-ix="open-transcript">+View Event Details</a></p>
         <div id="gallery" class="gallery-grid-wrapper">
-            {{ $file := print .File }}
-            {{ $env := getenv "CONTENTFUL_TOKEN"}}
-            {{ $space := getenv "CONTENTFUL_SPACE" }}
-            {{ $urlPre := "https://cdn.contentful.com"}}
-            {{ $urlmid := add "/spaces/" (add $space "/environments/master/entries/") }}
-            {{ $id := $file }}
-            {{ $token := add "?access_token=" $env }}
-            {{ $dataJ := getJSON $urlPre $urlmid $id $token }}
-
-            {{ $printurl := print $urlPre $urlmid $id $token }}
-            <!--<a href="{{ $printurl }}">{{ $printurl }}</a>-->
-            {{ range $dataJ }}
-                {{ range .gallery }}
-                    {{ $imageId := .sys.id }}
-                    {{ $urlmid2 := add "/spaces/" (add $space "/environments/master/assets/") }}
-                    {{ $imageData := getJSON $urlPre $urlmid2 $imageId $token }}
-                    
-                    {{ range $imageData }}
-                        {{ $iUrl := .file.url }}
-                        {{ $iWidth := .file.details.image.width }}
-                        {{ $iHeight := .file.details.image.height }}
-                        {{ $deets := .description }}
-                        {{ if eq .id $imageId }}
-                        {{ else }}
-                        <a href="#" class="gallery-grid-item w-inline-block w-lightbox">
-                            <img src="{{ $iUrl }}?w=500&h=500&q=70&fit=fill" width="auto" alt="{{ $deets }}"/>
-                            <!--<div class="gallery-grid-photo" style="background-image:URL({{ $iUrl }}?w=500&h=500&q=70&fit=fill); background-size: cover;"></div>-->
-                            <script type="application/json" class="w-json">
-                                {
-                                "items": [{
-                                    "type": "image",
-                                    "_id": "{{ $imageId }}",
-                                    "origFileName": "{{ .file.fileName }}",
-                                    "width": {{ $iWidth }},
-                                    "height": {{ .file.details.image.height }},
-                                    "fileSize": {{ .file.details.size }},
-                                    "url": "{{ .file.url }}"
-                                }],
-                                "group": "Gallery"
-                                }
-                            </script>
-                        </a>
-                        {{ end }}
-                    {{ end }}
+            {{ if .Params.gallery }}
+                {{ range .Params.gallery }}
+                    <a href="#" class="gallery-grid-item w-inline-block w-lightbox">
+                        <img src="{{ .url }}?w=500&h=500&q=70&fit=fill" width="auto" alt="{{ .description }}"/>
+                        <!--<div class="gallery-grid-photo" style="background-image:URL({{ .url }}?w=500&h=500&q=70&fit=fill); background-size: cover;"></div>-->
+                        <script type="application/json" class="w-json">
+                            {
+                            "items": [{
+                                "type": "image",
+                                "_id": "{{ .title | urlize }}",
+                                "url": "{{ .url }}?w=1200&q=70&fit=fill"
+                            }],
+                            "group": "Gallery"
+                            }
+                        </script>
+                    </a>
                 {{ end }}
             {{ end }}
         </div>
