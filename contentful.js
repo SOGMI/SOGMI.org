@@ -15,20 +15,6 @@ const client = contentful.createClient({
   accessToken: process.env.CONTENTFUL_TOKEN
 })
 
-function typeOf(value) {
-    var s = typeof value;
-    if (s === 'object') {
-        if (value) {
-            if (value instanceof Array) {
-                s = 'array';
-            }
-        } else {
-            s = 'null';
-        }
-    }
-    return s;
-}
-
 function writeEntriesForType(contentType) {
     client.getEntries({
         content_type: contentType.sys.id
@@ -59,19 +45,22 @@ function writeEntriesForType(contentType) {
                             // fileContent += `${field}: ${JSON.stringify(itemResult)}\n`
 
                             // New method. Retrieves standard array content and linked content.
-                            // Linked entries will give the entry id, and linked assets will give a "title" "description" and "url"
+                            // Linked entries will give "title" "contentType" "slug" and Entry ID
+                            // Linked assets will give a "title" "description" and "url"
                             var arrayList = ``
+                            var oj = Object.getOwnPropertyDescriptor
                             for(var i = 0; i < itemResult.length; i++ ) {
-                                value = itemResult[i]
-                                if(typeof(value) !== `object`) {
-                                    arrayList += `- ` + value + `\n`
+                                x = itemResult[i]
+                                if(typeof(x) !== `object`) {
+                                    arrayList += `- ` + x + `\n`
                                 }
-                                else if(Object.getOwnPropertyDescriptor(value.sys, 'type' ).value === 'Asset') {
-                                    var oj = Object.getOwnPropertyDescriptor
-                                    arrayList += `- title: ` + oj(value.fields, "title").value + `\n  description: ` +
-                                        oj(value.fields, "description").value + `\n  url: ` + oj(value.fields.file, "url").value + `\n`                                }
+                                else if(Object.getOwnPropertyDescriptor(x.sys, 'type' ).value === 'Asset') {
+                                    arrayList += `- title: ` + oj(x.fields, "title").value + `\n  description: ` +
+                                    oj(x.fields, "description").value + `\n  url: ` + oj(x.fields.file, "url").value + `\n`
+                                }
                                 else {
-                                    arrayList += `- ` + Object.getOwnPropertyDescriptor(value.sys, 'id').value + `\n`
+                                    arrayList += `- title: ` + oj(x.fields, 'title').value + `\n  slug: ` + oj(x.fields, 'slug').value +
+                                    `\n  contentType: ` + oj(x.sys.contentType.sys, "id").value + `\n  id: ` + oj(x.sys, 'id').value + `\n`
                                 }
                             }
                             fileContent += `${field}:\n${arrayList}`
