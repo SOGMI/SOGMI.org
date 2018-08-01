@@ -4,16 +4,22 @@ slug: "freedom-fellowship-church"
 description: "Freedom Fellowship is a non-denominational church based in San Antonio, Texas that operates strongly in the prophetic and apostolic. We focus first and foremost on spreading the Gospel of Jesus Christ and building up His kingdom."
 metaTitle: "Freedom Fellowship Church International | San Antonio, Texas"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4VLQM9mH9SCWqieCQegGwO/e0033ce2e047c6583601b1a4c39790b9/pastor_cris_preaching.jpg"
+gallery:
+- title: Pastor Mike Laughing at Freedom Fellowship Church
+  url: //images.ctfassets.net/vfgh62eq5a4k/22Xn5wJ9Lis6seu6i66W8M/c35e1635e0dc76a9e6415002a3e8e814/Pastor_Mike_Laughing_IMG_0148__1_.jpg
+  description: Pastor mike laughing at Freedom Fellowship Church
+- title: Pastor Cris Teaching at Freedom Fellowship
+  url: //images.ctfassets.net/vfgh62eq5a4k/3OQYYPK3vyucGAGs4ueqG2/c0c6d48f8431aced5cfd70449186500e/IMG_3209_as_Smart_Object-1__1_.jpg
+- title: Freedom Fellowship Church Talking and Conversing
+  url: //images.ctfassets.net/vfgh62eq5a4k/BKE0e02x2g2A2EEGwMsmS/8d06a2aa3be18e4d03374561dcb2b275/IMG_4067_as_Smart_Object-1__1_.jpg
+- title: Pastor Cris Preaching at Freedom Fellowship Church
+  url: //images.ctfassets.net/vfgh62eq5a4k/5Y3m9KLIbucEakEiQC8kuY/7c5dc929a30adeaa04b9546980b5c640/IMG_9401_edit__1_.jpg
 streetAddress: "8419 Callaghan Road"
 city: "San Antonio"
 region: "TX"
 zipCode: 78230
 country: "United States"
 location:
-photo1: "//images.ctfassets.net/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg"
-photo2: "//images.ctfassets.net/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg"
-photo3: "//images.ctfassets.net/vfgh62eq5a4k/WAOOy3TbKSM0KQqYckOYK/25ab30062a940a41fdb217e8ddfe74c1/konstantin-planinski-395938-unsplash__1_.jpg"
-photo4: "//images.ctfassets.net/vfgh62eq5a4k/7zmKSP8tkA22YIUYWskyom/4f6819d848139d2b937518df8c3c64b2/bart-larue-314562-unsplash__2_.jpg"
 phoneNumber: "+1 210 396 7891"
 email: "info@sogmi.org"
 facebook: "https://www.facebook.com/Freedom.Fellowship.International/"
