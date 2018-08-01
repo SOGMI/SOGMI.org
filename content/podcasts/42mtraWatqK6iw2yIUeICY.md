@@ -1,8 +1,13 @@
 ---
 title: "Prophecy for the Body of Christ"
 slug: "prophetic-voice-316"
-keywords: ["prophecy","righteousness","goodness","spring"]
-hosts: ["Cristina Sosso"]
+keywords:
+- prophecy
+- righteousness
+- goodness
+- spring
+hosts:
+- Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-04-07"
 date: "2018-04-09"

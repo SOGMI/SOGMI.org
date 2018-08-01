@@ -5,8 +5,19 @@ date: "2018-05-27"
 videoLink: "https://www.youtube.com/watch?v=mCu8N_V89Eg"
 YoutubeID: "mCu8N_V89Eg"
 metaDescription: "Pastor Cris talks about the power of the Holy Spirit and how he's preparing to move mightily in our lives today!"
-videoKeywords: ["holy spirit","move of god","faith","living in the supernatural","memorial day"]
-playlists: ["full sermons","livestreams"]
-speakers: ["Michael Sosso","Cristina Sosso"]
-people: [{"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"vfgh62eq5a4k"}},"id":"3zLvufAtlKgiiGIaEYs4S4","type":"Entry","createdAt":"2018-02-23T06:16:18.990Z","updatedAt":"2018-03-29T06:21:52.070Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":14,"contentType":{"sys":{"type":"Link","linkType":"ContentType","id":"people"}},"locale":"en-US"},"fields":{"title":"Cristina Sosso","slug":"cristina-sosso","show":true,"firstName":"Cristina","lastName":"Sosso","position":"Executive Vice President & Co-Founder","bio":"Cristina Sosso founded Sons of God Ministries International (SOGMI) with her husband Michael back in 2002. With the inspiration of the Holy Spirit she opened the prophetic and business schools at SOGMI and spearheaded the start of the \"Empower A Leader, Empower A Nation\" Conference which has mentored and trained thousands of ministers and business leaders all over the world. She also hosts a weekly radio program called \"The Prophetic Voice of Our Time\" and is presently the Senior Pastor at Freedom Fellowship Church in San Antonio, Texas.","description":"Cristina Sosso founded Sons of God Ministries International (SOGMI) with her husband Michael back in 2002. With the inspiration of the Holy Spirit she opened the prophetic and business schools at SOGMI and spearheaded the start of the \"Empower A Leader...","mType":"Leader","profilePhoto":{"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"vfgh62eq5a4k"}},"id":"96QJj81azCMMwMSuSuIEY","type":"Asset","createdAt":"2018-03-28T17:16:22.968Z","updatedAt":"2018-03-28T17:16:22.968Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":1,"locale":"en-US"},"fields":{"title":"Pastor Cris Portrait at FFCI","file":{"url":"//images.ctfassets.net/vfgh62eq5a4k/96QJj81azCMMwMSuSuIEY/cb10e257ae13a038cccff77963a9ac74/IMG_0293_Pastor_Cris_Portrait_at_FFCI.jpg","details":{"size":160088,"image":{"width":2000,"height":1333}},"fileName":"IMG_0293 Pastor Cris Portrait at FFCI.jpg","contentType":"image/jpeg"}}},"isAuthor":true,"isHost":true,"facebook":"https://facebook.com/PastorCristinaSosso"}},{"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"vfgh62eq5a4k"}},"id":"6aQjATkbJuOcIYwuGcSciQ","type":"Entry","createdAt":"2018-02-23T06:17:47.343Z","updatedAt":"2018-03-29T06:21:18.365Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":6,"contentType":{"sys":{"type":"Link","linkType":"ContentType","id":"people"}},"locale":"en-US"},"fields":{"title":"Mike Sosso","slug":"mike-sosso","show":true,"firstName":"Mike","lastName":"Sosso","position":"President & Co-Founder","bio":"Michael founded Sons of God Ministries International (SOGMI) with his wife Cristina in 2002. He operates strongly as an apostle and teacher and is very passionate about empowering the Body of Christ to fullfill her God ordained mission, to prepare the world for the Lord's return. Mike is also the founder and CEO of Sosso Group LLC which operates InsuranceSmart and Sosso Furniture Group.","description":"Michael Sosso is the President and Co-Founder of SOGMI. He founded SOGMI in 2002 with his wife Cristina Sosso.","mType":"Leader","profilePhoto":{"sys":{"space":{"sys":{"type":"Link","linkType":"Space","id":"vfgh62eq5a4k"}},"id":"5fh8yWQAhywwkEEiSKoUoa","type":"Asset","createdAt":"2018-02-23T05:48:49.805Z","updatedAt":"2018-02-23T05:48:49.805Z","environment":{"sys":{"id":"master","type":"Link","linkType":"Environment"}},"revision":1,"locale":"en-US"},"fields":{"title":"Pastor Mike Preaching","description":"Pastor mike preaching at Freedom Fellowship Church during the Passover","file":{"url":"//images.ctfassets.net/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg","details":{"size":69443,"image":{"width":1000,"height":667}},"fileName":"pastor mike (1).jpg","contentType":"image/jpeg"}}},"isAuthor":true,"isHost":true}}]
+videoKeywords:
+- holy spirit
+- move of god
+- faith
+- living in the supernatural
+- memorial day
+playlists:
+- full sermons
+- livestreams
+speakers:
+- Michael Sosso
+- Cristina Sosso
+people:
+- 3zLvufAtlKgiiGIaEYs4S4
+- 6aQjATkbJuOcIYwuGcSciQ
 ---

@@ -5,7 +5,9 @@ date: "2011-02-04"
 authors: "Cristina Sosso"
 description: "In 1991, I was caught in a dream-like vision. In this encounter with God, He handed me a formula on how to find His kingdom. It was a series of very detailed instructions He expected me to follow. He told me that He would be sending laborers who would follow my lead, knowing fully well that they..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/1Konxep5rK8Y6egiImGAcG/d2d2b495e23632ab6c7cb5044d81c794/freddie-collins-309833-unsplash__1_.jpg"
-tags: ["transfer of wealth","prosperity"]
+tags:
+- transfer of wealth
+- prosperity
 ---
 In 1991, I was caught in a dream-like vision. In this encounter with God, He handed me a formula on how to find His kingdom. It was a series of very detailed instructions He expected me to follow. He told me that He would be sending laborers who would follow my lead, knowing fully well that they would find the kingdom. These people were matured and did not desire material things. In this vision, we set out to find the kingdom of God and stopped in the middle of a forest. Our instruction was to dig. As soon as the team started digging (I now know that this means studying the Word of God deeper), gold coins started coming out. The deeper we dug, the more coins we found, and soon, there was more gold than soil. We piled up a huge heap of gold, and the team continued digging. I picked up a round object from the pile of dirt and started cleaning it with a cloth. I discovered that it was a gold necklace. Suddenly God showed up, taking the gold from my hand and examining it very carefully. He went on to tell me that it was only half of a necklace, and we needed to continue searching for the other half. Then, He disappeared. I have been pondering this encounter since 1991.
 

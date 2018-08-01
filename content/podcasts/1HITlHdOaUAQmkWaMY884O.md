@@ -1,8 +1,12 @@
 ---
 title: "Prophecy for 2018 and Beyond"
 slug: "prophetic-voice-307"
-keywords: ["kingdom of god","prophecy for 2018","prophecy to the church"]
-hosts: ["Cristina Sosso"]
+keywords:
+- kingdom of god
+- prophecy for 2018
+- prophecy to the church
+hosts:
+- Cristina Sosso
 originalAirDate: "2018-01-27"
 date: "2018-01-29"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E307_18_01_27-28_Prophecy_for_2018_and_Beyond.mp3"

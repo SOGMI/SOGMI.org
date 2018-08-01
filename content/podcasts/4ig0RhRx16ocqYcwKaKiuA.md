@@ -1,8 +1,16 @@
 ---
 title: "The Promised Land: Taking Dominion and Influence by His Spirit"
 slug: "prophetic-voice-323"
-keywords: ["confronting giants","kingdom of god","holy spirit","transfer of wealth","faith","supernatural manifestation","trust in god"]
-hosts: ["Joshua Sosso"]
+keywords:
+- confronting giants
+- kingdom of god
+- holy spirit
+- transfer of wealth
+- faith
+- supernatural manifestation
+- trust in god
+hosts:
+- Joshua Sosso
 showTranscript: false
 originalAirDate: "2018-06-02"
 date: "2018-06-04"

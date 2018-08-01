@@ -5,7 +5,8 @@ date: "2012-01-01"
 authors: "Coby Randal"
 description: "Sons of God Ministries International has launched a new radio show \"The Prophetic Voice of Our Time\" hosted by Pastor Cristina Sosso! The program will air every week on AM 630 KSLR in South Texas!"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4ZnFL8TtW0i6EoiUCI4MYE/3d494775182c64d906e1bef4e8be2e30/condenser-mic-compressor.jpg"
-tags: ["announcements"]
+tags:
+- announcements
 ---
 We are excited to announce Pastor Cris is back on KSLR!
 

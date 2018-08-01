@@ -1,8 +1,13 @@
 ---
 title: "Discussing Israel with Avishai Levi"
 slug: "prophetic-voice-311"
-keywords: ["israel","interview","mission report","living in the supernatural"]
-hosts: ["Joshua Sosso"]
+keywords:
+- israel
+- interview
+- mission report
+- living in the supernatural
+hosts:
+- Joshua Sosso
 showTranscript: false
 date: "2018-03-02"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E311-18-03-03-04-Interview-and-Israel-Tour-Testments.mp3"

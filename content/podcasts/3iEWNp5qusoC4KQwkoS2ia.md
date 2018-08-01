@@ -1,8 +1,14 @@
 ---
 title: "Blessed to be a Blessing"
 slug: "prophetic-voice-320"
-keywords: ["Healing","Holy Spirit","Transfer of Wealth","prophecy","united states"]
-hosts: ["Cristina Sosso"]
+keywords:
+- Healing
+- Holy Spirit
+- Transfer of Wealth
+- prophecy
+- united states
+hosts:
+- Cristina Sosso
 originalAirDate: "2018-05-05"
 date: "2018-05-07"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E320-18-05-05-06-Blessed-to-be-a-Blessing.mp3"

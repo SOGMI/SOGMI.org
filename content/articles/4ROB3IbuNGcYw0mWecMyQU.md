@@ -5,7 +5,9 @@ date: "2018-03-30"
 authors: "Cristina Sosso"
 description: "Prophecy can be seen as the most understood, misused, and abused spiritual gift. However prophecy has become increasingly important in our days, because the apostles and prophets are taking center stage. This is why we at SOGMI are trying to provide clear understanding about modern day prophets a..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3FU9BsWxmUUSKcWEGccyIs/989e1ff9d477ab8db0e8857d8f867e8a/priscilla-du-preez-607204-unsplash__1_.jpg"
-tags: ["prophecy","office of a prophet"]
+tags:
+- prophecy
+- office of a prophet
 collections: "Understanding Prophecy"
 ---
 Right before our very eyes, we are seeing prophecies fulfilled! We are truly in the most exciting time in the history of the Church and in the history of the United States of America!

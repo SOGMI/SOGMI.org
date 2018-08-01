@@ -4,7 +4,8 @@ slug: "prophecy-from-july-12-2009"
 date: "2009-07-12"
 authors: "Coby Randal"
 description: "This is an excerpt of the July 12, 2009 prophecy given by the Lord through Pastor Cris."
-tags: ["prophecy"]
+tags:
+- prophecy
 ---
 *This is an excerpt of the July 12, 2009 prophecy given by the Lord through Pastor Cris.*
 

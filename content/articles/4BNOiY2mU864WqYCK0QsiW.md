@@ -5,7 +5,8 @@ date: "2018-03-29"
 authors: "Joshua Sosso"
 description: "In 2018 we are committing to better distribute the teachings and revelation God has given us. We are implementing a wide range of improvements for the SOGMI website that will benefit users and help us better God's teachings out into the world."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/5Y3m9KLIbucEakEiQC8kuY/7c5dc929a30adeaa04b9546980b5c640/IMG_9401_edit__1_.jpg"
-tags: ["announcements"]
+tags:
+- announcements
 ---
 2018 is already shaping up to be a supernatural year, and many in the Body of Christ have shown increased eagerness to seek out God and His ways of doing things. Over the years more and more people from all over the world have asked us and been asking us to mentor and teach them about the prophetic, apostolic, and how to operate in the gifts of the Holy Spirit and follow His leading. Many also have been asking to attend our business schools for training and preparation for the transfer of wealth influence and affluence. Many times, we can’t even keep up with it all, but things are going to change starting this year!
 

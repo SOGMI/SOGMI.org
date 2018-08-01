@@ -3,7 +3,8 @@ title: "Revival is Here"
 slug: "revival-is-here"
 date: "2010-02-04"
 authors: "Coby Randal"
-tags: ["revival"]
+tags:
+- revival
 ---
 __The fruits and signs that revival has come include:__
 

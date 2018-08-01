@@ -1,8 +1,14 @@
 ---
 title: "Obedience is Better than Sacrifice"
 slug: "prophetic-voice-319"
-keywords: ["transfer of wealth","prophecy","obedience","sacrifice","instruction"]
-hosts: ["Cristina Sosso"]
+keywords:
+- transfer of wealth
+- prophecy
+- obedience
+- sacrifice
+- instruction
+hosts:
+- Cristina Sosso
 originalAirDate: "2018-04-28"
 date: "2018-04-30"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E319-18-04-28-29-Obedience-is-Better-than-Sacrifice.mp3"

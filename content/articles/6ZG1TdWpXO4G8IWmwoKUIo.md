@@ -5,7 +5,11 @@ date: "2014-01-03"
 authors: "Coby Randal"
 description: "The following is an excerpt from the December 31, 2013 Prophetic Conference"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3M8OMexRTWGeOOWwaqoQ4a/ff926754e14755a0ace1d1a63e6d7af5/IMG_8984__1_.jpg"
-tags: ["prophetic word","prophecy","united states of america","personal prophecy"]
+tags:
+- prophetic word
+- prophecy
+- united states of america
+- personal prophecy
 ---
 *The following is an excerpt from the December 31, 2013 Prophetic Conference:*
 

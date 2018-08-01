@@ -5,7 +5,9 @@ date: "2012-02-02"
 authors: "Mike Sosso"
 description: "Four years ago, the Lord spoke prophetically and said; “If My people will unite, this nation can have the most righteous leaders and government she has ever had since its inception, and even greater.” You may say, is that possible?  Is anything impossible for God?"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/zRSQiJ1LQyICyI8GM6aGa/f7809061e3f5f65fcc5569f234e75f72/jomar-271602-unsplash-compressor.jpg"
-tags: ["politics","united states of america"]
+tags:
+- politics
+- united states of america
 ---
 Dear Partners and Friends,
 

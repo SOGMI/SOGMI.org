@@ -1,8 +1,14 @@
 ---
 title: "Celebrating Jesus as Our Passover"
 slug: "prophetic-voice-315"
-keywords: ["Passover","Feast","Messiah","Resurrection"]
-hosts: ["Cristina Sosso","Joshua Sosso"]
+keywords:
+- Passover
+- Feast
+- Messiah
+- Resurrection
+hosts:
+- Cristina Sosso
+- Joshua Sosso
 showTranscript: false
 date: "2018-04-02"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E315-03-31-18-and-04-01-18-Celebrating-Jesus-as-Our-Passover.mp3"

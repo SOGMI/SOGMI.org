@@ -1,8 +1,14 @@
 ---
 title: "Following God and Taking Dominion"
 slug: "prophetic-voice-312"
-keywords: ["spiritual authority","living in the supernatural","transfer of wealth","obedience","united states"]
-hosts: ["Joshua Sosso"]
+keywords:
+- spiritual authority
+- living in the supernatural
+- transfer of wealth
+- obedience
+- united states
+hosts:
+- Joshua Sosso
 showTranscript: false
 date: "2018-03-10"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E312-18-03-10-11-Following-God-and-Taking-Dominion.mp3"

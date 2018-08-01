@@ -1,8 +1,15 @@
 ---
 title: "The Holy Spirit is Our Source"
 slug: "prophetic-voice-322"
-keywords: ["holy spirit","discipleship","kingdom of god","living in the supernatural","signs and wonders","transfer of wealth"]
-hosts: ["Cristina Sosso"]
+keywords:
+- holy spirit
+- discipleship
+- kingdom of god
+- living in the supernatural
+- signs and wonders
+- transfer of wealth
+hosts:
+- Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-05-26"
 date: "2018-05-29"

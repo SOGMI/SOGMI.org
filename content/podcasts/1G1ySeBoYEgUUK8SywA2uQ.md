@@ -1,8 +1,12 @@
 ---
 title: "His Glorious Church Maturing in Love"
 slug: "prophetic-voice-314"
-keywords: ["holy spirit","spiritual authority","kingdom principles"]
-hosts: ["Cristina Sosso"]
+keywords:
+- holy spirit
+- spiritual authority
+- kingdom principles
+hosts:
+- Cristina Sosso
 showTranscript: false
 date: "2018-03-24"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E314-18-03-24-25-His-Glorious-Church-Maturing-in-Love.mp3"

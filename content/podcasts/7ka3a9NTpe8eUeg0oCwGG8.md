@@ -1,8 +1,14 @@
 ---
 title: "How to Hear the Voice of God - Part 2"
 slug: "prophetic-voice-325"
-keywords: ["apostles and prophets","relationship with god","intimacy with god","discipleship","holy spirit"]
-hosts: ["Cristina Sosso"]
+keywords:
+- apostles and prophets
+- relationship with god
+- intimacy with god
+- discipleship
+- holy spirit
+hosts:
+- Cristina Sosso
 originalAirDate: "2018-06-16"
 date: "2018-06-18"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E325-18-06-16-17-How-to-Hear-the-Voice-of-God-2.mp3"

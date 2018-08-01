@@ -9,7 +9,7 @@ city: "San Antonio"
 region: "TX"
 zipCode: 78230
 country: "United States"
-location: {"lon":-98.54725339999999,"lat":29.5169084}
+location:
 photo1: "//images.ctfassets.net/vfgh62eq5a4k/5fh8yWQAhywwkEEiSKoUoa/466ef0e58509f7fa15510fd8fbbf246e/pastor_mike__1_.jpg"
 photo2: "//images.ctfassets.net/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg"
 photo3: "//images.ctfassets.net/vfgh62eq5a4k/WAOOy3TbKSM0KQqYckOYK/25ab30062a940a41fdb217e8ddfe74c1/konstantin-planinski-395938-unsplash__1_.jpg"

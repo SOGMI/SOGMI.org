@@ -1,8 +1,11 @@
 ---
 title: "Resurrection Power"
 slug: "prophetic-voice-317"
-keywords: ["resurrection","living in the supernatural"]
-hosts: ["Cristina Sosso"]
+keywords:
+- resurrection
+- living in the supernatural
+hosts:
+- Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-04-14"
 date: "2018-04-16"

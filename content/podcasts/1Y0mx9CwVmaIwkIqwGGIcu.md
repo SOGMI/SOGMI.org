@@ -1,8 +1,14 @@
 ---
 title: "Political Revival in the USA and Beyond"
 slug: "prophetic-voice-318"
-keywords: ["Revival","Prophecy","Politics","Government","United States"]
-hosts: ["Cristina Sosso"]
+keywords:
+- Revival
+- Prophecy
+- Politics
+- Government
+- United States
+hosts:
+- Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-04-21"
 date: "2018-04-23"

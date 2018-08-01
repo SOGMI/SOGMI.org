@@ -1,8 +1,12 @@
 ---
 title: "The Gift of Speaking in Tongues"
 slug: "prophetic-voice-313"
-keywords: ["mission report","holy spirit","spiritual gifts"]
-hosts: ["Cristina Sosso"]
+keywords:
+- mission report
+- holy spirit
+- spiritual gifts
+hosts:
+- Cristina Sosso
 showTranscript: false
 date: "2018-03-17"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E313-18-03-17-18-The-Gift-of-Speaking-in-Tongues.mp3"
