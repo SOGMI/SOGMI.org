@@ -29,5 +29,8 @@ description: "You see what is before you. Those are the facts. But the facts can
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/keFr74NliSc4QwCI6yYQc/6f6939a8afb760d865ebdf216c6e727a/andressa-voltolini-202193-unsplash.jpg"
 photoCredit: "Photo by Andressa Voltolini on Unsplash"
 people:
-- 3zLvufAtlKgiiGIaEYs4S4
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
 ---

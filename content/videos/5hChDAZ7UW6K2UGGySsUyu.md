@@ -17,5 +17,8 @@ speakers:
 - Dora Wageneck
 - Esther Garcia
 people:
-- 3zLvufAtlKgiiGIaEYs4S4
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
 ---

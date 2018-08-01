@@ -18,6 +18,12 @@ speakers:
 - Cristina Sosso
 - Charles Wickliffe
 people:
-- 6RIMSbIRX2qgs6SwccWwwo
-- 3zLvufAtlKgiiGIaEYs4S4
+- title: Charles Wickliffe
+  slug: charles-wickliffe
+  contentType: people
+  id: 6RIMSbIRX2qgs6SwccWwwo
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
 ---

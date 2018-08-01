@@ -20,5 +20,8 @@ description: "This is a season of many opportunities, a season of many open door
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/42DfREltoksSI8CKMimwgq/35b2420253ede47db19ee0821d34820e/beautiful-blur-bright-1088175.jpg"
 photoCredit: "Photo by Min An from Pexels"
 people:
-- 3zLvufAtlKgiiGIaEYs4S4
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
 ---

@@ -19,5 +19,8 @@ description: "When I became a young Christian, one of the Bible passages that I 
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4zhaw28LUskg0esWuc8CuU/3b2ae58fbff60ba87833b9514bf4313f/aerial-air-airforce-38523.jpg"
 photoCredit: "Photo by Pixabay on Pexels"
 people:
-- 6RIMSbIRX2qgs6SwccWwwo
+- title: Charles Wickliffe
+  slug: charles-wickliffe
+  contentType: people
+  id: 6RIMSbIRX2qgs6SwccWwwo
 ---

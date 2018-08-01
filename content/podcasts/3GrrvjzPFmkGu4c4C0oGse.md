@@ -19,5 +19,8 @@ description: "It says in Revelation 11:15 that ‘...The kingdom of the world ha
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/5ASGyOHCCsuU80iqMam26a/a914154f4e6084a69e60c4b52806ea27/action-adult-adventure-1122868.jpg"
 photoCredit: "Photo by Artem Bali from Pexels"
 people:
-- 3zLvufAtlKgiiGIaEYs4S4
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
 ---

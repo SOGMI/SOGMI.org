@@ -18,6 +18,12 @@ speakers:
 - Michael Sosso
 - Cristina Sosso
 people:
-- 3zLvufAtlKgiiGIaEYs4S4
-- 6aQjATkbJuOcIYwuGcSciQ
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
+- title: Mike Sosso
+  slug: mike-sosso
+  contentType: people
+  id: 6aQjATkbJuOcIYwuGcSciQ
 ---

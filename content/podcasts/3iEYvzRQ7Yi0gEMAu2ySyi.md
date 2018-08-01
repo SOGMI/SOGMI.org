@@ -20,5 +20,8 @@ description: "We’re going to be talking about the life of David and how it app
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/2Tapa0d8Hu4OIoU8aAs8Uw/ec3c8f9aae2c27b31c11cd12d3049061/battle-black-blur-260024.jpg"
 photoCredit: "Photo by Pixabay from Pexels"
 people:
-- 2fn2KHOWEow0K6EqCkaywa
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---

@@ -37,9 +37,18 @@ state: "Texas"
 zipCode: 78023
 country: "United States"
 people:
-- 3zLvufAtlKgiiGIaEYs4S4
-- 2fn2KHOWEow0K6EqCkaywa
-- 6aQjATkbJuOcIYwuGcSciQ
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
+- title: Mike Sosso
+  slug: mike-sosso
+  contentType: people
+  id: 6aQjATkbJuOcIYwuGcSciQ
 ---
 ## Event Schedule
 The event will last for 2 days. Please register for each day you will be attending.</P>

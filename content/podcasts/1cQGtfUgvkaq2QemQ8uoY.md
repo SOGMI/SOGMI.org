@@ -19,5 +19,8 @@ description: "In the word it says, “...but we have the mind of Christ” 1 Cor
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/2LSFtcodxuu0WykCAKUkMi/9f5c29a5359e78bf81a0ecfa50b6f177/people-jump-backlit-beach-1000445.jpg"
 photoCredit: "Photo by Belle Co on Pexels"
 people:
-- 3zLvufAtlKgiiGIaEYs4S4
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
 ---

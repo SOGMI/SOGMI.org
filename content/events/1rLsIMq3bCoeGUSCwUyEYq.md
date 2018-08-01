@@ -11,5 +11,18 @@ registrationType: "Registration is Closed"
 city: "San Antonio"
 state: "TX"
 country: "United States"
+people:
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
+- title: Mike Sosso
+  slug: mike-sosso
+  contentType: people
+  id: 6aQjATkbJuOcIYwuGcSciQ
 ---
 Details about this event to be announced in the future.
