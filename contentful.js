@@ -3,7 +3,6 @@ const contentful = require('contentful')
 var slugify = require('slugify')
 const mkdirp = require('mkdirp')
 var fs = require('fs')
-//var argv = require('minimist')(process.argv.slice(2))
 var dotenv = require("dotenv").config()
 
 const client = contentful.createClient({
@@ -36,11 +35,6 @@ function writeEntriesForType(contentType) {
                         // Arrays
                         else {
                             var itemResult = item.fields[field]
-
-                            // Old method. Only grabs standard arrays. Doesn't get linked content (assets or entries)
-                            // fileContent += `${field}: ${JSON.stringify(itemResult)}\n`
-
-                            // New method. Retrieves standard array content and linked content.
                             // Linked entries will give "title" "contentType" "slug" and Entry ID
                             // Linked assets will give a "title" "description" and "url"
                             var arrayList = ``
@@ -74,15 +68,29 @@ function writeEntriesForType(contentType) {
             fileContent += '---\n'
 
             // field with ID 'content' will be set as the main content in the .md file 
-            if ('content' in item.fields)
+            if ('content' in item.fields) {
                 fileContent += `${item.fields['content']}\n`
-
-            mkdirp.sync(`./content/${contentType.sys.id}`)
+            }
+            
+            // create folder for all content types except for "podcastSeries" and "blogCollection"
+            if (contentType.sys.id !== 'podcastSeries' && contentType.sys.id !== 'blogCollection') {
+                mkdirp.sync(`./content/${contentType.sys.id}`)
+            }
 
             if (contentType.sys.id == 'live') {
                 fs.writeFile(`./content/${contentType.sys.id}/${slugify('_index')}.md`, fileContent, (error) => { /* handle error */ })
                 console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
-            } 
+            }
+            else if (contentType.sys.id == 'podcastSeries') {
+                mkdirp.sync(`./content/series/${slugify(item.fields.slug)}`)
+                fs.writeFile(`./content/series/${slugify(item.fields.slug)}/_index.md`, fileContent, (error) => { /* handle error */ })
+                console.log(`[Contentful Import] _index.md (${item.fields.title}) created in /content/series/${slugify(item.fields.slug)}`)
+            }
+            else if (contentType.sys.id == 'blogCollection') {
+                mkdirp.sync(`./content/collections/${slugify(item.fields.slug)}`)
+                fs.writeFile(`./content/collections/${slugify(item.fields.slug)}/_index.md`, fileContent, (error) => { /* handle error */ })
+                console.log(`[Contentful Import] _index.md (${item.fields.title}) created in /content/collections/${slugify(item.fields.slug)}`)
+            }
             else {
             fs.writeFile(`./content/${contentType.sys.id}/${slugify(item.sys.id)}.md`, fileContent, (error) => { /* handle error */ })
                 console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
