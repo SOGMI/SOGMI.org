@@ -1118,6 +1118,29 @@ p {
     color: var(--dark-blue);
 
 }
+
+.taxonomy .podcast-grid-item, .taxonomy .blog-grid-item, .taxonomy .video-grid-item {
+    width: 33.33%;
+}
+
+@media (max-width: 991px) {
+    .taxonomy .podcast-grid-item, .taxonomy .blog-grid-item, .taxonomy .video-grid-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 479px) {
+    .taxonomy .podcast-grid-item, .taxonomy .blog-grid-item, .taxonomy .video-grid-item {
+        width: 100%;
+    }
+}
+
+.tax-heading {
+    font-size: 26px;
+    margin-bottom: 50px;
+    line-height: 36px;
+}
+
 .audio-player img {
     width: 150px;
     margin: auto 20px auto auto;
