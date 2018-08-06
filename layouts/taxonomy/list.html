@@ -1,0 +1,23 @@
+{{- define "main" -}}
+{{- if eq .Section "keywords" -}}
+    {{- partial "audio-player.html" . -}}
+{{- end -}}
+{{ $items := .Data.Pages }}
+{{ $itemCount := len $items }}
+<section class="content-section">
+    <div class="container">
+        <h1 class="tax-heading" style="margin-bottom: 30px">{{ $itemCount }} {{ if eq .Section "keywords" }}episodes{{ else}}items{{ end }} tagged with "{{ .Title }}"</h1>
+        <div id="playlist" class="standard-grid-wrapper taxonomy">
+            {{- range .Data.Pages -}}
+                {{- partial "grid-item.html" . -}}
+            {{- end -}}
+        </div>
+    </div>
+</section>
+{{- end -}}
+
+{{- define "addscripts" -}}
+{{- if eq .Section "keywords" -}}
+<script src="/js/audio-player.js"></script>
+{{- end -}}
+{{- end -}}
