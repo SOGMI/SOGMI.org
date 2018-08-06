@@ -1,6 +1,38 @@
 {{ $ph := .Site.Params.imageplaceholder }}
-[
-    {{- range .Site.RegularPages -}}
+[   
+{{- range .Site.Taxonomies.series.Alphabetical -}}
+{{- $name := .Name -}}
+    {{- range where $.Site.Pages "Section" "=" "series" -}}
+        {{- if eq $name .Slug -}}
+        {
+            "title": {{ .Title | jsonify }},
+            "description": {{ .Description | jsonify }},
+            "featuredImage": {{ .Params.albumImage | jsonify }},
+            "section": "podcast series",
+            "objectID": "{{ .UniqueID }}",
+            "relpermalink": "{{ .RelPermalink }}"
+        },
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- range .Site.Taxonomies.collections.Alphabetical -}}
+{{- $name := .Name -}}
+    {{- range where $.Site.Pages "Section" "=" "collections" -}}
+        {{- if eq $name .Slug -}}
+        {
+            "title": {{ .Title | jsonify }},
+            "description": {{ .Description | jsonify }},
+            "featuredImage": {{ .Params.featuredImage | jsonify }},
+            "section": "article collection",
+            "objectID": "{{ .UniqueID }}",
+            "relpermalink": "{{ .RelPermalink }}"
+        },
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- range .Site.RegularPages -}}
     {{- if ne .Params.DisableSearch true -}}
         {{- $title := .Title -}}{{- $description := .Description -}}{{- $summary := .Summary -}}
         {{- $pdate := .PublishDate -}}{{- $rperm := .RelPermalink -}}{{- $section := .Section -}}
