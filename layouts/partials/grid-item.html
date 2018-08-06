@@ -1,6 +1,6 @@
 {{ if eq .Section "podcasts" }}
-<li data-image="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}" class="podcast-grid-item">
-  <a href="{{ .Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block">
+<li data-image="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}" data-series="{{ .Params.series }}" class="podcast-grid-item">
+  <a href="{{ .Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block play-button">
     {{ if .Params.Thumbnail }}
     <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}}?w=600&q=50)">
       <div class="play-notification">PLAY</div>

@@ -1,17 +1,11 @@
-{{ partial "header.html" . }}
+{{ define "main"}}
 
 <div class="content-section podcast">
   {{ partial "audio-player.html" }}
   <div class="subscribe-modal-window">
     <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>
     {{- $t := .Title -}}
-    {{- range .Site.Pages -}} 
-      {{- if eq .Section "podcastSeries" -}}
-        {{- if eq .Title $t -}}
-          {{- partial "podcast-subscription-modal.html" . -}}
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
+    {{- partial "podcast-subscription-modal.html" . -}}
   </div>
   <div class="container">
     <div class="column-row w-row">
@@ -20,28 +14,16 @@
       </div>
       <div class="column-right w-col w-col-8">
         <div class="div-block-15">
-        {{- range .Site.Pages -}} 
-          {{- if eq .Section "podcastSeries" -}}
-            {{- if eq .Title $t -}}
-              <div class="div-block-45" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url({{ .Params.FeaturedImage }}?w=700&q=50)">
-                <div class="heading-17-copy">{{ .Title }}</div>
-                <div class="text-block-19">{{ .Params.SubHeading }}</div>
-                <a href="#" class="subscribe-button secondary w-inline-block" data-ix="subscribe-modal-appear">
-                  <div class="text-block-33">Subscribe</div>
-                </a>
-              </div>
-            {{- end -}}
-          {{- end -}}
-        {{- end -}}
+          <div class="div-block-45" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url({{ .Params.FeaturedImage }}?w=700&q=50)">
+            <div class="heading-17-copy">{{ .Title }}</div>
+            <div class="text-block-19">{{ .Params.SubHeading }}</div>
+            <a href="#" class="subscribe-button secondary w-inline-block" data-ix="subscribe-modal-appear">
+              <div class="text-block-33">Subscribe</div>
+            </a>
+          </div>
           <div class="div-block-46">
             <h1 class="heading-17">{{ .Title }}</h1>
-            {{- range .Site.Pages -}} 
-                {{- if eq .Section "podcastSeries" -}}
-                    {{- if eq .Title $t -}}
-                      {{ .Description | markdownify }}
-                    {{- end -}}
-                {{- end -}}
-            {{- end -}}
+              {{ .Description | markdownify }}
             <a href="#" class="subscribe-button w-inline-block" data-ix="subscribe-modal-appear">
               <div class="text-block-33">Subscribe</div>
             </a>
@@ -86,4 +68,8 @@
 </div>
 
 
-{{- partial "plistfooter.html" . -}}
+{{ end }}
+
+{{ define "addscripts"}}
+<script src="/js/audio-player.js"></script>
+{{ end }}

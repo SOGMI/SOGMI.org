@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main"}}
 
 <div class="content-section podcast">
   <div class="container podcast">
@@ -9,16 +9,14 @@
       <div class="column-right w-col w-col-8">
         <div class="div-block-20">
           {{ with .Params.Series }}
-           
             <a href="{{ "series" | relURL}}/{{ . | urlize }}" class="link-block-3 w-inline-block">
               <div>return to episode list</div>
             </a>
-          
           {{ end }}
           {{ if .Params.FeaturedImage }}
             <div class="div-block-19" style="background-image: URL({{ .Params.FeaturedImage }}?w=800&fit=scale)">
               <div id="playlist" class="html-embed-12">
-                <a href="{{ .Params.AudioLink }}" class="button podcast-single w-inline-block" data-ix="podcast-hover">
+                <a href="{{ .Params.AudioLink }}" class="button podcast-single w-inline-block play-button" data-ix="podcast-hover">
                   <div class="text-block-20"><i class="fas fa-play-circle"></i></div>
                   <div>&nbsp;&nbsp;Play Episode</div>
                 </a>
@@ -37,7 +35,7 @@
                   <i class="fas fa-volume-up"></i>
                 </div>
                 <div id="playlist" class="html-embed-12">
-                    <a href="{{ .Params.AudioLink }}" class="button podcast-single w-inline-block" data-ix="podcast-hover">
+                    <a href="{{ .Params.AudioLink }}" class="button podcast-single w-inline-block play-button" data-ix="podcast-hover">
                       <div class="text-block-20"><i class="fas fa-play-circle"></i></div>
                       <div>&nbsp;&nbsp;Play Episode</div>
                     </a>
@@ -110,7 +108,7 @@
     <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>  
     {{ $s := .Params.Series }}
     {{ range .Site.Pages }}
-      {{ if eq .Section "podcastSeries" }}
+      {{ if eq .Section "series" }}
         {{ if eq .Title $s }}
           {{ partial "podcast-subscription-modal.html" . }}
         {{ end }}
@@ -119,36 +117,42 @@
   </div>
 </div>
 
+{{ end }}
+
+{{ define "addscripts" }}
+
+<script type="text/javascript" src="/js/audio-player.js"></script>
+
 <script type="text/javascript">
-    // Replace labnol with your disqus shortname
-    var disqus_shortname = "sogmi";
+  // Replace labnol with your disqus shortname
+  var disqus_shortname = "sogmi";
 
-    // Put the permalink of your web page / blog post
-    var disqus_url = "https://sogmi.org{{ .RelPermalink }}";
+  // Put the permalink of your web page / blog post
+  var disqus_url = "https://sogmi.org{{ .RelPermalink }}";
 
-    // Put the permalink of your web page / blog post
-    var disqus_identifier = "{{ .UniqueID }}";
+  // Put the permalink of your web page / blog post
+  var disqus_identifier = "{{ .UniqueID }}";
 
-    var disqus_loaded = false;
+  var disqus_loaded = false;
 
-    // This is the function that will load Disqus comments on demand
-    function disqus() {
+  // This is the function that will load Disqus comments on demand
+  function disqus() {
 
-        if (!disqus_loaded) {
+      if (!disqus_loaded) {
 
-        // This is to ensure that Disqus widget is loaded only once
-        disqus_loaded = true;
+      // This is to ensure that Disqus widget is loaded only once
+      disqus_loaded = true;
 
-        var e = document.createElement("script");
-        e.type = "text/javascript";
-        e.async = true;
-        e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
-        (document.getElementsByTagName("head")[0] ||
-            document.getElementsByTagName("body")[0])
-        .appendChild(e);
-        }
-    }
+      var e = document.createElement("script");
+      e.type = "text/javascript";
+      e.async = true;
+      e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (document.getElementsByTagName("head")[0] ||
+          document.getElementsByTagName("body")[0])
+      .appendChild(e);
+      }
+  }
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-{{ partial "pfooter.html" . }}
+{{ end }}

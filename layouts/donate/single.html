@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main"}}
 
 <div class="content-section">
     <div style="text-align: center" class="container">
@@ -6,4 +6,22 @@
     </div>
 </div>
 
-{{ partial "footer.html" . }}
+{{ end }}
+
+{{ define "addscripts" }}
+<script>
+    $(function() {
+          //caches a jQuery object containing the header element
+          var form = $("#donation-wrapper");
+          $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+  
+            if (scroll >= 107.2) {
+              form.addClass("fixed-form");
+            } else {
+              form.removeClass("fixed-form");
+            }
+          });
+        });
+  </script>
+{{ end }}

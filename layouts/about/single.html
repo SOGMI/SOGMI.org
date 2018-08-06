@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main"}}
 
 <div class="header-image" style="background-image: URL({{ .Params.FeaturedImage }}?w=2000&q=80)">
     <div class="image-overlay"></div>
@@ -48,4 +48,4 @@
     {{ end }}
   {{ end }}
 
-{{ partial "footer.html" . }}
+{{ end }}

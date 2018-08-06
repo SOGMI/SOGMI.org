@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main"}}
 
 <div class="header-image podcast" style="background-image: URL({{ .Params.FeaturedImage}}?w=1800&q=80)">
   <div class="image-overlay"></div>
@@ -36,21 +36,17 @@
       <div class="column-right w-col w-col-8">
         <div>
           <h2 style="margin-top: 0px" class="sidebar-heading">Current Shows</h2>
-          {{ range $name, $taxonomy := .Site.Taxonomies.series }}
-            {{ range $.Site.Pages }}
-              {{ if eq .Section "podcastSeries" }}
-                {{ if eq .Slug $name }}
-                <div class="div-block-62">
-                    <a href="/series/the-prophetic-voice-of-our-time" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
-                      <div class="homepage-grid-image-overlay" style="background-image: linear-gradient(119deg, rgba(0, 0, 0, 0.6), rgba(51, 51, 51, 0) 72%), url({{ .Params.FeaturedImage }}?w=800&q=80); transform-style: preserve-3d; transition: transform 300ms, opacity 300ms; opacity: 1; transform: scaleX(1) scaleY(1) scaleZ(1);">
-                      </div>
-                      <h2 class="home-grid-title">{{ .Title }}</h2>
-                      <h4 class="home-grid-subheading">with Pastor Cris</h4>        
-                      <h4 class="home-grid-button">View All Episodes</h4> 
-                  </a>
-                </div>
-                {{ end }}
-              {{ end }}
+          {{ range where .Site.Pages "Section" "=" "series" }}
+            {{ if ne .File.Path "" }}
+              <div class="div-block-62">
+                  <a href="/series/the-prophetic-voice-of-our-time" data-ix="homepage-grid-hover" class="homepage-grid-item w-inline-block">
+                    <div class="homepage-grid-image-overlay" style="background-image: linear-gradient(119deg, rgba(0, 0, 0, 0.6), rgba(51, 51, 51, 0) 72%), url({{ .Params.FeaturedImage }}?w=800&q=80); transform-style: preserve-3d; transition: transform 300ms, opacity 300ms; opacity: 1; transform: scaleX(1) scaleY(1) scaleZ(1);">
+                    </div>
+                    <h2 class="home-grid-title">{{ .Title }}</h2>
+                    <h4 class="home-grid-subheading">with Pastor Cris</h4>        
+                    <h4 class="home-grid-button">View All Episodes</h4> 
+                </a>
+              </div>
             {{ end }}
           {{ end }}
         </div>
@@ -64,13 +60,13 @@
                         {{ if .Params.Thumbnail }}
                         <div class="related-post-image" style="background-image: url({{ .Params.Thumbnail }})"></div>
                         {{ else }}
-                        {{ if .Params.FeaturedImage }}
-                        <div class="related-post-image" style="background-image: url({{ .Params.FeaturedImage }}?w=400&h=200&q=80&fit=fill)"></div>
-                        {{ else }}
-                        <div class="related-post-image" style="background: #adadad;">
-                          <div style="position: absolute; bottom: 0; top: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; font-family: Fontawesome webfont; color: white; font-size: 100px; opacity: 1"></div>
-                        </div>
-                        {{ end }}
+                          {{ if .Params.FeaturedImage }}
+                            <div class="related-post-image" style="background-image: url({{ .Params.FeaturedImage }}?w=400&h=200&q=80&fit=fill)"></div>
+                          {{ else }}
+                            <div class="related-post-image" style="background: #adadad;">
+                              <div style="position: absolute; bottom: 0; top: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; font-family: Fontawesome webfont; color: white; font-size: 100px; opacity: 1"></div>
+                            </div>
+                          {{ end }}
                         {{ end }}
                         <div class="image-color-overlay blue"></div>
                       </div>
@@ -82,9 +78,9 @@
                   </div>
                 {{ end }}
             </div>
-                  <div class="left-arrow-2 w-slider-arrow-left podcast-page">
-                    <div class="icon-5 w-icon-slider-left"></div>
-                  </div>
+              <div class="left-arrow-2 w-slider-arrow-left podcast-page">
+                <div class="icon-5 w-icon-slider-left"></div>
+              </div>
             <div class="right-arrow-2 w-slider-arrow-right podcast-page">
               <div class="w-icon-slider-right"></div>
             </div>
@@ -95,4 +91,8 @@
   </div>
 </div>
 
-{{ partial "plistfooter.html" . }}
+{{ end }}
+
+{{ define "addscripts" }}
+<script type="text/javascript" src="/js/audio-player.js"></script>
+{{ end }}

@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ $d := .Params.endDate }}
 {{ $t := dateFormat "20060102" $d }}
@@ -241,4 +241,4 @@
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxm0ubI8DIoOm_3kV7rTAiC7pkf1ASC34&callback=initMap"></script>
 
-{{ partial "footer.html" . }}
+{{ end }}

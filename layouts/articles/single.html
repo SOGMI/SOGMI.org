@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 {{ if .Params.featuredImage }}
   <div class="blog-single-image-header-top" style="position: relative; background-image:URL( {{ .Params.featuredImage }}?w=1600&h=800&q=50&fit=fill ); background-size: cover; background-position: center; background-repeat: no-repeat">
 {{ else }}
@@ -84,5 +84,4 @@
           </div>
         </div>
       </div>
-
-{{ partial "footer.html" . }}
+{{ end }}

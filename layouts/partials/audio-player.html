@@ -9,7 +9,7 @@
         <img src="{{ .Params.featuredImage }}?w=150&h=150&fit=fill&q=85"/>
         <div class="audio-player-text">
             <!--class="heading-21"-->
-            <p>Now Playing</p>
+            <p id="player-series">Now Playing</p>
             <p id="player-title">Episode {{ .Params.episodeNumber }}: {{ .Title }}</p>
             <audio id="audio" preload="auto" tabindex="0" controls controlslist="" style="max-height: 100%; width: 100%; background: #f1f3f4">
                 <source src="">

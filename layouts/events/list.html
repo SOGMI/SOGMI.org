@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 <div class="header-image" style="background-image: URL({{ .Params.FeaturedImage}}?w=1500&q=80)">
   <div class="banner-container">
     <h1 class="archive-heading">{{ .Title }}</h1>
@@ -86,4 +86,4 @@
     </div>
   </div>
 </div>
-{{ partial "footer.html" . }}
+{{ end }}

@@ -67,21 +67,6 @@
 <!--load disqus js-->
 {{ if eq .Section "articles" }}<script id="dsq-count-scr" src="https://sogmi.disqus.com/count.js" async></script>{{ end }}<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 <script>
-    $(function() {
-          //caches a jQuery object containing the header element
-          var form = $("#donation-wrapper");
-          $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-  
-            if (scroll >= 107.2) {
-              form.addClass("fixed-form");
-            } else {
-              form.removeClass("fixed-form");
-            }
-          });
-        });
-  </script>
-<script>
   $('#searchButton, #closeSearch, #notfound-search').click(function(){
       $('#search-modal').toggleClass('');
       $('#search-modal').toggleClass('active');

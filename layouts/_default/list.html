@@ -1,4 +1,5 @@
-{{ partial "header.html" . }}
+{{ define "main"}}
+
 <div class="header-image articles" style="background-image: URL({{ .Params.FeaturedImage}}?w=2000&h=300&q=40&fit=crop)">
     <div class="banner-container">
       <h1 class="archive-heading">{{ .Title }}</h1>
@@ -47,19 +48,15 @@
             </div>
             <h3 class="sidebar-heading">Collections</h3>
             <div class="div-block-63">
-            {{ range $name, $taxonomy := .Site.Taxonomies.collections }}
-              {{ range $.Site.Pages }}
-                {{ if eq .Section "blogCollection" }}
-                  {{ if eq .Slug $name }}
-                  <div class="div-block-62">
-                    <a href="/collections/{{ .Slug }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ .Params.FeaturedImage }}?w=400&q=60&fit=fill); background-size: cover; background-position: center;">
-                      <div class="text-block-28">{{ .Title }}</div>
-                      <div class="image-color-overlay"></div>
-                      <div class="image-overlay"></div>
-                    </a>
-                  </div>
-                  {{ end }}
-                {{ end }}
+            {{ range where .Site.Pages "Section" "=" "collections" }}
+              {{ if eq .Title "Collections" }}{{ else }}
+              <div class="div-block-62">
+                <a href="/collections/{{ .Slug }}" class="curated-works-link w-inline-block" style="background: #333; background-image: URL({{ .Params.FeaturedImage }}?w=400&q=60&fit=fill); background-size: cover; background-position: center;">
+                  <div class="text-block-28">{{ .Title }}</div>
+                  <div class="image-color-overlay"></div>
+                  <div class="image-overlay"></div>
+                </a>
+              </div>
               {{ end }}
             {{ end }}
             </div>
@@ -69,4 +66,5 @@
       </div>
     </div>
   </div>
-{{ partial "footer.html" . }}
+
+{{ end }}

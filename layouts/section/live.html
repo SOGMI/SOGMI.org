@@ -1,4 +1,4 @@
-{{- partial "header.html" . -}}
+{{ define "main"}}
 {{- $now := now.Format "Monday" -}}
 {{- $live := .Params.CurrentlyLiveStreaming -}} 
 {{ if .Params.videoId }}
@@ -60,4 +60,4 @@
     </div>
 </div>
 </div>
-{{ partial "footer.html" . }}
+{{ end }}

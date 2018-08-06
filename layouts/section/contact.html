@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-
+{{ define "main" }}
 <div class="donation-banner" style="background-image: URL({{.Params.FeaturedImage}}?w=1600&q=80&h=600&fit=crop)">
     <div class="image-overlay"></div>
     <div style="z-index: 1" class="container">
@@ -30,5 +29,4 @@
             </form>
     </div>
 </div>
-
-{{ partial "footer.html" . }}
+{{ end }}
