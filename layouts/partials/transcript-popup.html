@@ -89,7 +89,7 @@
             <div class="transcript-modal">
                 <h2 class="heading-48">Transcript</h2>
                 <div class="w-richtext">
-                {{ .Content }}
+                {{ replace .Content "<split>" "" | markdownify }}
                 </div>
             </div>
         </div>
