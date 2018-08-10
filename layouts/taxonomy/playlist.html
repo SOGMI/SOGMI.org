@@ -1,3 +1,18 @@
+{{ define "metadata" }}
+    {{ $t := print "View Playlist: " .Title }}
+    {{ $d := print "All SOGMI videos in the playlist &quot" .Title "&quot." | safeHTML }}
+    <title>{{ $t }}</title>
+    <meta name="description" content="{{ $d }}">
+    <meta property="og:title" content="{{- $t -}}" >
+    <meta property="og:description" content="{{ $d }}" >
+    <meta property="og:image" content="{{- .Params.profilePhoto -}}" >
+    <meta name="twitter:card" content="summary" >
+    <meta name="twitter:title" content="{{ $t }}" >
+    <meta name="twitter:description" content="{{ $d }}" >
+    <meta name="twitter:image" content="{{- .Params.profilePhoto -}}" >
+    <meta name="twitter:site" content="@SogmiChurch" />
+{{ end }}
+
 {{ define "main"}}
 
 <!--

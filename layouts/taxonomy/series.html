@@ -1,5 +1,22 @@
-{{ define "main"}}
+{{ define "metadata" }}
+  {{- $t := print "&quot" .Title "&quot " .Params.Subheading | safeHTML -}}
+  {{- $t1 := .Params.MetaTitle -}}
+  {{- $d := .Params.metaDescription -}}
+  {{- $d2 := .Description -}}
+  <title>{{- if $t1 -}}{{ $t1 }}{{- else -}}{{ $t }}{{- end -}}</title>
+  <meta name="description" content="{{ if $d }}{{ $d }}{{ else }}{{ $d2 }}{{ end }}">
+  <meta property="og:title" content="{{ if $t1 }}{{ $t1 }}{{ else }}{{ $t }}{{ end }}" >
+  <meta property="og:description" content="{{ if $d }}{{ $d }}{{ else }}{{ $d2 }}{{ end }}" >
+  <meta property="og:image" content="{{- .Params.AlbumImage -}}" >
+  <meta name="twitter:card" content="summary" >
+  <meta name="twitter:title" content="{{ if $t1 }}{{ $t1 }}{{ else }}{{ $t }}{{ end }}" >
+  <meta name="twitter:description" content="{{ if $d }}{{ $d }}{{ else }}{{ $d2 }}{{ end }}" >
+  <meta name="twitter:image" content="{{- .Params.AlbumImage -}}" >
+  <meta name="twitter:site" content="@SogmiChurch" />
+  <link type="application/rss+xml" rel="alternate" title="{{ .Title }}" href="http://propheticvoice.castos.com/feed/"/>
+{{ end }}
 
+{{ define "main"}}
 <div class="content-section podcast">
   {{ partial "audio-player.html" }}
   <div class="subscribe-modal-window">

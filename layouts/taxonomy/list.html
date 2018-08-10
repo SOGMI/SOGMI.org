@@ -1,3 +1,86 @@
+{{- define "metadata" -}}
+    {{- if eq .Section "tags" -}}
+        {{ $t := add "Articles About " .Title }}
+        {{ $d := print "All SOGMI articles about the topic &quot" .Title "&quot. Sons of God Ministries International is dedicated to discipling and training the Church to become overcomers in Christ." | safeHTML }}
+        <title>{{ $t }}</title>
+        <meta name="description" content="{{ $d }}">
+        <meta property="og:title" content="{{- $t -}}" >
+        <meta property="og:description" content="{{ $d }}" >
+        <meta property="og:image" content="{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+        <meta name="twitter:card" content="summary" >
+        <meta name="twitter:title" content="{{ $t }}" >
+        <meta name="twitter:description" content="{{ $d }}" >
+        <meta name="twitter:image" content="{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+        <meta name="twitter:site" content="@SogmiChurch" />
+    {{- end -}}
+    {{- if eq .Section "keywords" -}}
+        {{ $t := add "Podcast Episodes About " .Title }}
+        {{ $d := print "All SOGMI podcast episodes about the topic &quot" .Title "&quot. View all of these podcasts and more here at SOGMI.org." | safeHTML }}
+        <title>{{ $t }}</title>
+        <meta name="description" content="{{ $d }}">
+        <meta property="og:title" content="{{- $t -}}" >
+        <meta property="og:description" content="{{ $d }}" >
+        <meta property="og:image" content="{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+        <meta name="twitter:card" content="summary" >
+        <meta name="twitter:title" content="{{ $t }}" >
+        <meta name="twitter:description" content="{{ $d }}" >
+        <meta name="twitter:image" content="{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+        <meta name="twitter:site" content="@SogmiChurch" />
+    {{- end -}}
+    {{- if eq .Section "videokeywords" }}
+        {{ $t := add "Videos About " .Title }}
+        {{ $d := print "All SOGMI videos about &quot" .Title "&quot. View more videos here at SOGMI.org." | safeHTML }}
+        <title>{{ $t }}</title>
+        <meta name="description" content="{{ $d }}">
+        <meta property="og:title" content="{{- $t -}}" >
+        <meta property="og:description" content="{{ $d }}" >
+        <meta property="og:image" content="{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+        <meta name="twitter:card" content="summary" >
+        <meta name="twitter:title" content="{{ $t }}" >
+        <meta name="twitter:description" content="{{ $d }}" >
+        <meta name="twitter:image" content="{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+        <meta name="twitter:site" content="@SogmiChurch" />
+    {{- end -}}
+    {{- if eq .Section "authors" -}}
+        {{- $name := .Title -}}
+        {{- $t := add "All Articles by " .Title -}}
+        {{- range where .Site.RegularPages "Section" "=" "people" -}}
+            {{- if eq $name .Title -}}
+            {{- $d := print "All articles written by " $name ", " .Params.position ", at Sons of God Ministries International." | safeHTML -}}
+            <title>{{ $t }}</title>
+            <meta name="description" content="{{ $d }}">
+            <meta property="og:title" content="{{- $t -}}" >
+            <meta property="og:description" content="{{ $d }}" >
+            <meta property="og:image" content="{{- .Params.profilePhoto -}}" >
+            <meta name="twitter:card" content="summary" >
+            <meta name="twitter:title" content="{{ $t }}" >
+            <meta name="twitter:description" content="{{ $d }}" >
+            <meta name="twitter:image" content="{{- .Params.profilePhoto -}}" >
+            <meta name="twitter:site" content="@SogmiChurch" />
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+    {{- if eq .Section "hosts" -}}
+        {{- $name := .Title -}}
+        {{- $t := add "All podcasts by " .Title -}}
+        {{- range where .Site.RegularPages "Section" "=" "people" -}}
+        {{- if eq $name .Title -}}
+            {{- $d := print "All podcast episodes hosted by " $name ", " .Params.position ", at Sons of God Ministries International." | safeHTML -}}
+            <title>{{ $t }}</title>
+            <meta name="description" content="{{ $d }}">
+            <meta property="og:title" content="{{- $t -}}" >
+            <meta property="og:description" content="{{ $d }}" >
+            <meta property="og:image" content="{{- .Params.profilePhoto -}}" >
+            <meta name="twitter:card" content="summary" >
+            <meta name="twitter:title" content="{{ $t }}" >
+            <meta name="twitter:description" content="{{ $d }}" >
+            <meta name="twitter:image" content="{{- .Params.profilePhoto -}}" >
+            <meta name="twitter:site" content="@SogmiChurch" />
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
 {{- define "main" -}}
 {{- if eq .Section "keywords" -}}
     {{- partial "audio-player.html" . -}}

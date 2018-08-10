@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html data-wf-page="5a0281c89a6ada000101512d" lang="en">
-{{ partial "head.html" . }}
-<body>
-    {{- partial "header.html" . -}}
-    
-    {{- block "main" . -}}{{- end -}}
-    
-    {{- partial "footer.html" . -}}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- uncomment this to test appearance on on IE9--><!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">-->
+    {{- .Hugo.Generator -}} 
+    {{- block "metadata" . -}}
+    <title>{{- if .Params.metaTitle -}}{{- .Params.MetaTitle -}}{{- else -}}{{- .Title }} | {{ .Site.Title }}{{- end -}}</title>
+    <meta name="description" content="{{- if .Params.MetaDescription -}}{{- .Params.MetaDescription -}}{{- else -}}{{- if .Description -}}{{- truncate 256 .Description | plainify -}}{{- else -}}{{- .Site.Params.SiteDescription -}}{{- end -}}{{- end -}}" >
+    <meta property="og:title" content="{{- if .Params.metaTitle -}}{{- .Params.metaTitle -}}{{- else -}}{{ .Title }}{{- end -}}" >
+    <meta property="og:description" content="{{ if .Params.MetaDescription }}{{ .Params.MetaDescription }}{{ else }}{{ if .Description }}{{ truncate 256 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}" >
+    <meta property="og:image" content="{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+    <meta name="twitter:card" content="summary" >
+    <meta name="twitter:title" content="{{ if .Params.metaTitle }}{{ .Params.metaTitle }}{{ else }}{{ .Title }}{{ end }}" >
+    <meta name="twitter:description" content="{{ if .Params.MetaDescription }}{{ .Params.MetaDescription }}{{ else }}{{ if .Description }}{{ truncate 256 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}" >
+    <meta name="twitter:image" content="{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+    <meta name="twitter:site" content="@SogmiChurch" />
+    {{- end -}}
 
-    {{- block "addscripts" . }}{{- end -}}
+    {{- block "css" . -}}
+    <!--css files-->
+    <link href={{ "css/normalize.css" | relURL }} rel="stylesheet" type="text/css">
+    <link href={{ "css/components.css" | relURL }} rel="stylesheet" type="text/css">
+    <link href={{ "css/sons-of-god.css" | relURL }} rel="stylesheet" type="text/css">
+    <link href={{ "css/sogmi.css" | relURL }} rel="stylesheet" type="text/css">
+    {{- end -}}
+
+    {{- partial "seo/favicons.html" . }}
+</head>
+
+<body>
+{{- partial "header.html" . -}}
+    
+{{- block "main" . -}}{{- end -}}
+    
+{{- partial "footer.html" . -}}
+{{- block "addscripts" . }}{{- end -}}
 </body>
+
 </html>
