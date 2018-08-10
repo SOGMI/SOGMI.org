@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ .Permalink }}"
+        },
+        "headline": "{{ if .Params.metaTitle }}{{ .Params.metaTitle }}{{ else }}{{ .Title }}{{ end }}",
+        {{- if .Params.FeaturedImage -}}
+        {{- $image := print "https:" .Params.FeaturedImage -}}
+        "image": [
+            "{{ $image }}?w=600&h=600&fit=fill&q=80",
+            "{{ $image }}?w=700&h=525&fit=fill&q=80",
+            "{{ $image }}?w=800&h=450&fit=fill&q=80"
+        ],
+        {{- end -}}
+        "datePublished": "{{ .PublishDate }}",
+        "dateModified": "{{ .Lastmod }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ .Params.Authors }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ $.Site.Title }}",
+            "logo": {
+            "@type": "ImageObject",
+            "url": "https:{{ $.Site.Params.Logo }}"
+            }
+        },
+        {{ $md := .Params.metaDescription }}{{ $d := .Description }}
+        "description": "{{ if $md }}{{ $md }}{{ else }}{{ $d }}{{ end }}"
+    }
+</script>
+    

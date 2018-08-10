@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "{{ .Site.BaseURL }}",
+      "logo": "https:{{ .Site.Params.logo }}",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+1-210-695-1630",
+        "contactType": "customer service",
+        "contactOption": "TollFree"
+      }],
+      "sameAs": [{{ range $i, $e := $.Site.Params.socialmedia }}{{- if eq $i 0 -}}"{{ .url }}"{{- else -}}, "{{ .url }}"{{- end -}}{{ end }}]
+    }
+</script>
