@@ -1,27 +1,24 @@
-{{ if .Params.Authors }} 
+{{- if .Params.Authors -}} 
 <!--store author name as variable $author-->
-{{ $author := .Params.Authors }}
+{{- $author := .Params.Authors -}}
   <!--call all pages-->
-  {{ range .Site.Pages }}
-    <!--eq means "equals" | .Section refers to the folder in /content-->
-    {{ if eq .Section "people" }}
-      <!-- if title = $author -->
-      {{ if eq .Title $author }}
-        <div class="author-block">
-          <h2 id="author" class="about-author">About the Author</h2>
-          <div class="div-block-53">
-            <div class="author-profile-image">
-              <img src="{{ .Params.ProfilePhoto }}?w=200&h=200&fit=fill&f=face&r=300&q=80" alt="photo of {{ .Title }}" title="photo of {{ .Title }}" width="200" />
-            </div>
-            <div class="author-info">
-              <h3 class="author-name">{{ .Title }}</h3>
-              <h5 class="author-profile-position">{{ .Params.Position }}</h5>
-              <p class="paragraph-4">{{ .Params.Bio }}</p>
-              <a href="{{ .RelPermalink }}" class="button-9 w-button">More From {{ .Params.FirstName }}</a>
-            </div>
+  {{- range where .Site.RegularPages "Section" "=" "people" -}}
+    <!-- if title = $author -->
+    {{- if eq .Title $author -}}
+      <div class="author-block">
+        <h2 id="author" class="about-author">About the Author</h2>
+        <div class="div-block-53">
+          <div class="author-profile-image">
+            <img src="{{ .Params.ProfilePhoto }}?w=200&h=200&fit=fill&f=face&r=300&q=80" alt="photo of {{ .Title }}" title="photo of {{ .Title }}" width="200" />
+          </div>
+          <div class="author-info">
+            <h3 class="author-name">{{ .Title }}</h3>
+            <h5 class="author-profile-position">{{ .Params.Position }}</h5>
+            <p class="paragraph-4">{{ .Params.Bio }}</p>
+            <a href="{{ .RelPermalink }}" class="button-9 w-button">More From {{ .Params.FirstName }}</a>
           </div>
         </div>
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+      </div>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

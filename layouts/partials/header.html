@@ -1,18 +1,18 @@
-  <div class="header-section">
-    {{ partial "search-modal.html" }}
+  <header class="header-section">
+    {{- partial "search-modal.html" -}}
     <div class="mobile-menu-wrapper">
       <div data-w-id="d3242deb-f5ec-69c4-a2ef-0fd638dc31b2" class="menu-dark-overlay"></div>
       <div data-w-id="e1647646-0043-423f-743e-d0bcb7846416" class="navigation-mobile">
-        {{ partial "nav-menu.html" . }}
+        {{- partial "nav-menu.html" . -}}
       </div>
     </div>
-    {{ partial "top-nav.html" . }}
+    {{- partial "top-nav.html" . -}}
     <div class="navbar-container">
       <div class="navbar w-clearfix">
         <a href="/" class="brand w-nav-brand">
           {{- if $.Site.Params.Logo -}}
           <img src="{{ $.Site.Params.Logo }}?w=306" alt="{{ $.Site.Title }}" width="auto" height="auto"> {{- else -}}
-          <h1 class="logo-text">{{ $.Site.Title }}</h1>
+          <h1 class="logo-text">{{- $.Site.Title -}}</h1>
           {{- end -}}
         </a>
         <div data-w-id="faff6c49-0934-4e9f-e9d2-9aa7f6b59f23" class="hamburger-button">
@@ -21,8 +21,8 @@
           </div>
         </div>
         <div class="navigation-main">
-          {{ partial "nav-menu.html" . }}
+          {{- partial "nav-menu.html" . -}}
         </div>
       </div>
     </div>
-  </div>
+  </header>
