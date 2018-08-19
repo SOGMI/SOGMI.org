@@ -11,12 +11,15 @@ const client = contentful.createClient({
 })
 
 function writeEntriesForType(contentType) {
+
     client.getEntries({
-        content_type: contentType.sys.id
+        content_type: contentType.sys.id,
+        limit: 1000,
+        order: 'sys.updatedAt'
     })
     .then((response) => {
         for (let item of response.items) {
-            var fileContent = '---\n';
+            var fileContent = `---\nupdated: ${item.sys.updatedAt}\n`;
             for (let field of Object.keys(item.fields)) {
                 if (field == 'content')
                     continue
@@ -46,7 +49,6 @@ function writeEntriesForType(contentType) {
                                 }
                                 else if(Object.getOwnPropertyDescriptor(x.sys, 'type' ).value === 'Asset') {
                                     arrayList += `- title: ` + oj(x.fields, "title").value + `\n  url: ` + oj(x.fields.file, "url").value + `\n`
-                                    
                                     if(typeof oj(x.fields, "description") !== 'undefined'){
                                         arrayList += `  description: ` + oj(x.fields, "description").value + `\n`
                                     }
@@ -56,7 +58,12 @@ function writeEntriesForType(contentType) {
                                     `\n  contentType: ` + oj(x.sys.contentType.sys, "id").value + `\n  id: ` + oj(x.sys, 'id').value + `\n`
                                 }
                             }
-                            fileContent += `${field}:\n${arrayList}`
+                            if (itemResult.lon !== undefined) {
+                                fileContent += `${field}:\n  longitude: ${itemResult.lon}\n  latitude: ${itemResult.lat}\n`
+                            }
+                            else {
+                                fileContent += `${field}:\n${arrayList}`
+                            }
                             arrayList = ``
                         }
                         break;
@@ -100,14 +107,15 @@ function writeEntriesForType(contentType) {
     .catch(console.error)
 }
 
+
 // client.getEntries()
 // .then((response) => console.log(response.items))
 // .catch(console.error)
 
-client.getContentTypes()
-.then((response) => {
-    for (let contentType of response.items) {
-        writeEntriesForType(contentType)
-    }
-})
-.catch(console.error)
+client.getContentTypes({})
+    .then((response) => {
+        for (let contentType of response.items) {
+            writeEntriesForType(contentType)
+        }
+    })
+    .catch(console.error)
