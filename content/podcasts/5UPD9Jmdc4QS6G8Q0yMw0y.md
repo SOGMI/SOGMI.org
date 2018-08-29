@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:14.804Z
 title: "The Kingdom of God"
 slug: "prophetic-voice-270"
 keywords:

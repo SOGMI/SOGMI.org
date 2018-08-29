@@ -1,4 +1,5 @@
 ---
+updated: 2018-06-25T22:34:49.040Z
 title: "How to Hear the Voice of God - Part 2"
 slug: "prophetic-voice-325"
 keywords:

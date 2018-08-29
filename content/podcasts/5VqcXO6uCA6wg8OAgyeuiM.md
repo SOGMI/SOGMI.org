@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T05:00:35.656Z
 title: "Following God and Taking Dominion"
 slug: "prophetic-voice-312"
 keywords:

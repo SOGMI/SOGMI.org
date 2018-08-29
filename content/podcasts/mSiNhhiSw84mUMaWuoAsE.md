@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-16T23:30:28.504Z
 title: "God's Guidelines for Politics (Featuring Mike Sosso)"
 slug: "prophetic-voice-217"
 keywords:

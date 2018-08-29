@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:05.493Z
 title: "Empowered to Walk in the Supernatural"
 slug: "prophetic-voice-292"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-02-23T06:39:57.852Z
 title: "Prophecy to the Church"
 slug: "prophecy-to-the-church"
 date: "2010-11-01"

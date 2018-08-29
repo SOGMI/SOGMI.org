@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:10.224Z
 title: "Let There Be Light"
 slug: "prophetic-voice-306"
 keywords:

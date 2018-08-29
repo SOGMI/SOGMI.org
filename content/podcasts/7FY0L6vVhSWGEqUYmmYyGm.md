@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.793Z
 title: "The Parable of the Sower"
 slug: "prophetic-voice-241"
 keywords:

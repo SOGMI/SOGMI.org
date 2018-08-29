@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T05:00:35.572Z
 title: "His Glorious Church Maturing in Love"
 slug: "prophetic-voice-314"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:14.395Z
 title: "Knowing Our God and the Season"
 slug: "prophetic-voice-264"
 keywords:

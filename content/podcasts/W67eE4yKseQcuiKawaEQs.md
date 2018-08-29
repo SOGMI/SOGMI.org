@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:17.780Z
 title: "Plugged in to God"
 slug: "prophetic-voice-278"
 keywords:

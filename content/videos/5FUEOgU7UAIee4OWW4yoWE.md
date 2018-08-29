@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-15T23:32:17.687Z
 title: "07/15/2018 | New Season \"More Changes  and Supernatural Manifestations\" (Pastor Cris)"
 slug: "WLZmIp2UqLI"
 date: "2018-07-15"

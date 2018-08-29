@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-12T00:55:25.518Z
 title: "07/08/2018 | Committing Yourself to God (Pastor Charles)"
 slug: "flOCIhDmds0"
 date: "2018-07-08"

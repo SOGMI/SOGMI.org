@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:52.729Z
 title: "05/27/2018 | The Powerful Move of the Holy Spirit (Pastor Cris)"
 slug: "05-27-2018-or-the-powerful-move-of-the-holy-spirit-or-pastor-cris"
 date: "2018-05-27"

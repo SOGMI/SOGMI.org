@@ -1,4 +1,5 @@
 ---
+updated: 2018-08-29T06:04:20.445Z
 title: "06/24/2018 | Leave the Old Mindset and Enter God's Mindset (Pastor Cris)"
 slug: "VcL8NQuHr8Q"
 date: "2018-06-24"
@@ -8,8 +9,8 @@ description: "To move in the supernatural we must abandoned our old mindset and 
 videoKeywords:
 - mind of christ
 - god's mindset
-- god's ways of doing things
 - babylonian system
+- god's ways of doing things
 playlists:
 - full sermons
 - livestreams

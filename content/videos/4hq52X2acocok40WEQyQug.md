@@ -1,4 +1,5 @@
 ---
+updated: 2018-06-18T20:30:01.402Z
 title: "06/17/2018 | The Father Son Relationship (Pastor Cris)"
 slug: "7T0guBPuWGA"
 date: "2018-06-17"

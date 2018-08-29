@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:07.506Z
 title: "God's Heavenly Ways"
 slug: "prophetic-voice-246"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-06-02T00:04:38.226Z
 title: "The Year in Review (2016)"
 slug: "prophetic-voice-210"
 keywords:

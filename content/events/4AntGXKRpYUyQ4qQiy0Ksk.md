@@ -1,8 +1,11 @@
 ---
+updated: 2018-08-19T21:22:32.767Z
 title: "Prophetic Conference at Freedom Fellowship Church"
 slug: "prophetic-conference-at-freedom-fellowship-church"
 venue: "Freedom Fellowship Church"
 address:
+  longitude: -98.54725339999999
+  latitude: 29.5169084
 hideFaq: false
 description: "Join us at Freedom Fellowship Church this March and experience a move of God! God has already begun moving mightily this year 2018 so we will continue to pursue Him and his will with full abandon."
 people:

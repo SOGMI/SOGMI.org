@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:16.931Z
 title: "Building our Faith in God"
 slug: "prophetic-voice-276"
 keywords:

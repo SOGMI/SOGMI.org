@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:51.525Z
 title: "Pastor Cristina Sosso \"How to Recognize God's Voice\" (05/27/2018)"
 slug: "how-to-recognize-gods-voice-05-27-2018"
 date: "2018-05-29"

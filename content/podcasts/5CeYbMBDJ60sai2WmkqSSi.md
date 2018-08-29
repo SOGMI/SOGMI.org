@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:10.194Z
 title: "The Set Time Has Come (Featuring Ptr. Mike Sosso)"
 slug: "prophetic-voice-303"
 keywords:

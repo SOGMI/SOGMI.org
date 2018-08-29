@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:04.581Z
 title: "Believe from the Heart"
 slug: "prophetic-voice-215"
 keywords:

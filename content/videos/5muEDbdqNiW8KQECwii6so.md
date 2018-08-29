@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:51.520Z
 title: "2015 Leadership Conference and Healing Crusade (General Santos City)"
 slug: "2015-leadership-conference-and-healing-crusade-general-santos-city"
 date: "2016-10-09T07:15:46.000Z"

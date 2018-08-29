@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:07.829Z
 title: "Preparation for the Greater Work"
 slug: "prophetic-voice-250"
 keywords:

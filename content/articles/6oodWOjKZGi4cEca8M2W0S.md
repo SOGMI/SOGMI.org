@@ -1,4 +1,5 @@
 ---
+updated: 2018-03-27T19:22:45.326Z
 title: "A Warning to the False Prophets of Our Day"
 slug: "warning-to-the-false-prophets-of-our-day"
 date: "2011-03-01"

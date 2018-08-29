@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:05.288Z
 title: "Greater Works - Part 2"
 slug: "prophetic-voice-231"
 keywords:

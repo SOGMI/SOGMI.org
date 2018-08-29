@@ -1,4 +1,5 @@
 ---
+updated: 2018-08-04T17:38:29.118Z
 title: "07/29/2018 | Stand Your Ground (Pastor Cris)"
 slug: "Tog6iitXLgc"
 date: "2018-07-29"

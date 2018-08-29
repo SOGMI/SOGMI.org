@@ -1,4 +1,5 @@
 ---
+updated: 2018-03-29T10:09:04.618Z
 title: "Prophecy for 2014"
 slug: "prophecy-for-2014"
 date: "2014-01-03"

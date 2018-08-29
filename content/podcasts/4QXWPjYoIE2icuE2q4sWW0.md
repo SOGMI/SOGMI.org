@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:18.171Z
 title: "Preparation for Greatness"
 slug: "prophetic-voice-284"
 keywords:

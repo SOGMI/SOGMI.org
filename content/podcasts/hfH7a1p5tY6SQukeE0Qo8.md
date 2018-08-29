@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:14.398Z
 title: "The Order of Melchizedek"
 slug: "prophetic-voice-267"
 keywords:

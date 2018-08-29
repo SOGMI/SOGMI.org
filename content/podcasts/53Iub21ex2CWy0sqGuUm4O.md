@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:13.391Z
 title: "Sound Doctrine from the Holy Spirit"
 slug: "prophetic-voice-259"
 keywords:

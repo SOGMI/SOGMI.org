@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:10.206Z
 title: "Christmas Special with Nicole Mendoza"
 slug: "prophetic-voice-302"
 keywords:

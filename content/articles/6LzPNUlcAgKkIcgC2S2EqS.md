@@ -1,4 +1,5 @@
 ---
+updated: 2018-02-23T06:40:58.183Z
 title: "Prophecy From July 12, 2009"
 slug: "prophecy-from-july-12-2009"
 date: "2009-07-12"

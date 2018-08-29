@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:51.499Z
 title: "04/29/2018 | Prophecies Are Manifesting Today (Pastor Cris)"
 slug: "06-29-2018-service"
 date: "2018-04-29T14:50:06.000Z"

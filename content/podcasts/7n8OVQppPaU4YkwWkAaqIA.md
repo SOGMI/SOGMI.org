@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:16.833Z
 title: "Have Faith in God"
 slug: "prophetic-voice-271"
 keywords:

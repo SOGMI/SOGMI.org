@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-09T23:09:31.730Z
 title: "The Mind of Christ: Truth Above the Facts"
 slug: "prophetic-voice-327"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-28T21:06:06.390Z
 title: "Joshua Sosso"
 slug: "joshua-sosso"
 show: true

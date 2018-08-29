@@ -1,8 +1,13 @@
 ---
+updated: 2018-06-02T00:07:14.084Z
 title: "Prophecies for 2016 (Continued)"
 slug: "prophetic-voice-214"
-keywords: ["prophecy","prophecy to the church","texas"]
-hosts: ["Cristina Sosso"]
+keywords:
+- prophecy
+- prophecy to the church
+- texas
+hosts:
+- Cristina Sosso
 showTranscript: false
 date: "2016-02-06"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E214_16_02-06-07_Prophecies_for_2016.mp3"

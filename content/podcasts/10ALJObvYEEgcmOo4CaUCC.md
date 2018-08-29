@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:13.420Z
 title: "Loving, Trusting, and Obeying Jesus"
 slug: "prophetic-voice-262"
 keywords:

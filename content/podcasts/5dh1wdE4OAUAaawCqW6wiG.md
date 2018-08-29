@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T05:00:35.621Z
 title: "Discussing Israel with Avishai Levi"
 slug: "prophetic-voice-311"
 keywords:

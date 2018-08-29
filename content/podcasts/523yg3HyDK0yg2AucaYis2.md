@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:16.842Z
 title: "Prepare for Victory and Prosperity - Part 2"
 slug: "prophetic-voice-274"
 keywords:

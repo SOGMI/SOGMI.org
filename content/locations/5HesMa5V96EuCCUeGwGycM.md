@@ -1,4 +1,5 @@
 ---
+updated: 2018-08-01T21:54:42.906Z
 Title: "Freedom Fellowship Church International"
 slug: "freedom-fellowship-church"
 description: "Freedom Fellowship is a non-denominational church based in San Antonio, Texas that operates strongly in the prophetic and apostolic. We focus first and foremost on spreading the Gospel of Jesus Christ and building up His kingdom."
@@ -20,6 +21,8 @@ region: "TX"
 zipCode: 78230
 country: "United States"
 location:
+  longitude: -98.54725339999999
+  latitude: 29.5169084
 phoneNumber: "+1 210 396 7891"
 email: "info@sogmi.org"
 facebook: "https://www.facebook.com/Freedom.Fellowship.International/"

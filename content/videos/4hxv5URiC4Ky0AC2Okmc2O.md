@@ -1,4 +1,5 @@
 ---
+updated: 2018-08-06T19:50:37.449Z
 title: "08/05/2018 | Destined For Greatness (Pastor Cris)"
 slug: "z-PGV9J4Pw8"
 date: "2018-08-05"

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:14.404Z
 title: "Living by Faith"
 slug: "prophetic-voice-265"
 keywords:

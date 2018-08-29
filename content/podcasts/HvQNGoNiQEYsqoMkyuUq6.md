@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-31T00:38:11.084Z
 title: "Godly Commitment"
 slug: "prophetic-voice-331"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:06.786Z
 title: "The Reason for the Season"
 slug: "prophetic-voice-300"
 keywords:

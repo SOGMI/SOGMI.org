@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T05:00:35.703Z
 title: "The Gift of Speaking in Tongues"
 slug: "prophetic-voice-313"
 keywords:

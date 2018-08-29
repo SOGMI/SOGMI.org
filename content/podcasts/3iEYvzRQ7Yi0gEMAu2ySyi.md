@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-23T22:36:00.979Z
 title: "Preparation to Establish God's Kingdom"
 slug: "prophetic-voice-330"
 keywords:

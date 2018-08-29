@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:07.778Z
 title: "We Are Now Occupying (Part 1 of 2)"
 slug: "prophetic-voice-248"
 keywords:

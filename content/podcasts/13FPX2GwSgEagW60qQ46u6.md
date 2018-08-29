@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.867Z
 title: "Issues of the Heart"
 slug: "prophetic-voice-244"
 keywords:

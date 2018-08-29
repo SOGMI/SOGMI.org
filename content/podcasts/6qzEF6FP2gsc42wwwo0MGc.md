@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.847Z
 title: "The Heart of the Father"
 slug: "prophetic-voice-243"
 keywords:

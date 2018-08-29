@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-09T23:08:51.877Z
 title: "The Mind of Christ: God Qualifies Those He Calls"
 slug: "prophetic-voice-328"
 keywords:

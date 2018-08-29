@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:16.833Z
 title: "Pentecost"
 slug: "prophetic-voice-275"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:05.016Z
 title: "Make Your Obedience Complete"
 slug: "prophetic-voice-229"
 keywords:

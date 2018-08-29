@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:19.786Z
 title: "Momentary Darkness Before the Light"
 slug: "prophetic-voice-287"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T05:00:35.902Z
 title: "Prophecies for 2018"
 slug: "prophetic-voice-309"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-16T16:40:59.829Z
 title: "A Season of Opportunities"
 slug: "prophetic-voice-329"
 keywords:

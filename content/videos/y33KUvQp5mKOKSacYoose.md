@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:52.498Z
 title: "Pastor Cristina Sosso \"Prophetic Word For This Week\" (05/13/2018)"
 slug: "pastor-cristina-sosso-prophetic-word-for-this-week-05-13-2018"
 date: "2018-05-16"

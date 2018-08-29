@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:07.917Z
 title: "Believe and Know God's Heart"
 slug: "prophetic-voice-252"
 keywords:

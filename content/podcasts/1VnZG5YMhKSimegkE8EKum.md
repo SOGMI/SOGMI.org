@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:17.789Z
 title: "Changes are Coming"
 slug: "prophetic-voice-282"
 keywords:

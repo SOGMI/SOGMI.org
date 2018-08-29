@@ -1,4 +1,5 @@
 ---
+updated: 2018-02-25T07:36:47.423Z
 title: "New Radio Program - The Prophetic Voice of Our Time"
 slug: "new-radio-program-the-prophetic-voice-of-our-time"
 date: "2012-01-01"

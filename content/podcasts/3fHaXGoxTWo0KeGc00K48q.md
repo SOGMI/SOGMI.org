@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.132Z
 title: "Honoring God with Wealth"
 slug: "prophetic-voice-238"
 keywords:

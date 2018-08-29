@@ -1,4 +1,5 @@
 ---
+updated: 2018-06-10T18:06:20.281Z
 title: "06/10/2018 | Hearing the Voice of God and Walking in The Miraculous (Pastor Cris)"
 slug: "TACWHTyQgQY"
 date: "2018-06-10"

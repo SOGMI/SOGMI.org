@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.403Z
 title: "God's Kingdom vs Babylon"
 slug: "prophetic-voice-240"
 keywords:

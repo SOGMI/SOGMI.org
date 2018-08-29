@@ -1,4 +1,5 @@
 ---
+updated: 2018-06-02T00:06:39.423Z
 title: "Prophetic Words to the Church in 2016"
 slug: "prophetic-voice-213"
 keywords:

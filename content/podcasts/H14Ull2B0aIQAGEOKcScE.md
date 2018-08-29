@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:04.659Z
 title: "Removing the Barriers and Walking in Miracles"
 slug: "prophetic-voice-220"
 keywords:

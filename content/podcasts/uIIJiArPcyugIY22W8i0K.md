@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.067Z
 title: "Look to the Truth Above the Facts"
 slug: "prophetic-voice-234"
 keywords:

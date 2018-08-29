@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:05.403Z
 title: "Resurrection Power in the Holy Spirit"
 slug: "prophetic-voice-224"
 keywords:

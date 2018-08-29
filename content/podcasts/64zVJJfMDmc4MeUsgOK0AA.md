@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.115Z
 title: "The Transfer of Wealth"
 slug: "prophetic-voice-236"
 keywords:

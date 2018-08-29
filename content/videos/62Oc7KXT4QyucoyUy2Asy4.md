@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:52.625Z
 title: "05/20/2018 | Pentecost Sunday (Pastor Cris)"
 slug: "05-20-2018-or-pentecost-sunday-or-pastor-cris"
 date: "2018-05-20T11:26:30.000Z"

@@ -1,4 +1,5 @@
 ---
+updated: 2018-06-26T01:19:53.708Z
 title: "The Mind of Christ: Meditating on His Goodness"
 slug: "prophetic-voice-326"
 keywords:

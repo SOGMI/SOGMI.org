@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:51.490Z
 title: "04/22/2018 | Obedience is Better Than Sacrifice (Pastor Cris)"
 slug: "04-22-2018-service"
 date: "2018-04-22"

@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:51.539Z
 title: "04/15/2018 | The Greatness of God In Us (Pastor Cris)"
 slug: "04-15-18-the-greatness-of-god-in-us"
 date: "2018-04-15"

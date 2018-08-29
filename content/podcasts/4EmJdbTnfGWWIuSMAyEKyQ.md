@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:05.443Z
 title: "Passing Over to God's Mindset (Guest Speaker: Joshua Sosso)"
 slug: "prophetic-voice-225"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:10.191Z
 title: "Revelation for the Appointed Time"
 slug: "prophetic-voice-304"
 keywords:

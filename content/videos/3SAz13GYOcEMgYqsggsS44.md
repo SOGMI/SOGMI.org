@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:51.745Z
 title: "2018 Resurrection Sunday Service at FFCI (Feat. Pastor Cris)"
 slug: "2018-resurrection-sunday"
 date: "2018-04-01"

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:14.382Z
 title: "Get Ready for Glory"
 slug: "prophetic-voice-266"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:19.902Z
 title: "Revelation of the Time We're In"
 slug: "prophetic-voice-289"
 keywords:

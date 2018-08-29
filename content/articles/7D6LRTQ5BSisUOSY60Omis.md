@@ -1,4 +1,5 @@
 ---
+updated: 2018-03-30T14:24:10.042Z
 title: "The Characteristics of a True Prophet"
 slug: "the-characteristics-of-a-true-prophet"
 date: "2010-08-21"

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:17.795Z
 title: "Knowing God"
 slug: "prophetic-voice-280"
 keywords:

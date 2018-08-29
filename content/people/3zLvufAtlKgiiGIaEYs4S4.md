@@ -1,4 +1,5 @@
 ---
+updated: 2018-03-29T06:21:52.070Z
 title: "Cristina Sosso"
 slug: "cristina-sosso"
 show: true

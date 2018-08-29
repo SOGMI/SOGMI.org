@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.189Z
 title: "Prophecy is Your Weapon"
 slug: "prophetic-voice-239"
 keywords:

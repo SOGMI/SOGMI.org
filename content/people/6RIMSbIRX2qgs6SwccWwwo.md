@@ -1,4 +1,5 @@
 ---
+updated: 2018-04-29T21:31:17.951Z
 title: "Charles Wickliffe"
 slug: "charles-wickliffe"
 show: false

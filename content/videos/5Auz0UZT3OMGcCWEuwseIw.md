@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:52.626Z
 title: "05/13/2018 | Mother's Day at Freedom Fellowship (Pastor Cris)"
 slug: "05-13-2018-service"
 date: "2018-05-14"

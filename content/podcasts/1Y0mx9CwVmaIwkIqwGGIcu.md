@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-29T03:43:04.305Z
 title: "Political Revival in the USA and Beyond"
 slug: "prophetic-voice-318"
 keywords:

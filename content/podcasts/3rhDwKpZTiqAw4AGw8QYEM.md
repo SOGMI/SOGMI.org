@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:19.793Z
 title: "God's Good Plan Will Stand"
 slug: "prophetic-voice-288"
 keywords:

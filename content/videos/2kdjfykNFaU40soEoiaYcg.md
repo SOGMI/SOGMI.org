@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-31T01:52:51.551Z
 title: "05/06/2018 | Following God in This Appointed Time (Pastor Cris)"
 slug: "05-06-2018-service"
 date: "2018-05-06"

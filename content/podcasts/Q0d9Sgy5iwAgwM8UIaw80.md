@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T06:31:18.858Z
 title: "Obedience is Better than Sacrifice"
 slug: "prophetic-voice-319"
 keywords:

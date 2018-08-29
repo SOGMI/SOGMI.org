@@ -1,4 +1,5 @@
 ---
+updated: 2018-06-25T21:12:54.301Z
 title: "06/03/2018 | God Still Speaks to His People (Pastor Cris)"
 slug: "LaaRkj9Ouhg"
 date: "2018-06-03"

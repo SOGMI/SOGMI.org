@@ -1,4 +1,5 @@
 ---
+updated: 2018-02-23T04:07:25.007Z
 title: "A Word About the Transfer of Wealth"
 slug: "a-word-about-the-transfer-of-wealth"
 date: "2011-02-04"

@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T05:00:33.552Z
 title: "The Heart of God"
 slug: "prophetic-voice-308"
 keywords:

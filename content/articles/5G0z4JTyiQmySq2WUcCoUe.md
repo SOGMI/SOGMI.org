@@ -1,4 +1,5 @@
 ---
+updated: 2018-02-23T06:39:30.922Z
 title: "What a Great Time to be Alive"
 slug: "what-a-great-time-to-be-alive"
 date: "2011-03-01"

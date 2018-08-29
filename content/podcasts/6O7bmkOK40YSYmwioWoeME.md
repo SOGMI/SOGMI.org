@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:04.482Z
 title: "Being Heavenly Minded"
 slug: "prophetic-voice-223"
 keywords:

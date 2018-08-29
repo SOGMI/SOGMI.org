@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:13.435Z
 title: "Pondering His Goodness Past and Onward"
 slug: "prophetic-voice-257"
 keywords:

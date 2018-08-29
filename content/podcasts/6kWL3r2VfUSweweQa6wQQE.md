@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T05:00:35.693Z
 title: "Resurrection Power"
 slug: "prophetic-voice-317"
 keywords:

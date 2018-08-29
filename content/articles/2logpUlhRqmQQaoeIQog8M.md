@@ -1,4 +1,5 @@
 ---
+updated: 2018-02-23T06:40:12.470Z
 title: "I Am Restoring the Judges as in the Days of Old"
 slug: "i-am-restoring-the-judges-as-in-the-days-of-old"
 date: "2010-08-22"

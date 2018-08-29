@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:08.595Z
 title: "The Glory of God"
 slug: "prophetic-voice-254"
 keywords:

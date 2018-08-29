@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-23T01:49:34.145Z
 title: "07/22/2018 | Priesthood Under The New Covenant (Pastor Cris)"
 slug: "O9OQiJ6iJUU"
 date: "2018-07-22"

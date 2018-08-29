@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:05.080Z
 title: "Faith is a Force"
 slug: "prophetic-voice-227"
 keywords:

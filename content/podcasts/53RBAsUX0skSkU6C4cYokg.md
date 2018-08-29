@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:04.493Z
 title: "Philippines Mission Report"
 slug: "prophetic-voice-219"
 keywords:

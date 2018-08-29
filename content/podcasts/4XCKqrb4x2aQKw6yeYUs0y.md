@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:19.797Z
 title: "Prophets and Prophecy"
 slug: "prophetic-voice-286"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-05-24T05:00:35.064Z
 title: "Intimacy With God"
 slug: "prophetic-voice-310"
 keywords:

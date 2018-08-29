@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.016Z
 title: "The Heart of a Warrior"
 slug: "prophetic-voice-235"
 keywords:

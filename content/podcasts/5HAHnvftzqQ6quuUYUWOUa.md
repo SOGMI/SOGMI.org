@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.883Z
 title: "God's Promise and Faithfulness"
 slug: "prophetic-voice-242"
 keywords:

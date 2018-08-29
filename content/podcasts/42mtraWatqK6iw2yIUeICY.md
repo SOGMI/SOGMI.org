@@ -1,4 +1,5 @@
 ---
+updated: 2018-04-19T09:38:38.441Z
 title: "Prophecy for the Body of Christ"
 slug: "prophetic-voice-316"
 keywords:

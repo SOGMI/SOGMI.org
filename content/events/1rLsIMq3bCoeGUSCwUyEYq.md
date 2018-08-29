@@ -1,8 +1,11 @@
 ---
+updated: 2018-08-01T09:19:21.710Z
 title: "The Prophetic Gathering Of The Saints 2018"
 slug: "prophetic-gathering-2018"
 venue: "Venue TBA"
 address:
+  longitude: -98.68974509999998
+  latitude: 29.5780056
 hideFaq: true
 freeEvent: false
 startDate: "2018-12-31"

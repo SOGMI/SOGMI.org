@@ -1,4 +1,5 @@
 ---
+updated: 2018-08-09T01:00:22.924Z
 title: "Instruction for Dominion"
 slug: "prophetic-voice-332"
 keywords:

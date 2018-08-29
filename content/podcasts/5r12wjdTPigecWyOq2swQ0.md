@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:05.855Z
 title: "The Weapons of Our Warfare"
 slug: "prophetic-voice-226"
 keywords:

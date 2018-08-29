@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:04.486Z
 title: "Allow the Holy Spirit to Reveal Jesus"
 slug: "prophetic-voice-221"
 keywords:

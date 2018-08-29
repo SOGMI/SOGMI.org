@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:17.229Z
 title: "Mission Report and Good News"
 slug: "prophetic-voice-277"
 keywords:

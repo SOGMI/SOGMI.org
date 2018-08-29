@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:17.900Z
 title: "A Priest to the Order of Melchizedek"
 slug: "prophetic-voice-283"
 keywords:

@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:05.420Z
 title: "The Greatness of the Season We're In"
 slug: "prophetic-voice-290"
 keywords:

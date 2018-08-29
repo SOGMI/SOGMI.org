@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:06.427Z
 title: "Facing Your Goliaths"
 slug: "prophetic-voice-298"
 keywords:

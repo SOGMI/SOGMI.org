@@ -1,4 +1,5 @@
 ---
+updated: 2018-06-02T00:05:12.004Z
 title: "Fact vs Truth"
 slug: "prophetic-voice-211"
 keywords:

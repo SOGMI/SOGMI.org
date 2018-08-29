@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:51:06.125Z
 title: "Instant In and Out of Season"
 slug: "prophetic-voice-237"
 keywords:

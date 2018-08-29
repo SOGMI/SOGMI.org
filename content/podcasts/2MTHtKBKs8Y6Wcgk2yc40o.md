@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:50:06.392Z
 title: "Double Portion Restoration"
 slug: "prophetic-voice-296"
 keywords:

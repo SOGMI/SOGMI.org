@@ -1,4 +1,5 @@
 ---
+updated: 2018-07-17T21:52:17.749Z
 title: "Living in the Supernatural"
 slug: "prophetic-voice-279"
 keywords:
