@@ -43,7 +43,7 @@
                     <div class="homepage-grid-image-overlay" style="background-image: linear-gradient(119deg, rgba(0, 0, 0, 0.6), rgba(51, 51, 51, 0) 72%), url({{ .Params.FeaturedImage }}?w=800&q=80); transform-style: preserve-3d; transition: transform 300ms, opacity 300ms; opacity: 1; transform: scaleX(1) scaleY(1) scaleZ(1);">
                     </div>
                     <h2 class="home-grid-title">{{ .Title }}</h2>
-                    <h4 class="home-grid-subheading">with Pastor Cris</h4>        
+                    <h4 class="home-grid-subheading">{{ .Params.subheading }}</h4>        
                     <h4 class="home-grid-button">View All Episodes</h4> 
                 </a>
               </div>

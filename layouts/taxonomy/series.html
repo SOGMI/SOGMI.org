@@ -1,5 +1,5 @@
 {{ define "metadata" }}
-  {{- $t := print "&quot" .Title "&quot " .Params.Subheading | safeHTML -}}
+  {{- $t := print .Title " " .Params.Subheading -}}
   {{- $t1 := .Params.MetaTitle -}}
   {{- $d := .Params.metaDescription -}}
   {{- $d2 := .Description -}}
