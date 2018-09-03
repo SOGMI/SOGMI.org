@@ -1,6 +1,6 @@
 ---
-updated: 2018-08-28T07:53:23.192Z
-title: "The Power of a Believer"
+updated: 2018-09-03T16:09:30.641Z
+title: "The Power Within Us (Part 1)"
 slug: "prophetic-voice-334"
 keywords:
 - holy spirit
