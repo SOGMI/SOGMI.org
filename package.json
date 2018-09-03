@@ -7,7 +7,7 @@
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
     "prepublish": "node wait.js && node contentful.js",
-    "publish": "hugo && npm run minifyjson",
+    "publish": "hugo --minify && npm run minifyjson",
     "postpublish": "atomic-algolia & npm run compressjs",
     "test": "node contentful.js && hugo server",
     "algolia": "atomic-algolia",
