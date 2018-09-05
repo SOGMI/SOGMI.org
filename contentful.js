@@ -11,7 +11,7 @@ const client = contentful.createClient({
 })
 
 function writeEntriesForType(contentType) {
-
+    let totalEntries = 0;
     client.getEntries({
         content_type: contentType.sys.id,
         limit: 1000,
@@ -86,22 +86,29 @@ function writeEntriesForType(contentType) {
 
             if (contentType.sys.id == 'live') {
                 fs.writeFile(`./content/${contentType.sys.id}/${slugify('_index')}.md`, fileContent, (error) => { /* handle error */ })
-                console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
+                // console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
             }
             else if (contentType.sys.id == 'podcastSeries') {
                 mkdirp.sync(`./content/series/${slugify(item.fields.slug)}`)
                 fs.writeFile(`./content/series/${slugify(item.fields.slug)}/_index.md`, fileContent, (error) => { /* handle error */ })
-                console.log(`[Contentful Import] _index.md (${item.fields.title}) created in /content/series/${slugify(item.fields.slug)}`)
+                // console.log(`[Contentful Import] _index.md (${item.fields.title}) created in /content/series/${slugify(item.fields.slug)}`)
             }
             else if (contentType.sys.id == 'blogCollection') {
                 mkdirp.sync(`./content/collections/${slugify(item.fields.slug)}`)
                 fs.writeFile(`./content/collections/${slugify(item.fields.slug)}/_index.md`, fileContent, (error) => { /* handle error */ })
-                console.log(`[Contentful Import] _index.md (${item.fields.title}) created in /content/collections/${slugify(item.fields.slug)}`)
+                // console.log(`[Contentful Import] _index.md (${item.fields.title}) created in /content/collections/${slugify(item.fields.slug)}`)
             }
             else {
             fs.writeFile(`./content/${contentType.sys.id}/${slugify(item.sys.id)}.md`, fileContent, (error) => { /* handle error */ })
-                console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
+                // console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
+            totalEntries++;
             }
+        }
+        if (totalEntries === 1) {
+            console.log(`${contentType.sys.id}: ${totalEntries} entry imported\n`)
+        }
+        else {
+            console.log(`${contentType.sys.id}: ${totalEntries} entries imported\n`)
         }
     })
     .catch(console.error)
@@ -119,3 +126,5 @@ client.getContentTypes({})
         }
     })
     .catch(console.error)
+
+console.log("\n[[ CONTENTFUL IMPORT ]]\n")
