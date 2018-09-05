@@ -105,10 +105,10 @@ function writeEntriesForType(contentType) {
             }
         }
         if (totalEntries === 1) {
-            console.log(`${contentType.sys.id}: ${totalEntries} entry imported\n`)
+            console.log(`${contentType.sys.id}: ${totalEntries} entry imported\n-----------`)
         }
         else {
-            console.log(`${contentType.sys.id}: ${totalEntries} entries imported\n`)
+            console.log(`${contentType.sys.id}: ${totalEntries} entries imported\n-----------`)
         }
     })
     .catch(console.error)
@@ -127,4 +127,4 @@ client.getContentTypes({})
     })
     .catch(console.error)
 
-console.log("\n[[ CONTENTFUL IMPORT ]]\n")
+console.log("\n//////////////////////////////\n//////////////////////////////\n      CONTENTFUL IMPORT\n//////////////////////////////\n//////////////////////////////")
