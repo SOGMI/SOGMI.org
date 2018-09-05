@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-09-10"
+date: 2016-09-09T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E242_16_09_10-11_God%27s_Promise_and_Faithfulness.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 242

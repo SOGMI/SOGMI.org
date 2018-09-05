@@ -10,7 +10,7 @@ keywords:
 - apostles and prophets
 hosts:
 - Cristina Sosso
-date: "2017-09-23"
+date: 2017-09-22T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E290_17_09_23-24_The_Greatness_of_the_Season_We%27re_In.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 290

@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: "2017-07-15"
+date: 2017-07-14T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E280_17_07_15-16_Knowing_God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 280

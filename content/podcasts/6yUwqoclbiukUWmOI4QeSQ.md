@@ -11,7 +11,7 @@ hosts:
 - Joshua Sosso
 - Cristina Sosso
 showTranscript: false
-date: "2016-01-09"
+date: 2016-01-08T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E211_16_01_09-10_Fact_vs_Truth.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 211

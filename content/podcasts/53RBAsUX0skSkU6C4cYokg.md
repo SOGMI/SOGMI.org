@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-03-12"
+date: 2016-03-11T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E219_16_03_12-13_Philippines_Mission_Report.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 219

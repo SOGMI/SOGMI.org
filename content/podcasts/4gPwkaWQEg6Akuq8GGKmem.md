@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Ed Grubb
 showTranscript: false
-date: "2016-12-17"
+date: 2016-12-16T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E255_16_12_17-18_Being_Kings_and_Priests.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 255

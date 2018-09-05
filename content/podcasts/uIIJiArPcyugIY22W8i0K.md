@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-07-02"
+date: 2016-07-01T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E234_16_07_02-03_Look_to_the_Truth_Above_Facts.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 234

@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2018-03-02"
+date: 2018-03-01T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E311-18-03-03-04-Interview-and-Israel-Tour-Testments.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 311

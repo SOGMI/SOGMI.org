@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2018-01-06"
+date: 2018-01-05T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E303_18_01_06-07_Revelation_for_the_Appointed_Time.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 304

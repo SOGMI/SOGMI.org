@@ -9,7 +9,7 @@ keywords:
 - spiritual authority
 hosts:
 - Cristina Sosso
-date: "2016-08-13"
+date: 2016-08-12T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E239_16_08_13-14_Prophecy_is_Your_Weapon.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 239

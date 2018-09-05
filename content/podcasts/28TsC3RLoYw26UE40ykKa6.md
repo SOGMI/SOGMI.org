@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-04-23"
+date: 2016-04-22T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E224_16_04_23-24_Resurrection_Power_in_the_Holy_Spirit.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 224

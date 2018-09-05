@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 originalAirDate: "2018-05-12"
-date: "2018-05-14"
+date: 2018-05-13T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E321-18-05-12-13-Preparation-for-the-Greater-Works.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 321

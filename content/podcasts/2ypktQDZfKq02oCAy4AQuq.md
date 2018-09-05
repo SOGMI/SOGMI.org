@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-06-25"
+date: 2016-06-24T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E233_16_06_25-26_The_Love_of_God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 233

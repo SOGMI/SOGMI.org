@@ -17,7 +17,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-08-25"
-date: "2018-08-27"
+date: 2018-08-26T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E334-18-08-25-26-The-Power-of-a-Believer.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 334

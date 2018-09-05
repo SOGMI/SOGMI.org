@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-07-29"
+date: 2017-07-28T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E282_17_07_29-30_Changes_are_Coming.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 282

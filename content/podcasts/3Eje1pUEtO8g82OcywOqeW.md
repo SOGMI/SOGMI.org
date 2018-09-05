@@ -13,7 +13,7 @@ hosts:
 - Joshua Sosso
 - Cristina Sosso
 showTranscript: false
-date: "2016-01-16"
+date: 2016-01-15T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E212_16_01_16-17_Prophecy_to_the_Church.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 212

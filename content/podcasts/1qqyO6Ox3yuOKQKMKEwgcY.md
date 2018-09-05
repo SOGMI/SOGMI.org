@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-03-11"
+date: 2017-03-10T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E264_17_03_11-12_Knowing_Our_God_and_the_Season.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 264

@@ -8,7 +8,7 @@ keywords:
 - faith
 hosts:
 - Cristina Sosso
-date: "2016-07-09"
+date: 2016-07-08T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E235_16_07_09-10_The_Heart_of_a_Warrior.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 235

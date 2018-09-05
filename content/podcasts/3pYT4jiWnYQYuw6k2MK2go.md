@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2018-02-17"
+date: 2018-02-16T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E309_02_17-18_Prophecies_for_2018.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 309

@@ -14,7 +14,7 @@ hosts:
 - Joshua Sosso
 showTranscript: false
 originalAirDate: "2018-06-02"
-date: "2018-06-04"
+date: 2018-06-03T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E323-18-06-02-03-The-Promised-Land.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 323

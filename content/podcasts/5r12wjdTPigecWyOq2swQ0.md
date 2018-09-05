@@ -11,7 +11,7 @@ hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: "2016-05-07"
+date: 2016-05-06T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E226_16_05_07-08_Weapons_of_our_Warfare.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 226

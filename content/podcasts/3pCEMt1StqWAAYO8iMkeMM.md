@@ -14,7 +14,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2018-01-13"
+date: 2018-01-12T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E305_18_01_13-14_Prophecies_Fulfilled_and_for_2018.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 305

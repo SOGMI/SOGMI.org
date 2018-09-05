@@ -10,7 +10,7 @@ keywords:
 - yokes
 hosts:
 - Cristina Sosso
-date: "2016-10-15"
+date: 2016-10-14T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E247_16_10_15-16_The_Battle_of_the_Mind.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 247

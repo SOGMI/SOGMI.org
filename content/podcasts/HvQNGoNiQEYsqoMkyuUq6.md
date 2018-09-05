@@ -12,7 +12,7 @@ hosts:
 - Charles Wickliffe
 showTranscript: false
 originalAirDate: "2018-07-28"
-date: "2018-07-30"
+date: 2018-07-29T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E331-18-07-28-29-Godly-Commitment.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 331

@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2018-02-10"
+date: 2018-02-09T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E308_18_02_10-11_The_Heart_of_God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 308

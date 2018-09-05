@@ -11,7 +11,7 @@ hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: "2017-04-08"
+date: 2017-04-07T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E268_17_04_08-09_The_New_Covenant.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 268

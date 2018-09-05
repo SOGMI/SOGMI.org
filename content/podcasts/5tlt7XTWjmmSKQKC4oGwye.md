@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-09-01"
-date: "2018-09-04"
+date: 2018-09-03T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E335-18-09-01-02-The-Power-Within-Us-Part-2.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 335

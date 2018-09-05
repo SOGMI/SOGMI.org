@@ -12,7 +12,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-05-06"
+date: 2017-05-05T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E272_17_05_06-07_Like_Jesus_in_This_World.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 272

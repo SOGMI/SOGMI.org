@@ -11,7 +11,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2017-05-20"
-date: "2017-05-20"
+date: 2017-05-19T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E274_17_05_20-21_Prepare_for_Victory_and_Prosperity_p2.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 274

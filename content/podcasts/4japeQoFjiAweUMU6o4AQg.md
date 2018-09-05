@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-09-16"
+date: 2017-09-15T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E289_17_09_16-17_Revelation_of_the_Time_We%27re_In.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 289

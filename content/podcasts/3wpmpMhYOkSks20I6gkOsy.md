@@ -16,7 +16,7 @@ hosts:
 - Mike Sosso
 showTranscript: false
 originalAirDate: "2018-08-04"
-date: "2018-08-06"
+date: 2018-08-05T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E332-18-08-04-05-Instruction-for-Dominion.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 332

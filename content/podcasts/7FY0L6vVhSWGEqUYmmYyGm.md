@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-08-27"
+date: 2016-08-26T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E241_16_08_27-28_The_Parable_of_the_Sower.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 241

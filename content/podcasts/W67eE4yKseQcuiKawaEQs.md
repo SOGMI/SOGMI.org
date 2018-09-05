@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2017-06-24"
+date: 2017-06-23T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E278_17_06_24-25_Plugged_in_to_God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 278

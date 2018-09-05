@@ -11,7 +11,7 @@ hosts:
 - Joshua Sosso
 - Nicole Mendoza
 originalAirDate: "2017-12-23"
-date: "2017-12-25"
+date: 2017-12-24T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E301_17_12_23-24_Christmas_Special.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 302

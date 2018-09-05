@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2017-06-10"
+date: 2017-06-09T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E276_17_06_10-11_Building_Our_Faith_in_God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 276

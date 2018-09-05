@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 originalAirDate: "2018-06-16"
-date: "2018-06-18"
+date: 2018-06-17T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E325-18-06-16-17-How-to-Hear-the-Voice-of-God-2.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 325

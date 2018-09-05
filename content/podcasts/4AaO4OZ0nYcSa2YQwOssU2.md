@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2016-02-20"
+date: 2016-02-19T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E216_16_02_20-21_The_Love_that_Passes_all_Knowledge.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 216

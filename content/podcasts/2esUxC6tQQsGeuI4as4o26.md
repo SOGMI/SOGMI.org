@@ -14,7 +14,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-06-09"
-date: "2018-06-11"
+date: 2018-06-10T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E324-18-06-09-10-How-to-Hear-the-Voice-of-God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 324

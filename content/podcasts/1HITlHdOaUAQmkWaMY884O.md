@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 originalAirDate: "2018-01-27"
-date: "2018-01-29"
+date: 2018-01-28T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E307_18_01_27-28_Prophecy_for_2018_and_Beyond.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 307

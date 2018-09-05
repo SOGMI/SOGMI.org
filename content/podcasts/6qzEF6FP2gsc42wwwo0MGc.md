@@ -8,7 +8,7 @@ keywords:
 - love of god
 hosts:
 - Cristina Sosso
-date: "2016-09-17"
+date: 2016-09-16T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E243_16_09_17-18_The_Heart_of_the_Father.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 243

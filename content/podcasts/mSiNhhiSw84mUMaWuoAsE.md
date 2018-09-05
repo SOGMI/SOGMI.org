@@ -8,7 +8,7 @@ keywords:
 hosts:
 - Mike Sosso
 showTranscript: false
-date: "2016-02-27"
+date: 2016-02-26T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E217_16_02_27-28_God%27s_Guidelines_for_Politics.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 217

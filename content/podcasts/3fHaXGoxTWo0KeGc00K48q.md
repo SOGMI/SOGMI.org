@@ -7,7 +7,7 @@ keywords:
 - blessings
 hosts:
 - Cristina Sosso
-date: "2016-08-06"
+date: 2016-08-05T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E238_16_08_06-07_Honoring+God+with+Wealth.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 238

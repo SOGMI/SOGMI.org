@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-04-21"
-date: "2018-04-23"
+date: 2018-04-22T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E318-18-04-21-22-Political-Revival-in-the-USA-and-Beyond.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 318

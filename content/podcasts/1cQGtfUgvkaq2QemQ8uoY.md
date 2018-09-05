@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-07-07"
-date: "2018-07-09"
+date: 2018-07-08T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E328-18-07-07-08-The-Mind-of-Christ-God-Qualifies.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 328

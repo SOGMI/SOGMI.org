@@ -10,7 +10,7 @@ hosts:
 - Joshua Sosso
 - Cristina Sosso
 showTranscript: false
-date: "2016-10-08"
+date: 2016-10-07T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E246_16_10_08-09_God%27s_Heavenly_Ways.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 246

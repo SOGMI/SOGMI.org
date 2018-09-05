@@ -10,7 +10,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2017-02-25"
-date: "2017-02-25"
+date: 2017-02-24T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E262_17_02_25-26_Loving_Trusting_and_Obeying_Jesus.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 262

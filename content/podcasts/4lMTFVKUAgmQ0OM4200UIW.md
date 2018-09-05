@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-08-05"
+date: 2017-08-04T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E283_17_08_05-06_A_Priest_to_the_Order_of_Melchizedek.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 283

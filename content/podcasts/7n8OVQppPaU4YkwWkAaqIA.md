@@ -11,7 +11,7 @@ hosts:
 - Joshua Sosso
 showTranscript: false
 originalAirDate: "2017-04-29"
-date: "2017-04-29"
+date: 2017-04-28T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E271_17_04_29-30_Have_Faith_in_God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 271

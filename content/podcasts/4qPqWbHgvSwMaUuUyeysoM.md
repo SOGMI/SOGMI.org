@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-02-11"
+date: 2017-02-10T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E261_17_02_11-12_Let_Jesus_be_Revealed.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 261

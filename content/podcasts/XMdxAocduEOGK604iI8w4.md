@@ -12,7 +12,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-01-02"
+date: 2016-01-01T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E210_16_01_02-03_Year_in_Review.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 210

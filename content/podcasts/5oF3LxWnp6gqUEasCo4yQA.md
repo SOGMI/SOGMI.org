@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-02-06"
+date: 2016-02-05T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E214_16_02-06-07_Prophecies_for_2016.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 214

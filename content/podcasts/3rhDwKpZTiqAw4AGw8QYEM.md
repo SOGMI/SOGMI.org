@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-09-09"
+date: 2017-09-08T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E288_17_09_09-10_God%27s_Good_Plan_Will_Stand.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 288

@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-08-19"
+date: 2017-08-18T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E285_17_08_19-20_A_Season_of_Changes_Promotions_and_Manifestations.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 285

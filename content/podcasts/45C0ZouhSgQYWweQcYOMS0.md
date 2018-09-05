@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-06-04"
+date: 2016-06-03T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E230_16_06_04-05_Are_You_Ready_for_Greater_Works.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 230

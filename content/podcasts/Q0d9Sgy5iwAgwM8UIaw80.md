@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 originalAirDate: "2018-04-28"
-date: "2018-04-30"
+date: 2018-04-29T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E319-18-04-28-29-Obedience-is-Better-than-Sacrifice.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 319

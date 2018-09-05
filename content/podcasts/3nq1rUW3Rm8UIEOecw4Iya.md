@@ -13,7 +13,7 @@ hosts:
 - Cristina Sosso
 - Mike Sosso
 showTranscript: false
-date: "2017-06-17"
+date: 2017-06-16T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E277_17_06_17-18_Mission_Report_and_Good_News.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 277

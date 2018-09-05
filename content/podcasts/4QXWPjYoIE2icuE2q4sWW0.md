@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2017-08-12"
+date: 2017-08-11T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E284_17_08_12-13_Preparation_for_Greatness.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 284

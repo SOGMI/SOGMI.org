@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2018-03-24"
+date: 2018-03-23T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E314-18-03-24-25-His-Glorious-Church-Maturing-in-Love.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 314

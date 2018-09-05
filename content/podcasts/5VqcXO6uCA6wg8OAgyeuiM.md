@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2018-03-10"
+date: 2018-03-09T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E312-18-03-10-11-Following-God-and-Taking-Dominion.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 312

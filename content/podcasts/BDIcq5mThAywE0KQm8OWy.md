@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2017-09-30"
+date: 2017-09-29T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E291_17_10_01_Filling_the_Void.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 291

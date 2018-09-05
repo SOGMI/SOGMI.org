@@ -13,7 +13,7 @@ hosts:
 - Joshua Sosso
 showTranscript: false
 originalAirDate: "2018-07-21"
-date: "2018-07-23"
+date: 2018-07-22T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E330-18-07-21-22-Preparation-to-Establish-God-s-Kingdom.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 330

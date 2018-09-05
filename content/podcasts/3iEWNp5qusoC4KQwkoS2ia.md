@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 originalAirDate: "2018-05-05"
-date: "2018-05-07"
+date: 2018-05-06T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E320-18-05-05-06-Blessed-to-be-a-Blessing.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 320

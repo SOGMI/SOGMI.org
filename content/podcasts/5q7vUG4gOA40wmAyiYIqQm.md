@@ -9,7 +9,7 @@ keywords:
 - victory
 hosts:
 - Cristina Sosso
-date: "2017-10-14"
+date: 2017-10-13T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E292_17_10_14-15_Empowered_to_Walk_in_the_Supernatural.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 292

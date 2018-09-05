@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-06-23"
-date: "2018-06-25"
+date: 2018-06-24T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E326-18-06-23-24-The-Mind-of-Christ-Meditating-on-His-Goodness.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 326

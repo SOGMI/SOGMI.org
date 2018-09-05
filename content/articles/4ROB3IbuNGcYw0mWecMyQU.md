@@ -2,7 +2,7 @@
 updated: 2018-08-23T22:29:08.298Z
 title: "Why Prophecy is Still Important Today"
 slug: "why-prophecy-is-still-important-today"
-date: "2018-03-30"
+date: 2018-03-29T19:00:00.000Z
 authors: "Cristina Sosso"
 description: "Prophecy can be seen as the most understood, misused, and abused spiritual gift. However prophecy has become increasingly important in our days, because the apostles and prophets are taking center stage. This is why we at SOGMI are trying to provide clear understanding about modern day prophets a..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3FU9BsWxmUUSKcWEGccyIs/989e1ff9d477ab8db0e8857d8f867e8a/priscilla-du-preez-607204-unsplash__1_.jpg"

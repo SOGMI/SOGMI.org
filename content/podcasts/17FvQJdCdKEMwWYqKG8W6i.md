@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Joshua Sosso
 - Cristina Sosso
-date: "2016-10-22"
+date: 2016-10-21T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E248_16_10_22-23_We_Are_Now_Occupying.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 248

@@ -8,7 +8,7 @@ keywords:
 - prophecy
 hosts:
 - Cristina Sosso
-date: "2017-10-21"
+date: 2017-10-20T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E293_17_10_21-22_Believing_and_Trusting_God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 293

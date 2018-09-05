@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2017-11-11"
-date: "2017-11-11"
+date: 2017-11-10T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E296_17_11_11-12_Double_Portion_Restoration.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 296

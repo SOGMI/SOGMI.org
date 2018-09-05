@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: "2016-04-30"
+date: 2016-04-29T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E225_16_04-30_5-01_Passing_Over_to_God%27s_Mindset.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 225

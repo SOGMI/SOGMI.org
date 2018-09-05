@@ -12,7 +12,7 @@ hosts:
 - Joshua Sosso
 showTranscript: false
 originalAirDate: "2018-03-31"
-date: "2018-04-02"
+date: 2018-04-01T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E315-03-31-18-and-04-01-18-Celebrating-Jesus-as-Our-Passover.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 315

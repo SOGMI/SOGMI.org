@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-04-22"
+date: 2017-04-21T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E270_17_04_22-23_The_Kingdom_of_God.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 270

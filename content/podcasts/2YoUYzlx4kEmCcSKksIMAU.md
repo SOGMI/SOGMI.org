@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-11-12"
+date: 2016-11-11T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E251_16_11_12-13_Political_Revival.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 251

@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-07-16"
+date: 2016-07-15T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E236_16_07_16-17_The_Transfer_of_Wealth.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 236

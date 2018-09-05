@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: "2017-01-21"
+date: 2017-01-20T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E259_17_01_21-22_Sound_Doctrine_from_the_Holy_Spirit.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 259

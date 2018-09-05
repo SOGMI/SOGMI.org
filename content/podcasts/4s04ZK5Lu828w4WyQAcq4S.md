@@ -13,7 +13,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-05-26"
-date: "2018-05-29"
+date: 2018-05-28T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E322-18-05-26-27-The-Holy-Spirit-is-Our-Source.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 322

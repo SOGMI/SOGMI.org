@@ -1,5 +1,5 @@
 ---
-updated: 2018-08-19T21:22:32.767Z
+updated: 2018-09-05T08:38:31.626Z
 title: "Prophetic Conference at Freedom Fellowship Church"
 slug: "prophetic-conference-at-freedom-fellowship-church"
 venue: "Freedom Fellowship Church"
@@ -22,8 +22,9 @@ people:
   contentType: people
   id: 6aQjATkbJuOcIYwuGcSciQ
 freeEvent: true
-startDate: "2018-03-30"
-endDate: "2018-03-31"
+startDate: 2018-03-30T19:00:00.000Z
+endDate: 2018-03-31T16:00:00.000Z
+timezone: "CST"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6t1oOVZIWWUo44sAKcASWk/75a9d281912c0f948f1d90ff792636fc/prophetic_gathering_2018_march_-_without_text__1_.jpg"
 registrationType: "Eventbrite"
 eventbriteId: 43279056824

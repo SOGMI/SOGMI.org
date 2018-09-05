@@ -11,7 +11,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2016-02-13"
-date: "2016-02-13"
+date: 2016-02-12T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E215_16_02_13-14_Believe_from_the_Heart.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 215

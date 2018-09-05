@@ -11,7 +11,7 @@ hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: "2017-02-04"
+date: 2017-02-03T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E260_17_02_04-05_Living_by_Faith.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 260

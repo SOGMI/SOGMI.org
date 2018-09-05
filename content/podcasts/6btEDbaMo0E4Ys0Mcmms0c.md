@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-04-15"
+date: 2017-04-14T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E269_17_04_15-16_Jesus_is_Our_Passover.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 269

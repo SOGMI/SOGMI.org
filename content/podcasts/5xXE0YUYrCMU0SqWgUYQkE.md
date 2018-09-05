@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Mike Sosso
 showTranscript: false
-date: "2016-03-05"
+date: 2016-03-04T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E218_16_03_05-06_Our_Responsibility_as_His_Church.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 218

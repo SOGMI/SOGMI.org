@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-07-30"
+date: 2016-07-29T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E237_16_07_30-31_Instant_In_and_Out_of_Season.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 237

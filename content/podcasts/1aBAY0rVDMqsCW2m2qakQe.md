@@ -10,7 +10,7 @@ hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: "2018-01-20"
+date: 2018-01-19T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E306_18_01_20-21_Let_There_Be_Light.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 306

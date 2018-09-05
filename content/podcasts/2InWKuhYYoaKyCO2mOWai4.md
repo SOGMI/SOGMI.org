@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-11-19"
+date: 2016-11-18T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E252_16_11_19-20_Believe_and_Know_God%27s_Heart.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 252

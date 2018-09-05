@@ -11,7 +11,7 @@ hosts:
 - Mike Sosso
 - Joshua Sosso
 showTranscript: false
-date: "2017-12-30"
+date: 2017-12-29T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E302_12_30-31_The_Set_Time_Has_Come.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 303

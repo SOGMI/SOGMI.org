@@ -9,7 +9,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-04-14"
-date: "2018-04-16"
+date: 2018-04-15T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/04-14-15-18-Prophetic-Voice-of-Our-Time-[mixdown]-01.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 317

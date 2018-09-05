@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-12-24"
+date: 2016-12-23T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E256_16_12_24-25_Year_in_Review.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 256

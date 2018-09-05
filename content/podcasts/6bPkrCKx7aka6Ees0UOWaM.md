@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-04-09"
+date: 2016-04-08T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E222_16_04_09-10_Our_Identity_in_Christ.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 222

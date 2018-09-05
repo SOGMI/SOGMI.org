@@ -12,7 +12,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-06-18"
+date: 2016-06-17T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E232_16_06_18-19_Greater_Works_Continued.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 232

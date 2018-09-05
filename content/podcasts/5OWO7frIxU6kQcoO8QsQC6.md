@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-01-30"
+date: 2016-01-29T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/01-(23-24)-16+Prophetic+Voice+of+Our+Time+[Mixdown]+-+for+web.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 213

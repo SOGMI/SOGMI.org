@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-11-05"
+date: 2016-11-04T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E250_16_11_05-06_Preparation_for_the_Greater_Work.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 250

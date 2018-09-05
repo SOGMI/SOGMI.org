@@ -8,7 +8,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-04-16"
+date: 2016-04-15T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E223_16_04_16-17_Being_Heavenly_Minded.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 223

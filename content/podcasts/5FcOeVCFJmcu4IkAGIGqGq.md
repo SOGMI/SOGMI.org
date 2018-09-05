@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-09-02"
+date: 2017-09-01T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E287_17_09_02-03_Momentary_Darkness_Before_the_Light.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 287

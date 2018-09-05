@@ -12,7 +12,7 @@ keywords:
 hosts:
 - Cristina Sosso
 - Joshua Sosso
-date: "2017-11-18"
+date: 2017-11-17T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E297_17_11_18-19_Heavenly_Sowing_and_Reaping.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 297

@@ -10,7 +10,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2016-05-28"
+date: 2016-05-27T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E229_16_05_28-29_Make_Your_Obedience_Complete.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 229

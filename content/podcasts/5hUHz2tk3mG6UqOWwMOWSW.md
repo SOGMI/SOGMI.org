@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-07-22"
+date: 2017-07-21T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E281_17_07_22-23_Falling_in_Love_with_Jesus.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 281

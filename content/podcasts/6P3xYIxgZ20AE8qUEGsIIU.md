@@ -9,7 +9,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-01-07"
+date: 2017-01-06T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E257_17_01_07-08_Pondering_His_Goodness_Past_and_Onward.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 257

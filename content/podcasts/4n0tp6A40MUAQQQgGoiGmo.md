@@ -12,7 +12,7 @@ hosts:
 - Nicole Mendoza
 - Charles Wickliffe
 showTranscript: false
-date: "2017-12-16"
+date: 2017-12-15T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E300_17_12_16-17_Spiritual_Authority.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 301

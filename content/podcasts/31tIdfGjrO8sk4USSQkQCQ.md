@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: "2017-11-25"
+date: 2017-11-24T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E298_17_11_25-26_Facing_Your_Goliaths.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 298

@@ -12,7 +12,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-08-11"
-date: "2018-08-13"
+date: 2018-08-12T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E333-18-08-11-12-Walking-in-the-Supernatural-Persistence.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 333

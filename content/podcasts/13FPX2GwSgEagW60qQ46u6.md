@@ -9,7 +9,7 @@ keywords:
 - relationships
 hosts:
 - Cristina Sosso
-date: "2016-09-24"
+date: 2016-09-23T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E244_16_09_24-25_Issues_of_the_Heart.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 244

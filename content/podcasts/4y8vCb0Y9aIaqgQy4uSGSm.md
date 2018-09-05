@@ -9,7 +9,7 @@ keywords:
 - holy spirit
 hosts:
 - Cristina Sosso
-date: "2016-04-02"
+date: 2016-04-01T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E221_16_04_02-03_Allow_the_Holy_Spirit_to_Reveal_Jesus.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 221

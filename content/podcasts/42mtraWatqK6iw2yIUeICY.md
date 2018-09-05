@@ -11,7 +11,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-04-07"
-date: "2018-04-09"
+date: 2018-04-08T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E316-18-04-07-08-Prophecy-for-the-Body-of-Christ.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 316

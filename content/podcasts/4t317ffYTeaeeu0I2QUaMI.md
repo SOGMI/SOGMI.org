@@ -10,7 +10,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2016-05-14"
-date: "2016-05-14"
+date: 2016-05-13T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E227_16_05_14-15_Faith_is_a_Force.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 227

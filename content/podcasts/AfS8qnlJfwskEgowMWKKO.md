@@ -13,7 +13,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2018-07-14"
-date: "2018-07-16"
+date: 2018-07-15T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E329-18-07-14-15-A-Season-of-Opportunities.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 329

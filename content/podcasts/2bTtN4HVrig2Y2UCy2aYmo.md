@@ -11,7 +11,7 @@ keywords:
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: "2017-12-09"
+date: 2017-12-08T18:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E299_17_12_09-10_The_Reason_for_the_Season.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 300

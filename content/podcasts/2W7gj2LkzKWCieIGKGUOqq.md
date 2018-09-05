@@ -11,7 +11,7 @@ hosts:
 - Cristina Sosso
 showTranscript: false
 originalAirDate: "2016-08-20"
-date: "2016-08-22"
+date: 2016-08-21T19:00:00.000Z
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E240_16_08-20-21_God%27s_Kingdom_vs_Babylon.mp3"
 Series: "The Prophetic Voice of Our Time"
 episodeNumber: 240
