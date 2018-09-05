@@ -3,13 +3,14 @@
 {{ $d := .Params.endDate }}
 {{ $t := dateFormat "20060102" $d }}
 {{ $n := dateFormat "20060102" now }}
+{{ $tz := .Params.timezone }}
 {{ if ge $t $n }}
 <div class="event-single-header" style="position: relative; background-image: URL({{ .Params.FeaturedImage }}?w=1800&q=80)">
     <div class="image-overlay blog"></div>
     <div class="event-banner-container" style="z-index: 1">
         <div class="return-to-event-link"><a href="/events" class="return-to-event-link">return to events</a></div>
         {{ with .Params.startdate }}
-            <h3 class="heading-37">{{ . | dateFormat "January 2, 2006"  }}</h3>
+            <h3 class="heading-37">{{ dateFormat "January 2, 2006" . }}</h3>
         {{ end }}
         <h1 class="heading-12">{{ .Title }}</h1>
         <h4 class="event-single-subheading">{{ .Params.Venue }}  |  {{ .Params.City }}, {{ .Params.State }}</h4>
@@ -86,12 +87,12 @@
                 <p class="paragraph-3">
                     {{ with .Params.StartDate }}
                         <b>Starts:&nbsp;</b>
-                        {{ . | dateFormat "Monday, January 2, 2006" }}
+                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 pm"  }} {{ $tz }}
                         <br/>
                     {{ end }}
                     {{ with .Params.EndDate }}
                         <b>End: &nbsp;</b>
-                        {{ . | dateFormat "Monday, January 2, 2006" }}
+                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 pm" }} {{ $tz }}
                     {{ end }}
                 </p>
                 <!--create variable for <faq> which will be used to split the main content of the .md file in the content directory-->
