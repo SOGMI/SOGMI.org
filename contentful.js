@@ -69,7 +69,22 @@ function writeEntriesForType(contentType) {
                         break;
                     // Simple text content
                     default:
-                    fileContent += `${field}: ${JSON.stringify(item.fields[field])}\n`
+                        if (field === 'date' || field === 'startDate' || field === 'endDate') {
+                            let entryDate = Date.parse(item.fields[field])
+                            let newDate = new Date(entryDate)
+                            let year = newDate.getFullYear()
+                            let month = ("0" + (newDate.getMonth() + 1)).slice(-2)
+                            let day = ("0" + newDate.getDate()).slice(-2)
+                            let hour = ("0" + newDate.getHours()).slice(-2);
+                            let minutes = ("0" + newDate.getMinutes()).slice(-2);
+                            let millisec = ("0" + newDate.getMilliseconds()).slice(-2);
+
+                            fileContent += `${field}: ${year}-${month}-${day}T${hour}:${minutes}:${millisec}.000Z\n`
+
+                        }
+                        else {
+                            fileContent += `${field}: ${JSON.stringify(item.fields[field])}\n`
+                        }
                 }
             }
             fileContent += '---\n'
@@ -101,8 +116,8 @@ function writeEntriesForType(contentType) {
             else {
             fs.writeFile(`./content/${contentType.sys.id}/${slugify(item.sys.id)}.md`, fileContent, (error) => { /* handle error */ })
                 // console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
-            totalEntries++;
             }
+            totalEntries++;
         }
         if (totalEntries === 1) {
             console.log(`${contentType.sys.id}: ${totalEntries} entry imported\n-----------`)
