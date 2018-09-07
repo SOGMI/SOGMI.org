@@ -7,18 +7,15 @@
         </div>
     {{- end -}}
     
-    {{- $s := .Params.Series -}}
+    {{- $seriesPath := print "/series/" (urlize .Params.Series) "/_index.md" -}}
+
     {{- if eq .Section "podcasts" -}}
-    {{- range .Site.Pages -}}
-        {{ if eq .Section "series" -}}
-            {{- if eq .Title $s -}}
-                <div class="div-block-12">
-                    <div class="div-block-13"></div>
-                    <img src="{{ .Params.AlbumImage }}?w=340&q=85" width="182" alt="{{ .Title }}" srcset="{{ .Params.AlbumImage }}?w=340&q=85" sizes="(max-width: 479px) 100vw, (max-width: 767px) 193.72500610351562px, 27vw" class="image" />
-                </div>
-            {{- end -}}
+        {{- with $.Site.GetPage $seriesPath -}}
+            <div class="div-block-12">
+                <div class="div-block-13"></div>
+                <img src="{{ .Params.AlbumImage }}?w=340&q=85" width="182" alt="{{ .Title }}" srcset="{{ .Params.AlbumImage }}?w=340&q=85" sizes="(max-width: 479px) 100vw, (max-width: 767px) 193.72500610351562px, 27vw" class="image" />
+            </div>
         {{- end -}}
-    {{- end -}}
     {{- end -}}
 
     <div class="div-block-14">

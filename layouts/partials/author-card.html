@@ -1,7 +1,7 @@
 {{- if .Params.Authors -}} 
 <!--store author name as variable $author-->
 {{- $author := .Params.Authors -}}
-  <!--call all pages-->
+  <!--call all pages in "/people/"-->
   {{- range where .Site.RegularPages "Section" "=" "people" -}}
     <!-- if title = $author -->
     {{- if eq .Title $author -}}
