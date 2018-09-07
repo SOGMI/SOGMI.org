@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:51:06.115Z
+date: 2018-02-21T21:38:48.198Z
 title: "The Transfer of Wealth"
 slug: "prophetic-voice-236"
+publishDate: 2016-07-15T19:00:00.000Z
+episodeNumber: 236
 keywords:
 - transfer of wealth
 - appointed time
 - greatness of the season
 - prophecy
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E236_16_07_16-17_The_Transfer_of_Wealth.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-07-15T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E236_16_07_16-17_The_Transfer_of_Wealth.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 236
 description: "For those who believe and obey God, the transfer of wealth, influence and affluence is already here! Jesus said in Luke 16:11 \"So if you have not been trustworthy in handling worldly wealth, who will trust you with true riches?\""
 people:
 - title: Cristina Sosso

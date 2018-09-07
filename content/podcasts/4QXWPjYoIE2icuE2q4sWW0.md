@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:52:18.171Z
+date: 2018-02-22T03:24:05.882Z
 title: "Preparation for Greatness"
 slug: "prophetic-voice-284"
+publishDate: 2017-08-11T19:00:00.000Z
+episodeNumber: 284
 keywords:
 - transfer of wealth
 - obedience
 - move of god
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E284_17_08_12-13_Preparation_for_Greatness.mp3"
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: 2017-08-11T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E284_17_08_12-13_Preparation_for_Greatness.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 284
 description: "Allow God to prepare our heart for influence, affluence, and the transformation of nations."
 people:
 - title: Joshua Sosso

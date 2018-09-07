@@ -1,8 +1,9 @@
 ---
 updated: 2018-06-25T21:12:54.301Z
+date: 2018-06-10T18:06:51.803Z
 title: "06/03/2018 | God Still Speaks to His People (Pastor Cris)"
 slug: "LaaRkj9Ouhg"
-date: 2018-06-02T19:00:00.000Z
+publishDate: 2018-06-02T19:00:00.000Z
 videoLink: "https://www.youtube.com/watch?v=LaaRkj9Ouhg"
 YoutubeID: "LaaRkj9Ouhg"
 videoKeywords:

@@ -1,19 +1,20 @@
 ---
 updated: 2018-08-27T08:26:34.899Z
+date: 2018-02-21T19:47:15.998Z
 title: "Our Responsibility as His Church (Featuring Mike Sosso)"
 slug: "prophetic-voice-218"
+publishDate: 2016-03-04T18:00:00.000Z
+episodeNumber: 218
 keywords:
 - spiritual authority
 - politics
 - united states
 - salt of the earth
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E218_16_03_05-06_Our_Responsibility_as_His_Church.mp3"
 hosts:
 - Mike Sosso
 showTranscript: false
-date: 2016-03-04T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E218_16_03_05-06_Our_Responsibility_as_His_Church.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 218
 description: "The state of the world reflects the condition of the Church. It is our responsibility to pray for all those in authority, to be politically engaged for His honor, and to vote for righteousness."
 people:
 - title: Mike Sosso

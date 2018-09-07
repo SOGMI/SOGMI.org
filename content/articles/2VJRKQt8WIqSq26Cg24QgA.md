@@ -1,8 +1,9 @@
 ---
 updated: 2018-02-23T06:40:40.100Z
+date: 2018-02-20T23:18:44.502Z
 title: "Revival is Here"
 slug: "revival-is-here"
-date: 2010-02-03T18:00:00.000Z
+publishDate: 2010-02-03T18:00:00.000Z
 authors: "Coby Randal"
 tags:
 - revival

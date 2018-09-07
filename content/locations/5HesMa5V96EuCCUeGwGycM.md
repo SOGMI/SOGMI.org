@@ -1,5 +1,6 @@
 ---
 updated: 2018-08-01T21:54:42.906Z
+date: 2018-02-28T22:35:28.835Z
 Title: "Freedom Fellowship Church International"
 slug: "freedom-fellowship-church"
 description: "Freedom Fellowship is a non-denominational church based in San Antonio, Texas that operates strongly in the prophetic and apostolic. We focus first and foremost on spreading the Gospel of Jesus Christ and building up His kingdom."

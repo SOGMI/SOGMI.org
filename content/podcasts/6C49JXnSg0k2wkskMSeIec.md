@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:52:14.455Z
+date: 2018-02-21T23:16:13.988Z
 title: "The New Covenant"
 slug: "prophetic-voice-268"
+publishDate: 2017-04-07T19:00:00.000Z
+episodeNumber: 268
 keywords:
 - order of melchizedek
 - covenant
 - kingdom of god
 - kings and priests
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E268_17_04_08-09_The_New_Covenant.mp3"
 hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: 2017-04-07T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E268_17_04_08-09_The_New_Covenant.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 268
 description: "Today's message continues in the line of the preisthood of Melchizedek; operating in the new covenant vs the old covenant."
 people:
 - title: Joshua Sosso

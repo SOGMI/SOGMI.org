@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:52:14.404Z
+date: 2018-02-21T23:14:57.724Z
 title: "Living by Faith"
 slug: "prophetic-voice-265"
+publishDate: 2017-03-17T19:00:00.000Z
+episodeNumber: 265
 keywords:
 - walking in excellency
 - prophecy
 - transfer of wealth
 - seedtime and harvest
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E265_17_03_18-19_Living_By_Faith.mp3"
 hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: 2017-03-17T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E265_17_03_18-19_Living_By_Faith.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 265
 description: "Mountain-moving and nation-transforming faith is developed over time in our love relationship with Jesus. The transfer of wealth, influence, and affluence is also a preparation process of being faithful."
 people:
 - title: Joshua Sosso

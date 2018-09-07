@@ -1,8 +1,9 @@
 ---
 updated: 2018-02-23T06:39:30.922Z
+date: 2018-02-20T23:36:30.564Z
 title: "What a Great Time to be Alive"
 slug: "what-a-great-time-to-be-alive"
-date: 2011-02-28T18:00:00.000Z
+publishDate: 2011-02-28T18:00:00.000Z
 authors: "Cristina Sosso"
 description: "I cannot put into words the awesome wonders of our Lord Jesus Christ! All I can say is that it is great to be alive (in Christ). Right before our eyes, we see the transformation of our nation and this is just the beginning! What’s even more exciting than this is the fact the..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg"

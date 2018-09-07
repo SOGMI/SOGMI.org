@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:52:17.789Z
+date: 2018-02-22T03:20:31.952Z
 title: "Changes are Coming"
 slug: "prophetic-voice-282"
+publishDate: 2017-07-28T19:00:00.000Z
+episodeNumber: 282
 keywords:
 - transformation
 - uprooting
 - promotions and replacements
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E282_17_07_29-30_Changes_are_Coming.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-07-28T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E282_17_07_29-30_Changes_are_Coming.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 282
 description: "Promotions and transformations of nations are coming."
 people:
 - title: Cristina Sosso

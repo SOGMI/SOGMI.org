@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:52:14.476Z
+date: 2018-02-21T23:20:23.010Z
 title: "Jesus is Our Passover"
 slug: "prophetic-voice-269"
+publishDate: 2017-04-14T19:00:00.000Z
+episodeNumber: 269
 keywords:
 - passover
 - restoration
 - resurrection sunday
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E269_17_04_15-16_Jesus_is_Our_Passover.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-04-14T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E269_17_04_15-16_Jesus_is_Our_Passover.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 269
 description: "Happy Passover and Resurrection Sunday! Jesus is our Passover Lamb."
 people:
 - title: Cristina Sosso

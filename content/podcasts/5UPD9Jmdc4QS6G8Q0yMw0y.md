@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:52:14.804Z
+date: 2018-02-22T02:53:04.526Z
 title: "The Kingdom of God"
 slug: "prophetic-voice-270"
+publishDate: 2017-04-21T19:00:00.000Z
+episodeNumber: 270
 keywords:
 - kingdom of god
 - thanksgiving
 - resurrection sunday
 - passover
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E270_17_04_22-23_The_Kingdom_of_God.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-04-21T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E270_17_04_22-23_The_Kingdom_of_God.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 270
 description: "God is still on the throne and He is the only true God over all the earth. The Devil has no power over you. 2 Chronicles 20:6 “...Lord, the God of our ancestors, are you not the God who is in heaven? You rule over all the kingdoms of the nations. Power and might are in your hand, and no one can withstand you.\""
 people:
 - title: Cristina Sosso

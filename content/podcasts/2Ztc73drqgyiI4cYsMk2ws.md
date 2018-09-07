@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:51:07.896Z
+date: 2018-02-21T22:13:34.934Z
 title: "We Are Now Occupying (Part 2 of 2)"
 slug: "prophetic-voice-249"
+publishDate: 2016-10-28T19:00:00.000Z
+episodeNumber: 249
 keywords:
 - spiritual authority
 - body of christ
 - philippines
 - transfer of wealth
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E249_16_10_29-30_We_Are_Now_Occupying_Continued.mp3"
 hosts:
 - Joshua Sosso
 - Cristina Sosso
-date: 2016-10-28T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E249_16_10_29-30_We_Are_Now_Occupying_Continued.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 249
 description: "Continued from last week's broadcast."
 people:
 - title: Joshua Sosso

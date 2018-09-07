@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:50:05.493Z
+date: 2018-02-22T03:32:22.568Z
 title: "Empowered to Walk in the Supernatural"
 slug: "prophetic-voice-292"
+publishDate: 2017-10-13T19:00:00.000Z
+episodeNumber: 292
 keywords:
 - living in the supernatural
 - kingdom of god
 - walking in excellency
 - victory
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E292_17_10_14-15_Empowered_to_Walk_in_the_Supernatural.mp3"
 hosts:
 - Cristina Sosso
-date: 2017-10-13T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E292_17_10_14-15_Empowered_to_Walk_in_the_Supernatural.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 292
 description: "The Holy Spirit empowers us to be one with Christ Jesus and to walk in the supernatural with Him."
 people:
 - title: Cristina Sosso

@@ -1,7 +1,10 @@
 ---
 updated: 2018-07-17T21:50:06.386Z
+date: 2018-02-22T04:52:10.628Z
 title: "Emerging Glory"
 slug: "prophetic-voice-295"
+publishDate: 2017-11-03T19:00:00.000Z
+episodeNumber: 295
 keywords:
 - transfer of wealth
 - united states
@@ -9,13 +12,11 @@ keywords:
 - body of christ
 - kingdom of god
 - yokes
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E295_17_11_04-05_Emerging_Glory.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-11-03T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E295_17_11_04-05_Emerging_Glory.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 295
 description: "Do not give in to fear, doubt, or unbelief. God is positioning the Body of Christ to where it should be."
 people:
 - title: Cristina Sosso

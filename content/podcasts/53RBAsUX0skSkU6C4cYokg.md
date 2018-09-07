@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:50:04.493Z
+date: 2018-02-21T19:51:28.760Z
 title: "Philippines Mission Report"
 slug: "prophetic-voice-219"
+publishDate: 2016-03-11T18:00:00.000Z
+episodeNumber: 219
 keywords:
 - philippines
 - signs and wonders
 - mission report
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E219_16_03_12-13_Philippines_Mission_Report.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-03-11T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E219_16_03_12-13_Philippines_Mission_Report.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 219
 description: "Pastor Cris shares some of the wonders God is doing in the Philippines, the same and greater that He will do for those who dare to love, believe, and obey Him."
 people:
 - title: Cristina Sosso

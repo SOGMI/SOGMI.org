@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:52:14.398Z
+date: 2018-02-21T23:13:33.535Z
 title: "The Order of Melchizedek"
 slug: "prophetic-voice-267"
+publishDate: 2017-03-31T19:00:00.000Z
+episodeNumber: 267
 keywords:
 - order of melchizedek
 - revelation
 - kingdom of god
 - transfer of wealth
 - apostles and prophets
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E267_17_04_01-02_The_Order_of_Mechizedek.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-03-31T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E267_17_04_01-02_The_Order_of_Mechizedek.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 267
 description: "Pastor Cris talks about the Order of Melchizedek vs the Levitical priesthood."
 people:
 - title: Cristina Sosso

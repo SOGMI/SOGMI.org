@@ -1,17 +1,18 @@
 ---
 updated: 2018-07-17T21:50:05.463Z
+date: 2018-02-22T04:50:06.046Z
 title: "Believing and Trusting God"
 slug: "prophetic-voice-293"
+publishDate: 2017-10-20T19:00:00.000Z
+episodeNumber: 293
 keywords:
 - plan of god
 - power of words
 - prophecy
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E293_17_10_21-22_Believing_and_Trusting_God.mp3"
 hosts:
 - Cristina Sosso
-date: 2017-10-20T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E293_17_10_21-22_Believing_and_Trusting_God.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 293
 description: "When we believe and trust God, He gets the glory, we will benefit, and it benefits His people."
 people:
 - title: Cristina Sosso

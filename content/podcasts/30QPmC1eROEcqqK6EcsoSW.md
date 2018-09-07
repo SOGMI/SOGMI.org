@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:52:16.931Z
+date: 2018-02-22T03:14:16.430Z
 title: "Building our Faith in God"
 slug: "prophetic-voice-276"
+publishDate: 2017-06-09T19:00:00.000Z
+episodeNumber: 276
 keywords:
 - israel
 - obedience
 - spiritual warfare
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E276_17_06_10-11_Building_Our_Faith_in_God.mp3"
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: 2017-06-09T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E276_17_06_10-11_Building_Our_Faith_in_God.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 276
 description: "God builds our faith, and the story of Gideon compared with the Battle of Thermopylae."
 people:
 - title: Joshua Sosso

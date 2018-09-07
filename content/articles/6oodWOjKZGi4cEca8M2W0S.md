@@ -1,8 +1,9 @@
 ---
 updated: 2018-03-27T19:22:45.326Z
+date: 2018-02-20T23:36:06.518Z
 title: "A Warning to the False Prophets of Our Day"
 slug: "warning-to-the-false-prophets-of-our-day"
-date: 2011-02-28T18:00:00.000Z
+publishDate: 2011-02-28T18:00:00.000Z
 authors: "Cristina Sosso"
 description: "Those prophets who prophesy doom and gloom and the demise of this country do not have the heart of God nor a love for God’s people. As a nation and as a person, it always grieves the heart of God when disaster falls upon His people because of wickedness because of His love, and He always l..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3Pcb2gom2sqwYAM0YcY4GA/80996a9f95185bf0498e86c27fc09428/wrong-way-sign-export-compressor.jpg"

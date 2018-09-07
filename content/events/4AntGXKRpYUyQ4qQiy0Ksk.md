@@ -1,5 +1,6 @@
 ---
 updated: 2018-09-05T08:38:31.626Z
+date: 2018-02-18T02:25:25.532Z
 title: "Prophetic Conference at Freedom Fellowship Church"
 slug: "prophetic-conference-at-freedom-fellowship-church"
 venue: "Freedom Fellowship Church"

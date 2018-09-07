@@ -1,21 +1,22 @@
 ---
 updated: 2018-07-17T21:52:13.391Z
+date: 2018-02-21T22:50:21.864Z
 title: "Sound Doctrine from the Holy Spirit"
 slug: "prophetic-voice-259"
+publishDate: 2017-01-20T18:00:00.000Z
+episodeNumber: 259
 keywords:
 - order of melchizedek
 - kings and priests
 - holy spirit
 - signs and wonders
 - kingdom of god
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E259_17_01_21-22_Sound_Doctrine_from_the_Holy_Spirit.mp3"
 hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: 2017-01-20T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E259_17_01_21-22_Sound_Doctrine_from_the_Holy_Spirit.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 259
 description: "Jesus brought forth new doctrines that blew the minds of the religious leaders of the time, and brought healing to God's people. Sound doctrine from the Holy Spirit will always point to Jesus front and center with signs and wonders following."
 people:
 - title: Joshua Sosso

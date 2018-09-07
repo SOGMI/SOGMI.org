@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:52:17.749Z
+date: 2018-02-22T03:18:33.970Z
 title: "Living in the Supernatural"
 slug: "prophetic-voice-279"
+publishDate: 2017-07-07T19:00:00.000Z
+episodeNumber: 279
 keywords:
 - living in the supernatural
 - holy spirit
 - prophecy
 - kingdom principles
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E279_17_07_08-09_Living_in_the_Supernatural.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-07-07T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E279_17_07_08-09_Living_in_the_Supernatural.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 279
 description: "\"..of course it's a challenge in the flesh. But in the kingdom of God it's always the opposite, and Jesus is our primary example.\""
 people:
 - title: Cristina Sosso

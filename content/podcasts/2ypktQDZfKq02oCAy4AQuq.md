@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:51:05.440Z
+date: 2018-02-21T21:34:40.895Z
 title: "The Love of God"
 slug: "prophetic-voice-233"
+publishDate: 2016-06-24T19:00:00.000Z
+episodeNumber: 233
 keywords:
 - love of god
 - relationship with god
 - intimacy with god
 - forgiveness
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E233_16_06_25-26_The_Love_of_God.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-06-24T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E233_16_06_25-26_The_Love_of_God.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 233
 description: "God is love, and He loves you! When He sees you and I, He sees Jesus."
 people:
 - title: Cristina Sosso

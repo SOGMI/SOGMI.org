@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:52:19.793Z
+date: 2018-02-22T03:29:44.588Z
 title: "God's Good Plan Will Stand"
 slug: "prophetic-voice-288"
+publishDate: 2017-09-08T19:00:00.000Z
+episodeNumber: 288
 keywords:
 - greatness of the season
 - plan of god
 - transfer of wealth
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E288_17_09_09-10_God%27s_Good_Plan_Will_Stand.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-09-08T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E288_17_09_09-10_God%27s_Good_Plan_Will_Stand.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 288
 description: "God's good plan for the nations will stand."
 people:
 - title: Cristina Sosso

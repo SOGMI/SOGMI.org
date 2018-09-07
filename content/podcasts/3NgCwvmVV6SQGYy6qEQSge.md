@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:50:05.420Z
+date: 2018-02-22T04:28:32.411Z
 title: "The Greatness of the Season We're In"
 slug: "prophetic-voice-290"
+publishDate: 2017-09-22T19:00:00.000Z
+episodeNumber: 290
 keywords:
 - greatness of the season
 - kingdom of god
 - political revival
 - prophecy
 - apostles and prophets
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E290_17_09_23-24_The_Greatness_of_the_Season_We%27re_In.mp3"
 hosts:
 - Cristina Sosso
-date: 2017-09-22T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E290_17_09_23-24_The_Greatness_of_the_Season_We%27re_In.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 290
 description: "\"This is the theme of the upcoming prophetic conference: the greatness of the season we're in.\""
 people:
 - title: Cristina Sosso

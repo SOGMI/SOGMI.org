@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:50:04.889Z
+date: 2018-02-21T20:08:01.387Z
 title: "Our Identity in Christ"
 slug: "prophetic-voice-222"
+publishDate: 2016-04-08T19:00:00.000Z
+episodeNumber: 222
 keywords:
 - spiritual authority
 - victory
 - sonship
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E222_16_04_09-10_Our_Identity_in_Christ.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-04-08T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E222_16_04_09-10_Our_Identity_in_Christ.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 222
 description: "Who we are in Christ Jesus; our identity in Him."
 people:
 - title: Cristina Sosso

@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:52:19.778Z
+date: 2018-02-22T03:27:40.633Z
 title: "A Season of Changes, Promotions, and Manifestations"
 slug: "prophetic-voice-285"
+publishDate: 2017-08-18T19:00:00.000Z
+episodeNumber: 285
 keywords:
 - promotions and replacements
 - holy spirit
 - prophecy
 - manifestations
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E285_17_08_19-20_A_Season_of_Changes_Promotions_and_Manifestations.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-08-18T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E285_17_08_19-20_A_Season_of_Changes_Promotions_and_Manifestations.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 285
 description: "It's a season of changes, changes, and more changes! It can feel uncomfortable, but it also includes promotions and manifestations!"
 people:
 - title: Cristina Sosso

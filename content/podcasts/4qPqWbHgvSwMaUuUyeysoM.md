@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:52:13.398Z
+date: 2018-02-21T22:51:45.059Z
 title: "Let Jesus be Revealed"
 slug: "prophetic-voice-261"
+publishDate: 2017-02-10T18:00:00.000Z
+episodeNumber: 261
 keywords:
 - body of christ
 - kingdom principles
 - obedience
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E261_17_02_11-12_Let_Jesus_be_Revealed.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-02-10T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E261_17_02_11-12_Let_Jesus_be_Revealed.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 261
 description: "If we allow God to reveal the Lord Jesus to us, we will experience Him as if for the first time!"
 people:
 - title: Cristina Sosso

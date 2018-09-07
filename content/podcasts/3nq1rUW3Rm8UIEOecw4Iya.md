@@ -1,7 +1,10 @@
 ---
 updated: 2018-07-17T21:52:17.229Z
+date: 2018-02-22T03:15:31.436Z
 title: "Mission Report and Good News"
 slug: "prophetic-voice-277"
+publishDate: 2017-06-16T19:00:00.000Z
+episodeNumber: 277
 keywords:
 - mission report
 - israel
@@ -9,14 +12,12 @@ keywords:
 - prophecy
 - politics
 - nations
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E277_17_06_17-18_Mission_Report_and_Good_News.mp3"
 hosts:
 - Cristina Sosso
 - Mike Sosso
 showTranscript: false
-date: 2017-06-16T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E277_17_06_17-18_Mission_Report_and_Good_News.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 277
 description: "With special guest Mike Sosso. Highlights of the recent trip to Israel and Greece, and the good news of God's outpouring of His Spirit upon all flesh."
 people:
 - title: Cristina Sosso

@@ -1,16 +1,17 @@
 ---
 updated: 2018-07-17T21:51:06.132Z
+date: 2018-02-21T21:59:54.174Z
 title: "Honoring God with Wealth"
 slug: "prophetic-voice-238"
+publishDate: 2016-08-05T19:00:00.000Z
+episodeNumber: 238
 keywords:
 - seedtime and harvest
 - blessings
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E238_16_08_06-07_Honoring+God+with+Wealth.mp3"
 hosts:
 - Cristina Sosso
-date: 2016-08-05T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E238_16_08_06-07_Honoring+God+with+Wealth.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 238
 description: "Honoring God with your first fruits, including wealth. He will cause our barns to overflow for His glory, our good, and the benefit of His people."
 people:
 - title: Joshua Sosso

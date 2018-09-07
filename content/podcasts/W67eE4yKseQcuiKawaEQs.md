@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:52:17.780Z
+date: 2018-02-22T03:13:09.734Z
 title: "Plugged in to God"
 slug: "prophetic-voice-278"
+publishDate: 2017-06-23T19:00:00.000Z
+episodeNumber: 278
 keywords:
 - israel
 - seedtime and harvest
 - vows to god
 - revelation
 - mission report
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E278_17_06_24-25_Plugged_in_to_God.mp3"
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: 2017-06-23T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E278_17_06_24-25_Plugged_in_to_God.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 278
 description: "With guest speaker Joshua Sosso, sharing the revelation of Jesus Christ as was experienced during the recent trip to Israel."
 people:
 - title: Joshua Sosso

@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:51:06.403Z
+date: 2018-02-21T22:02:06.818Z
 title: "God's Kingdom vs Babylon"
 slug: "prophetic-voice-240"
+publishDate: 2016-08-21T19:00:00.000Z
+originalAirDate: 2016-08-19T19:00:00.000Z
+episodeNumber: 240
 keywords:
 - kingdom principles
 - transfer of wealth
 - trust in god
 - faith
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E240_16_08-20-21_God%27s_Kingdom_vs_Babylon.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-originalAirDate: "2016-08-20"
-date: 2016-08-21T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E240_16_08-20-21_God%27s_Kingdom_vs_Babylon.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 240
 description: "In God's kingdom, we are His righteousness in Christ Jesus. Our world must revolve around Jesus, not the idolatrous Babylonian system."
 people:
 - title: Cristina Sosso

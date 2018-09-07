@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:52:13.935Z
+date: 2018-02-21T23:10:35.509Z
 title: "Living by Faith"
 slug: "prophetic-voice-263"
+publishDate: 2017-03-02T18:00:00.000Z
+episodeNumber: 263
 keywords:
 - obedience
 - trusting god
 - plan of god
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E263_17_03_04-05_Living_by_Faith.mp3"
 hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: 2017-03-02T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E263_17_03_04-05_Living_by_Faith.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 263
 description: "If you're hoping for something, it means to say that you ain't got it yet. Faith is the substance of things hoped for, and we need to get outside our own ability, resources, and understanding to receive it. In His love that passes all knowledge, we believe God and trust Him above all else."
 people:
 - title: Joshua Sosso

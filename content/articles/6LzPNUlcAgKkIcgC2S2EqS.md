@@ -1,8 +1,9 @@
 ---
 updated: 2018-02-23T06:40:58.183Z
+date: 2018-02-20T23:20:33.706Z
 title: "Prophecy From July 12, 2009"
 slug: "prophecy-from-july-12-2009"
-date: 2009-07-11T19:00:00.000Z
+publishDate: 2009-07-11T19:00:00.000Z
 authors: "Coby Randal"
 description: "This is an excerpt of the July 12, 2009 prophecy given by the Lord through Pastor Cris."
 tags:

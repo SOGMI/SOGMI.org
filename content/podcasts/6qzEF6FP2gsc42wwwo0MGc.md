@@ -1,17 +1,18 @@
 ---
 updated: 2018-07-17T21:51:06.847Z
+date: 2018-02-21T22:07:10.391Z
 title: "The Heart of the Father"
 slug: "prophetic-voice-243"
+publishDate: 2016-09-16T19:00:00.000Z
+episodeNumber: 243
 keywords:
 - prophecy
 - trust in god
 - love of god
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E243_16_09_17-18_The_Heart_of_the_Father.mp3"
 hosts:
 - Cristina Sosso
-date: 2016-09-16T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E243_16_09_17-18_The_Heart_of_the_Father.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 243
 description: "God will fulfill His promises to us in His perfect will and ways, without sorrow added to it. If things aren't happening for us, we cannot blame God or others. It's a heart issue. \"Keep your heart with all vigilance, for from it flow the springs of life.\" Prov 4:23 ESV. Share in the joy of others who are receiving their inheritance in Christ Jesus."
 people:
 - title: Cristina Sosso

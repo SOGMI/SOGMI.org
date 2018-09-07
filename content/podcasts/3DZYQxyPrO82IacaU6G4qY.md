@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:52:14.382Z
+date: 2018-02-21T23:19:19.142Z
 title: "Get Ready for Glory"
 slug: "prophetic-voice-266"
+publishDate: 2017-03-24T19:00:00.000Z
+episodeNumber: 266
 keywords:
 - political revival
 - transfer of wealth
 - intimacy with jesus
 - prophecy
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E266_17_03_25-26_Get_Ready_for_Glory.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-03-24T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E266_17_03_25-26_Get_Ready_for_Glory.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 266
 description: "Many people in the Body were prepared to give, but what about to receive? How will we handle fame, finances, and miraculous manifestations when they come into our lives?"
 people:
 - title: Cristina Sosso

@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:51:07.583Z
+date: 2018-02-21T22:10:54.522Z
 title: "The Battle of the Mind"
 slug: "prophetic-voice-247"
+publishDate: 2016-10-14T19:00:00.000Z
+episodeNumber: 247
 keywords:
 - holy spirit
 - mind of christ
 - confronting giants
 - kingdom of god
 - yokes
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E247_16_10_15-16_The_Battle_of_the_Mind.mp3"
 hosts:
 - Cristina Sosso
-date: 2016-10-14T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E247_16_10_15-16_The_Battle_of_the_Mind.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 247
 description: "Allow the Holy Spirit to help you experience the goodness of God instead of getting stuck in worldly thought patterns."
 people:
 - title: Joshua Sosso

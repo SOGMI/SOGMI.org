@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:52:16.842Z
+date: 2018-02-22T03:03:21.004Z
 title: "Prepare for Victory and Prosperity - Part 2"
 slug: "prophetic-voice-274"
+publishDate: 2017-05-19T19:00:00.000Z
+originalAirDate: 2017-05-19T19:00:00.000Z
+episodeNumber: 274
 keywords:
 - victory
 - prosperity
 - kingdom of god
 - bride of christ
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E274_17_05_20-21_Prepare_for_Victory_and_Prosperity_p2.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-originalAirDate: "2017-05-20"
-date: 2017-05-19T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E274_17_05_20-21_Prepare_for_Victory_and_Prosperity_p2.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 274
 description: "With Special Guest, Mike Sosso who is President and co-founder of SOGMI."
 people:
 - title: Cristina Sosso

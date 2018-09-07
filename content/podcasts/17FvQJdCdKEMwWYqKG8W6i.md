@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:51:07.778Z
+date: 2018-02-21T22:12:14.244Z
 title: "We Are Now Occupying (Part 1 of 2)"
 slug: "prophetic-voice-248"
+publishDate: 2016-10-21T19:00:00.000Z
+episodeNumber: 248
 keywords:
 - kingdom principles
 - trusting god
 - spiritual authority
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E248_16_10_22-23_We_Are_Now_Occupying.mp3"
 hosts:
 - Joshua Sosso
 - Cristina Sosso
-date: 2016-10-21T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E248_16_10_22-23_We_Are_Now_Occupying.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 248
 description: "Our unifying force is Christ Jesus and our language is love. As we follow what God is telling us, we are walking in the Truth above the facts and bringing His kingdom wherever He sends us."
 people:
 - title: Joshua Sosso

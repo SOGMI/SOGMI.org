@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:51:06.189Z
+date: 2018-02-21T22:01:20.655Z
 title: "Prophecy is Your Weapon"
 slug: "prophetic-voice-239"
+publishDate: 2016-08-12T19:00:00.000Z
+episodeNumber: 239
 keywords:
 - prophecy
 - confronting giants
 - living in the supernatural
 - spiritual authority
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E239_16_08_13-14_Prophecy_is_Your_Weapon.mp3"
 hosts:
 - Cristina Sosso
-date: 2016-08-12T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E239_16_08_13-14_Prophecy_is_Your_Weapon.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 239
 description: "Prophecy is your weapon"
 people:
 - title: Cristina Sosso

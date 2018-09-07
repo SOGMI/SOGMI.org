@@ -1,8 +1,9 @@
 ---
 updated: 2018-05-31T01:52:52.729Z
+date: 2018-05-27T18:22:02.722Z
 title: "05/27/2018 | The Powerful Move of the Holy Spirit (Pastor Cris)"
 slug: "05-27-2018-or-the-powerful-move-of-the-holy-spirit-or-pastor-cris"
-date: 2018-05-26T19:00:00.000Z
+publishDate: 2018-05-26T19:00:00.000Z
 videoLink: "https://www.youtube.com/watch?v=mCu8N_V89Eg"
 YoutubeID: "mCu8N_V89Eg"
 metaDescription: "Pastor Cris talks about the power of the Holy Spirit and how he's preparing to move mightily in our lives today!"

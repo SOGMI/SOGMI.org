@@ -1,7 +1,10 @@
 ---
 updated: 2018-07-17T21:52:16.814Z
+date: 2018-02-22T02:55:08.321Z
 title: "Like Jesus in this World"
 slug: "prophetic-voice-272"
+publishDate: 2017-05-05T19:00:00.000Z
+episodeNumber: 272
 keywords:
 - kingdom of god
 - god principles
@@ -9,13 +12,11 @@ keywords:
 - spiritual authority
 - transfer of wealth
 - political revival
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E272_17_05_06-07_Like_Jesus_in_This_World.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-05-05T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E272_17_05_06-07_Like_Jesus_in_This_World.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 272
 description: "While we are in this world, we are like Jesus."
 people:
 - title: Cristina Sosso

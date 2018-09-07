@@ -1,8 +1,9 @@
 ---
 updated: 2018-09-05T07:04:25.566Z
+date: 2018-09-05T05:58:29.235Z
 title: "09/02/2018 | Fidelity (Pastor Cris)"
 slug: "i3esTKRmh8Y"
-date: 2018-09-02T14:55:00.000Z
+publishDate: 2018-09-02T14:55:00.000Z
 videoLink: "https://www.youtube.com/watch?v=i3esTKRmh8Y"
 YoutubeID: "i3esTKRmh8Y"
 description: "Support SOGMI: https://sogmi.org/donate\nLike Us On Facebook: https://facebook.com/sonsofgodministries\n\nSons of God Ministries International is dedicated to discipling God's people and empowering the Body of Christ to take their post in the Kingdom. \"For as many as are led by the Spirit of God these are the sons of God\" (Romans 8:14)"

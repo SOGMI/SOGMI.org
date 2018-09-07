@@ -1,21 +1,22 @@
 ---
 updated: 2018-07-17T21:52:17.795Z
+date: 2018-02-22T05:32:35.767Z
 title: "Knowing God"
 slug: "prophetic-voice-280"
+publishDate: 2017-07-14T19:00:00.000Z
+episodeNumber: 280
 keywords:
 - living in the supernatural
 - fruit of the spirit
 - mind of christ
 - sonship
 - servant of god
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E280_17_07_15-16_Knowing_God.mp3"
 hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: 2017-07-14T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E280_17_07_15-16_Knowing_God.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 280
 description: "The Pharisees, the Sadducees, they knew the law, they knew the word of God, but they didn't know God, and they didn't know what God was trying to tell them…"
 people:
 - title: Joshua Sosso

@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:52:16.902Z
+date: 2018-02-22T03:07:27.395Z
 title: "Prepare for Victory and Prosperity - Part 1"
 slug: "prophetic-voice-273"
+publishDate: 2017-05-12T19:00:00.000Z
+episodeNumber: 273
 keywords:
 - plan of god
 - holy spirit
 - victory
 - prosperity
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E273_17_05_13-14_Prepare_for_Victory_and_Prosperity_p1.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-05-12T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E273_17_05_13-14_Prepare_for_Victory_and_Prosperity_p1.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 273
 description: "After you have done everything faithfully, stand firm in your faith."
 people:
 - title: Cristina Sosso

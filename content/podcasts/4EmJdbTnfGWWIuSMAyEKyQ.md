@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:50:05.443Z
+date: 2018-02-21T20:37:10.821Z
 title: "Passing Over to God's Mindset (Guest Speaker: Joshua Sosso)"
 slug: "prophetic-voice-225"
+publishDate: 2016-04-29T19:00:00.000Z
+episodeNumber: 225
 keywords:
 - kingdom principles
 - mind of christ
 - victory
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E225_16_04-30_5-01_Passing_Over_to_God%27s_Mindset.mp3"
 hosts:
 - Joshua Sosso
 showTranscript: false
-date: 2016-04-29T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E225_16_04-30_5-01_Passing_Over_to_God%27s_Mindset.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 225
 description: "We recently celebrated Passover, with Jesus as our Passover lamb (and Lord of all!). What a glorious time it was. He is our Passover from the old mindset of the flesh, to the mind of the Spirit, life and peace in His name."
 people:
 - title: Joshua Sosso

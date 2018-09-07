@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:51:07.506Z
+date: 2018-02-21T22:09:40.656Z
 title: "God's Heavenly Ways"
 slug: "prophetic-voice-246"
+publishDate: 2016-10-07T19:00:00.000Z
+episodeNumber: 246
 keywords:
 - kingdom principles
 - love of god
 - trusting god
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E246_16_10_08-09_God%27s_Heavenly_Ways.mp3"
 hosts:
 - Joshua Sosso
 - Cristina Sosso
 showTranscript: false
-date: 2016-10-07T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E246_16_10_08-09_God%27s_Heavenly_Ways.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 246
 description: "Discover the goodness of God, focussing on Him above all earthly things, trusting that His ways and thoughts are heavenly."
 people:
 - title: Joshua Sosso

@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:52:13.435Z
+date: 2018-02-21T22:45:46.445Z
 title: "Pondering His Goodness Past and Onward"
 slug: "prophetic-voice-257"
+publishDate: 2017-01-06T18:00:00.000Z
+episodeNumber: 257
 keywords:
 - relationship with god
 - prophecy
 - keys to the kingdom
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E257_17_01_07-08_Pondering_His_Goodness_Past_and_Onward.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-01-06T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E257_17_01_07-08_Pondering_His_Goodness_Past_and_Onward.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 257
 description: "A look back and a view forward on God's goodness in 2016 and 2017."
 people:
 - title: Cristina Sosso

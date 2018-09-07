@@ -1,5 +1,6 @@
 ---
 updated: 2018-09-05T08:38:23.412Z
+date: 2018-07-27T12:07:17.374Z
 title: "The Prophetic Gathering Of The Saints 2018"
 slug: "prophetic-gathering-2018"
 venue: "Venue TBA"

@@ -1,8 +1,9 @@
 ---
 updated: 2018-05-24T06:27:32.661Z
+date: 2018-02-21T07:00:28.238Z
 title: "URGENT MESSAGE: God's Guidelines For Choosing Our Nations Leaders"
 slug: "urgent-message-gods-guidelines-for-choosing-our-nations-leaders"
-date: 2012-02-01T18:00:00.000Z
+publishDate: 2012-02-01T18:00:00.000Z
 authors: "Mike Sosso"
 description: "Four years ago, the Lord spoke prophetically and said; “If My people will unite, this nation can have the most righteous leaders and government she has ever had since its inception, and even greater.” You may say, is that possible?  Is anything impossible for God?"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/zRSQiJ1LQyICyI8GM6aGa/f7809061e3f5f65fcc5569f234e75f72/jomar-271602-unsplash-compressor.jpg"

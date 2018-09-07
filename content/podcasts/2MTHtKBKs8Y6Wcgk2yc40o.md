@@ -1,21 +1,22 @@
 ---
 updated: 2018-07-17T21:50:06.392Z
+date: 2018-02-22T04:56:53.212Z
 title: "Double Portion Restoration"
 slug: "prophetic-voice-296"
+publishDate: 2017-11-10T18:00:00.000Z
+originalAirDate: 2017-11-10T18:00:00.000Z
+episodeNumber: 296
 keywords:
 - spiritual authority
 - restoration
 - living in the supernatural
 - healing
 - comfort
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E296_17_11_11-12_Double_Portion_Restoration.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-originalAirDate: "2017-11-11"
-date: 2017-11-10T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E296_17_11_11-12_Double_Portion_Restoration.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 296
 description: "Each one of Job's friends had an explanation of what was happening to him, and they were all wrong. In light of the recent tragic shooting in Sutherland Springs, we cannot offer answers or explanations except the truth: Jesus is the answer. Let us continue to love, obey, heal, and take dominion as one Body."
 people:
 - title: Cristina Sosso

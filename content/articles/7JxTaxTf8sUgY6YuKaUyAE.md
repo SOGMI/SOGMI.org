@@ -1,8 +1,9 @@
 ---
 updated: 2018-02-23T06:39:57.852Z
+date: 2018-02-20T23:16:13.445Z
 title: "Prophecy to the Church"
 slug: "prophecy-to-the-church"
-date: 2010-10-31T19:00:00.000Z
+publishDate: 2010-10-31T19:00:00.000Z
 authors: "Coby Randal"
 description: "The following is a prophecy released back in 2010 to the Body of Christ"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/5KH3rRY5FuC4iaYoykeUEs/0c30b64b0c4a40c192d2fc121fc6153a/ben-white-292680-unsplash__1_.jpg"

@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:52:16.833Z
+date: 2018-02-22T03:08:31.418Z
 title: "Pentecost"
 slug: "prophetic-voice-275"
+publishDate: 2017-06-02T19:00:00.000Z
+episodeNumber: 275
 keywords:
 - holy spirit
 - kingdom of god
 - israel
 - passover
 - pentecost
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E275_17_06_03-04_Pentecost.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-06-02T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E275_17_06_03-04_Pentecost.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 275
 description: "Pentecost, the Holy Spirit, and the kingdom of God. Recorded in Jerusalem!"
 people:
 - title: Cristina Sosso

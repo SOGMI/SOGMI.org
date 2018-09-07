@@ -1,7 +1,10 @@
 ---
 updated: 2018-07-17T21:50:06.392Z
+date: 2018-02-22T05:00:50.113Z
 title: "Heavenly Sowing and Reaping"
 slug: "prophetic-voice-297"
+publishDate: 2017-11-17T18:00:00.000Z
+episodeNumber: 297
 keywords:
 - relationship with god
 - transfer of wealth
@@ -9,13 +12,11 @@ keywords:
 - obedience
 - discipleship
 - great commission
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E297_17_11_18-19_Heavenly_Sowing_and_Reaping.mp3"
 hosts:
 - Cristina Sosso
 - Joshua Sosso
-date: 2017-11-17T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E297_17_11_18-19_Heavenly_Sowing_and_Reaping.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 297
 description: "The great commission and discipleship is from the seed (Jesus all-in-all) that He supplies, that we in the Body of Christ would be fruitful and multiply and fill the earth."
 people:
 - title: Cristina Sosso

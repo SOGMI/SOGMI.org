@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:50:05.855Z
+date: 2018-02-21T20:45:06.842Z
 title: "The Weapons of Our Warfare"
 slug: "prophetic-voice-226"
+publishDate: 2016-05-06T19:00:00.000Z
+episodeNumber: 226
 keywords:
 - prophecy
 - strongholds
 - relationship with god
 - spiritual warfare
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E226_16_05_07-08_Weapons_of_our_Warfare.mp3"
 hosts:
 - Cristina Sosso
 - Joshua Sosso
 showTranscript: false
-date: 2016-05-06T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E226_16_05_07-08_Weapons_of_our_Warfare.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 226
 description: "Our warfare is mighty through God to the pulling down of strongholds. This message also highlights why Joshua was chosen instead of Caleb to succeed Moses. Everything stems from our relationship with God."
 people:
 - title: Joshua Sosso

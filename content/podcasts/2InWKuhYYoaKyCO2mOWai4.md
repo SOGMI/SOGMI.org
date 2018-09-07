@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:51:07.917Z
+date: 2018-02-21T22:31:13.725Z
 title: "Believe and Know God's Heart"
 slug: "prophetic-voice-252"
+publishDate: 2016-11-18T18:00:00.000Z
+episodeNumber: 252
 keywords:
 - prophecy
 - kingdom of god
 - keys to the kingdom
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E252_16_11_19-20_Believe_and_Know_God%27s_Heart.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-11-18T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E252_16_11_19-20_Believe_and_Know_God%27s_Heart.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 252
 description: "God once said to me \"...Lean not on your own understanding, but in all your ways acknowledge Me, and I will direct your path.\" When God... told me that..., it means that a lot of things that He will open up or give me a revelation [of] is something that I have not encountered before or have not done before..."
 people:
 - title: Cristina Sosso

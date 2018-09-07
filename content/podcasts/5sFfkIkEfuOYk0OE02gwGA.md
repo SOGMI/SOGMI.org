@@ -1,7 +1,10 @@
 ---
 updated: 2018-07-17T21:50:06.446Z
+date: 2018-02-22T04:59:57.104Z
 title: "Revelation for Our Time"
 slug: "prophetic-voice-299"
+publishDate: 2017-12-02T18:00:00.000Z
+episodeNumber: 299
 keywords:
 - revelation
 - appointed time
@@ -9,13 +12,11 @@ keywords:
 - great commission
 - discipleship
 - apostles and prophets
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E299_17_12_02-03_Revelation_for_Our_Time.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-12-02T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E299_17_12_02-03_Revelation_for_Our_Time.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 299
 description: "For the revelation awaits an appointed time; it speaks of the end and will not prove false. Though it linger, wait for it; it will certainly come and will not delay. Habakkuk 2:3"
 people:
 - title: Cristina Sosso

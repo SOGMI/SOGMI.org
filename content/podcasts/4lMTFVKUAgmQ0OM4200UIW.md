@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:52:17.900Z
+date: 2018-02-22T03:22:29.411Z
 title: "A Priest to the Order of Melchizedek"
 slug: "prophetic-voice-283"
+publishDate: 2017-08-04T19:00:00.000Z
+episodeNumber: 283
 keywords:
 - order of melchizedek
 - body of christ
 - sonship
 - kings and priests
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E283_17_08_05-06_A_Priest_to_the_Order_of_Melchizedek.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-08-04T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E283_17_08_05-06_A_Priest_to_the_Order_of_Melchizedek.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 283
 description: "The Lord said, \"...one of the big changes that will happen to many of My people is this...\""
 people:
 - title: Cristina Sosso

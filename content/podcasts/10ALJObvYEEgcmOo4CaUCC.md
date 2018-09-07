@@ -1,19 +1,20 @@
 ---
 updated: 2018-07-17T21:52:13.420Z
+date: 2018-02-21T22:58:56.692Z
 title: "Loving, Trusting, and Obeying Jesus"
 slug: "prophetic-voice-262"
+publishDate: 2017-02-24T18:00:00.000Z
+originalAirDate: 2017-02-24T18:00:00.000Z
+episodeNumber: 262
 keywords:
 - love of god
 - relationships
 - intimacy with god
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E262_17_02_25-26_Loving_Trusting_and_Obeying_Jesus.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-originalAirDate: "2017-02-25"
-date: 2017-02-24T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E262_17_02_25-26_Loving_Trusting_and_Obeying_Jesus.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 262
 description: "Whether you're married, single, or in a strained relationship, making Jesus our first love is vital and will yield supernatural results."
 people:
 - title: Joshua Sosso

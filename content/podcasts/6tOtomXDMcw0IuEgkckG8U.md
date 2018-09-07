@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:51:08.595Z
+date: 2018-02-21T22:33:34.355Z
 title: "The Glory of God"
 slug: "prophetic-voice-254"
+publishDate: 2016-12-02T18:00:00.000Z
+episodeNumber: 254
 keywords:
 - prophecy
 - seedtime and harvest
 - body of christ
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E254_16_12_03-04_The_Glory_of_God.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-12-02T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E254_16_12_03-04_The_Glory_of_God.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 254
 description: "Prophecy for 2017, revealing the glory of God."
 people:
 - title: Cristina Sosso

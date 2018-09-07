@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:52:13.382Z
+date: 2018-02-21T22:47:06.628Z
 title: "Knowing God"
 slug: "prophetic-voice-258"
+publishDate: 2017-01-13T18:00:00.000Z
+episodeNumber: 258
 keywords:
 - relationship with god
 - revelation
 - prosperity
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E258_17_01_14-15_Knowing_God.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2017-01-13T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E258_17_01_14-15_Knowing_God.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 258
 description: "\"You cannot sell a book on the principles of the multiplication of the loaves and fish, except for one thing: Jesus' relationship with Father God.\""
 people:
 - title: Joshua Sosso

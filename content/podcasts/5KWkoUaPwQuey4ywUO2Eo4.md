@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:51:08.846Z
+date: 2018-02-21T22:44:07.661Z
 title: "Year in Review (2016)"
 slug: "prophetic-voice-256"
+publishDate: 2016-12-23T18:00:00.000Z
+episodeNumber: 256
 keywords:
 - year in review
 - prophecy
 - philippines
 - living in the supernatural
 - spiritual authority
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E256_16_12_24-25_Year_in_Review.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-12-23T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E256_16_12_24-25_Year_in_Review.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 256
 description: "Pastor Cris is back, testifying of some of the wonders God did in the Philippines and more."
 people:
 - title: Cristina Sosso

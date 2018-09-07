@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:50:04.486Z
+date: 2018-02-21T19:53:42.484Z
 title: "Allow the Holy Spirit to Reveal Jesus"
 slug: "prophetic-voice-221"
+publishDate: 2016-04-01T19:00:00.000Z
+episodeNumber: 221
 keywords:
 - love of god
 - revelation
 - relationship with god
 - holy spirit
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E221_16_04_02-03_Allow_the_Holy_Spirit_to_Reveal_Jesus.mp3"
 hosts:
 - Cristina Sosso
-date: 2016-04-01T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E221_16_04_02-03_Allow_the_Holy_Spirit_to_Reveal_Jesus.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 221
 description: "We love because He first loved us. Allow the Holy Spirit to reveal Jesus to us."
 people:
 - title: Cristina Sosso

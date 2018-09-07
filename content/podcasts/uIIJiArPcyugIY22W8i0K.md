@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:51:06.067Z
+date: 2018-02-21T21:35:58.563Z
 title: "Look to the Truth Above the Facts"
 slug: "prophetic-voice-234"
+publishDate: 2016-07-01T19:00:00.000Z
+episodeNumber: 234
 keywords:
 - truth
 - apostles and prophets
 - trust in god
 - faith
 - living in the supernatural
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E234_16_07_02-03_Look_to_the_Truth_Above_Facts.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-07-01T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E234_16_07_02-03_Look_to_the_Truth_Above_Facts.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 234
 description: "Apostles and prophets will rise in number and power, bearing the testimony of our Lord Jesus Christ, maturing the Body of Christ to rule and reign with Him in every sector of society. Look to the Truth (Jesus Christ) above the facts."
 people:
 - title: Joshua Sosso

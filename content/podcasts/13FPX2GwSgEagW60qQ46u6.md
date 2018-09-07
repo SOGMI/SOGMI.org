@@ -1,18 +1,19 @@
 ---
 updated: 2018-07-17T21:51:06.867Z
+date: 2018-02-21T22:07:59.484Z
 title: "Issues of the Heart"
 slug: "prophetic-voice-244"
+publishDate: 2016-09-23T19:00:00.000Z
+episodeNumber: 244
 keywords:
 - kingdom principles
 - mind of christ
 - strongholds
 - relationships
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E244_16_09_24-25_Issues_of_the_Heart.mp3"
 hosts:
 - Cristina Sosso
-date: 2016-09-23T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E244_16_09_24-25_Issues_of_the_Heart.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 244
 description: "Checking our heart issues, seeing our loving and generous Father and receiving from Him, and loving our neighbor."
 people:
 - title: Cristina Sosso

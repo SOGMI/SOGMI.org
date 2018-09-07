@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:50:04.581Z
+date: 2018-02-21T19:33:43.283Z
 title: "Believe from the Heart"
 slug: "prophetic-voice-215"
+publishDate: 2016-02-12T18:00:00.000Z
+originalAirDate: 2016-02-12T18:00:00.000Z
+episodeNumber: 215
 keywords:
 - faith
 - prophecy
 - trust in god
 - valentines day
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E215_16_02_13-14_Believe_from_the_Heart.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-originalAirDate: "2016-02-13"
-date: 2016-02-12T18:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E215_16_02_13-14_Believe_from_the_Heart.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 215
 description: "The move of God this year requires that we get out of our comfort zone, put aside our own expectations and ideas, and believe God from the heart."
 people:
 - title: Cristina Sosso

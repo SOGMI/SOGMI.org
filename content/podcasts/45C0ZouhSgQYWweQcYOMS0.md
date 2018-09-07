@@ -1,20 +1,21 @@
 ---
 updated: 2018-07-17T21:51:05.116Z
+date: 2018-02-21T20:57:32.756Z
 title: "Greater Works - Part 1"
 slug: "prophetic-voice-230"
+publishDate: 2016-06-03T19:00:00.000Z
+episodeNumber: 230
 keywords:
 - living in the supernatural
 - signs and wonders
 - prophecy
 - faith
 - obedience
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E230_16_06_04-05_Are_You_Ready_for_Greater_Works.mp3"
 hosts:
 - Cristina Sosso
 showTranscript: false
-date: 2016-06-03T19:00:00.000Z
-audioLink: "https://episodes.castos.com/propheticvoice/TPVOT_E230_16_06_04-05_Are_You_Ready_for_Greater_Works.mp3"
-Series: "The Prophetic Voice of Our Time"
-episodeNumber: 230
 description: "Jesus said in John 14:12, \"Very truly I tell you, whoever believes in me will do the works I have been doing, and they will do even greater things than these, because I am going to the Father.\""
 people:
 - title: Cristina Sosso
