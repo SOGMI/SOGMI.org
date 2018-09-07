@@ -36,7 +36,7 @@
     {{- if ne .Params.DisableSearch true -}}
         {{- $title := .Title -}}{{- $description := .Description -}}{{- $summary := .Summary -}}
         {{- $pdate := .PublishDate -}}{{- $rperm := .RelPermalink -}}{{- $section := .Section -}}
-        {{- $date := .Date.UTC.Unix -}}{{- $episode := .Params.EpisodeNumber -}}
+        {{- $date := .Date.UTC.Unix -}}{{- $pdate := .PublishDate.UTC.Unix -}}{{- $episode := .Params.EpisodeNumber -}}
 
         {{- $thumbnail := .Params.Thumbnail -}}{{- $image := .Params.FeaturedImage -}}
         {{- $ytimage := .Params.YoutubeID -}}{{- $profilephoto := .Params.profilePhoto -}}
@@ -54,7 +54,7 @@
             {{- $et := add $e $t -}}
                 {
                     "title": {{- jsonify $et -}},
-                    "date": {{- $date -}},
+                    "date": {{ if $pdate }}{{- $pdate -}}{{ else }}{{- $date -}}{{ end }},
                     {{ if $description -}}"description": {{- jsonify $description -}},{{- end }}
                     {{ if eq $index 0 -}}"objectID": "{{ $id }}",{{- else -}}"objectID": "{{ $id }}{{ $index }}",{{- end }}
                     {{ if $thumbnail -}}"featuredImage": "{{ $thumbnail }}",{{- else -}}{{- if $image -}}"featuredImage": "{{ $image }}",{{- else -}}"featuredImage": "{{ $ph }}",{{- end -}}{{- end }}
@@ -74,7 +74,7 @@
         {{- else -}}
             {
                 "title": {{ jsonify $title }},
-                "date": {{ $date }},
+                "date": {{ if $pdate }}{{- $pdate -}}{{ else }}{{- $date -}}{{ end }},
                 {{ if $description -}}"description": {{ jsonify $description }},{{ end }}
                 "objectID": "{{ $id }}",
                 {{ if $thumbnail -}}"featuredImage": "{{ $thumbnail }}",{{- else -}}

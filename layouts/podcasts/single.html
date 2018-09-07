@@ -67,7 +67,7 @@
           </div>
           <div class="audioMeta" style="display: flex; padding: 0px 0px 0px 0px">
               <div>
-                <p class="heading-20" style="font-size: 1rem; line-height: 2rem; margin-bottom: 0px; margin-right: 20px"><b>Published:</b> {{ .Date.Format "January 02, 2006" }}</p>
+                <p class="heading-20" style="font-size: 1rem; line-height: 2rem; margin-bottom: 0px; margin-right: 20px"><b>Published:</b> {{ if .PublishDate }}{{ dateFormat "January 02, 2006" .PublishDate }}{{ else }}{{ .Date.Format "January 02, 2006" }}{{ end }}</p>
                 {{ with .Params.OriginalAirDate }}
                   <p class="heading-20" style="font-size: 1rem; line-height: 2rem; margin-bottom: 0px; margin-right: 20px"><b>Originally Aired:</b> {{ . | dateFormat "January 02, 2006" }}</p>
                 {{ end }}

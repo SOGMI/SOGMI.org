@@ -18,7 +18,7 @@
                 </div>
                 <div class="video-single-content">
                     <h1 class="video-single-title" style="font-size: 1.5rem">{{ .Title }}</h1>
-                    <div class="text-block-13" style="font-size: .9rem"><b>Published:</b> {{ dateFormat "January 02, 2006" .Date }}</div>
+                    <div class="text-block-13" style="font-size: .9rem"><b>Published:</b> {{ if .PublishDate }}{{ dateFormat "January 02, 2006" .PublishDate }}{{ else }}{{ .Date.Format "January 02, 2006" }}{{ end }}</div>
                     {{ if .Description }}{{ .Description | markdownify }}{{ else }}
                     <p class="paragraph-6">{{ .Params.MetaDescription }}</p>{{ end }}                
                     {{ with  .Params.VideoKeywords }}

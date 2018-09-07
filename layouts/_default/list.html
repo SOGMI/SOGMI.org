@@ -11,7 +11,7 @@
       <div class="column-row w-row">
         <div class="column-left w-col w-col-8">
           <div class="standard-grid-wrapper">
-            {{ range (.Paginator 10).Pages }}
+            {{ range (.Paginate (.Pages.ByPublishDate).Reverse).Pages }}
               {{ partial "grid-item.html" . }}
             {{ end }}
           </div>

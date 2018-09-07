@@ -19,10 +19,7 @@ function writeEntriesForType(contentType) {
     })
     .then((response) => {
         for (let item of response.items) {
-            var fileContent = `---\nupdated: ${item.sys.updatedAt}\n`;
-            if (contentType.sys.id === 'podcasts') {
-                fileContent += `date: ${item.sys.createdAt}\n`
-            }
+            var fileContent = `---\nupdated: ${item.sys.updatedAt}\ndate: ${item.sys.createdAt}\n`;
             for (let field of Object.keys(item.fields)) {
                 if (field == 'content')
                     continue

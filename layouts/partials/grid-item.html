@@ -88,7 +88,7 @@
     </div>
     <div class="div-block-30">
       <h3 class="heading-26">{{ .Title }}</h3>
-      <div class="text-block-11">{{ .Date.Format "Jan 2, 2006"}}</div>
+      <div class="text-block-11">{{ if .PublishDate }}{{ .PublishDate.Format "Jan 2, 2006" }}{{ else }}{{ .Date.Format "Jan 2, 2006"}}{{ end }}</div>
     </div>
   </a>
 </article>
@@ -117,7 +117,7 @@
               <span>{{ .Params.Authors }}</span>
               {{ end }}
             </span>
-            <span>{{ .Date.Format "Jan 2, 2006"}}</span>
+            <span>{{ if .PublishDate }}{{ .PublishDate.Format "Jan 2, 2006" }}{{ else }}{{ .Date.Format "Jan 2, 2006"}}{{ end }}</span>
           </div>
         </div>
   </a>

@@ -17,7 +17,7 @@
                         {{ .Params.Authors }}
                     {{- end -}}
                 </a><br/>
-                {{ .Date.Format "January 2, 2006" }}
+                {{ if .PublishDate }}{{ .PublishDate.Format "January 2, 2006" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}
               </div>
             <div class="tags-and-comments">
               <div class="div-block-47-copy">
