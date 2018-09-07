@@ -47,7 +47,7 @@
           </div>
         </div>
         <ul id="playlist" class="standard-grid-wrapper w-list-unstyled">
-          {{- range (.Paginator 20).Pages -}}
+          {{ range (.Paginate (.Pages.ByParam "episodeNumber" ).Reverse 20).Pages }}
             {{- partial "grid-item.html" . -}}
           {{- end -}}
         </ul>
