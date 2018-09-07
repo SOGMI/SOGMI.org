@@ -20,6 +20,9 @@ function writeEntriesForType(contentType) {
     .then((response) => {
         for (let item of response.items) {
             var fileContent = `---\nupdated: ${item.sys.updatedAt}\n`;
+            if (contentType.sys.id === 'podcasts') {
+                fileContent += `date: ${item.sys.createdAt}\n`
+            }
             for (let field of Object.keys(item.fields)) {
                 if (field == 'content')
                     continue
@@ -69,7 +72,7 @@ function writeEntriesForType(contentType) {
                         break;
                     // Simple text content
                     default:
-                        if (field === 'date' || field === 'startDate' || field === 'endDate') {
+                        if (field === 'date' || field === 'startDate' || field === 'endDate' || field === 'publishDate' || field === 'originalAirDate') {
                             let entryDate = Date.parse(item.fields[field])
                             let newDate = new Date(entryDate)
                             let year = newDate.getFullYear()
