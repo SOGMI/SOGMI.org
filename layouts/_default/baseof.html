@@ -11,6 +11,7 @@
     <meta property="og:title" content="{{- if .Params.metaTitle -}}{{- .Params.metaTitle -}}{{- else -}}{{ .Title }}{{- end -}}" >
     <meta property="og:description" content="{{ if .Params.MetaDescription }}{{ .Params.MetaDescription }}{{ else }}{{ if .Description }}{{ truncate 256 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}" >
     <meta property="og:image" content="https:{{- if .Params.Thumbnail -}}{{- .Params.Thumbnail -}}{{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}" >
+    <meta property="og:url" content="https://www.sogmi.org{{ .RelPermalink }}">
     <meta name="twitter:card" content="summary" >
     <meta name="twitter:title" content="{{ if .Params.metaTitle }}{{ .Params.metaTitle }}{{ else }}{{ .Title }}{{ end }}" >
     <meta name="twitter:description" content="{{ if .Params.MetaDescription }}{{ .Params.MetaDescription }}{{ else }}{{ if .Description }}{{ truncate 256 .Description | plainify }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}" >
