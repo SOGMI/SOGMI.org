@@ -1,6 +1,7 @@
 ---
 title: Home
 metaTitle: Sons of God Ministries International | Empowering Leaders to Empower Nations
+metaDescription: "Sons of God Ministries International (SOGMI) is a prophetic and apostolic ministry. We focus on discipling the Body of Christ and spreading the Gospel throughout the world. We train believers to walk as overcomers in every area of life, build up the Body of Christ to go forth in the gifts of the Holy Spirit, and prepare God’s people for works of service until we all attain the full measure of the stature of Jesus Christ."
 featuredImage: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
 slide1: 
     header: Sons of God Ministries International

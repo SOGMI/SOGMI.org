@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 /*gallery page*/
 .return-to-event-link.gallery {
   display: inline-block;

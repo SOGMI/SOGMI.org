@@ -37,7 +37,7 @@
                 <div class="pagination">
                     <div class="pagination-button-wrap">
                     {{ if .Paginator.HasPrev }}
-                        <a class="pagination-button" href="{{ .Paginator.Prev.URL }}">
+                        <a class="pagination-button" aria-label="previous page" href="{{ .Paginator.Prev.URL }}">
                             <span></span>
                             <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">&nbsp;&nbsp;prev</span>
                         </a>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="pagination-button-wrap">
                     {{ if .Paginator.HasNext }}
-                        <a class="pagination-button" href="{{ .Paginator.Next.URL }}">
+                        <a class="pagination-button" aria-label="next page" href="{{ .Paginator.Next.URL }}">
                             <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">next&nbsp;&nbsp;</span>
                             <span></span>
                         </a>

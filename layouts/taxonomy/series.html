@@ -13,7 +13,7 @@
   <meta name="twitter:description" content="{{ if $d }}{{ $d }}{{ else }}{{ $d2 }}{{ end }}" >
   <meta name="twitter:image" content="{{- .Params.AlbumImage -}}" >
   <meta name="twitter:site" content="@SogmiChurch" />
-  <link type="application/rss+xml" rel="alternate" title="{{ .Title }}" href="http://propheticvoice.castos.com/feed/"/>
+  <link type="application/rss+xml" rel="alternate noopener" title="{{ .Title }}" href="http://propheticvoice.castos.com/feed/"/>
 {{ end }}
 
 {{ define "main"}}
@@ -54,25 +54,25 @@
         <div class="pagination">
           <div class="pagination-button-wrap">
             {{- if .Paginator.HasPrev -}}
-              <a class="pagination-button" href="{{ .Paginator.First.URL }}">
+              <a class="pagination-button" aria-label="first page" href="{{ .Paginator.First.URL }}">
                   <span style="font-size: 14px"><i class="fas fa-chevron-left"></i>&nbsp;</span>
                   <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">first</span>
               </a>
             {{- end -}}
             {{- if .Paginator.HasPrev -}}
-              <a class="pagination-button" href="{{ .Paginator.Prev.URL }}">
+              <a class="pagination-button" aria-label="previous-page" href="{{ .Paginator.Prev.URL }}">
                   <span style="font-size: 14px"><i class="fas fa-chevron-left"></i></span>
               </a>
             {{- end -}}
           </div>
           <div class="pagination-button-wrap">
             {{- if .Paginator.HasNext -}}
-                <a class="pagination-button" href="{{ .Paginator.Next.URL }}">
+                <a class="pagination-button" aria-label="next page" href="{{ .Paginator.Next.URL }}">
                     <span style="font-size: 14px"><i class="fas fa-chevron-right"></i></span>
                 </a>
             {{- end -}}
             {{- if .Paginator.HasNext -}}
-                <a class="pagination-button" href="{{ .Paginator.Last.URL }}">
+                <a class="pagination-button" aria-label="last page" href="{{ .Paginator.Last.URL }}">
                     <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">last</span>
                     <span style="font-size: 14px">&nbsp;<i class="fas fa-chevron-right"></i></span>
                 </a>

@@ -7,7 +7,7 @@
                         {{ if $.Site.Params.Logo }}
                             <img src="{{ $.Site.Params.Logo }}?w=306" alt="{{ $.Site.Title }}" width="250" height="auto">
                         {{ else }}
-                            <div class="logo-text">{{ $.Site.Title }}</div>
+                            <div class="logo-text">{{ $.Site.Title }} Logo</div>
                         {{ end }}
                     </a>
                 </div>
@@ -15,8 +15,8 @@
                 <div style="margin-top: 40px;">Follow us on Social Media</div>
                 <div style="margin: 10px -5px 0px -5px">
                     {{ range $.Site.Data.info.social_media }}
-                    <a href="{{ .url }}" target="_blank" class="social-icons" style="color: {{ .color }}">
-                        <i class="fab fa-{{ .icon }}"></i>
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="social-icons" style="color: {{ .color }}" aria-label="Link to SOGMI {{ .icon | title }} account">
+                        <i class="fab fa-{{ .icon }}" aria-hidden="true"></i>
                     </a>
                     {{ end }}
                 </div>
@@ -52,22 +52,25 @@
                 <div id="mailing-list" class="footer-section">
 
                     <!-- Begin MailChimp Signup Form -->
-                    <div id="mc_embed_signup">
-                        <form action="https://sogmi.us16.list-manage.com/subscribe/post?u=ae8c577da8fbed8859b5f6a9d&amp;id=319f6e763d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate email-form" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll">
+                    <div id="mc_footer_signup">
+                        <form action="https://sogmi.us16.list-manage.com/subscribe/post?u=ae8c577da8fbed8859b5f6a9d&amp;id=319f6e763d" method="post" id="mc-footer-subscribe-form" name="mc-embedded-subscribe-form" class="validate email-form" target="_blank" novalidate>
+                            <div id="mc_footer_signup_scroll">
                                 <label>Join Our Mailing List</label>
                                 <div class="mc-field-group">
-                                    <input type="text" value="" name="FNAME" class="w-input" placeholder="Enter your name" id="mce-FNAME">
+                                    <input aria-label="first name" type="text" value="" name="FNAME" class="w-input" placeholder="Enter your name" id="mce-footer-FNAME">
                                 </div>
                                 <div class="mc-field-group">
-                                    <input type="email" value="" name="EMAIL" class="required email w-input" id="mce-EMAIL" placeholder="Enter your email*">
+                                    <input aria-label="email address" type="email" value="" name="EMAIL" class="required email w-input" id="mce-footer-EMAIL" placeholder="Enter your email*">
                                 </div>
-                                <div id="mce-responses" class="clear">
-                                    <div class="response" id="mce-error-response" style="display:none"></div>
-                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                <div id="mce-footer-responses" class="clear">
+                                    <div class="response" id="mce-footer-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-footer-success-response" style="display:none"></div>
                                 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ae8c577da8fbed8859b5f6a9d_319f6e763d" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button email-form-button"></div>
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                    <input type="text" name="b_ae8c577da8fbed8859b5f6a9d_319f6e763d" tabindex="-1" value=""></div>
+                                <div class="clear">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-footer-subscribe" class="button email-form-button">
+                                </div>
                             </div>
                         </form>
                     </div>       
@@ -77,7 +80,7 @@
             </div>
         </div>
         <div class="copyright-bar">
-            <div>© {{ now.Format "2006" }} Sons of God International. ALL RIGHTS RESERVED  |  <a href="http://modiimedia.com" target="_blank" class="made-by-link">Website by <strong>Modii</strong></a></div>
+            <div>© {{ now.Format "2006" }} Sons of God International. ALL RIGHTS RESERVED  |  <a href="http://modiimedia.com" rel="noopener" target="_blank" class="made-by-link">Website by <strong>Modii</strong></a></div>
         </div>
     </div>
 </footer>
