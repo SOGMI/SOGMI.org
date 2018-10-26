@@ -37,6 +37,58 @@
     
 {{- partial "footer.html" . -}}
 {{- block "addscripts" . }}{{- end -}}
+<script>
+    $(document).ready(function() {
+    var lazyBackgrounds;    
+
+    if ("IntersectionObserver" in window) {
+        lazyBackgrounds = document.querySelectorAll(".lazy-background");
+        var imageObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+            var image = entry.target;
+            image.style = `background-image: url(${image.getAttribute("data-img-src")})`;
+            image.classList.remove("lazy-background");
+            imageObserver.unobserve(image);
+            }
+        });
+        });
+
+        lazyBackgrounds.forEach(function(image) {
+        imageObserver.observe(image);
+        });
+    } else {  
+        var lazyloadThrottleTimeout;
+        lazyBackgrounds = $(".lazy-background");
+        
+        function lazyload () {
+        if(lazyloadThrottleTimeout) {
+            clearTimeout(lazyloadThrottleTimeout);
+        }    
+
+        lazyloadThrottleTimeout = setTimeout(function() {
+            var scrollTop = $(window).scrollTop();
+            lazyBackgrounds.each(function() {
+                var el = $(this);
+                if(el.offset().top - scrollTop < window.innerHeight) {
+                    var url = el.attr("data-img-src");
+                    el.style = `background-image: url(${url})`;
+                    el.removeClass("lazy-background");
+                    lazyBackgrounds = $(".lazy-background");
+                }
+            });
+            if(lazyBackgrounds.length == 0) { 
+                $(document).off("scroll");
+                $(window).off("resize");
+            }
+        }, 20);
+        }
+
+        $(document).on("scroll", lazyload);
+        $(window).on("resize", lazyload);
+    }
+    })
+</script>
 </body>
 
 </html>

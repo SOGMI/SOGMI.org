@@ -47,8 +47,8 @@
           </div>
         </div>
         <ul id="playlist" class="standard-grid-wrapper w-list-unstyled">
-          {{ range (.Paginate (.Pages.ByParam "episodeNumber" ).Reverse 20).Pages }}
-            {{- partial "grid-item.html" . -}}
+          {{ range $i, $e := (.Paginate (.Pages.ByParam "episodeNumber" ).Reverse 20).Pages }}
+            {{- partial "grid-item.html" (dict "local" . "index" $i) -}}
           {{- end -}}
         </ul>
         <div class="pagination">

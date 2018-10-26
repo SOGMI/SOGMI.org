@@ -16,8 +16,8 @@
         <div class="video-archive-grid-wrapper">
             <div class="video-grid-wrap">
                 <div class="video-grid-section">
-                    {{ range (.Paginator 10).Pages }}
-                        {{ partial "grid-item.html" . }}
+                    {{ range $i, $e := (.Paginator 10).Pages }}
+                        {{ partial "grid-item.html" (dict "local" . "index" $i) }}
                     {{ end }}
                 </div>
                 <div class="pagination">

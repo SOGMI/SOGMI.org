@@ -1780,6 +1780,7 @@ figcaption {
   opacity: 0.5;
   -webkit-transition: opacity 500ms ease;
   transition: opacity 500ms ease;
+  background-size: cover; background-position: center center;
 }
 
 .text-block-5 {
@@ -1919,7 +1920,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border: 1px none #dedede;
-  background-color: #dedede;
+  /* background-color: #dedede; */
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3938,6 +3939,9 @@ figcaption {
 
 .div-block-64 {
   position: relative;
+  background-size: cover;
+  background-position: center;
+  background-color: #bebebe
 }
 
 .relative-wrapper {
