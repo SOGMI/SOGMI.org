@@ -1,22 +1,15 @@
 {{ if eq .Section "podcasts" }}
 <li data-image="{{ if .Params.Thumbnail }}{{ .Params.Thumbnail }}{{ else }}{{ .Params.FeaturedImage }}{{ end }}" data-series="{{ .Params.series }}" class="podcast-grid-item">
   <a href="{{ .Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block play-button">
-    {{ if .Params.Thumbnail }}
-    <div class="podcast-grid-image" style="background-image: url({{ .Params.Thumbnail}}?w=600&q=50)">
+    {{ if ( .Params.Thumbnail | or ( .Params.FeaturedImage )) }}
+    <div class="podcast-grid-image" style="background-image: url(
+        {{- if .Params.thumbnail -}}{{- .Params.thumbnail -}}
+        {{- else -}}{{- .Params.FeaturedImage -}}{{- end -}}?w=600&q=50&fl=progressive)">
       <div class="play-notification">PLAY</div>
       <div class="podcast-grid-image-overlay"></div>
     </div>
     <span></span>
     <div class="podcast-grid-image-2" style="background-image: url({{ .Params.Thumbnail }}?w=600&q=50); background-size: cover; background-position: center center;">
-      <div class="play-notification-2">PLAYING...</div>
-    </div>
-    {{ else }} {{ if .Params.FeaturedImage }}
-    <div class="podcast-grid-image" style="background-image: url({{ .Params.FeaturedImage }}?w=600&q=50)">
-      <div class="play-notification">PLAY</div>
-      <div class="podcast-grid-image-overlay"></div>
-    </div>
-    <span></span>
-    <div class="podcast-grid-image-2" style="background-image: url({{ .Params.FeaturedImage }}?w=600&q=50); background-size: cover; background-position: center center;">
       <div class="play-notification-2">PLAYING...</div>
     </div>
     {{ else }}
@@ -30,7 +23,7 @@
       <div style="position: absolute; font-family: Fontawesome webfont; color: white; font-size: 100px; opacity: 0.1;"></div>
       <div class="play-notification-2">PLAYING...</div>
     </div>
-    {{ end }} {{ end }}
+    {{ end }}
     <div class="podcast-grid-content">
       <h2 class="podcast-heading">Episode {{ .Params.EpisodeNumber }}: {{ .Title }}</h2>
       <div class="text-block-5">{{ $d := .Description | plainify }}{{ $d | truncate 200 }}</div>
@@ -46,20 +39,20 @@
         <strong>Share this episode</strong>
       </h4>
       <div class="div-block-43">
-        <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank" class="link-block-2 facebook w-inline-block">
+        <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" rel="nofollow noopener" target="_blank" class="link-block-2 facebook w-inline-block">
           <i class="fab fa-facebook"></i>
         </a>
-        <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" class="link-block-2 twitter w-inline-block">
+        <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" rel="nofollow noopener" target="_blank" class="link-block-2 twitter w-inline-block">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Params.Thumbnail }}" target="_blank"
+        <a href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Params.Thumbnail }}" rel="nofollow noopener" target="_blank"
           class="link-block-2 pinterest w-inline-block">
           <i class="fab fa-pinterest"></i>
         </a>
-        <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="link-block-2 google-plus w-inline-block">
+        <a href="https://plus.google.com/share?url={{ .Permalink }}" rel="nofollow noopener" target="_blank" class="link-block-2 google-plus w-inline-block">
           <i class="fab fa-google"></i>
         </a>
-        <a href="http://www.reddit.com/submit?url={{ .Permalink }}" target="_blank" class="link-block-2 reddit w-inline-block">
+        <a href="http://www.reddit.com/submit?url={{ .Permalink }}" rel="nofollow noopener" target="_blank" class="link-block-2 reddit w-inline-block">
           <i class="fab fa-reddit"></i>
         </a>
       </div>
@@ -75,7 +68,7 @@
     </a>
   </div>
 </li>
-{{ else }} {{ if eq .Section "videos" }}
+{{ else if eq .Section "videos" }}
 <article class="video-grid-item">
   <a href="{{ .RelPermalink }}" data-ix="video-grid-hover" class="video-grid-item-inner w-inline-block">
     <div class="video-grid-image" {{ if .Params.Thumbnail }}style="background-image: URL({{ .Params.Thumbnail }}?w=500&q=50)"
@@ -98,15 +91,15 @@
     <div class="div-block-64">
       <div class="image-color-overlay"></div>
       {{ if .Params.Thumbnail }}
-      <div class="grid-image" style="background-image:URL({{ .Params.Thumbnail }}?w=600&q=50)">
-        {{ else }} {{ if .Params.FeaturedImage }}
-        <div class="grid-image" style="background-image:URL({{ .Params.FeaturedImage }}?w=600&q=50)">
-          {{ else }}
-          <div class="grid-image" style="background-image: URL( /img/green-fibers.png ); background-size: 400px; background-repeat: repeat">
-            <div class="image-overlay"></div>
-            {{ end }} {{ end }}
-            <div class="blog-grid-read-more">Read More</div>
-          </div>
+      <div class="grid-image" style="background-image:URL({{ .Params.Thumbnail }}?w=600&q=50&fl=progressive)">
+      {{ else if .Params.FeaturedImage }}
+      <div class="grid-image" style="background-image:URL({{ .Params.FeaturedImage }}?w=600&q=50&fl=progressive)">
+      {{ else }}
+      <div class="grid-image" style="background-image: URL( /img/green-fibers.png ); background-size: 400px; background-repeat: repeat">
+        <div class="image-overlay"></div>
+      {{ end }}
+        <div class="blog-grid-read-more">Read More</div>
+      </div>
         </div>
         <div class="div-block-4">
           <h2 class="blog-grid-heading">{{ .Title }}</h2>
@@ -122,4 +115,4 @@
         </div>
   </a>
 </article>
-{{ end }} {{ end }}
+{{ end }}
