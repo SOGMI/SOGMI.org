@@ -3057,7 +3057,9 @@ figcaption {
   right: 0px;
   z-index: -1;
   display: block;
-  width: 100%;
+  width: 110%;
+  margin-left: -5%;
+  top: -50px;
   padding-bottom: 56.25%;
 }
 
