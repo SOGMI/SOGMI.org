@@ -2,7 +2,7 @@
 <li data-image="{{ if .local.Params.Thumbnail }}{{ .local.Params.Thumbnail }}{{ else }}{{ .local.Params.FeaturedImage }}{{ end }}" data-series="{{ .local.Params.series }}" class="podcast-grid-item">
   <a href="{{ .local.Params.AudioLink }}" data-ix="podcast-hover" class="podcast-grid-inner w-inline-block play-button">
     {{ if ( .local.Params.Thumbnail | or ( .local.Params.FeaturedImage )) }}
-    <div style="background-image: url(
+    <div class="preloadImage" style="background-image: url(
       {{- if .local.Params.thumbnail -}}
         {{- .local.Params.thumbnail -}}
       {{- else -}}
