@@ -44,5 +44,5 @@
         </a>
         <!--watch live-->
         {{- with .Site.GetPage "section" "live" -}}
-        <a href="/live/" {{ if eq .Params.currentlyLiveStreaming true }} style="background-color: #e41f2f; border: 1px solid #e41f2f; opacity: 1" {{end}} class="nav-link nav-button live w-inline-block">Watch Live</a>
+        <a href="/live/" {{ if eq .Params.currentlyLiveStreaming true }} style="background-color: #e41f2f; border: 1px solid #e41f2f; opacity: 1" {{end}} class="nav-link nav-button live w-inline-block">{{ if eq .Params.currentlyLiveStreaming true }}Live Now{{ else }}Livestreams{{ end }}</a>
         {{- end -}}
