@@ -12,17 +12,17 @@ slide1:
     button2text: Upcoming Events
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     videoid: kTh3hP-HWnE
-    active: true 
+    active: false 
 slide2: 
-    header: This is the second Header
-    subheader: Check out this awesome event!
-    button1: "/"
-    button2: "/events"
-    button1text: Service Times
-    button2text: Upcoming Events
-    imagelink: https://static.pexels.com/photos/414727/pexels-photo-414727.jpeg
+    header: The Prophetic Gathering of the Saints
+    subheader: It's a new year celebration like no other.
+    button1: "/events/prophetic-gathering-2018/"
+    button2: "/events/"
+    button1text: Get Tickets
+    button2text: View Other Events
+    imagelink: //images.ctfassets.net/vfgh62eq5a4k/DrzAsEIJa02m6mOogmuOK/7f8240b17e5a35277ba5d2b635f54d3d/2018-bright-celebrate-769525.jpg
     videoid: 
-    active: false
+    active: true
 grid1:
     header: Radio Show
     subheader: with Pastor Cris
