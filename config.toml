@@ -11,7 +11,7 @@ priority = 0.5
 
 [params]
 logo = "//images.ctfassets.net/vfgh62eq5a4k/5SPbzorfOguiSYUAsEu4aw/b03106ded09c4ac6e60e259d85582267/SOGMI_LOGO_-_website_black_text-01b.png"
-announcement = ""
+announcement = "Celebrate the New Year with SOGMI! Register for the Prophetic Gathering of the Saints on December 31st! <a class='announcementButton' href='/events/prophetic-gathering-2018/'>Register Here <i class='fas fa-chevron-right'></i></a>"
 imageplaceholder = "//images.ctfassets.net/vfgh62eq5a4k/CUILu9hmSc84kgEWGAsUo/d1c97cf78771e4222e83c9a331fbc07f/sogmi_logo_placeholder.png"
     
     [[params.socialmedia]]
