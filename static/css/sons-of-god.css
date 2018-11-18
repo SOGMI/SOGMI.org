@@ -3,11 +3,11 @@
 }
 
 .announcementBar {
-  padding: 20px 20px;
+  padding: 20px 0px;
   text-align: center;
   background: var(--light-blue);
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .announcementBar a {
@@ -17,14 +17,27 @@
 .announcementBar .announcementButton {
   background: none;
   display: inline-block;
+  text-align: center;
   border: 1px solid white;
-  margin-left: 20px;
+  margin: auto auto auto 20px;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 0 0 0 0;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.151);
   transition: background 200ms ease, color 200ms ease, box-shadow 200ms ease;
+}
+
+@media (max-width: 700px) {
+  .announcementBar {
+    text-align: left;
+    font-size: 80%;
+  }
+  .announcementBar .announcementButton {
+    display: block;
+    max-width: 200px;
+    margin: 10px auto 0px 0px;
+  }
 }
 
 .announcementButton:hover {
