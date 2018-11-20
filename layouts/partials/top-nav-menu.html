@@ -11,6 +11,6 @@
 {{- with .Site.GetPage "section" "live" -}}
 <a href="{{ .RelPermalink }}" {{ if eq .Params.currentlyLiveStreaming true }} class="top-nav-link w-inline-block liveNow" {{ else }} class="top-nav-link w-inline-block" {{end}}>
     <div class="text-block-25"><i class="fas fa-video"></i></div>
-    <div class="text-block-26">{{ if eq .Params.currentlyLiveStreaming true }}&nbsp;Live Now{{ else }}&nbsp;Watch Live{{ end }}</div>
+    <div class="text-block-26">{{ if eq .Params.currentlyLiveStreaming true }}&nbsp;Live Now{{ else }}&nbsp;Livestreams{{ end }}</div>
 </a>
 {{- end -}}

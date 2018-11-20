@@ -131,7 +131,7 @@
                         {{- if eq .File.LogicalName $id -}}
                             <div class="event-speaker-item">
                                 <div class="event-speaker-inner">
-                                    <div class="speaker-photo" style="background-image: URL({{ .Params.ProfilePhoto }}?w=300)"></div>
+                                    <div class="speaker-photo" style="background-image: URL({{ .Params.ProfilePhoto }}?h=300&w=300&f=face&fit=fill&)"></div>
                                     <div class="div-block-82">
                                         <h2 class="heading-11">{{ $name }}</h2>
                                         <p class="paragraph-13">{{ truncate 250 .Params.Bio  }}</p>
