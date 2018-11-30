@@ -7,10 +7,10 @@ description: Support the preaching of the Gospel and discipleship for the Body o
 featuredImage: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
 formOptions: 
   - title: Online Donation
-    link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KLR3R6BMV5RKJ
+    link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=95S74R5J668WQ&source=url
   - title: Mail-In Donation
     link: /donate/mail-donation
-oneTimeDonation: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KLR3R6BMV5RKJ
+oneTimeDonation: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=95S74R5J668WQ&source=url
 layout: lightdark
 darkBackground: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/19493a487904837c7ba27a7109c58204/download__2_.jpg
 lightBackground: 
