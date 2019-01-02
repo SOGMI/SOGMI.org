@@ -12,7 +12,7 @@ slide1:
     button2text: Upcoming Events
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     videoid: kTh3hP-HWnE
-    active: false 
+    active: true 
 slide2: 
     header: The Prophetic Gathering of the Saints
     subheader: It's a new year celebration like no other.
@@ -22,7 +22,7 @@ slide2:
     button2text: View Other Events
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/DrzAsEIJa02m6mOogmuOK/7f8240b17e5a35277ba5d2b635f54d3d/2018-bright-celebrate-769525.jpg
     videoid: 
-    active: true
+    active: false
 grid1:
     header: Radio Show
     subheader: with Pastor Cris
