@@ -16,16 +16,16 @@
     "compressjs": "uglifyjs ./public/js/sons-of-god.js --compress --mangle --output ./public/js/sons-of-god.js"
   },
   "dependencies": {
-    "atomic-algolia": "^0.3.15",
+    "atomic-algolia": "^0.3.17",
     "contentful": "^6.1.3",
     "dotenv": "^5.0.1",
-    "html-minifier": "^3.5.20",
-    "instantsearch.js": "^2.10.1",
+    "html-minifier": "^3.5.21",
+    "instantsearch.js": "^2.10.4",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "npm": "^6.4.1",
-    "slugify": "^1.3.1",
-    "uglify-js": "^3.4.8",
+    "npm": "^6.5.0",
+    "slugify": "^1.3.4",
+    "uglify-js": "^3.4.9",
     "webpack": "^2.7.0"
   }
 }
