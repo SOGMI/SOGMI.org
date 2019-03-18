@@ -1,5 +1,5 @@
 ---
-updated: 2019-01-22T02:59:39.440Z
+updated: 2019-02-16T23:05:40.916Z
 date: 2019-01-22T02:59:39.440Z
 title: "Prophecies for 2019 and Beyond Continued"
 slug: "prophetic-voice-355"
@@ -9,12 +9,12 @@ keywords:
 - prophecy
 - prophecy for 2019
 - prophecy to the church
-- supernatural manifestations
 - love of god
 - revelation
 - jesus christ
 - politics
 - united states
+- supernatural manifestation
 Series: "The Prophetic Voice of Our Time"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E355-19-01-19-20-Prophecies-for-2019-and-Beyond.mp3"
 hosts:
