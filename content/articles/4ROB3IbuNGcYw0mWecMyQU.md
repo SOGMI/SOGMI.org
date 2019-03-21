@@ -1,5 +1,5 @@
 ---
-updated: 2019-03-09T21:46:56.457Z
+updated: 2019-03-21T17:56:00.182Z
 date: 2018-03-21T18:23:41.082Z
 title: "Why Prophecy is Still Important Today"
 slug: "why-prophecy-is-still-important-today"
