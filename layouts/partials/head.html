@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <!-- uncomment this to test appearance on on IE9-->
   <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">-->
-  {{- .Hugo.Generator -}} 
+  {{- hugo.Generator -}} 
   {{- if .Params.metaTitle -}}<title>{{- .Params.MetaTitle -}}</title>{{- else -}} 
     {{- if eq .Section "tags" -}}<title>Articles about "{{ .Title }}"</title>{{- else -}} 
       {{- if eq .Section "hosts" -}}<title>Podcasts featuring {{ .Title }}</title>{{- else -}} 

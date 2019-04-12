@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- uncomment this to test appearance on on IE9--><!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">-->
-    {{- .Hugo.Generator -}} 
+    {{- hugo.Generator -}} 
     {{- block "metadata" . -}}
     <title>{{- if .Params.metaTitle -}}{{- .Params.MetaTitle -}}{{- else -}}{{- .Title }} | {{ .Site.Title }}{{- end -}}</title>
     <meta name="description" content="{{- if .Params.MetaDescription -}}{{- .Params.MetaDescription -}}{{- else -}}{{- if .Description -}}{{- truncate 256 .Description | plainify -}}{{- else -}}{{- .Site.Params.SiteDescription -}}{{- end -}}{{- end -}}" >
