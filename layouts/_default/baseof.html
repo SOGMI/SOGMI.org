@@ -21,10 +21,13 @@
 
     {{- block "css" . -}}
     <!--css files-->
-    <link href={{ "css/normalize.css" | relURL }} rel="stylesheet" type="text/css">
-    <link href={{ "css/components.css" | relURL }} rel="stylesheet" type="text/css">
-    <link href={{ "css/sons-of-god.css" | relURL }} rel="stylesheet" type="text/css">
-    <link href={{ "css/sogmi.css" | relURL }} rel="stylesheet" type="text/css">
+    {{- $normalize := resources.Get "css/normalize.css" -}}
+    {{- $components := resources.Get "css/components.css" -}}
+    {{- $sonsOfGod := resources.Get "css/sons-of-god.css" -}}
+    {{- $sogmi := resources.Get "css/sogmi.css" -}}
+    {{- $css := slice $normalize $components $sonsOfGod $sogmi | resources.Concat "css/bundle.css" -}}
+    {{- $min := $css | resources.Minify -}}
+    <link href="{{ $min.RelPermalink }}" rel="stylesheet" type="text/css">
     {{- end -}}
 
     {{- partial "seo/favicons.html" . }}
@@ -43,7 +46,7 @@
 {{- block "main" . -}}{{- end -}}
     
 {{- partial "footer.html" . -}}
-{{- block "addscripts" . }}{{- end -}}
+{{- block "addscripts" . -}}{{- end -}}
 <script>
     $(document).ready(function() {
     var lazyBackgrounds;    
