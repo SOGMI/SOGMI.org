@@ -1,7 +1,7 @@
 ---
-updated: 2019-04-02T03:19:20.298Z
+updated: 2019-04-08T21:00:43.031Z
 date: 2019-04-02T03:19:20.298Z
-title: "Uproot The False Narratives in Your Life"
+title: "Uproot The False Narratives in Your Life Part 1"
 slug: "prophetic-voice-365"
 originalAirDate: 2019-03-29T19:00:00.000Z
 episodeNumber: 365
