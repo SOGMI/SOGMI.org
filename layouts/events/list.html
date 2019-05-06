@@ -24,7 +24,7 @@
                     {{ if eq .Params.freeEvent true }}
                         <div>Free</div>
                     {{ else }}
-                        <div>{{ .Params.Price }}</div>
+                        <div>${{ .Params.Price }}</div>
                     {{ end }}
                 </div>
                 <div class="event-grid-overlay" style="background-image: URL({{ .Params.featuredImage }}?w=400&q=80)"></div>
