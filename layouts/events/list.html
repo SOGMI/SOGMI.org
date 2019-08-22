@@ -11,9 +11,9 @@
       <a style="margin-right:-4px" href="/events/" class="button-5 w-button {{if eq .Title "Upcoming Events"}}current{{end}}">Upcoming Events</a>
       <a href="/events/past-events/" class="button-5 w-button {{if eq .Title "Past SOGMI Events"}}current{{end}}">Event Galleries</a>
     </div>
-    <div class="standard-grid-wrapper">
-      {{ if eq .Title "Upcoming Events" }}
-        {{ range .Data.Pages }}
+    <div id="event-list" class="standard-grid-wrapper">
+      {{- if eq .Title "Upcoming Events" -}}
+        {{- range .Data.Pages -}}
           {{ $d := .Params.endDate }}
           {{ if $d }}
             {{ $t := dateFormat "20060102" $d }}
@@ -41,6 +41,15 @@
             {{ end }}
           {{ end }}
         {{ end }}
+        <!-- QUICK FIX SHOULD DO SOMETHING BETTER -->
+        <script>
+            let eventItems = document.querySelectorAll('.event-list-item')
+            if(Number(eventItems.length) < 1) {
+              document.getElementById('event-list').innerHTML = `
+                <div class="event-list-item">There are currently no upcoming events<p>
+              `
+            }
+        </script>
       {{ end }}
       {{ if eq .Title "Past SOGMI Events" }}
         {{ range where .Site.RegularPages "Section" "events" }}
@@ -90,4 +99,5 @@
     </div>
   </div>
 </div>
+
 {{ end }}
