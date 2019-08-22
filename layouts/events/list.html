@@ -13,73 +13,77 @@
     </div>
     <div class="standard-grid-wrapper">
       {{ if eq .Title "Upcoming Events" }}
-      {{ range .Data.Pages }}
-        {{ $d := .Params.endDate }}
-        {{ $t := dateFormat "20060102" $d }}
-        {{ $n := dateFormat "20060102" now }}
-          {{ if ge $t $n }}
-            <div class="event-list-item">
-              <a href="{{ .RelPermalink }}" class="event-grid-link w-inline-block">
-                <div class="div-block-75">
-                    {{ if eq .Params.freeEvent true }}
-                        <div>Free</div>
-                    {{ else }}
-                        <div>${{ .Params.Price }}</div>
+        {{ range .Data.Pages }}
+          {{ $d := .Params.endDate }}
+          {{ if $d }}
+            {{ $t := dateFormat "20060102" $d }}
+            {{ $n := dateFormat "20060102" now }}
+            {{ if ge $t $n }}
+              <div class="event-list-item">
+                <a href="{{ .RelPermalink }}" class="event-grid-link w-inline-block">
+                  <div class="div-block-75">
+                      {{ if eq .Params.freeEvent true }}
+                          <div>Free</div>
+                      {{ else }}
+                          <div>${{ .Params.Price }}</div>
+                      {{ end }}
+                  </div>
+                  <div class="event-grid-overlay" style="background-image: URL({{ .Params.featuredImage }}?w=400&q=80)"></div>
+                  <div class="div-block-74">
+                    <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
+                    <h3 class="event-grid-title">{{ .Title }}</h3>
+                    {{ with .Params.startdate }}
+                    <div class="text-block-31">{{ . | dateFormat "January 2, 2006" }}</div>
                     {{ end }}
-                </div>
-                <div class="event-grid-overlay" style="background-image: URL({{ .Params.featuredImage }}?w=400&q=80)"></div>
-                <div class="div-block-74">
-                  <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
-                  <h3 class="event-grid-title">{{ .Title }}</h3>
-                  {{ with .Params.startdate }}
-                  <div class="text-block-31">{{ . | dateFormat "January 2, 2006" }}</div>
-                  {{ end }}
-                </div>
-              </a>
-            </div>
+                  </div>
+                </a>
+              </div>
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
       {{ if eq .Title "Past SOGMI Events" }}
-      {{ range where .Site.RegularPages "Section" "events" }}
-        {{ $d := .Params.endDate }}
-        {{ $t := dateFormat "20060102" $d }}
-        {{ $n := dateFormat "20060102" now }}
-          {{ if ge $n $t }}
-          <div class="event-list-item">
-              <a href="{{ .RelPermalink }}" class="event-grid-link gallery w-inline-block">
-                <div class="event-grid-overlay"  style="background-image: URL({{ .Params.FeaturedImage }}?w=500&q=80); background-size: cover;"></div>
-                <div class="div-block-74">
-                  <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
-                  <h3 class="event-grid-title" style="border: none; padding: 0px !important">{{ .Title }}</h3>
-                  <div class="text-block-31">{{ dateFormat "January 02, 2006" $d }}</div>
-                </div>
-                {{ if .Params.ContentfulId }}
-                <div style="display: block" class="div-block-75">
-                    <div style="font-size: 14px" id="{{ .UniqueID }}">Photos Available
-                    </div>
-                </div>
-                {{ end }}
-                <div class="view-gallery-button">
-                  {{ if .Params.ContentfulId }}<div>View Gallery</div>{{ else }}<div>View Event</div>{{ end }}
-                </div>
-              </a>
-            </div>
-            <!--<div class="event-list-item">
-              <a href="{{ .RelPermalink }}" class="event-grid-link gallery w-inline-block">
-                <div class="div-block-75">
-                        <div>View Gallery</div>
-                </div>
-                <div class="event-grid-overlay" style="background-image: URL({{ .Params.featuredImage }}?w=400&q=80)"></div>
-                <div class="div-block-74">
-                  <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
-                  <h3 class="event-grid-title">{{ .Title }}</h3>
-                  {{ with .Params.startdate }}
-                  <div class="text-block-31">{{ . | dateFormat "January 2, 2006" }}</div>
+        {{ range where .Site.RegularPages "Section" "events" }}
+          {{ $d := .Params.endDate }}
+          {{ if $d }}
+            {{ $t := dateFormat "20060102" $d }}
+            {{ $n := dateFormat "20060102" now }}
+            {{ if ge $n $t }}
+            <div class="event-list-item">
+                <a href="{{ .RelPermalink }}" class="event-grid-link gallery w-inline-block">
+                  <div class="event-grid-overlay"  style="background-image: URL({{ .Params.FeaturedImage }}?w=500&q=80); background-size: cover;"></div>
+                  <div class="div-block-74">
+                    <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
+                    <h3 class="event-grid-title" style="border: none; padding: 0px !important">{{ .Title }}</h3>
+                    <div class="text-block-31">{{ dateFormat "January 02, 2006" $d }}</div>
+                  </div>
+                  {{ if .Params.ContentfulId }}
+                  <div style="display: block" class="div-block-75">
+                      <div style="font-size: 14px" id="{{ .File.UniqueID }}">Photos Available
+                      </div>
+                  </div>
                   {{ end }}
-                </div>
-              </a>
-            </div>-->
+                  <div class="view-gallery-button">
+                    {{ if .Params.ContentfulId }}<div>View Gallery</div>{{ else }}<div>View Event</div>{{ end }}
+                  </div>
+                </a>
+              </div>
+              <!--<div class="event-list-item">
+                <a href="{{ .RelPermalink }}" class="event-grid-link gallery w-inline-block">
+                  <div class="div-block-75">
+                          <div>View Gallery</div>
+                  </div>
+                  <div class="event-grid-overlay" style="background-image: URL({{ .Params.featuredImage }}?w=400&q=80)"></div>
+                  <div class="div-block-74">
+                    <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
+                    <h3 class="event-grid-title">{{ .Title }}</h3>
+                    {{ with .Params.startdate }}
+                    <div class="text-block-31">{{ . | dateFormat "January 2, 2006" }}</div>
+                    {{ end }}
+                  </div>
+                </a>
+              </div>-->
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}

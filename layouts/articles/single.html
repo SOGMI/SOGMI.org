@@ -31,7 +31,7 @@
 
                 {{- end -}}
               </div>
-              <a href="#comments" style="padding-bottom: 10px;"><span class="disqus-comment-count" style="color: white" data-disqus-identifier="{{ .File.UniqueID }}">comments</span></a>
+              <a href="#comments" style="padding-bottom: 10px;"><span class="disqus-comment-count" style="color: white" data-disqus-identifier="{{ .File.File.UniqueID }}">comments</span></a>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@
                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
                   var disqus_config = function() {
                     this.page.url = 'http://sogmi.org{{ .RelPermalink }}'; // Replace PAGE_URL with your page's canonical URL variable
-                    this.page.identifier = '{{ .UniqueID }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    this.page.identifier = '{{ .File.UniqueID }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                   };
                   (function() { // DON'T EDIT BELOW THIS LINE
                     var d = document,

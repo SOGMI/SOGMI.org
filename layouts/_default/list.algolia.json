@@ -9,7 +9,7 @@
             "description": {{ .Description | jsonify }},
             "featuredImage": {{ .Params.albumImage | jsonify }},
             "section": "podcast series",
-            "objectID": "{{ .UniqueID }}",
+            "objectID": "{{ .File.UniqueID }}",
             "relpermalink": "{{ .RelPermalink }}"
         },
         {{- end -}}
@@ -25,7 +25,7 @@
             "description": {{ .Description | jsonify }},
             "featuredImage": {{ .Params.featuredImage | jsonify }},
             "section": "article collection",
-            "objectID": "{{ .UniqueID }}",
+            "objectID": "{{ .File.UniqueID }}",
             "relpermalink": "{{ .RelPermalink }}"
         },
         {{- end -}}
@@ -44,7 +44,7 @@
         {{- $keywords := .Params.Keywords -}}{{- $series := .Params.Series -}}{{- $tags := .Params.Tags -}}
         {{- $authors := .Params.Authors -}}{{- $hosts := .Params.Hosts -}}{{- $vkeywords := .Params.VideoKeywords -}}
         
-        {{- $id := .UniqueID -}}
+        {{- $id := .File.UniqueID -}}
 
         {{- if eq .Section "podcasts" -}}
             {{- range $index, $split := split .Content "<split>" -}}
@@ -110,7 +110,7 @@
         {{- $keywords := .Params.Keywords -}}{{- $series := .Params.Series -}}{{- $tags := .Params.Tags -}}
         {{- $authors := .Params.Authors -}}{{- $hosts := .Params.Hosts -}}{{- $vkeywords := .Params.VideoKeywords -}}
         
-        {{- $id := .UniqueID -}}
+        {{- $id := .File.UniqueID -}}
 
             {
                 "title": {{ jsonify $title }},
