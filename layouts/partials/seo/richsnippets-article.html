@@ -1,3 +1,9 @@
+{{- $pDate := dateFormat "2006-01-02T15:04:05-07:00" .Params.publishDate -}}
+{{- $published := print "\"" $pDate "\"" | safeHTML -}}
+
+{{- $uDate := dateFormat "2006-01-02T15:04:05-07:00" .Params.updated -}}
+{{- $updated := print "\"" $uDate "\"" | safeHTML -}}
+
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -15,8 +21,8 @@
             "{{ $image }}?w=800&h=450&fit=fill&q=80"
         ],
         {{- end -}}
-        "datePublished": "{{ .PublishDate }}",
-        "dateModified": "{{ .Lastmod }}",
+        "datePublished": {{ $published | safeJS }},
+        "dateModified": {{ $updated | safeJS }},
         "author": {
             "@type": "Person",
             "name": "{{ .Params.Authors }}"
@@ -29,7 +35,7 @@
             "url": "https:{{ $.Site.Params.Logo }}"
             }
         },
-        {{ $md := .Params.metaDescription }}{{ $d := .Description }}
+        {{- $md := .Params.metaDescription -}}{{- $d := .Description -}}
         "description": "{{ if $md }}{{ $md }}{{ else }}{{ $d }}{{ end }}"
     }
 </script>
