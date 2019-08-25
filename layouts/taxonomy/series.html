@@ -1,4 +1,4 @@
-{{ define "metadata" }}
+{{- define "metadata" -}}
   {{- $t := print .Title " " .Params.Subheading -}}
   {{- $t1 := .Params.MetaTitle -}}
   {{- $d := .Params.metaDescription -}}
@@ -14,11 +14,11 @@
   <meta name="twitter:image" content="{{- .Params.AlbumImage -}}" >
   <meta name="twitter:site" content="@SogmiChurch" />
   <link type="application/rss+xml" rel="alternate" title="{{ .Title }}" href="{{ replace .Params.rssFeed "http://" "https://" }}"/>
-{{ end }}
+{{- end -}}
 
-{{ define "main"}}
+{{- define "main" -}}
 <div class="content-section podcast">
-  {{ partial "audio-player.html" }}
+  {{- partial "audio-player.html" -}}
   <div class="subscribe-modal-window">
     <div class="div-block-78" data-ix="subscribe-modal-dissappear"></div>
     {{- $t := .Title -}}
@@ -39,15 +39,15 @@
             </a>
           </div>
           <div class="div-block-46">
-            <h1 class="heading-17">{{ .Title }}</h1>
-              {{ .Description | markdownify }}
+            <h1 class="heading-17">{{- .Title -}}</h1>
+              {{- .Description | markdownify -}}
             <a href="#" class="subscribe-button w-inline-block" data-ix="subscribe-modal-appear">
               <div class="text-block-33">Subscribe</div>
             </a>
           </div>
         </div>
         <ul id="playlist" class="standard-grid-wrapper w-list-unstyled">
-          {{ range $i, $e := (.Paginate (.Pages.ByParam "episodeNumber" ).Reverse 20).Pages }}
+          {{- range $i, $e := (.Paginate (.Pages.ByParam "episodeNumber" ).Reverse 20).Pages -}}
             {{- partial "grid-item.html" (dict "local" . "index" $i) -}}
           {{- end -}}
         </ul>
@@ -85,8 +85,8 @@
 </div>
 
 
-{{ end }}
+{{- end -}}
 
-{{ define "addscripts"}}
+{{- define "addscripts" -}}
 <script src="/js/audio-player.js"></script>
-{{ end }}
+{{- end -}}

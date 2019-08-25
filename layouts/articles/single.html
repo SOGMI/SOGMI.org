@@ -1,5 +1,5 @@
-{{ define "main" }}
-{{ partial "seo/richsnippets-article.html" . }}
+{{- define "main" -}}
+{{- partial "seo/richsnippets-article.html" . | safeHTML -}}
 {{- if .Params.featuredImage -}}
   <div class="blog-single-image-header-top" style="position: relative; background-image:URL( {{ .Params.featuredImage }}?w=1600&h=800&q=50&fit=fill&fl=progressive ); background-size: cover; background-position: center; background-repeat: no-repeat">
 {{- else -}}

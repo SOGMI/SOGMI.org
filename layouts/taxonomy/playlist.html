@@ -30,26 +30,26 @@
         <div class="video-archive-grid-wrapper">
             <div class="video-grid-wrap">
                 <div class="video-grid-section">
-                    {{ range $i, $e := (.Paginator 10).Pages }}
-                        {{ partial "grid-item.html" (dict "local" . "index" $i) }}
-                    {{ end }}
+                    {{- range $i, $e := (.Paginator 10).Pages -}}
+                        {{- partial "grid-item.html" (dict "local" . "index" $i) -}}
+                    {{- end -}}
                 </div>
                 <div class="pagination">
                     <div class="pagination-button-wrap">
-                    {{ if .Paginator.HasPrev }}
+                    {{- if .Paginator.HasPrev -}}
                         <a class="pagination-button" aria-label="previous page" href="{{ .Paginator.Prev.URL }}">
                             <span></span>
                             <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">&nbsp;&nbsp;prev</span>
                         </a>
-                    {{ end }}
+                    {{- end -}}
                     </div>
                     <div class="pagination-button-wrap">
-                    {{ if .Paginator.HasNext }}
+                    {{- if .Paginator.HasNext -}}
                         <a class="pagination-button" aria-label="next page" href="{{ .Paginator.Next.URL }}">
                             <span style="font-family: Poppins, san-serif; font-size: 14px; line-height: 24px">next&nbsp;&nbsp;</span>
                             <span></span>
                         </a>
-                    {{ end }}
+                    {{- end -}}
                     </div>            
                 </div>
             </div>
@@ -57,11 +57,11 @@
                 <div class="sidebar-wrapper">
                     <h3 class="sidebar-heading">Popular Tags</h3>
                     <div class="unordered-list-2-copy3 w-list-unstyled">
-                        {{ range first 10 .Site.Taxonomies.videokeywords.ByCount }}
+                        {{- range first 10 .Site.Taxonomies.videokeywords.ByCount -}}
                         <a href="/videokeywords/{{ .Name | urlize }}" class="list-item-2">
                             <div class="text-block-4">{{ replaceRE "-" " "  .Name }}</div>
                         </a>
-                        {{ end }}
+                        {{- end -}}
                     </div>
                 </div>
             </div>
