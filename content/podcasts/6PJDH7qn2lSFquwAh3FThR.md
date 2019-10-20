@@ -1,17 +1,17 @@
 ---
-updated: 2019-08-19T23:46:10.885Z
+updated: 2019-09-16T17:04:23.675Z
 date: 2019-08-19T17:18:00.225Z
 title: "Prophets and Prophecy - Why They are Still Relevant"
 slug: "prophetic-voice-385"
 originalAirDate: 2019-08-16T19:00:00.000Z
 episodeNumber: 385
 keywords:
-- apostles and porphets
 - prophets
 - prophecy
 - holy spirit
 - plan of god
 - political revival
+- apostles and prophets
 Series: "The Prophetic Voice of Our Time"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E385-19-08-17-18-Prophets-and-Prophecy-Why-They-Are-Still-Relevant.mp3"
 hosts:
