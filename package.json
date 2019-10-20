@@ -11,7 +11,6 @@
     "poststart": "atomic-algolia & npm run compressjs",
     "test": "node contentful.js && hugo server",
     "algolia": "atomic-algolia",
-    "minify": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext html",
     "minifyjson": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext json",
     "compressjs": "uglifyjs ./public/js/sons-of-god.js --compress --mangle --output ./public/js/sons-of-god.js"
   },
@@ -19,13 +18,11 @@
     "atomic-algolia": "^0.3.17",
     "contentful": "^6.1.3",
     "dotenv": "^5.0.1",
-    "html-minifier": "^3.5.21",
     "instantsearch.js": "^2.10.5",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "npm": "^6.11.2",
-    "slugify": "^1.3.4",
-    "uglify-js": "^3.6.0",
+    "slugify": "^1.3.5",
+    "uglify-js": "^3.6.3",
     "webpack": "^2.7.0"
   }
 }
