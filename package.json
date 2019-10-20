@@ -6,11 +6,10 @@
   "description": "Website for Sons of God Ministries International. Content is pulled from Contentful API and turned into Markdown files for Hugo to render as a static site.",
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
-    "prestart": "node wait.js && node contentful.js",
-    "start": "hugo --minify",
-    "poststart": "atomic-algolia & npm run compressjs",
-    "test": "node contentful.js && hugo server",
-    "algolia": "atomic-algolia",
+    "prebuild": "node wait.js && node contentful.js",
+    "build": "hugo --minify",
+    "postbuild": "atomic-algolia & npm run compressjs",
+    "start": "node contentful.js && hugo server",
     "minifyjson": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext json",
     "compressjs": "uglifyjs ./public/js/sons-of-god.js --compress --mangle --output ./public/js/sons-of-god.js"
   },
