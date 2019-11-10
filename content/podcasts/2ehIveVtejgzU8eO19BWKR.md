@@ -1,7 +1,7 @@
 ---
-updated: 2019-10-14T16:23:22.453Z
+updated: 2019-10-21T17:02:39.102Z
 date: 2019-10-14T16:23:22.453Z
-title: "The Righteousness of God VS Self Righteousness"
+title: "The Righteousness of God VS Self-Righteousness"
 slug: "prophetic-voice-393"
 originalAirDate: 2019-10-11T19:00:00.000Z
 episodeNumber: 393
