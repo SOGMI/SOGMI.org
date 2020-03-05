@@ -1,8 +1,9 @@
 ---
-updated: 2019-10-20T04:46:03.793Z
+updated: 2019-12-29T22:10:08.776Z
 date: 2019-10-20T04:43:42.049Z
 title: "The Prophetic Gathering of the Saints 2019"
 slug: "the-prophetic-gathering-of-the-saints-2019"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/p4oYwdY95mapmDXJueUdA/7076ef8a55c42b79bc29fc3be09cf4b0/Prophetic_Gathering_Graphic_Cropped.jpg"
 venue: "Freedom Fellowship Church International"
 address:
   longitude: -98.54725339999999
