@@ -1,5 +1,5 @@
 ---
-updated: 2018-08-01T21:54:42.906Z
+updated: 2020-03-22T17:10:07.386Z
 date: 2018-02-28T22:35:28.835Z
 Title: "Freedom Fellowship Church International"
 slug: "freedom-fellowship-church"
@@ -28,6 +28,18 @@ phoneNumber: "+1 210 396 7891"
 email: "info@sogmi.org"
 facebook: "https://www.facebook.com/Freedom.Fellowship.International/"
 ---
+{{< AlertMessage >}}
+
+## Attention
+
+In order to comply with recommendations by the federal govenment and the state of Texas we are limiting the number of people to attend Church services to a small group of people. To accommadate these changes, __we will be livestreaming every service__. Each livestream will begin 30 minutes after the times listed below. Thank you!
+
+You can view when the next livestream is by clicking [__here__](https://sogmi.org/live/).
+
+Previous broadcasts can be found [__here__](https://sogmi.org/videos/).
+
+{{< /AlertMessage >}}
+
 Freedom Fellowship Church International (FFCI) was the first church to be born under the leadership of Sons of God Ministries International.
 
 Led by Senior Pastor and SOGMI Co-Founder Pastor Cris, FFCI is SOGMI's home base stationed in San Antonio, TX. We are a non-denominational church that operates strongly in the prophetic and apostolic, but most of all we focus on spreading the Gospel of Jesus Christ and building up His kingdom.
