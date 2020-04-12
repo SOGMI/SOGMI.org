@@ -1,5 +1,5 @@
 ---
-updated: 2018-03-29T06:21:52.070Z
+updated: 2020-04-05T16:47:20.224Z
 date: 2018-02-23T06:16:18.990Z
 title: "Cristina Sosso"
 slug: "cristina-sosso"
@@ -13,5 +13,6 @@ mType: "Leader"
 profilePhoto: "//images.ctfassets.net/vfgh62eq5a4k/96QJj81azCMMwMSuSuIEY/cb10e257ae13a038cccff77963a9ac74/IMG_0293_Pastor_Cris_Portrait_at_FFCI.jpg"
 isAuthor: true
 isHost: true
+inVideos: true
 facebook: "https://facebook.com/PastorCristinaSosso"
 ---
