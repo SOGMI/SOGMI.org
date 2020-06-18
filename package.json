@@ -21,7 +21,7 @@
     "minimist": "^1.2.5",
     "mkdirp": "^0.5.3",
     "slugify": "^1.4.0",
-    "uglify-js": "^3.8.1",
+    "uglify-js": "^3.9.4",
     "webpack": "^2.7.0"
   }
 }
