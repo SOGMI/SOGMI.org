@@ -1,5 +1,5 @@
 ---
-updated: 2020-04-14T04:56:37.592Z
+updated: 2020-04-14T04:25:55.045Z
 date: 2020-04-12T23:24:50.211Z
 title: "Prophetic School Livestream 2020"
 slug: "prophetic-school-livestream-2020"
@@ -25,18 +25,6 @@ zipCode: 78230
 country: "United States"
 ---
 We are very excited to host our first ever online prophetic school! God is doing miraculous things even in these tumultuous times. Let's take a hold every opportunity God has for use today! Be sure to register today so you can join us!
-
-## Schedule
-
-__April 16__
-
-4:00 PM CST - Registration closes
-
-7:00 PM CST - Day 1 Livestream Begins
-
-__April 17__
-
-7:00 PM CST - Day 2 Livestream Begins
 
 <faq>
 
