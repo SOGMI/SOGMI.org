@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:13.382Z
 date: 2018-02-21T22:47:06.628Z
 title: "Knowing God"
 slug: "prophetic-voice-258"
-publishDate: 2017-01-13T18:00:00.000Z
+publishDate: 2017-01-14T00:00:00.000Z
 episodeNumber: 258
 keywords:
 - relationship with god

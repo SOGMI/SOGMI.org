@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:07.506Z
 date: 2018-02-21T22:09:40.656Z
 title: "God's Heavenly Ways"
 slug: "prophetic-voice-246"
-publishDate: 2016-10-07T19:00:00.000Z
+publishDate: 2016-10-08T00:00:00.000Z
 episodeNumber: 246
 keywords:
 - kingdom principles

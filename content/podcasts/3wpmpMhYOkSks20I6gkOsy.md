@@ -3,8 +3,8 @@ updated: 2018-08-09T01:00:22.924Z
 date: 2018-08-06T17:31:00.670Z
 title: "Instruction for Dominion"
 slug: "prophetic-voice-332"
-publishDate: 2018-08-05T19:00:00.000Z
-originalAirDate: 2018-08-03T19:00:00.000Z
+publishDate: 2018-08-06T00:00:00.000Z
+originalAirDate: 2018-08-04T00:00:00.000Z
 episodeNumber: 332
 keywords:
 - god principles

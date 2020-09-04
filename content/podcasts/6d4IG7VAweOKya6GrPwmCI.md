@@ -3,7 +3,7 @@ updated: 2019-02-16T23:05:56.666Z
 date: 2019-01-29T02:38:10.531Z
 title: "The Timing and Ways of the Lord in These Last Days"
 slug: "prophetic-voice-356"
-originalAirDate: 2019-01-25T18:00:00.000Z
+originalAirDate: 2019-01-26T00:00:00.000Z
 episodeNumber: 356
 keywords:
 - prophecy

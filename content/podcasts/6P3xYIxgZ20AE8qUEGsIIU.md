@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:13.435Z
 date: 2018-02-21T22:45:46.445Z
 title: "Pondering His Goodness Past and Onward"
 slug: "prophetic-voice-257"
-publishDate: 2017-01-06T18:00:00.000Z
+publishDate: 2017-01-07T00:00:00.000Z
 episodeNumber: 257
 keywords:
 - relationship with god

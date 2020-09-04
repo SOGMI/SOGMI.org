@@ -3,8 +3,8 @@ updated: 2018-09-03T16:09:30.641Z
 date: 2018-08-28T05:10:20.935Z
 title: "The Power Within Us (Part 1)"
 slug: "prophetic-voice-334"
-publishDate: 2018-08-26T19:00:00.000Z
-originalAirDate: 2018-08-24T19:00:00.000Z
+publishDate: 2018-08-27T00:00:00.000Z
+originalAirDate: 2018-08-25T00:00:00.000Z
 episodeNumber: 334
 keywords:
 - holy spirit

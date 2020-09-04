@@ -3,8 +3,8 @@ updated: 2018-07-17T21:51:05.080Z
 date: 2018-02-21T20:53:17.751Z
 title: "Faith is a Force"
 slug: "prophetic-voice-227"
-publishDate: 2016-05-13T19:00:00.000Z
-originalAirDate: 2016-05-13T19:00:00.000Z
+publishDate: 2016-05-14T00:00:00.000Z
+originalAirDate: 2016-05-14T00:00:00.000Z
 episodeNumber: 227
 keywords:
 - spiritual warfare

@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.115Z
 date: 2018-02-21T21:38:48.198Z
 title: "The Transfer of Wealth"
 slug: "prophetic-voice-236"
-publishDate: 2016-07-15T19:00:00.000Z
+publishDate: 2016-07-16T00:00:00.000Z
 episodeNumber: 236
 keywords:
 - transfer of wealth

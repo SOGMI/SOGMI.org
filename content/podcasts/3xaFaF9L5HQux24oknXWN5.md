@@ -3,7 +3,7 @@ updated: 2020-01-27T23:28:31.723Z
 date: 2020-01-27T23:28:31.723Z
 title: "Taking Dominion in New Territory"
 slug: "prophetic-voice-408"
-originalAirDate: 2020-01-24T18:00:00.000Z
+originalAirDate: 2020-01-25T00:00:00.000Z
 episodeNumber: 408
 keywords:
 - dominion

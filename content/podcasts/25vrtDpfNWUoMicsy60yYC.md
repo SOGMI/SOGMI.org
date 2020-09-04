@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:16.814Z
 date: 2018-02-22T02:55:08.321Z
 title: "Like Jesus in this World"
 slug: "prophetic-voice-272"
-publishDate: 2017-05-05T19:00:00.000Z
+publishDate: 2017-05-06T00:00:00.000Z
 episodeNumber: 272
 keywords:
 - kingdom of god

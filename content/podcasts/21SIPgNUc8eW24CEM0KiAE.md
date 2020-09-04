@@ -3,7 +3,7 @@ updated: 2018-09-24T12:04:17.516Z
 date: 2018-09-24T12:04:17.516Z
 title: "Principles of the Kingdom"
 slug: "prophetic-voice-338"
-originalAirDate: 2018-09-21T19:00:00.000Z
+originalAirDate: 2018-09-22T00:00:00.000Z
 episodeNumber: 338
 keywords:
 - transfer of wealth

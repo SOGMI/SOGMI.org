@@ -3,7 +3,7 @@ updated: 2018-10-23T04:31:55.441Z
 date: 2018-10-23T03:49:57.333Z
 title: "Prophecy to the Church and Nations"
 slug: "prophetic-voice-342"
-originalAirDate: 2018-10-19T19:00:00.000Z
+originalAirDate: 2018-10-20T00:00:00.000Z
 episodeNumber: 342
 keywords:
 - prophecy

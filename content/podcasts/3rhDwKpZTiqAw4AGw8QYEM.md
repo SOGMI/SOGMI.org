@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:19.793Z
 date: 2018-02-22T03:29:44.588Z
 title: "God's Good Plan Will Stand"
 slug: "prophetic-voice-288"
-publishDate: 2017-09-08T19:00:00.000Z
+publishDate: 2017-09-09T00:00:00.000Z
 episodeNumber: 288
 keywords:
 - greatness of the season

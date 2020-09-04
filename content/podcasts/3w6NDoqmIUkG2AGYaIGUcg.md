@@ -3,7 +3,7 @@ updated: 2018-11-14T04:38:48.757Z
 date: 2018-11-14T04:38:48.757Z
 title: "I Will Restore the Judges as in the Days of Old"
 slug: "prophetic-voice-345"
-originalAirDate: 2018-11-09T18:00:00.000Z
+originalAirDate: 2018-11-10T00:00:00.000Z
 episodeNumber: 345
 keywords:
 - kingdom of god

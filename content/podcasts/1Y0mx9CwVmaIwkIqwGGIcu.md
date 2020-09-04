@@ -3,8 +3,8 @@ updated: 2018-05-29T03:43:04.305Z
 date: 2018-04-23T16:03:19.000Z
 title: "Political Revival in the USA and Beyond"
 slug: "prophetic-voice-318"
-publishDate: 2018-04-22T19:00:00.000Z
-originalAirDate: 2018-04-20T19:00:00.000Z
+publishDate: 2018-04-23T00:00:00.000Z
+originalAirDate: 2018-04-21T00:00:00.000Z
 episodeNumber: 318
 keywords:
 - Revival

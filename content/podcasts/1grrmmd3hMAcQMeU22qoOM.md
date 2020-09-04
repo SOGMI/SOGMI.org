@@ -3,7 +3,7 @@ updated: 2019-01-01T05:21:52.919Z
 date: 2019-01-01T05:21:52.919Z
 title: "Nine Instructions Concerning the Transfer of Wealth"
 slug: "prophetic-voice-352"
-originalAirDate: 2018-12-28T18:00:00.000Z
+originalAirDate: 2018-12-29T00:00:00.000Z
 episodeNumber: 352
 keywords:
 - move of god

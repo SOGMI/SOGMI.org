@@ -3,7 +3,7 @@ updated: 2018-05-24T05:00:35.621Z
 date: 2018-03-08T08:18:37.039Z
 title: "Discussing Israel with Avishai Levi"
 slug: "prophetic-voice-311"
-publishDate: 2018-03-01T18:00:00.000Z
+publishDate: 2018-03-02T00:00:00.000Z
 episodeNumber: 311
 keywords:
 - israel

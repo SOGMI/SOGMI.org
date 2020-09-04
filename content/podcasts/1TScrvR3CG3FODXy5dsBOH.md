@@ -3,7 +3,7 @@ updated: 2019-01-15T02:32:23.199Z
 date: 2019-01-15T02:28:53.314Z
 title: "Accelerated Manifestations for the Body of Christ are Here"
 slug: "prophetic-voice-354"
-originalAirDate: 2019-01-11T18:00:00.000Z
+originalAirDate: 2019-01-12T00:00:00.000Z
 episodeNumber: 354
 keywords:
 - prophecy

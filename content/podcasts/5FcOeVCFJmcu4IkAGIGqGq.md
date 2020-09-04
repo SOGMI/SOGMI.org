@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:19.786Z
 date: 2018-02-22T03:25:47.666Z
 title: "Momentary Darkness Before the Light"
 slug: "prophetic-voice-287"
-publishDate: 2017-09-01T19:00:00.000Z
+publishDate: 2017-09-02T00:00:00.000Z
 episodeNumber: 287
 keywords:
 - united states

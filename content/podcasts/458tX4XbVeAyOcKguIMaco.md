@@ -3,8 +3,8 @@ updated: 2018-07-17T21:50:04.581Z
 date: 2018-02-21T19:33:43.283Z
 title: "Believe from the Heart"
 slug: "prophetic-voice-215"
-publishDate: 2016-02-12T18:00:00.000Z
-originalAirDate: 2016-02-12T18:00:00.000Z
+publishDate: 2016-02-13T00:00:00.000Z
+originalAirDate: 2016-02-13T00:00:00.000Z
 episodeNumber: 215
 keywords:
 - faith

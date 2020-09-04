@@ -3,7 +3,7 @@ updated: 2019-10-07T16:52:54.857Z
 date: 2019-10-07T16:52:54.857Z
 title: "Learning and Living by the Holy Spirit"
 slug: "prophetic-voice-392"
-originalAirDate: 2019-10-04T19:00:00.000Z
+originalAirDate: 2019-10-05T00:00:00.000Z
 episodeNumber: 392
 keywords:
 - prophecy

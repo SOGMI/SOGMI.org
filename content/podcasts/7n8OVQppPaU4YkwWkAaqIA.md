@@ -3,8 +3,8 @@ updated: 2018-07-17T21:52:16.833Z
 date: 2018-02-21T23:22:23.455Z
 title: "Have Faith in God"
 slug: "prophetic-voice-271"
-publishDate: 2017-04-28T19:00:00.000Z
-originalAirDate: 2017-04-28T19:00:00.000Z
+publishDate: 2017-04-29T00:00:00.000Z
+originalAirDate: 2017-04-29T00:00:00.000Z
 episodeNumber: 271
 keywords:
 - united states

@@ -3,7 +3,7 @@ updated: 2019-05-13T19:34:01.661Z
 date: 2019-05-13T19:34:01.661Z
 title: "Harvest Season - Apostles and Prophets"
 slug: "prophetic-voice-371"
-originalAirDate: 2019-05-10T19:00:00.000Z
+originalAirDate: 2019-05-11T00:00:00.000Z
 episodeNumber: 371
 keywords:
 - apostles and prophets

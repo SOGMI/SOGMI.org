@@ -4,7 +4,7 @@ date: 2018-10-01T02:44:40.198Z
 title: "Called to a Promised Land"
 slug: "prophetic-voice-339"
 publishDate: 2018-09-24T08:00:00.000Z
-originalAirDate: 2018-09-28T19:00:00.000Z
+originalAirDate: 2018-09-29T00:00:00.000Z
 episodeNumber: 339
 keywords:
 - transfer of wealth

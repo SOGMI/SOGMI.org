@@ -1,9 +1,10 @@
 // contentful.js v4.x.x
+require("dotenv").config();
+const { utcToZonedTime } = require("date-fns-tz");
 const contentful = require('contentful')
-var slugify = require('slugify')
+const slugify = require('slugify')
 const mkdirp = require('mkdirp')
-var fs = require('fs')
-var dotenv = require("dotenv").config()
+const fs = require('fs')
 
 const client = contentful.createClient({
   space: process.env.CONTENTFUL_SPACE,
@@ -19,7 +20,7 @@ function writeEntriesForType(contentType) {
     })
     .then((response) => {
         for (let item of response.items) {
-            var fileContent = `---\nupdated: ${item.sys.updatedAt}\ndate: ${item.sys.createdAt}\n`;
+            let fileContent = `---\nupdated: ${item.sys.updatedAt}\ndate: ${item.sys.createdAt}\n`;
             for (let field of Object.keys(item.fields)) {
                 if (field == 'content')
                     continue
@@ -37,12 +38,12 @@ function writeEntriesForType(contentType) {
                         } 
                         // Arrays
                         else {
-                            var itemResult = item.fields[field]
+                            let itemResult = item.fields[field]
                             // Linked entries will give "title" "contentType" "slug" and Entry ID
                             // Linked assets will give a "title" "description" and "url"
-                            var arrayList = ``
-                            var oj = Object.getOwnPropertyDescriptor
-                            for(var i = 0; i < itemResult.length; i++ ) {
+                            let arrayList = ``
+                            let oj = Object.getOwnPropertyDescriptor
+                            for(let i = 0; i < itemResult.length; i++ ) {
                                 x = itemResult[i]
                                 if(typeof(x) !== `object`) {
                                     arrayList += `- ` + x + `\n`
@@ -70,8 +71,11 @@ function writeEntriesForType(contentType) {
                     // Simple text content
                     default:
                         if (field === 'date' || field === 'startDate' || field === 'endDate' || field === 'publishDate' || field === 'originalAirDate') {
-                            let entryDate = Date.parse(item.fields[field])
-                            let newDate = new Date(entryDate)
+                            const utcDate = utcToZonedTime(
+								item.fields[field],
+								"America/Chicago"
+							);
+                            let newDate = new Date(utcDate)
                             let year = newDate.getFullYear()
                             let month = ("0" + (newDate.getMonth() + 1)).slice(-2)
                             let day = ("0" + newDate.getDate()).slice(-2)

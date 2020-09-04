@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:05.443Z
 date: 2018-02-21T20:37:10.821Z
 title: "Passing Over to God's Mindset (Guest Speaker: Joshua Sosso)"
 slug: "prophetic-voice-225"
-publishDate: 2016-04-29T19:00:00.000Z
+publishDate: 2016-04-30T00:00:00.000Z
 episodeNumber: 225
 keywords:
 - kingdom principles

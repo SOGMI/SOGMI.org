@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:10.191Z
 date: 2018-02-22T05:27:27.026Z
 title: "Revelation for the Appointed Time"
 slug: "prophetic-voice-304"
-publishDate: 2018-01-05T18:00:00.000Z
+publishDate: 2018-01-06T00:00:00.000Z
 episodeNumber: 304
 keywords:
 - supernatural manifestation

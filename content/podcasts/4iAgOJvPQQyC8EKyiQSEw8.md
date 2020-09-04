@@ -4,7 +4,7 @@ date: 2018-10-15T03:59:55.912Z
 title: "Faith Precedes The Manifestation"
 slug: "prophetic-voice-341"
 publishDate: 2018-10-15T12:00:00.000Z
-originalAirDate: 2018-10-12T19:00:00.000Z
+originalAirDate: 2018-10-13T00:00:00.000Z
 episodeNumber: 341
 keywords:
 - faith

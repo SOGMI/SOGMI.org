@@ -3,7 +3,7 @@ updated: 2019-05-06T17:46:52.946Z
 date: 2019-05-06T17:46:52.946Z
 title: "Transitioning from Glory to Glory"
 slug: "prophetic-voice-370"
-originalAirDate: 2019-05-03T19:00:00.000Z
+originalAirDate: 2019-05-04T00:00:00.000Z
 episodeNumber: 370
 keywords:
 - passover

@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:13.398Z
 date: 2018-02-21T22:51:45.059Z
 title: "Let Jesus be Revealed"
 slug: "prophetic-voice-261"
-publishDate: 2017-02-10T18:00:00.000Z
+publishDate: 2017-02-11T00:00:00.000Z
 episodeNumber: 261
 keywords:
 - body of christ

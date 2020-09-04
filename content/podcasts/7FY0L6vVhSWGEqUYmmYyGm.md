@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.793Z
 date: 2018-02-21T22:03:30.718Z
 title: "The Parable of the Sower"
 slug: "prophetic-voice-241"
-publishDate: 2016-08-26T19:00:00.000Z
+publishDate: 2016-08-27T00:00:00.000Z
 episodeNumber: 241
 keywords:
 - seedtime and harvest

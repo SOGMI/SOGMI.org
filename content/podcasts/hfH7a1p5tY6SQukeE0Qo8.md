@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:14.398Z
 date: 2018-02-21T23:13:33.535Z
 title: "The Order of Melchizedek"
 slug: "prophetic-voice-267"
-publishDate: 2017-03-31T19:00:00.000Z
+publishDate: 2017-04-01T00:00:00.000Z
 episodeNumber: 267
 keywords:
 - order of melchizedek

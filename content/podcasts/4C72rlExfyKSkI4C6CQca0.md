@@ -3,8 +3,8 @@ updated: 2018-08-27T08:23:36.760Z
 date: 2018-05-14T18:58:07.952Z
 title: "Preparation for the Greater Works"
 slug: "prophetic-voice-321"
-publishDate: 2018-05-13T19:00:00.000Z
-originalAirDate: 2018-05-11T19:00:00.000Z
+publishDate: 2018-05-14T00:00:00.000Z
+originalAirDate: 2018-05-12T00:00:00.000Z
 episodeNumber: 321
 keywords:
 - holy spirit

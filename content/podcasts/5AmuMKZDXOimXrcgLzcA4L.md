@@ -3,7 +3,7 @@ updated: 2019-02-04T17:45:08.535Z
 date: 2019-02-04T17:45:08.535Z
 title: "The Great Commission - Harvest Season"
 slug: "prophetic-voice-357"
-originalAirDate: 2019-02-01T18:00:00.000Z
+originalAirDate: 2019-02-02T00:00:00.000Z
 episodeNumber: 357
 keywords:
 - prophecy

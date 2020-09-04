@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:17.780Z
 date: 2018-02-22T03:13:09.734Z
 title: "Plugged in to God"
 slug: "prophetic-voice-278"
-publishDate: 2017-06-23T19:00:00.000Z
+publishDate: 2017-06-24T00:00:00.000Z
 episodeNumber: 278
 keywords:
 - israel

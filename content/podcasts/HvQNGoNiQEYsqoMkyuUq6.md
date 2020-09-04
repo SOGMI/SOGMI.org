@@ -3,8 +3,8 @@ updated: 2018-07-31T00:38:11.084Z
 date: 2018-07-31T00:38:11.084Z
 title: "Godly Commitment"
 slug: "prophetic-voice-331"
-publishDate: 2018-07-29T19:00:00.000Z
-originalAirDate: 2018-07-27T19:00:00.000Z
+publishDate: 2018-07-30T00:00:00.000Z
+originalAirDate: 2018-07-28T00:00:00.000Z
 episodeNumber: 331
 keywords:
 - vows to god

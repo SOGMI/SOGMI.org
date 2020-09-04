@@ -14,14 +14,15 @@
     "compressjs": "uglifyjs ./public/js/sons-of-god.js --compress --mangle --output ./public/js/sons-of-god.js"
   },
   "dependencies": {
-    "atomic-algolia": "^0.3.17",
+    "atomic-algolia": "^0.3.19",
     "contentful": "^6.1.3",
+    "date-fns-tz": "^1.0.10",
     "dotenv": "^5.0.1",
     "instantsearch.js": "^2.10.5",
     "minimist": "^1.2.5",
     "mkdirp": "^0.5.3",
-    "slugify": "^1.4.0",
-    "uglify-js": "^3.8.1",
+    "slugify": "^1.4.5",
+    "uglify-js": "^3.10.3",
     "webpack": "^2.7.0"
   }
 }

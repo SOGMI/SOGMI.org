@@ -3,7 +3,7 @@ updated: 2018-02-23T04:07:25.007Z
 date: 2018-02-21T00:12:22.789Z
 title: "A Word About the Transfer of Wealth"
 slug: "a-word-about-the-transfer-of-wealth"
-publishDate: 2011-02-03T18:00:00.000Z
+publishDate: 2011-02-04T00:00:00.000Z
 authors: "Cristina Sosso"
 description: "In 1991, I was caught in a dream-like vision. In this encounter with God, He handed me a formula on how to find His kingdom. It was a series of very detailed instructions He expected me to follow. He told me that He would be sending laborers who would follow my lead, knowing fully well that they..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/1Konxep5rK8Y6egiImGAcG/d2d2b495e23632ab6c7cb5044d81c794/freddie-collins-309833-unsplash__1_.jpg"

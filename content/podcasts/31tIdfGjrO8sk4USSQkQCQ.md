@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:06.427Z
 date: 2018-02-22T04:55:39.308Z
 title: "Facing Your Goliaths"
 slug: "prophetic-voice-298"
-publishDate: 2017-11-24T18:00:00.000Z
+publishDate: 2017-11-25T00:00:00.000Z
 episodeNumber: 298
 keywords:
 - thanksgiving

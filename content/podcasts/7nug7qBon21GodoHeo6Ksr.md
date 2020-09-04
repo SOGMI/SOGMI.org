@@ -3,7 +3,7 @@ updated: 2019-04-22T14:52:11.130Z
 date: 2019-04-22T14:52:11.130Z
 title: "Jesus is our Passover Lamb"
 slug: "prophetic-voice-368"
-originalAirDate: 2019-04-19T19:00:00.000Z
+originalAirDate: 2019-04-20T00:00:00.000Z
 episodeNumber: 368
 keywords:
 - passover

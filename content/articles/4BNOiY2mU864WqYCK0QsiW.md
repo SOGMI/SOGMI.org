@@ -3,7 +3,7 @@ updated: 2019-10-06T17:12:20.897Z
 date: 2018-03-27T19:30:57.201Z
 title: "Our Commitment To You In 2018"
 slug: "our-commitment-to-you-in-2018"
-publishDate: 2018-03-28T19:00:00.000Z
+publishDate: 2018-03-29T00:00:00.000Z
 authors: "Joshua Sosso"
 description: "In 2018 we are committing to better distribute the teachings and revelation God has given us. We are implementing a wide range of improvements for the SOGMI website that will benefit users and help us better God's teachings out into the world."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/5Y3m9KLIbucEakEiQC8kuY/7c5dc929a30adeaa04b9546980b5c640/IMG_9401_edit__1_.jpg"

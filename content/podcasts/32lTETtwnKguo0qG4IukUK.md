@@ -3,8 +3,8 @@ updated: 2018-07-17T21:51:05.120Z
 date: 2018-02-21T20:54:11.171Z
 title: "Be a Student of the Holy Spirit"
 slug: "prophetic-voice-228"
-publishDate: 2016-05-20T19:00:00.000Z
-originalAirDate: 2016-05-20T19:00:00.000Z
+publishDate: 2016-05-21T00:00:00.000Z
+originalAirDate: 2016-05-21T00:00:00.000Z
 episodeNumber: 228
 keywords:
 - holy spirit

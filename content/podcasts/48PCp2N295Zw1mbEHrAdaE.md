@@ -3,7 +3,7 @@ updated: 2019-03-18T17:38:21.882Z
 date: 2019-03-18T17:38:21.882Z
 title: "The Journey of a Believer Part 3 - Entering the Promised Land"
 slug: "prophetic-voice-363"
-originalAirDate: 2019-03-15T19:00:00.000Z
+originalAirDate: 2019-03-16T00:00:00.000Z
 episodeNumber: 363
 keywords:
 - trust in god

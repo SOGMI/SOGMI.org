@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.125Z
 date: 2018-02-21T21:57:28.376Z
 title: "Instant In and Out of Season"
 slug: "prophetic-voice-237"
-publishDate: 2016-07-29T19:00:00.000Z
+publishDate: 2016-07-30T00:00:00.000Z
 episodeNumber: 237
 keywords:
 - faith

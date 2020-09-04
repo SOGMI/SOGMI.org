@@ -3,7 +3,7 @@ updated: 2019-11-11T18:31:25.186Z
 date: 2019-11-11T18:31:25.186Z
 title: "Focus on God's Goodness"
 slug: "prophetic-voice-397"
-originalAirDate: 2019-11-08T18:00:00.000Z
+originalAirDate: 2019-11-09T00:00:00.000Z
 episodeNumber: 397
 keywords:
 - love of god

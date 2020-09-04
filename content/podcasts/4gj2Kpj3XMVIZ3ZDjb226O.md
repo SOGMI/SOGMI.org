@@ -3,7 +3,7 @@ updated: 2019-09-02T18:01:21.358Z
 date: 2019-09-02T17:43:48.464Z
 title: "God is Restoring the Judges as in the Days of Old"
 slug: "prophetic-voice-387"
-originalAirDate: 2019-08-30T19:00:00.000Z
+originalAirDate: 2019-08-31T00:00:00.000Z
 episodeNumber: 387
 keywords:
 - miracles

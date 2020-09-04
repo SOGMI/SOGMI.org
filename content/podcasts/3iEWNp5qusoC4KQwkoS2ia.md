@@ -3,8 +3,8 @@ updated: 2018-05-29T03:42:40.696Z
 date: 2018-05-07T17:11:40.258Z
 title: "Blessed to be a Blessing"
 slug: "prophetic-voice-320"
-publishDate: 2018-05-06T19:00:00.000Z
-originalAirDate: 2018-05-04T19:00:00.000Z
+publishDate: 2018-05-07T00:00:00.000Z
+originalAirDate: 2018-05-05T00:00:00.000Z
 episodeNumber: 320
 keywords:
 - Healing

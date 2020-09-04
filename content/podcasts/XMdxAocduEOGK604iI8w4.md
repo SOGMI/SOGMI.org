@@ -3,7 +3,7 @@ updated: 2018-06-02T00:04:38.226Z
 date: 2018-02-21T19:13:57.698Z
 title: "The Year in Review (2016)"
 slug: "prophetic-voice-210"
-publishDate: 2016-01-01T18:00:00.000Z
+publishDate: 2016-01-02T00:00:00.000Z
 episodeNumber: 210
 keywords:
 - transfer of wealth

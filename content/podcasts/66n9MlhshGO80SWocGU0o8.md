@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:14.404Z
 date: 2018-02-21T23:14:57.724Z
 title: "Living by Faith"
 slug: "prophetic-voice-265"
-publishDate: 2017-03-17T19:00:00.000Z
+publishDate: 2017-03-18T00:00:00.000Z
 episodeNumber: 265
 keywords:
 - walking in excellency
