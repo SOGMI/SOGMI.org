@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:17.229Z
 date: 2018-02-22T03:15:31.436Z
 title: "Mission Report and Good News"
 slug: "prophetic-voice-277"
-publishDate: 2017-06-17T00:00:00.000Z
+publishDate: 2017-06-16T19:00:00.000Z
 episodeNumber: 277
 keywords:
 - mission report

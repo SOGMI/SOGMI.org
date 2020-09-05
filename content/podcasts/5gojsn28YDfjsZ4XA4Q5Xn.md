@@ -3,7 +3,7 @@ updated: 2019-07-23T00:11:57.719Z
 date: 2019-07-23T00:11:57.719Z
 title: "God is Setting the Stage"
 slug: "prophetic-voice-381"
-originalAirDate: 2019-07-20T00:00:00.000Z
+originalAirDate: 2019-07-19T19:00:00.000Z
 episodeNumber: 381
 keywords:
 - revelation

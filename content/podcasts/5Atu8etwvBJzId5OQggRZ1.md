@@ -3,7 +3,7 @@ updated: 2019-04-08T21:04:07.843Z
 date: 2019-04-08T21:04:07.843Z
 title: "Uproot The False Narratives in Your Life Part 2"
 slug: "prophetic-voice-366"
-originalAirDate: 2019-04-06T00:00:00.000Z
+originalAirDate: 2019-04-05T19:00:00.000Z
 episodeNumber: 366
 keywords:
 - prophecy

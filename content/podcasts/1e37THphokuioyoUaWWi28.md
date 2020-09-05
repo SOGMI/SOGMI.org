@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.016Z
 date: 2018-02-21T21:37:45.618Z
 title: "The Heart of a Warrior"
 slug: "prophetic-voice-235"
-publishDate: 2016-07-09T00:00:00.000Z
+publishDate: 2016-07-08T19:00:00.000Z
 episodeNumber: 235
 keywords:
 - prophecy

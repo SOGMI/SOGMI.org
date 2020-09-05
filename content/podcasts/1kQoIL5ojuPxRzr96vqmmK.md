@@ -3,7 +3,7 @@ updated: 2020-01-20T18:04:21.836Z
 date: 2020-01-20T18:04:21.836Z
 title: "The End is Not Yet, Preach the Gospel of the Kingdom"
 slug: "prophetic-voice-407"
-originalAirDate: 2020-01-18T00:00:00.000Z
+originalAirDate: 2020-01-17T18:00:00.000Z
 episodeNumber: 407
 keywords:
 - prophecy

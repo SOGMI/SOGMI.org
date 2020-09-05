@@ -3,7 +3,7 @@ updated: 2019-12-02T18:01:44.232Z
 date: 2019-12-02T18:01:44.232Z
 title: "Focus on God Above it All"
 slug: "prophetic-voice-400"
-originalAirDate: 2019-11-30T00:00:00.000Z
+originalAirDate: 2019-11-29T18:00:00.000Z
 episodeNumber: 400
 keywords:
 - goodness

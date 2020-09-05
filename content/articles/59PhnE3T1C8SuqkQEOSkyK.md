@@ -3,7 +3,7 @@ updated: 2018-02-25T07:36:47.423Z
 date: 2018-02-21T06:29:46.851Z
 title: "New Radio Program - The Prophetic Voice of Our Time"
 slug: "new-radio-program-the-prophetic-voice-of-our-time"
-publishDate: 2012-01-01T00:00:00.000Z
+publishDate: 2011-12-31T18:00:00.000Z
 authors: "Coby Randal"
 description: "Sons of God Ministries International has launched a new radio show \"The Prophetic Voice of Our Time\" hosted by Pastor Cristina Sosso! The program will air every week on AM 630 KSLR in South Texas!"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4ZnFL8TtW0i6EoiUCI4MYE/3d494775182c64d906e1bef4e8be2e30/condenser-mic-compressor.jpg"

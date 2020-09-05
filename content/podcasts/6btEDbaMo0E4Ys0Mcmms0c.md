@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:14.476Z
 date: 2018-02-21T23:20:23.010Z
 title: "Jesus is Our Passover"
 slug: "prophetic-voice-269"
-publishDate: 2017-04-15T00:00:00.000Z
+publishDate: 2017-04-14T19:00:00.000Z
 episodeNumber: 269
 keywords:
 - passover

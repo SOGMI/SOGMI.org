@@ -3,7 +3,7 @@ updated: 2020-06-19T22:25:09.205Z
 date: 2020-06-19T22:25:09.205Z
 title: "Called For Such a Time As This"
 slug: "prophetic-voice-414"
-originalAirDate: 2020-03-07T00:00:00.000Z
+originalAirDate: 2020-03-06T18:00:00.000Z
 episodeNumber: 414
 keywords:
 - plan of god

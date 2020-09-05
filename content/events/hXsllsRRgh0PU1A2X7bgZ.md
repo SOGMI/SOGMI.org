@@ -1,14 +1,28 @@
 ---
-updated: 2020-09-04T16:21:06.015Z
+updated: 2020-09-04T23:21:14.954Z
 date: 2020-08-27T02:46:18.248Z
 title: "Online Leadership Training 2020"
 slug: "online-leadership-training-sept-2020"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/1nct8O0xT1fzGPRX4T7T8r/6fd73297d299d55f4becf0c68cbd8885/main-image.jpg"
 venue: "Freedom Fellowship Church International"
 address:
   longitude: -98.5472
   latitude: 29.5169
 hideFaq: true
 description: "Join us for an online Christian leadership conference featuring Ptr. Cristina Sosso of SOGMI, FFCI, and The Prophetic Voice of Our Time."
+people:
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
+- title: Ed Grubb
+  slug: ed-grubb
+  contentType: people
+  id: 2yGkq46hH20MAmAakkmA60
 freeEvent: true
 startDate: 2020-09-10T19:00:00.000Z
 endDate: 2020-09-12T16:00:00.000Z

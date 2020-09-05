@@ -3,7 +3,7 @@ updated: 2020-08-04T22:23:16.420Z
 date: 2020-08-04T22:23:16.420Z
 title: "The American Eclipse"
 slug: "prophetic-voice-429"
-originalAirDate: 2020-06-20T00:00:00.000Z
+originalAirDate: 2020-06-19T19:00:00.000Z
 episodeNumber: 429
 keywords:
 - prophecy for 2020

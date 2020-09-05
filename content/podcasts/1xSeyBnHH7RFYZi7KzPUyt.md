@@ -3,7 +3,7 @@ updated: 2019-09-16T17:19:09.989Z
 date: 2019-09-16T17:19:09.989Z
 title: "Mission Trip Report"
 slug: "prophetic-voice-389"
-originalAirDate: 2019-09-14T00:00:00.000Z
+originalAirDate: 2019-09-13T19:00:00.000Z
 episodeNumber: 389
 keywords:
 - mission trip report

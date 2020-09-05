@@ -3,7 +3,7 @@ updated: 2019-02-19T01:37:17.547Z
 date: 2019-02-19T01:37:17.547Z
 title: "The Journey of a Believer Part 1 - Receiving the Call"
 slug: "prophetic-voice-359"
-originalAirDate: 2019-02-16T00:00:00.000Z
+originalAirDate: 2019-02-15T18:00:00.000Z
 episodeNumber: 359
 keywords:
 - blessings

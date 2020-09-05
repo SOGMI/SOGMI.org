@@ -3,7 +3,7 @@ updated: 2018-05-24T05:00:35.064Z
 date: 2018-02-28T16:44:09.739Z
 title: "Intimacy With God"
 slug: "prophetic-voice-310"
-publishDate: 2018-02-24T00:00:00.000Z
+publishDate: 2018-02-23T18:00:00.000Z
 episodeNumber: 310
 keywords:
 - love of god

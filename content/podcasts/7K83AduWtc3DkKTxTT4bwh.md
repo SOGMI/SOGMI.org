@@ -3,7 +3,7 @@ updated: 2020-08-21T18:59:26.187Z
 date: 2020-08-11T02:27:32.495Z
 title: "Allow God to Lead You Into the Supernatural"
 slug: "prophetic-voice-432"
-originalAirDate: 2020-07-11T00:00:00.000Z
+originalAirDate: 2020-07-10T19:00:00.000Z
 episodeNumber: 432
 keywords:
 - supernatural

@@ -3,7 +3,7 @@ updated: 2019-03-13T18:41:54.723Z
 date: 2019-03-05T02:43:30.754Z
 title: "Philippines Mission Trip Report"
 slug: "prophetic-voice-361"
-originalAirDate: 2019-03-02T00:00:00.000Z
+originalAirDate: 2019-03-01T18:00:00.000Z
 episodeNumber: 361
 keywords:
 - mission report

@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:04.493Z
 date: 2018-02-21T19:51:28.760Z
 title: "Philippines Mission Report"
 slug: "prophetic-voice-219"
-publishDate: 2016-03-12T00:00:00.000Z
+publishDate: 2016-03-11T18:00:00.000Z
 episodeNumber: 219
 keywords:
 - philippines

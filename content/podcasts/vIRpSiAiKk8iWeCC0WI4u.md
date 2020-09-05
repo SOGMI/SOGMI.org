@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:06.383Z
 date: 2018-02-22T04:51:15.989Z
 title: "Godly Glorious Changes"
 slug: "prophetic-voice-294"
-publishDate: 2017-10-28T00:00:00.000Z
+publishDate: 2017-10-27T19:00:00.000Z
 episodeNumber: 294
 keywords:
 - uprooting

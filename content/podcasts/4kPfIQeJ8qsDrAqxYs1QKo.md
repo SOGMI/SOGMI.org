@@ -3,7 +3,7 @@ updated: 2019-05-21T17:44:07.748Z
 date: 2019-05-21T17:44:07.748Z
 title: "Transitioning from Good to God's Best"
 slug: "prophetic-voice-372"
-originalAirDate: 2019-05-18T00:00:00.000Z
+originalAirDate: 2019-05-17T19:00:00.000Z
 episodeNumber: 372
 keywords:
 - obedience

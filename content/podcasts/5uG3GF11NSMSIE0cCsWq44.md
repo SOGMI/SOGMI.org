@@ -4,7 +4,7 @@ date: 2018-09-17T04:02:16.872Z
 title: "A New Mindset"
 slug: "prophetic-voice-337"
 publishDate: 2018-09-17T08:00:00.000Z
-originalAirDate: 2018-09-15T00:00:00.000Z
+originalAirDate: 2018-09-14T19:00:00.000Z
 episodeNumber: 337
 keywords:
 - political revival

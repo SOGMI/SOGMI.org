@@ -3,7 +3,7 @@ updated: 2018-06-02T00:05:58.256Z
 date: 2018-02-21T19:16:50.357Z
 title: "Prophecy to the Church in 2016"
 slug: "prophetic-voice-212"
-publishDate: 2016-01-16T00:00:00.000Z
+publishDate: 2016-01-15T18:00:00.000Z
 episodeNumber: 212
 keywords:
 - prophecy to the church

@@ -3,7 +3,7 @@ updated: 2019-05-27T17:33:17.627Z
 date: 2019-05-27T17:33:17.627Z
 title: "Healing and Wellness in Christ"
 slug: "prophetic-voice-373"
-originalAirDate: 2019-05-25T00:00:00.000Z
+originalAirDate: 2019-05-24T19:00:00.000Z
 episodeNumber: 373
 keywords:
 - healing

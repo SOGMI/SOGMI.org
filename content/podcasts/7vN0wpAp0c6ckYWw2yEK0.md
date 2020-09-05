@@ -3,7 +3,7 @@ updated: 2018-12-14T05:02:14.303Z
 date: 2018-12-14T04:35:16.499Z
 title: "The Kingdom of Our God"
 slug: "the-kingdom-of-our-god"
-originalAirDate: 2018-12-08T00:00:00.000Z
+originalAirDate: 2018-12-07T18:00:00.000Z
 episodeNumber: 349
 keywords:
 - political revival

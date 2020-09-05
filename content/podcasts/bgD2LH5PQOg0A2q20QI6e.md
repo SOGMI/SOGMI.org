@@ -3,8 +3,8 @@ updated: 2018-07-09T23:09:31.730Z
 date: 2018-07-02T17:42:38.708Z
 title: "The Mind of Christ: Truth Above the Facts"
 slug: "prophetic-voice-327"
-publishDate: 2018-07-02T00:00:00.000Z
-originalAirDate: 2018-06-30T00:00:00.000Z
+publishDate: 2018-07-01T19:00:00.000Z
+originalAirDate: 2018-06-29T19:00:00.000Z
 episodeNumber: 327
 keywords:
 - goodness

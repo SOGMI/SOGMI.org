@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:17.795Z
 date: 2018-02-22T05:32:35.767Z
 title: "Knowing God"
 slug: "prophetic-voice-280"
-publishDate: 2017-07-15T00:00:00.000Z
+publishDate: 2017-07-14T19:00:00.000Z
 episodeNumber: 280
 keywords:
 - living in the supernatural

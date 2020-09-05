@@ -3,7 +3,7 @@ updated: 2019-09-09T18:10:50.819Z
 date: 2019-09-09T18:10:50.819Z
 title: "This is a Month of Power"
 slug: "prophetic-voice-388"
-originalAirDate: 2019-09-07T00:00:00.000Z
+originalAirDate: 2019-09-06T19:00:00.000Z
 episodeNumber: 388
 keywords:
 - seedtime and harvest

@@ -3,7 +3,7 @@ updated: 2019-12-23T17:55:32.544Z
 date: 2019-12-23T17:55:32.544Z
 title: "Faithfulness and Stewardship - David’s Backstory"
 slug: "prophetic-voice-403"
-originalAirDate: 2019-12-21T00:00:00.000Z
+originalAirDate: 2019-12-20T18:00:00.000Z
 episodeNumber: 403
 keywords:
 - jesus

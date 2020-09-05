@@ -3,8 +3,8 @@ updated: 2018-07-17T21:52:13.420Z
 date: 2018-02-21T22:58:56.692Z
 title: "Loving, Trusting, and Obeying Jesus"
 slug: "prophetic-voice-262"
-publishDate: 2017-02-25T00:00:00.000Z
-originalAirDate: 2017-02-25T00:00:00.000Z
+publishDate: 2017-02-24T18:00:00.000Z
+originalAirDate: 2017-02-24T18:00:00.000Z
 episodeNumber: 262
 keywords:
 - love of god

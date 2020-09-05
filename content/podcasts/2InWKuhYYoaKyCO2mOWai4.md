@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:07.917Z
 date: 2018-02-21T22:31:13.725Z
 title: "Believe and Know God's Heart"
 slug: "prophetic-voice-252"
-publishDate: 2016-11-19T00:00:00.000Z
+publishDate: 2016-11-18T18:00:00.000Z
 episodeNumber: 252
 keywords:
 - prophecy

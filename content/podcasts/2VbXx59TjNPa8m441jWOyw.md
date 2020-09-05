@@ -3,7 +3,7 @@ updated: 2020-07-31T22:50:22.412Z
 date: 2020-07-31T22:23:15.529Z
 title: "The Importance of the Passover"
 slug: "prophetic-voice-419"
-originalAirDate: 2020-04-11T00:00:00.000Z
+originalAirDate: 2020-04-10T19:00:00.000Z
 episodeNumber: 419
 keywords:
 - passover

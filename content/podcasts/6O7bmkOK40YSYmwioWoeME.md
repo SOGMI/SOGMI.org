@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:04.482Z
 date: 2018-02-21T20:34:41.574Z
 title: "Being Heavenly Minded"
 slug: "prophetic-voice-223"
-publishDate: 2016-04-16T00:00:00.000Z
+publishDate: 2016-04-15T19:00:00.000Z
 episodeNumber: 223
 keywords:
 - kingdom principles

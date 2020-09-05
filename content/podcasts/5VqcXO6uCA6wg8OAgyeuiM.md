@@ -3,7 +3,7 @@ updated: 2018-05-24T05:00:35.656Z
 date: 2018-03-14T20:52:41.167Z
 title: "Following God and Taking Dominion"
 slug: "prophetic-voice-312"
-publishDate: 2018-03-10T00:00:00.000Z
+publishDate: 2018-03-09T18:00:00.000Z
 episodeNumber: 312
 keywords:
 - spiritual authority

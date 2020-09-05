@@ -3,7 +3,7 @@ updated: 2020-08-21T18:58:56.446Z
 date: 2020-08-11T02:08:29.711Z
 title: "The Maturity of the Body of Christ and God's Promises"
 slug: "prophetic-voice-431"
-originalAirDate: 2020-07-04T00:00:00.000Z
+originalAirDate: 2020-07-03T19:00:00.000Z
 episodeNumber: 431
 keywords:
 - body of christ

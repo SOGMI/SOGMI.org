@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:06.446Z
 date: 2018-02-22T04:59:57.104Z
 title: "Revelation for Our Time"
 slug: "prophetic-voice-299"
-publishDate: 2017-12-03T00:00:00.000Z
+publishDate: 2017-12-02T18:00:00.000Z
 episodeNumber: 299
 keywords:
 - revelation

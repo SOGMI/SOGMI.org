@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:05.463Z
 date: 2018-02-22T04:50:06.046Z
 title: "Believing and Trusting God"
 slug: "prophetic-voice-293"
-publishDate: 2017-10-21T00:00:00.000Z
+publishDate: 2017-10-20T19:00:00.000Z
 episodeNumber: 293
 keywords:
 - plan of god

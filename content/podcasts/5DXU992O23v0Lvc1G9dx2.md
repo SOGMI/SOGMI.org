@@ -3,7 +3,7 @@ updated: 2019-07-16T16:52:45.197Z
 date: 2019-07-16T16:52:45.197Z
 title: "Expecting a Great Uprooting and Harvest"
 slug: "prophetic-voice-380"
-originalAirDate: 2019-07-13T00:00:00.000Z
+originalAirDate: 2019-07-12T19:00:00.000Z
 episodeNumber: 380
 keywords:
 - prophecy

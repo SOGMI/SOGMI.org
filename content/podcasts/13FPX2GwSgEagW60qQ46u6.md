@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.867Z
 date: 2018-02-21T22:07:59.484Z
 title: "Issues of the Heart"
 slug: "prophetic-voice-244"
-publishDate: 2016-09-24T00:00:00.000Z
+publishDate: 2016-09-23T19:00:00.000Z
 episodeNumber: 244
 keywords:
 - kingdom principles

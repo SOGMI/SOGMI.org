@@ -3,7 +3,7 @@ updated: 2018-06-02T00:07:14.084Z
 date: 2018-02-21T19:32:19.939Z
 title: "Prophecies for 2016 (Continued)"
 slug: "prophetic-voice-214"
-publishDate: 2016-02-06T00:00:00.000Z
+publishDate: 2016-02-05T18:00:00.000Z
 episodeNumber: 214
 keywords:
 - prophecy

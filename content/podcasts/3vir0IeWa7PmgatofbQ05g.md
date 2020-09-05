@@ -3,7 +3,7 @@ updated: 2019-06-10T17:17:21.842Z
 date: 2019-06-10T17:17:21.842Z
 title: "The Proactive Body in Authority"
 slug: "prophetic-voice-375"
-originalAirDate: 2019-06-08T00:00:00.000Z
+originalAirDate: 2019-06-07T19:00:00.000Z
 episodeNumber: 375
 keywords:
 - authority

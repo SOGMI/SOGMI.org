@@ -3,7 +3,7 @@ updated: 2019-09-17T20:14:00.880Z
 date: 2019-08-05T16:53:19.717Z
 title: "The Acceleration of Time and Focusing on God’s Way"
 slug: "prophetic-voice-383"
-originalAirDate: 2019-08-03T00:00:00.000Z
+originalAirDate: 2019-08-02T19:00:00.000Z
 episodeNumber: 383
 keywords:
 - acceleration

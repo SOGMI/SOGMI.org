@@ -3,7 +3,7 @@ updated: 2019-02-12T01:56:16.982Z
 date: 2019-02-12T01:56:16.982Z
 title: "God's Calling Upon and Word Through the Body of Christ"
 slug: "prophetic-voice-358"
-originalAirDate: 2019-02-09T00:00:00.000Z
+originalAirDate: 2019-02-08T18:00:00.000Z
 episodeNumber: 358
 keywords:
 - body of christ

@@ -3,7 +3,7 @@ updated: 2020-07-31T22:42:40.970Z
 date: 2020-07-31T22:42:40.970Z
 title: "Reset and Revolution"
 slug: "prophetic-voice-420"
-originalAirDate: 2020-04-18T00:00:00.000Z
+originalAirDate: 2020-04-17T19:00:00.000Z
 episodeNumber: 420
 keywords:
 - reset

@@ -3,8 +3,8 @@ updated: 2018-07-09T23:08:51.877Z
 date: 2018-07-09T23:08:51.877Z
 title: "The Mind of Christ: God Qualifies Those He Calls"
 slug: "prophetic-voice-328"
-publishDate: 2018-07-09T00:00:00.000Z
-originalAirDate: 2018-07-07T00:00:00.000Z
+publishDate: 2018-07-08T19:00:00.000Z
+originalAirDate: 2018-07-06T19:00:00.000Z
 episodeNumber: 328
 keywords:
 - mind of christ

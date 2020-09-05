@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:05.016Z
 date: 2018-02-21T20:56:25.261Z
 title: "Make Your Obedience Complete"
 slug: "prophetic-voice-229"
-publishDate: 2016-05-28T00:00:00.000Z
+publishDate: 2016-05-27T19:00:00.000Z
 episodeNumber: 229
 keywords:
 - obedience

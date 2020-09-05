@@ -3,7 +3,7 @@ updated: 2018-05-31T01:52:52.626Z
 date: 2018-05-15T05:57:20.189Z
 title: "05/13/2018 | Mother's Day at Freedom Fellowship (Pastor Cris)"
 slug: "05-13-2018-service"
-publishDate: 2018-05-14T00:00:00.000Z
+publishDate: 2018-05-13T19:00:00.000Z
 videoLink: "https://www.youtube.com/watch?v=Jm47E0haZyk"
 YoutubeID: "Jm47E0haZyk"
 videoKeywords:

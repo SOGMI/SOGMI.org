@@ -3,8 +3,8 @@ updated: 2018-05-24T05:00:35.693Z
 date: 2018-04-18T22:18:49.287Z
 title: "Resurrection Power"
 slug: "prophetic-voice-317"
-publishDate: 2018-04-16T00:00:00.000Z
-originalAirDate: 2018-04-14T00:00:00.000Z
+publishDate: 2018-04-15T19:00:00.000Z
+originalAirDate: 2018-04-13T19:00:00.000Z
 episodeNumber: 317
 keywords:
 - resurrection

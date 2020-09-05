@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:19.902Z
 date: 2018-02-22T03:31:09.929Z
 title: "Revelation of the Time We're In"
 slug: "prophetic-voice-289"
-publishDate: 2017-09-16T00:00:00.000Z
+publishDate: 2017-09-15T19:00:00.000Z
 episodeNumber: 289
 keywords:
 - prophecy

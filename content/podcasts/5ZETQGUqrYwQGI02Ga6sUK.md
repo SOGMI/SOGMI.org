@@ -3,8 +3,8 @@ updated: 2018-07-17T21:50:10.206Z
 date: 2018-02-22T05:15:39.836Z
 title: "Christmas Special with Nicole Mendoza"
 slug: "prophetic-voice-302"
-publishDate: 2017-12-25T00:00:00.000Z
-originalAirDate: 2017-12-23T00:00:00.000Z
+publishDate: 2017-12-24T18:00:00.000Z
+originalAirDate: 2017-12-22T18:00:00.000Z
 episodeNumber: 302
 keywords:
 - christmas

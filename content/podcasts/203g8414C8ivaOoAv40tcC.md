@@ -3,7 +3,7 @@ updated: 2019-08-13T02:00:56.511Z
 date: 2019-08-13T02:00:56.511Z
 title: "Prophets and Prophecy - Focusing on Jesus"
 slug: "prophetic-voice-384"
-originalAirDate: 2019-08-10T00:00:00.000Z
+originalAirDate: 2019-08-09T19:00:00.000Z
 episodeNumber: 384
 keywords:
 - prophets

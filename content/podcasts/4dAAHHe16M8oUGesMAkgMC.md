@@ -3,7 +3,7 @@ updated: 2018-12-04T04:34:52.474Z
 date: 2018-12-04T04:33:46.547Z
 title: "Expansion and Partnership Opportunities"
 slug: "prophetic-voice-348"
-originalAirDate: 2018-12-01T00:00:00.000Z
+originalAirDate: 2018-11-30T18:00:00.000Z
 episodeNumber: 348
 keywords:
 - partnership

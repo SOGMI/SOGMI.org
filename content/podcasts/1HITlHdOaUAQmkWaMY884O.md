@@ -3,8 +3,8 @@ updated: 2018-08-09T17:54:39.731Z
 date: 2018-02-21T19:11:36.305Z
 title: "Prophecy for 2018 and Beyond"
 slug: "prophetic-voice-307"
-publishDate: 2018-01-29T00:00:00.000Z
-originalAirDate: 2018-01-27T00:00:00.000Z
+publishDate: 2018-01-28T18:00:00.000Z
+originalAirDate: 2018-01-26T18:00:00.000Z
 episodeNumber: 307
 keywords:
 - kingdom of god

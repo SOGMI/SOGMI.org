@@ -3,7 +3,7 @@ updated: 2020-01-06T18:36:06.511Z
 date: 2020-01-06T18:36:06.511Z
 title: "The Rise of the Nameless, Faceless People of God"
 slug: "prophetic-voice-405"
-originalAirDate: 2020-01-04T00:00:00.000Z
+originalAirDate: 2020-01-03T18:00:00.000Z
 episodeNumber: 405
 keywords:
 - prophecy

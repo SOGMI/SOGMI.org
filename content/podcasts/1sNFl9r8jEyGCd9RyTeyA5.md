@@ -3,7 +3,7 @@ updated: 2019-07-02T03:40:08.285Z
 date: 2019-07-02T03:40:08.285Z
 title: "Sonship - Women in the Church"
 slug: "prophetic-voice-378"
-originalAirDate: 2019-06-29T00:00:00.000Z
+originalAirDate: 2019-06-28T19:00:00.000Z
 episodeNumber: 378
 keywords:
 - women in the church

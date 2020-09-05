@@ -3,7 +3,7 @@ updated: 2018-05-24T05:00:35.703Z
 date: 2018-03-23T02:28:27.117Z
 title: "The Gift of Speaking in Tongues"
 slug: "prophetic-voice-313"
-publishDate: 2018-03-17T00:00:00.000Z
+publishDate: 2018-03-16T19:00:00.000Z
 episodeNumber: 313
 keywords:
 - mission report

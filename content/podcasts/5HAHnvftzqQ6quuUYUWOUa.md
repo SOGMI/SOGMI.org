@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.883Z
 date: 2018-02-21T22:04:30.402Z
 title: "God's Promise and Faithfulness"
 slug: "prophetic-voice-242"
-publishDate: 2016-09-10T00:00:00.000Z
+publishDate: 2016-09-09T19:00:00.000Z
 episodeNumber: 242
 keywords:
 - blessings

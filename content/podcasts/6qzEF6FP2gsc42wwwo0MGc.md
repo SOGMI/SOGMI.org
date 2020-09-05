@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.847Z
 date: 2018-02-21T22:07:10.391Z
 title: "The Heart of the Father"
 slug: "prophetic-voice-243"
-publishDate: 2016-09-17T00:00:00.000Z
+publishDate: 2016-09-16T19:00:00.000Z
 episodeNumber: 243
 keywords:
 - prophecy

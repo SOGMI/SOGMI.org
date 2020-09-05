@@ -3,7 +3,7 @@ updated: 2020-07-31T23:04:41.069Z
 date: 2020-07-31T23:04:41.069Z
 title: "Rising Up and Uprooting Wickedness"
 slug: "prophetic-voice-421"
-originalAirDate: 2020-04-25T00:00:00.000Z
+originalAirDate: 2020-04-24T19:00:00.000Z
 episodeNumber: 421
 keywords:
 - political revival

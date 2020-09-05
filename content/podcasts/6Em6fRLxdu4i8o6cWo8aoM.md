@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:16.833Z
 date: 2018-02-22T03:08:31.418Z
 title: "Pentecost"
 slug: "prophetic-voice-275"
-publishDate: 2017-06-03T00:00:00.000Z
+publishDate: 2017-06-02T19:00:00.000Z
 episodeNumber: 275
 keywords:
 - holy spirit

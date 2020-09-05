@@ -3,7 +3,7 @@ updated: 2020-08-03T18:15:49.586Z
 date: 2020-08-03T18:15:49.586Z
 title: "Focus on the Heart of God"
 slug: "prophetic-voice-423"
-originalAirDate: 2020-05-09T00:00:00.000Z
+originalAirDate: 2020-05-08T19:00:00.000Z
 episodeNumber: 423
 keywords:
 - heart of god

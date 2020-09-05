@@ -3,8 +3,8 @@ updated: 2018-06-26T01:19:53.708Z
 date: 2018-06-25T22:35:28.826Z
 title: "The Mind of Christ: Meditating on His Goodness"
 slug: "prophetic-voice-326"
-publishDate: 2018-06-25T00:00:00.000Z
-originalAirDate: 2018-06-23T00:00:00.000Z
+publishDate: 2018-06-24T19:00:00.000Z
+originalAirDate: 2018-06-22T19:00:00.000Z
 episodeNumber: 326
 keywords:
 - holy spirit

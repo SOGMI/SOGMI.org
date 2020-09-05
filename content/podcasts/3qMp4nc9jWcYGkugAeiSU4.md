@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:13.416Z
 date: 2018-02-21T22:48:27.904Z
 title: "Living by Faith"
 slug: "prophetic-voice-260"
-publishDate: 2017-02-04T00:00:00.000Z
+publishDate: 2017-02-03T18:00:00.000Z
 episodeNumber: 260
 keywords:
 - mind of christ

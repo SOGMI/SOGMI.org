@@ -3,7 +3,7 @@ updated: 2018-08-27T08:26:34.899Z
 date: 2018-02-21T19:47:15.998Z
 title: "Our Responsibility as His Church (Featuring Mike Sosso)"
 slug: "prophetic-voice-218"
-publishDate: 2016-03-05T00:00:00.000Z
+publishDate: 2016-03-04T18:00:00.000Z
 episodeNumber: 218
 keywords:
 - spiritual authority

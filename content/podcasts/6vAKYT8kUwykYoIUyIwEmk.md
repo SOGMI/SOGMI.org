@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:07.583Z
 date: 2018-02-21T22:10:54.522Z
 title: "The Battle of the Mind"
 slug: "prophetic-voice-247"
-publishDate: 2016-10-15T00:00:00.000Z
+publishDate: 2016-10-14T19:00:00.000Z
 episodeNumber: 247
 keywords:
 - holy spirit

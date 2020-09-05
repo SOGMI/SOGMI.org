@@ -3,7 +3,7 @@ updated: 2020-06-19T22:01:54.826Z
 date: 2020-06-19T22:01:54.826Z
 title: "Pursuing God's Best"
 slug: "prophetic-voice-413"
-originalAirDate: 2020-02-29T00:00:00.000Z
+originalAirDate: 2020-02-28T18:00:00.000Z
 episodeNumber: 413
 keywords:
 - plan of god

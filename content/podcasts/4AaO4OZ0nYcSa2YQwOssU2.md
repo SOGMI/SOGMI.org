@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:04.584Z
 date: 2018-02-21T19:35:30.312Z
 title: "The Love that Passes all Knowledge (Guest Speaker: Joshua Sosso)"
 slug: "prophetic-voice-216"
-publishDate: 2016-02-20T00:00:00.000Z
+publishDate: 2016-02-19T18:00:00.000Z
 episodeNumber: 216
 keywords:
 - philippines

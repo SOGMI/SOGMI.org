@@ -3,7 +3,7 @@ updated: 2020-08-03T20:15:43.902Z
 date: 2020-08-03T20:15:43.902Z
 title: "The Prophecies For This Year and Past Years"
 slug: "prophetic-voice-426"
-originalAirDate: 2020-05-30T00:00:00.000Z
+originalAirDate: 2020-05-29T19:00:00.000Z
 episodeNumber: 426
 keywords:
 - prophecy from 2015

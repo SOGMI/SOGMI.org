@@ -3,8 +3,8 @@ updated: 2018-08-13T17:20:05.342Z
 date: 2018-08-13T17:20:05.342Z
 title: "Walking in the Supernatural: Persistence"
 slug: "prophetic-voice-333"
-publishDate: 2018-08-13T00:00:00.000Z
-originalAirDate: 2018-08-11T00:00:00.000Z
+publishDate: 2018-08-12T19:00:00.000Z
+originalAirDate: 2018-08-10T19:00:00.000Z
 episodeNumber: 333
 keywords:
 - persistence

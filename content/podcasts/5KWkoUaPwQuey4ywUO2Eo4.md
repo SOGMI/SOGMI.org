@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:08.846Z
 date: 2018-02-21T22:44:07.661Z
 title: "Year in Review (2016)"
 slug: "prophetic-voice-256"
-publishDate: 2016-12-24T00:00:00.000Z
+publishDate: 2016-12-23T18:00:00.000Z
 episodeNumber: 256
 keywords:
 - year in review

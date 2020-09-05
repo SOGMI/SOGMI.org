@@ -3,7 +3,7 @@ updated: 2019-06-17T18:48:05.805Z
 date: 2019-06-17T18:48:05.805Z
 title: "The Harvest - Prepare for Overflow"
 slug: "prophetic-voice-376"
-originalAirDate: 2019-06-15T00:00:00.000Z
+originalAirDate: 2019-06-14T19:00:00.000Z
 episodeNumber: 376
 keywords:
 - trust in god

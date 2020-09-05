@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:05.855Z
 date: 2018-02-21T20:45:06.842Z
 title: "The Weapons of Our Warfare"
 slug: "prophetic-voice-226"
-publishDate: 2016-05-07T00:00:00.000Z
+publishDate: 2016-05-06T19:00:00.000Z
 episodeNumber: 226
 keywords:
 - prophecy

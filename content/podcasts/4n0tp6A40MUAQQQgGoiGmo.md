@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:10.160Z
 date: 2018-02-22T05:13:35.995Z
 title: "Spiritual Authority (Featuring Ptr. Charles Wickliffe)"
 slug: "prophetic-voice-301"
-publishDate: 2017-12-16T00:00:00.000Z
+publishDate: 2017-12-15T18:00:00.000Z
 episodeNumber: 301
 keywords:
 - spiritual authority

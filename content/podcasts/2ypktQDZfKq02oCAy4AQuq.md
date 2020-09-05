@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:05.440Z
 date: 2018-02-21T21:34:40.895Z
 title: "The Love of God"
 slug: "prophetic-voice-233"
-publishDate: 2016-06-25T00:00:00.000Z
+publishDate: 2016-06-24T19:00:00.000Z
 episodeNumber: 233
 keywords:
 - love of god

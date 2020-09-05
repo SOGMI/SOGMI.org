@@ -3,7 +3,7 @@ updated: 2019-10-21T17:06:48.914Z
 date: 2019-10-21T17:02:21.337Z
 title: "The Righteousness of God vs Self-Righteousness - Continued"
 slug: "prophetic-voice-394"
-originalAirDate: 2019-10-19T00:00:00.000Z
+originalAirDate: 2019-10-18T19:00:00.000Z
 episodeNumber: 394
 keywords:
 - righteousness

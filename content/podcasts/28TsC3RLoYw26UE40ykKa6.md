@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:05.403Z
 date: 2018-02-21T20:35:30.186Z
 title: "Resurrection Power in the Holy Spirit"
 slug: "prophetic-voice-224"
-publishDate: 2016-04-23T00:00:00.000Z
+publishDate: 2016-04-22T19:00:00.000Z
 episodeNumber: 224
 keywords:
 - restoration

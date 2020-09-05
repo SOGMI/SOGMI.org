@@ -3,7 +3,7 @@ updated: 2019-12-30T17:56:32.953Z
 date: 2019-12-30T17:56:32.953Z
 title: "Awesome God, Awesome Love"
 slug: "prophetic-voice-404"
-originalAirDate: 2019-12-28T00:00:00.000Z
+originalAirDate: 2019-12-27T18:00:00.000Z
 episodeNumber: 404
 keywords:
 - uprooting

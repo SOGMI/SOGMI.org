@@ -3,8 +3,8 @@ updated: 2018-09-07T05:07:50.454Z
 date: 2018-02-22T05:29:39.262Z
 title: "Let There Be Light"
 slug: "prophetic-voice-306"
-publishDate: 2018-01-22T00:00:00.000Z
-originalAirDate: 2018-01-20T00:00:00.000Z
+publishDate: 2018-01-21T18:00:00.000Z
+originalAirDate: 2018-01-19T18:00:00.000Z
 episodeNumber: 306
 keywords:
 - holy spirit

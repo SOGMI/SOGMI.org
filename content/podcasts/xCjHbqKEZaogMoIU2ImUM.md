@@ -3,7 +3,7 @@ updated: 2018-10-29T05:43:05.310Z
 date: 2018-10-29T05:40:38.053Z
 title: "Embracing and Living in the Newness of Life"
 slug: "prophetic-voice-343"
-originalAirDate: 2018-10-27T00:00:00.000Z
+originalAirDate: 2018-10-26T19:00:00.000Z
 episodeNumber: 343
 keywords:
 - transfer of wealth

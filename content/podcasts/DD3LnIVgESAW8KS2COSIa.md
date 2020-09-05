@@ -3,7 +3,7 @@ updated: 2018-12-24T18:43:02.738Z
 date: 2018-12-24T18:43:02.738Z
 title: "Christmas Special"
 slug: "prophetic-voice-351"
-originalAirDate: 2018-12-22T00:00:00.000Z
+originalAirDate: 2018-12-21T18:00:00.000Z
 episodeNumber: 351
 keywords:
 - christmas

@@ -3,7 +3,7 @@ updated: 2018-05-24T05:00:35.902Z
 date: 2018-02-21T19:09:33.798Z
 title: "Prophecies for 2018"
 slug: "prophetic-voice-309"
-publishDate: 2018-02-17T00:00:00.000Z
+publishDate: 2018-02-16T18:00:00.000Z
 episodeNumber: 309
 keywords:
 - personal prophecies

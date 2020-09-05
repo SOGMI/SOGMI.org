@@ -3,7 +3,7 @@ updated: 2018-10-09T01:05:32.174Z
 date: 2018-10-09T01:05:32.174Z
 title: "New Wine, New Ways"
 slug: "prophetic-voice-340"
-originalAirDate: 2018-10-06T00:00:00.000Z
+originalAirDate: 2018-10-05T19:00:00.000Z
 episodeNumber: 340
 keywords:
 - transfer of wealth

@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:14.395Z
 date: 2018-02-21T23:11:40.593Z
 title: "Knowing Our God and the Season"
 slug: "prophetic-voice-264"
-publishDate: 2017-03-11T00:00:00.000Z
+publishDate: 2017-03-10T18:00:00.000Z
 episodeNumber: 264
 keywords:
 - uprooting

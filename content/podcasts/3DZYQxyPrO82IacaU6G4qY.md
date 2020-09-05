@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:14.382Z
 date: 2018-02-21T23:19:19.142Z
 title: "Get Ready for Glory"
 slug: "prophetic-voice-266"
-publishDate: 2017-03-25T00:00:00.000Z
+publishDate: 2017-03-24T19:00:00.000Z
 episodeNumber: 266
 keywords:
 - political revival

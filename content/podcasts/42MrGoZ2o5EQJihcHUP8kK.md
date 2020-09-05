@@ -3,7 +3,7 @@ updated: 2020-06-19T21:01:59.687Z
 date: 2020-06-19T20:58:13.594Z
 title: "Preparing the Way for God"
 slug: "prophetic-voice-410"
-originalAirDate: 2020-02-08T00:00:00.000Z
+originalAirDate: 2020-02-07T18:00:00.000Z
 episodeNumber: 410
 keywords:
 - move of god

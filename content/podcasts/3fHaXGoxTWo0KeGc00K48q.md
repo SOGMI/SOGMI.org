@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.132Z
 date: 2018-02-21T21:59:54.174Z
 title: "Honoring God with Wealth"
 slug: "prophetic-voice-238"
-publishDate: 2016-08-06T00:00:00.000Z
+publishDate: 2016-08-05T19:00:00.000Z
 episodeNumber: 238
 keywords:
 - seedtime and harvest

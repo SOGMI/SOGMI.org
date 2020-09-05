@@ -3,7 +3,7 @@ updated: 2018-06-02T00:06:39.423Z
 date: 2018-02-21T19:30:57.316Z
 title: "Prophetic Words to the Church in 2016"
 slug: "prophetic-voice-213"
-publishDate: 2016-01-30T00:00:00.000Z
+publishDate: 2016-01-29T18:00:00.000Z
 episodeNumber: 213
 keywords:
 - prophecy to the church

@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:14.804Z
 date: 2018-02-22T02:53:04.526Z
 title: "The Kingdom of God"
 slug: "prophetic-voice-270"
-publishDate: 2017-04-22T00:00:00.000Z
+publishDate: 2017-04-21T19:00:00.000Z
 episodeNumber: 270
 keywords:
 - kingdom of god

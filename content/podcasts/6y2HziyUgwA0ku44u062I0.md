@@ -3,8 +3,8 @@ updated: 2018-08-27T08:27:26.076Z
 date: 2018-04-02T19:56:11.928Z
 title: "Celebrating Jesus as Our Passover"
 slug: "prophetic-voice-315"
-publishDate: 2018-04-02T00:00:00.000Z
-originalAirDate: 2018-03-31T00:00:00.000Z
+publishDate: 2018-04-01T19:00:00.000Z
+originalAirDate: 2018-03-30T19:00:00.000Z
 episodeNumber: 315
 keywords:
 - Passover

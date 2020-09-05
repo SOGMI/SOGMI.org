@@ -3,7 +3,7 @@ updated: 2020-01-13T17:45:06.257Z
 date: 2020-01-13T17:45:06.257Z
 title: "Break Away into God’s Plan"
 slug: "prophetic-voice-406"
-originalAirDate: 2020-01-11T00:00:00.000Z
+originalAirDate: 2020-01-10T18:00:00.000Z
 episodeNumber: 406
 keywords:
 - plan of god

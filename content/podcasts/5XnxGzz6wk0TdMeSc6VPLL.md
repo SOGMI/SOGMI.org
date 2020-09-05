@@ -3,7 +3,7 @@ updated: 2019-03-26T06:49:58.927Z
 date: 2019-03-26T06:49:58.927Z
 title: "Ministers of the New Covenant"
 slug: "prophetic-voice-364"
-originalAirDate: 2019-03-23T00:00:00.000Z
+originalAirDate: 2019-03-22T19:00:00.000Z
 episodeNumber: 364
 keywords:
 - kingdom of god

@@ -3,8 +3,8 @@ updated: 2018-07-17T21:52:16.842Z
 date: 2018-02-22T03:03:21.004Z
 title: "Prepare for Victory and Prosperity - Part 2"
 slug: "prophetic-voice-274"
-publishDate: 2017-05-20T00:00:00.000Z
-originalAirDate: 2017-05-20T00:00:00.000Z
+publishDate: 2017-05-19T19:00:00.000Z
+originalAirDate: 2017-05-19T19:00:00.000Z
 episodeNumber: 274
 keywords:
 - victory

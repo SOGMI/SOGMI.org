@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:10.191Z
 date: 2018-02-22T05:28:29.415Z
 title: "Prophecies Fulfilled and Prophecies for 2018"
 slug: "prophetic-voice-305"
-publishDate: 2018-01-13T00:00:00.000Z
+publishDate: 2018-01-12T18:00:00.000Z
 episodeNumber: 305
 keywords:
 - appointed time

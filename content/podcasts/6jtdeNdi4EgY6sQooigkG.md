@@ -3,7 +3,7 @@ updated: 2018-05-24T05:00:33.552Z
 date: 2018-02-21T19:08:04.432Z
 title: "The Heart of God"
 slug: "prophetic-voice-308"
-publishDate: 2018-02-10T00:00:00.000Z
+publishDate: 2018-02-09T18:00:00.000Z
 episodeNumber: 308
 keywords:
 - heart of god

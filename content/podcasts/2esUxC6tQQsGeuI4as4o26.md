@@ -3,8 +3,8 @@ updated: 2018-08-27T08:25:21.413Z
 date: 2018-06-11T16:59:09.371Z
 title: "How to Hear the Voice of God - Part 1"
 slug: "prophetic-voice-324"
-publishDate: 2018-06-11T00:00:00.000Z
-originalAirDate: 2018-06-09T00:00:00.000Z
+publishDate: 2018-06-10T19:00:00.000Z
+originalAirDate: 2018-06-08T19:00:00.000Z
 episodeNumber: 324
 keywords:
 - holy spirit

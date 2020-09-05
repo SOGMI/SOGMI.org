@@ -3,7 +3,7 @@ updated: 2019-04-29T16:21:24.075Z
 date: 2019-04-29T16:21:24.075Z
 title: "Living in God's Authority as His Ambassadors"
 slug: "prophetic-voice-369"
-originalAirDate: 2019-04-27T00:00:00.000Z
+originalAirDate: 2019-04-26T19:00:00.000Z
 episodeNumber: 369
 keywords:
 - ambassador

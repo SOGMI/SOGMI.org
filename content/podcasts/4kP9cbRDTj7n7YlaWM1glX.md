@@ -4,7 +4,7 @@ date: 2020-08-11T03:06:30.389Z
 title: "The Instructions of God; Now is the Time"
 slug: "prophetic-voice-433"
 publishDate: 2020-08-11T00:00:00.000Z
-originalAirDate: 2020-07-18T00:00:00.000Z
+originalAirDate: 2020-07-17T19:00:00.000Z
 episodeNumber: 433
 keywords:
 - changes

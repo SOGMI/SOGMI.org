@@ -4,7 +4,7 @@ date: 2018-11-26T18:54:54.872Z
 title: "Holding on to God"
 slug: "prophetic-voice-347"
 publishDate: 2018-11-26T12:00:00.000Z
-originalAirDate: 2018-11-24T00:00:00.000Z
+originalAirDate: 2018-11-23T18:00:00.000Z
 episodeNumber: 347
 keywords:
 - transfer of wealth

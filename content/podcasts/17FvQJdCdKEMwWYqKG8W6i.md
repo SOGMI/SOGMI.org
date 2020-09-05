@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:07.778Z
 date: 2018-02-21T22:12:14.244Z
 title: "We Are Now Occupying (Part 1 of 2)"
 slug: "prophetic-voice-248"
-publishDate: 2016-10-22T00:00:00.000Z
+publishDate: 2016-10-21T19:00:00.000Z
 episodeNumber: 248
 keywords:
 - kingdom principles

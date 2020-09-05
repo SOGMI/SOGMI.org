@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:06.386Z
 date: 2018-02-22T04:52:10.628Z
 title: "Emerging Glory"
 slug: "prophetic-voice-295"
-publishDate: 2017-11-04T00:00:00.000Z
+publishDate: 2017-11-03T19:00:00.000Z
 episodeNumber: 295
 keywords:
 - transfer of wealth

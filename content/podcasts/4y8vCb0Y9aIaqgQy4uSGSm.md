@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:04.486Z
 date: 2018-02-21T19:53:42.484Z
 title: "Allow the Holy Spirit to Reveal Jesus"
 slug: "prophetic-voice-221"
-publishDate: 2016-04-02T00:00:00.000Z
+publishDate: 2016-04-01T19:00:00.000Z
 episodeNumber: 221
 keywords:
 - love of god

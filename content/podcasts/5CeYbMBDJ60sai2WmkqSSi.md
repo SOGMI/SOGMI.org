@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:10.194Z
 date: 2018-02-22T05:26:16.618Z
 title: "The Set Time Has Come (Featuring Ptr. Mike Sosso)"
 slug: "prophetic-voice-303"
-publishDate: 2017-12-30T00:00:00.000Z
+publishDate: 2017-12-29T18:00:00.000Z
 episodeNumber: 303
 keywords:
 - appointed time

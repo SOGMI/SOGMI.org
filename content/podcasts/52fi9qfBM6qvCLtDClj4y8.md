@@ -3,7 +3,7 @@ updated: 2020-06-19T21:17:51.747Z
 date: 2020-03-27T20:38:06.789Z
 title: "The Body of Christ in the Book of Revelation"
 slug: "prophetic-voice-409"
-originalAirDate: 2020-02-01T00:00:00.000Z
+originalAirDate: 2020-01-31T18:00:00.000Z
 episodeNumber: 409
 keywords:
 - revelations

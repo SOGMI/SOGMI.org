@@ -3,8 +3,8 @@ updated: 2018-04-19T09:38:38.441Z
 date: 2018-04-10T08:00:37.006Z
 title: "Prophecy for the Body of Christ"
 slug: "prophetic-voice-316"
-publishDate: 2018-04-09T00:00:00.000Z
-originalAirDate: 2018-04-07T00:00:00.000Z
+publishDate: 2018-04-08T19:00:00.000Z
+originalAirDate: 2018-04-06T19:00:00.000Z
 episodeNumber: 316
 keywords:
 - prophecy

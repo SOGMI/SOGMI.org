@@ -3,7 +3,7 @@ updated: 2018-06-02T00:05:12.004Z
 date: 2018-02-21T19:15:38.535Z
 title: "Fact vs Truth"
 slug: "prophetic-voice-211"
-publishDate: 2016-01-09T00:00:00.000Z
+publishDate: 2016-01-08T18:00:00.000Z
 episodeNumber: 211
 keywords:
 - prophecy

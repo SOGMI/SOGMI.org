@@ -3,7 +3,7 @@ updated: 2019-06-25T04:36:50.208Z
 date: 2019-06-25T04:36:50.208Z
 title: "The Harvest - Dominion and Sonship"
 slug: "prophetic-voice-377"
-originalAirDate: 2019-06-22T00:00:00.000Z
+originalAirDate: 2019-06-21T19:00:00.000Z
 episodeNumber: 377
 keywords:
 - authority

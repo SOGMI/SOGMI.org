@@ -3,7 +3,7 @@ updated: 2019-01-08T02:35:41.464Z
 date: 2019-01-08T00:31:21.771Z
 title: "Prophecy for 2019"
 slug: "prophetic-voice-353"
-originalAirDate: 2019-01-05T00:00:00.000Z
+originalAirDate: 2019-01-04T18:00:00.000Z
 episodeNumber: 353
 keywords:
 - prophecy

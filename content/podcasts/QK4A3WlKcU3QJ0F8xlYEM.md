@@ -3,7 +3,7 @@ updated: 2020-08-05T01:09:02.852Z
 date: 2020-08-04T22:31:04.408Z
 title: "Intercession"
 slug: "prophetic-voice-430"
-originalAirDate: 2020-06-27T00:00:00.000Z
+originalAirDate: 2020-06-26T19:00:00.000Z
 episodeNumber: 430
 keywords:
 - intercession

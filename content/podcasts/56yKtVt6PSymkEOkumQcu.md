@@ -3,7 +3,7 @@ updated: 2018-09-12T01:38:34.280Z
 date: 2018-09-12T01:38:34.280Z
 title: "Instructions for the Transfer of Wealth"
 slug: "prophetic-voice-336"
-originalAirDate: 2018-09-08T00:00:00.000Z
+originalAirDate: 2018-09-07T19:00:00.000Z
 episodeNumber: 336
 keywords:
 - obedience

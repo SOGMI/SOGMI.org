@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:05.420Z
 date: 2018-02-22T04:28:32.411Z
 title: "The Greatness of the Season We're In"
 slug: "prophetic-voice-290"
-publishDate: 2017-09-23T00:00:00.000Z
+publishDate: 2017-09-22T19:00:00.000Z
 episodeNumber: 290
 keywords:
 - greatness of the season

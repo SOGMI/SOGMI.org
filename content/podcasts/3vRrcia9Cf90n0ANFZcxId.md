@@ -3,7 +3,7 @@ updated: 2019-02-26T05:09:08.505Z
 date: 2019-02-26T05:04:19.701Z
 title: "The Kingdom of God - Praying in the Holy Spirit"
 slug: "prophetic-voice-360"
-originalAirDate: 2019-02-23T00:00:00.000Z
+originalAirDate: 2019-02-22T18:00:00.000Z
 episodeNumber: 360
 keywords:
 - prayer

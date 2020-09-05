@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:16.902Z
 date: 2018-02-22T03:07:27.395Z
 title: "Prepare for Victory and Prosperity - Part 1"
 slug: "prophetic-voice-273"
-publishDate: 2017-05-13T00:00:00.000Z
+publishDate: 2017-05-12T19:00:00.000Z
 episodeNumber: 273
 keywords:
 - plan of god

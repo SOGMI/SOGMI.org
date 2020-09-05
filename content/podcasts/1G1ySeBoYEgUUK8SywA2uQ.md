@@ -3,7 +3,7 @@ updated: 2018-05-24T05:00:35.572Z
 date: 2018-03-27T04:39:34.071Z
 title: "His Glorious Church Maturing in Love"
 slug: "prophetic-voice-314"
-publishDate: 2018-03-24T00:00:00.000Z
+publishDate: 2018-03-23T19:00:00.000Z
 episodeNumber: 314
 keywords:
 - holy spirit

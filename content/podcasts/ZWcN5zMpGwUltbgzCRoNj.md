@@ -3,7 +3,7 @@ updated: 2019-12-16T18:01:43.750Z
 date: 2019-12-16T18:01:43.750Z
 title: "Doing Business God's Way in Everything"
 slug: "prophetic-voice-402"
-originalAirDate: 2019-12-14T00:00:00.000Z
+originalAirDate: 2019-12-13T18:00:00.000Z
 episodeNumber: 402
 keywords:
 - business gods way

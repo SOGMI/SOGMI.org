@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:05.475Z
 date: 2018-02-21T21:33:22.065Z
 title: "Greater Works - Part 3"
 slug: "prophetic-voice-232"
-publishDate: 2016-06-18T00:00:00.000Z
+publishDate: 2016-06-17T19:00:00.000Z
 episodeNumber: 232
 keywords:
 - living in the supernatural

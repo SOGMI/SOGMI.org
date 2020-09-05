@@ -3,7 +3,7 @@ updated: 2019-07-08T23:03:19.192Z
 date: 2019-07-08T23:03:19.192Z
 title: "Mission Trip Report"
 slug: "prophetic-voice-379"
-originalAirDate: 2019-07-06T00:00:00.000Z
+originalAirDate: 2019-07-05T19:00:00.000Z
 episodeNumber: 379
 keywords:
 - seedtime and harvest

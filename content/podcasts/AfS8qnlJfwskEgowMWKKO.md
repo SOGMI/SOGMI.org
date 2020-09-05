@@ -3,8 +3,8 @@ updated: 2018-07-16T16:40:59.829Z
 date: 2018-07-16T15:51:26.689Z
 title: "A Season of Opportunities"
 slug: "prophetic-voice-329"
-publishDate: 2018-07-16T00:00:00.000Z
-originalAirDate: 2018-07-14T00:00:00.000Z
+publishDate: 2018-07-15T19:00:00.000Z
+originalAirDate: 2018-07-13T19:00:00.000Z
 episodeNumber: 329
 keywords:
 - prophecy

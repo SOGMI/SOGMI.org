@@ -3,7 +3,7 @@ updated: 2020-08-03T19:07:27.518Z
 date: 2020-08-03T19:07:27.518Z
 title: "Using Your Spiritual Eyes"
 slug: "prophetic-voice-424"
-originalAirDate: 2020-05-16T00:00:00.000Z
+originalAirDate: 2020-05-15T19:00:00.000Z
 episodeNumber: 424
 keywords:
 - 2020 vision

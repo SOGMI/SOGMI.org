@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.067Z
 date: 2018-02-21T21:35:58.563Z
 title: "Look to the Truth Above the Facts"
 slug: "prophetic-voice-234"
-publishDate: 2016-07-02T00:00:00.000Z
+publishDate: 2016-07-01T19:00:00.000Z
 episodeNumber: 234
 keywords:
 - truth

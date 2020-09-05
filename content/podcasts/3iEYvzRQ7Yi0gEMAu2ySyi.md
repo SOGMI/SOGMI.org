@@ -3,8 +3,8 @@ updated: 2018-07-23T22:36:00.979Z
 date: 2018-07-23T22:36:00.979Z
 title: "Preparation to Establish God's Kingdom"
 slug: "prophetic-voice-330"
-publishDate: 2018-07-23T00:00:00.000Z
-originalAirDate: 2018-07-21T00:00:00.000Z
+publishDate: 2018-07-22T19:00:00.000Z
+originalAirDate: 2018-07-20T19:00:00.000Z
 episodeNumber: 330
 keywords:
 - kingdom of god

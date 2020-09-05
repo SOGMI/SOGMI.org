@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:13.935Z
 date: 2018-02-21T23:10:35.509Z
 title: "Living by Faith"
 slug: "prophetic-voice-263"
-publishDate: 2017-03-03T00:00:00.000Z
+publishDate: 2017-03-02T18:00:00.000Z
 episodeNumber: 263
 keywords:
 - obedience

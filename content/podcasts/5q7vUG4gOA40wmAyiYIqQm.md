@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:05.493Z
 date: 2018-02-22T03:32:22.568Z
 title: "Empowered to Walk in the Supernatural"
 slug: "prophetic-voice-292"
-publishDate: 2017-10-14T00:00:00.000Z
+publishDate: 2017-10-13T19:00:00.000Z
 episodeNumber: 292
 keywords:
 - living in the supernatural

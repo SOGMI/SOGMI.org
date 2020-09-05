@@ -3,7 +3,7 @@ updated: 2019-07-29T17:12:17.740Z
 date: 2019-07-29T17:12:17.740Z
 title: "A New Wave of Influence"
 slug: "prophetic-voice-382"
-originalAirDate: 2019-07-27T00:00:00.000Z
+originalAirDate: 2019-07-26T19:00:00.000Z
 episodeNumber: 382
 keywords:
 - supernatural manifestations

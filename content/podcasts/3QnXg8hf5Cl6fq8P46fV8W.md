@@ -3,7 +3,7 @@ updated: 2020-08-04T22:11:51.703Z
 date: 2020-08-04T22:11:51.703Z
 title: "God's Judgement"
 slug: "prophetic-voice-428"
-originalAirDate: 2020-06-13T00:00:00.000Z
+originalAirDate: 2020-06-12T19:00:00.000Z
 episodeNumber: 428
 keywords:
 - judgement

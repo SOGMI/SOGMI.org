@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:05.116Z
 date: 2018-02-21T20:57:32.756Z
 title: "Greater Works - Part 1"
 slug: "prophetic-voice-230"
-publishDate: 2016-06-04T00:00:00.000Z
+publishDate: 2016-06-03T19:00:00.000Z
 episodeNumber: 230
 keywords:
 - living in the supernatural

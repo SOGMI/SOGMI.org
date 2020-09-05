@@ -3,7 +3,7 @@ updated: 2019-12-09T19:02:22.057Z
 date: 2019-12-09T18:55:31.556Z
 title: "A Grateful Heart"
 slug: "prophetic-voice-401"
-originalAirDate: 2019-12-07T00:00:00.000Z
+originalAirDate: 2019-12-06T18:00:00.000Z
 episodeNumber: 401
 keywords:
 - thanksgiving

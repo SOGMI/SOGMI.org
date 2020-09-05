@@ -3,7 +3,7 @@ updated: 2019-11-18T18:43:25.707Z
 date: 2019-11-18T18:41:51.986Z
 title: "Established and Rooted in Love"
 slug: "prophetic-voice-398"
-originalAirDate: 2019-11-16T00:00:00.000Z
+originalAirDate: 2019-11-15T18:00:00.000Z
 episodeNumber: 398
 keywords:
 - relationship with god
