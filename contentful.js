@@ -71,11 +71,11 @@ function writeEntriesForType(contentType) {
                     // Simple text content
                     default:
                         if (field === 'date' || field === 'startDate' || field === 'endDate' || field === 'publishDate' || field === 'originalAirDate') {
-                            const utcDate = utcToZonedTime(
-								item.fields[field],
+                            const date = new Date(Date.parse(item.fields[field]))
+                            const newDate = utcToZonedTime(
+								date,
 								"America/Chicago"
-							);
-                            let newDate = new Date(utcDate)
+                            );
                             let year = newDate.getFullYear()
                             let month = ("0" + (newDate.getMonth() + 1)).slice(-2)
                             let day = ("0" + newDate.getDate()).slice(-2)
