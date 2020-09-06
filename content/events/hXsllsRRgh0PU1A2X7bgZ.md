@@ -1,5 +1,5 @@
 ---
-updated: 2020-09-04T23:21:14.954Z
+updated: 2020-09-06T04:35:11.822Z
 date: 2020-08-27T02:46:18.248Z
 title: "Online Leadership Training 2020"
 slug: "online-leadership-training-sept-2020"
@@ -15,6 +15,10 @@ people:
   slug: cristina-sosso
   contentType: people
   id: 3zLvufAtlKgiiGIaEYs4S4
+- title: Mike Sosso
+  slug: mike-sosso
+  contentType: people
+  id: 6aQjATkbJuOcIYwuGcSciQ
 - title: Joshua Sosso
   slug: joshua-sosso
   contentType: people
