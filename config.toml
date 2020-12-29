@@ -4,6 +4,7 @@ buildDrafts = false
 title = "Sons of God Ministries International"
 canonifyURLs = false
 enableRobotsTXT = true
+ignoreErrors = ["error-output-taxonomy"]
 
 [sitemap]
 changefreq = "monthly"

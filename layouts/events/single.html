@@ -87,22 +87,22 @@
                 <p class="paragraph-3">
                     {{ with .Params.StartDate }}
                         <b>Starts:&nbsp;</b>
-                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 pm"  }} {{ $tz }}
+                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 PM"  }} {{ $tz }}
                         <br/>
                     {{ end }}
                     {{ with .Params.EndDate }}
                         <b>End: &nbsp;</b>
-                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 pm" }} {{ $tz }}
+                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 PM" }} {{ $tz }}
                     {{ end }}
                 </p>
                 <!--create variable for <faq> which will be used to split the main content of the .md file in the content directory-->
                 {{ $split := split .Content "<faq>" }}
                 
                 <!--grab any content before the first appearance of <faq> in the .md file-->
-                {{ range first 1 $split }}
+                {{ with index $split 0 }}
                     <h1 class="heading-36">Details</h1>
                     <div class="w-richtext events">
-                    {{ markdownify . }}
+                    {{ . | safeHTML }}
                     </div>
                 {{ end }}
 
@@ -149,10 +149,10 @@
             {{ if eq .Params.hideFaq false }}
                 <div data-w-tab="FAQ" class="w-tab-pane">
                 <!--grab any content after the first appearance of <faq> in the .md file-->
-                {{ range after 1 $split }}
+                {{ with index $split 1 }}
                     <h1 class="heading-36">Frequently Asked Questions</h1>
                     <div class="w-richtext events">
-                    {{ markdownify . }}
+                    {{ . | safeHTML }}
                     </div>
                 {{ end }}
             {{ end }}
