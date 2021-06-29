@@ -5,7 +5,7 @@
         <description>Recent content in Home on Sons of God Ministries International</description>
         <generator>Hugo -- gohugo.io</generator>
         {{ with .Site.LanguageCode -}}<language>{{ . }}</language>{{- end }}
-        <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
+        <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05" }} -0600</lastBuildDate>
         <atom:link href="https://www.sogmi.org/index.xml" rel="self" type="application/rss+xml"/>
         {{- with .OutputFormats.Get "RSS" -}}
             {{- printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML -}}
