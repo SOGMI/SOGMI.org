@@ -6,6 +6,9 @@ canonifyURLs = false
 enableRobotsTXT = true
 ignoreErrors = ["error-output-taxonomy"]
 
+[markup.goldmark.renderer]
+unsafe=true
+
 [sitemap]
 changefreq = "monthly"
 priority = 0.5

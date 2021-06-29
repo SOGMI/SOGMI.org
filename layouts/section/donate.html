@@ -36,7 +36,7 @@
     {{ $dark := .Params.DarkBackground }}
     {{ if eq .Params.layout "lightdark" }}
         {{ $split := split .Content "<section>" }}
-        {{ range first 1 $split }}
+            {{ range first 1 $split }}
             <div class="section-light first">
                 <div class="container">
                     <div class="standard-grid-wrapper right-align">
