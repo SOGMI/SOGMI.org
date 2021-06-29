@@ -5,7 +5,7 @@
         <description>Recent content in Home on Sons of God Ministries International</description>
         <generator>Hugo -- gohugo.io</generator>
         {{ with .Site.LanguageCode -}}<language>{{ . }}</language>{{- end }}
-        <lastBuildDate>{{ now.Format "Monday, Jan 2, 2006 15:04:05 MST" }}</lastBuildDate>
+        <lastBuildDate>{{ now.Format "Mon, Jan 2, 2006 15:04:05 MST" }}</lastBuildDate>
         <atom:link href="https://www.sogmi.org/index.xml" rel="self" type="application/rss+xml"/>
         {{ with .OutputFormats.Get "RSS" -}}
             {{- printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML -}}
@@ -18,7 +18,7 @@
                 {{- if .Params.Authors -}}<dc:creator>{{- .Params.Authors -}}</dc:creator>
                 {{- else if .Params.Hosts -}}<dc:creator>{{ delimit .Params.hosts ", " | title }}</dc:creator>{{- end -}}
                 <pubDate>{{ if .PublishDate }}{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05" | safeHTML }} -0600{{ else }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05" | safeHTML }} -0600{{ end }}</pubDate>
-                <guid>{{ .File.UniqueID }}</guid>
+                <guid isPermalink="false">{{ .File.UniqueID }}</guid>
                 <description>{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | html }}{{ end }}</description>
                 <category>{{ .Section }}</category>
                 {{- if .Params.Thumbnail -}}<media:content url="https:{{ .Params.Thumbnail }}?w=500" type="image/jpg"/>
