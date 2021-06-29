@@ -7,10 +7,10 @@
         {{ with .Site.LanguageCode -}}<language>{{ . }}</language>{{- end }}
         <lastBuildDate>{{ now.Format "Monday, Jan 2, 2006 15:04:05 MST" }}</lastBuildDate>
         <atom:link href="https://www.sogmi.org/index.xml" rel="self" type="application/rss+xml"/>
-        {{- with .OutputFormats.Get "RSS" -}}
+        {{ with .OutputFormats.Get "RSS" -}}
             {{- printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML -}}
-        {{- end -}}
-        {{- range .Pages -}}
+        {{- end }}
+        {{- range site.RegularPages -}}
             {{- if or (eq .Section "articles") (eq .Section "podcasts") (eq .Section "videos") -}}
             <item>
                 <title>{{ .Title }}</title>
