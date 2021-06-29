@@ -1,14 +1,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ range .Data.Pages }}
-    {{ if ne .Section "blogCollection" }}
-        {{ if ne .Section "podcastSeries" }}
+    {{ if and (ne .Section "blogCollection") (ne .Section "podcastSeries") (ne .Section "onlineEventPage") }}
         <url>
             <loc>{{ .Permalink }}</loc>{{ if .Params.updated }}
             <lastmod>{{ safeHTML ( dateFormat "2006-01-02T15:04:05-07:00" .Params.updated ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
             <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
             <priority>{{ .Sitemap.Priority }}</priority>{{ end }}
         </url>
-        {{ end }}
     {{ end }}
   {{ end }}
 </urlset>
