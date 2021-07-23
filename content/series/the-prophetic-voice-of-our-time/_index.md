@@ -1,5 +1,5 @@
 ---
-updated: 2019-01-17T18:55:35.774Z
+updated: 2021-05-20T00:48:50.419Z
 date: 2018-01-25T09:20:37.514Z
 title: "The Prophetic Voice of Our Time"
 slug: "the-prophetic-voice-of-our-time"
@@ -9,6 +9,7 @@ metaDescription: "The Prophetic Voice of Our Time is a weekly radio show hosted 
 albumImage: "//images.ctfassets.net/vfgh62eq5a4k/5pcTFnzW92wMi88y6OY0YU/261f0f4d99d41206fb9da9d7d97d86d1/download.jpg"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/7mDAKtqV3OoiEqACykoIa6/4a6d3277b9deb857b30f5735771303fa/59de700b69f6bf000143ec7d_IMG_4878-as-Smart-Object-1-smaller-compressor.jpg"
 itunesLink: "https://itunes.apple.com/us/podcast/the-prophetic-voice-of-our-time/id1036387563"
+spotifyLink: "https://open.spotify.com/show/0kGRQnT0fM16Wi3cp72xH7"
 googlePlayLink: "https://play.google.com/music/m/Isik7zncmrdfiovqjogwhofpnam?t=The_Prophetic_Voice_of_Our_Time"
 rssFeed: "http://propheticvoice.castos.com/feed"
 ---

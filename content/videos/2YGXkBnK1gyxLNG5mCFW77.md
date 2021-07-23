@@ -1,5 +1,5 @@
 ---
-updated: 2020-11-02T02:17:17.181Z
+updated: 2021-03-21T16:12:50.123Z
 date: 2020-11-02T02:17:17.181Z
 title: "11/01/2020 | The Power of Prayer (Pastor Joshua Sosso)"
 slug: "x8eLRno5A1Y"
@@ -22,4 +22,9 @@ playlists:
 - livestreams
 speakers:
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---

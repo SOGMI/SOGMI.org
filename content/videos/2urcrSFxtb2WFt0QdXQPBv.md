@@ -1,5 +1,5 @@
 ---
-updated: 2020-12-14T02:35:16.086Z
+updated: 2021-03-21T16:05:44.423Z
 date: 2020-12-14T02:35:16.086Z
 title: "12/13/2020 | The Edict of the Lord Supersedes All (Pastor Joshua Sosso)"
 slug: "89u5Z82Dt5k"
@@ -20,4 +20,17 @@ speakers:
 - Michael Sosso
 - Cristina Sosso
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
+- title: Mike Sosso
+  slug: mike-sosso
+  contentType: people
+  id: 6aQjATkbJuOcIYwuGcSciQ
+- title: Cristina Sosso
+  slug: cristina-sosso
+  contentType: people
+  id: 3zLvufAtlKgiiGIaEYs4S4
 ---

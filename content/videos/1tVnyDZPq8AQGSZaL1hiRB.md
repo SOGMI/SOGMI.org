@@ -1,5 +1,5 @@
 ---
-updated: 2020-10-26T01:20:43.079Z
+updated: 2021-03-21T16:13:17.910Z
 date: 2020-10-26T01:20:43.079Z
 title: "10/25/2020 | Your Answer is There in God's Presence (Pastor Joshua Sosso)"
 slug: "jk5b5W1ZG6Q"
@@ -21,4 +21,9 @@ playlists:
 - livestreams
 speakers:
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---

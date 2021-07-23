@@ -1,5 +1,5 @@
 ---
-updated: 2020-12-21T02:10:06.684Z
+updated: 2021-03-21T16:03:28.507Z
 date: 2020-12-21T02:10:06.684Z
 title: "12/20/2020 | Start Stepping Into Action (Pastor Joshua Sosso)"
 slug: "jI9lY14BCws"
@@ -15,4 +15,9 @@ playlists:
 - livestreams
 speakers:
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---

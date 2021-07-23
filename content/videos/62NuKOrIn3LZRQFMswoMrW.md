@@ -1,5 +1,5 @@
 ---
-updated: 2020-12-07T02:21:33.137Z
+updated: 2021-03-21T16:08:36.882Z
 date: 2020-12-07T02:21:33.137Z
 title: "12/06/2020 | Consecrate Yourself Before the Lord (Pastor Joshua Sosso)"
 slug: "Ys69ZLcOTtk"
@@ -18,4 +18,9 @@ playlists:
 - livestreams
 speakers:
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---

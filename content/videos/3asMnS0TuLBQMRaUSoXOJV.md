@@ -1,5 +1,5 @@
 ---
-updated: 2020-11-09T02:24:00.754Z
+updated: 2021-03-21T16:10:32.606Z
 date: 2020-11-09T02:24:00.754Z
 title: "11/08/2020 | Called to be Giants (Pastor Joshua Sosso)"
 slug: "xx1BllDUzl0"
@@ -18,4 +18,9 @@ playlists:
 - livestreams
 speakers:
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---

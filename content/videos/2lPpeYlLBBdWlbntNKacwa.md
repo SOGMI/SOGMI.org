@@ -1,5 +1,5 @@
 ---
-updated: 2020-09-07T01:36:03.024Z
+updated: 2021-03-21T16:08:02.731Z
 date: 2020-09-07T01:36:03.024Z
 title: "09/06/2020 | Invest Your Time in God (Pastor Joshua Sosso)"
 slug: "ii4Ijvb5ry0"
@@ -18,4 +18,9 @@ playlists:
 - livestreams
 speakers:
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---

@@ -1,5 +1,5 @@
 ---
-updated: 2020-10-19T01:12:32.676Z
+updated: 2021-03-21T16:12:19.312Z
 date: 2020-10-19T01:12:32.676Z
 title: "10/18/2020 | Allow the Lord to Purge Away Your Dross (Pastor Joshua Sosso)"
 slug: "9cQN3iL3DAY"
@@ -18,4 +18,9 @@ playlists:
 - livestreams
 speakers:
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---

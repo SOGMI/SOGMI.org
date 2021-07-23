@@ -1,5 +1,5 @@
 ---
-updated: 2020-10-12T01:33:33.406Z
+updated: 2021-03-21T16:11:00.731Z
 date: 2020-10-12T01:33:33.406Z
 title: "10/11/2020 | From the Natural to the Supernatural (Pastor Joshua Sosso)"
 slug: "t_kwt2gUTvk"
@@ -22,4 +22,9 @@ playlists:
 - livestreams
 speakers:
 - Joshua Sosso
+people:
+- title: Joshua Sosso
+  slug: joshua-sosso
+  contentType: people
+  id: 2fn2KHOWEow0K6EqCkaywa
 ---
