@@ -101,7 +101,6 @@ function writeEntriesForType(contentType) {
                 field === "originalAirDate"
               ) {
                 const date = new Date(item.fields[field]);
-                console.log(date)
                 // const newDate = utcToZonedTime(
                 // 	date,
                 // 	"America/Chicago"
