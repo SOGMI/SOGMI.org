@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:18.171Z
 date: 2018-02-22T03:24:05.882Z
 title: "Preparation for Greatness"
 slug: "prophetic-voice-284"
-publishDate: 2017-08-11T19:00:00.000Z
+publishDate: 2017-08-12T00:00:00.000Z
 episodeNumber: 284
 keywords:
 - transfer of wealth

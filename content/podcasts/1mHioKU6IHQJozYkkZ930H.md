@@ -3,8 +3,8 @@ updated: 2021-05-16T03:40:19.343Z
 date: 2021-05-16T03:40:19.343Z
 title: "Continue to Sow Good Seeds"
 slug: "prophetic-voice-476"
-publishDate: 2021-05-17T00:00:00.000Z
-originalAirDate: 2021-05-14T19:00:00.000Z
+publishDate: 2021-05-17T05:00:00.000Z
+originalAirDate: 2021-05-15T00:00:00.000Z
 episodeNumber: 476
 keywords:
 - word of knowledge

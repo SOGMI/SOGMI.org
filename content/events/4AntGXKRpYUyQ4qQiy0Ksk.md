@@ -23,8 +23,8 @@ people:
   contentType: people
   id: 6aQjATkbJuOcIYwuGcSciQ
 freeEvent: true
-startDate: 2018-03-30T19:00:00.000Z
-endDate: 2018-03-31T16:00:00.000Z
+startDate: 2018-03-31T00:00:00.000Z
+endDate: 2018-03-31T21:00:00.000Z
 timezone: "CST"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6t1oOVZIWWUo44sAKcASWk/75a9d281912c0f948f1d90ff792636fc/prophetic_gathering_2018_march_-_without_text__1_.jpg"
 registrationType: "Eventbrite"

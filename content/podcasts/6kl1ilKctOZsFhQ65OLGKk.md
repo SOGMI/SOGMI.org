@@ -3,7 +3,7 @@ updated: 2020-07-31T22:47:12.362Z
 date: 2020-07-31T21:57:36.123Z
 title: "Changes Are Uncomfortable, But Good"
 slug: "prophetic-voice-418"
-originalAirDate: 2020-04-03T19:00:00.000Z
+originalAirDate: 2020-04-04T00:00:00.000Z
 episodeNumber: 418
 keywords:
 - change

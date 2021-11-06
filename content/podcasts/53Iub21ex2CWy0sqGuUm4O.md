@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:13.391Z
 date: 2018-02-21T22:50:21.864Z
 title: "Sound Doctrine from the Holy Spirit"
 slug: "prophetic-voice-259"
-publishDate: 2017-01-20T18:00:00.000Z
+publishDate: 2017-01-21T00:00:00.000Z
 episodeNumber: 259
 keywords:
 - order of melchizedek

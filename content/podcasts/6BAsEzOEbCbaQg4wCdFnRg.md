@@ -3,7 +3,7 @@ updated: 2021-05-16T03:06:24.001Z
 date: 2021-05-16T03:06:24.001Z
 title: "Upheavals and the Rising of the Righteous"
 slug: "prophetic-voice-474"
-originalAirDate: 2021-04-30T19:00:00.000Z
+originalAirDate: 2021-05-01T00:00:00.000Z
 episodeNumber: 474
 keywords:
 - thus sayeth the lord

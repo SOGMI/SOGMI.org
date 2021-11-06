@@ -3,8 +3,8 @@ updated: 2021-09-09T16:41:51.287Z
 date: 2021-09-09T16:41:51.287Z
 title: "A Calling to Holiness"
 slug: "prophetic-voice-492"
-publishDate: 2021-09-06T00:00:00.000Z
-originalAirDate: 2021-09-03T19:00:00.000Z
+publishDate: 2021-09-06T05:00:00.000Z
+originalAirDate: 2021-09-04T00:00:00.000Z
 episodeNumber: 492
 keywords:
 - uprooting

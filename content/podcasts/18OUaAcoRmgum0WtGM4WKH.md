@@ -3,7 +3,7 @@ updated: 2020-07-31T22:45:44.146Z
 date: 2020-07-31T21:36:46.354Z
 title: "Finding Peace in The Storm"
 slug: "prophetic-voice-417"
-originalAirDate: 2020-03-27T19:00:00.000Z
+originalAirDate: 2020-03-28T00:00:00.000Z
 episodeNumber: 417
 keywords:
 - plan of god

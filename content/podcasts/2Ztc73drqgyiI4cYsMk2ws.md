@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:07.896Z
 date: 2018-02-21T22:13:34.934Z
 title: "We Are Now Occupying (Part 2 of 2)"
 slug: "prophetic-voice-249"
-publishDate: 2016-10-28T19:00:00.000Z
+publishDate: 2016-10-29T00:00:00.000Z
 episodeNumber: 249
 keywords:
 - spiritual authority

@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:19.797Z
 date: 2018-02-22T03:28:47.898Z
 title: "Prophets and Prophecy"
 slug: "prophetic-voice-286"
-publishDate: 2017-08-25T19:00:00.000Z
+publishDate: 2017-08-26T00:00:00.000Z
 episodeNumber: 286
 keywords:
 - prophecy

@@ -3,8 +3,8 @@ updated: 2018-08-27T08:25:51.460Z
 date: 2018-06-04T19:50:54.778Z
 title: "The Promised Land: Taking Dominion and Influence by His Spirit"
 slug: "prophetic-voice-323"
-publishDate: 2018-06-03T19:00:00.000Z
-originalAirDate: 2018-06-01T19:00:00.000Z
+publishDate: 2018-06-04T00:00:00.000Z
+originalAirDate: 2018-06-02T00:00:00.000Z
 episodeNumber: 323
 keywords:
 - confronting giants

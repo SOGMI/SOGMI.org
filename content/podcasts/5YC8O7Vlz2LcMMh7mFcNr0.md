@@ -3,7 +3,7 @@ updated: 2020-06-19T22:36:45.030Z
 date: 2020-06-19T22:36:45.030Z
 title: "Women & Sonship - Have the Heart of God"
 slug: "prophetic-voice-415"
-originalAirDate: 2020-03-13T19:00:00.000Z
+originalAirDate: 2020-03-14T00:00:00.000Z
 episodeNumber: 415
 keywords:
 - sonship

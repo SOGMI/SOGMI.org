@@ -3,7 +3,7 @@ updated: 2019-09-30T17:01:17.557Z
 date: 2019-09-30T17:01:17.557Z
 title: "The Body of Christ is Being Stirred"
 slug: "prophetic-voice-391"
-originalAirDate: 2019-09-27T19:00:00.000Z
+originalAirDate: 2019-09-28T00:00:00.000Z
 episodeNumber: 391
 keywords:
 - uprooting

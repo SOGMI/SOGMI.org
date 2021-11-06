@@ -3,7 +3,7 @@ updated: 2021-06-20T00:52:43.009Z
 date: 2021-04-28T16:59:53.710Z
 title: "New Beginnings"
 slug: "prophetic-voice-443"
-originalAirDate: 2020-09-25T19:00:00.000Z
+originalAirDate: 2020-09-26T00:00:00.000Z
 episodeNumber: 443
 keywords:
 - uprooting

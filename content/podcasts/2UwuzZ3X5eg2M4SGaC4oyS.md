@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:08.506Z
 date: 2018-02-21T22:32:31.699Z
 title: "Prophecy and Political Revival"
 slug: "prophetic-voice-253"
-publishDate: 2016-11-25T18:00:00.000Z
+publishDate: 2016-11-26T00:00:00.000Z
 episodeNumber: 253
 keywords:
 - political revival

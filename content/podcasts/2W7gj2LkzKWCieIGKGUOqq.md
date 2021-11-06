@@ -3,8 +3,8 @@ updated: 2018-07-17T21:51:06.403Z
 date: 2018-02-21T22:02:06.818Z
 title: "God's Kingdom vs Babylon"
 slug: "prophetic-voice-240"
-publishDate: 2016-08-21T19:00:00.000Z
-originalAirDate: 2016-08-19T19:00:00.000Z
+publishDate: 2016-08-22T00:00:00.000Z
+originalAirDate: 2016-08-20T00:00:00.000Z
 episodeNumber: 240
 keywords:
 - kingdom principles

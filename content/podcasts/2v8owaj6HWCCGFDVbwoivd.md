@@ -3,8 +3,8 @@ updated: 2021-09-16T16:48:33.459Z
 date: 2021-09-16T16:48:33.459Z
 title: "Have No Fear and Rely on God"
 slug: "prophetic-voice-494"
-publishDate: 2021-09-20T00:00:00.000Z
-originalAirDate: 2021-09-17T19:00:00.000Z
+publishDate: 2021-09-20T05:00:00.000Z
+originalAirDate: 2021-09-18T00:00:00.000Z
 episodeNumber: 494
 keywords:
 - fear

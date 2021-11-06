@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:17.749Z
 date: 2018-02-22T03:18:33.970Z
 title: "Living in the Supernatural"
 slug: "prophetic-voice-279"
-publishDate: 2017-07-07T19:00:00.000Z
+publishDate: 2017-07-08T00:00:00.000Z
 episodeNumber: 279
 keywords:
 - living in the supernatural

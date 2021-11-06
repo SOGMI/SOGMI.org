@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:08.822Z
 date: 2018-02-21T22:34:58.981Z
 title: "Being Kings and Priests (Guest Speaker: Ed Grubb)"
 slug: "prophetic-voice-255"
-publishDate: 2016-12-16T18:00:00.000Z
+publishDate: 2016-12-17T00:00:00.000Z
 episodeNumber: 255
 keywords:
 - kings and priests

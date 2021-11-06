@@ -3,8 +3,8 @@ updated: 2021-09-09T22:37:11.968Z
 date: 2021-09-09T22:37:11.968Z
 title: "Prophecy to the Nations"
 slug: "prophetic-voice-493"
-publishDate: 2021-09-13T00:00:00.000Z
-originalAirDate: 2021-09-03T19:00:00.000Z
+publishDate: 2021-09-13T05:00:00.000Z
+originalAirDate: 2021-09-04T00:00:00.000Z
 episodeNumber: 493
 keywords:
 - prophecy

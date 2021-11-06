@@ -3,7 +3,7 @@ updated: 2018-11-21T17:55:56.375Z
 date: 2018-11-21T17:55:56.375Z
 title: "God is Accelerating the Manifestations for His Church"
 slug: "prophetic-voice-346"
-originalAirDate: 2018-11-16T18:00:00.000Z
+originalAirDate: 2018-11-17T00:00:00.000Z
 episodeNumber: 346
 keywords:
 - transfer of wealth

@@ -3,7 +3,7 @@ updated: 2018-07-16T23:30:28.504Z
 date: 2018-02-21T19:44:10.371Z
 title: "God's Guidelines for Politics (Featuring Mike Sosso)"
 slug: "prophetic-voice-217"
-publishDate: 2016-02-26T18:00:00.000Z
+publishDate: 2016-02-27T00:00:00.000Z
 episodeNumber: 217
 keywords:
 - politics

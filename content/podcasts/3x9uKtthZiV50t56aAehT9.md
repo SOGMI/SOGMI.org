@@ -3,8 +3,8 @@ updated: 2021-08-14T03:55:18.172Z
 date: 2021-08-14T03:54:13.216Z
 title: "A Greater Vision and Inside Information From God"
 slug: "prophetic-voice-489"
-publishDate: 2021-08-16T00:00:00.000Z
-originalAirDate: 2021-08-13T19:00:00.000Z
+publishDate: 2021-08-16T05:00:00.000Z
+originalAirDate: 2021-08-14T00:00:00.000Z
 episodeNumber: 489
 keywords:
 - vision

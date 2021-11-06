@@ -3,7 +3,7 @@ updated: 2021-05-16T02:39:45.576Z
 date: 2021-05-16T02:39:45.576Z
 title: "Being Led and Breaking Free From Doctrines"
 slug: "prophetic-voice-473"
-originalAirDate: 2021-04-23T19:00:00.000Z
+originalAirDate: 2021-04-24T00:00:00.000Z
 episodeNumber: 473
 keywords:
 - led by god

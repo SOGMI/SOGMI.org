@@ -14,8 +14,8 @@ people:
   contentType: people
   id: 3zLvufAtlKgiiGIaEYs4S4
 freeEvent: true
-startDate: 2018-12-31T19:00:00.000Z
-endDate: 2019-01-01T00:00:00.000Z
+startDate: 2019-01-01T01:00:00.000Z
+endDate: 2019-01-01T06:00:00.000Z
 timezone: "CST"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3dNPAXaQ1qkcQuQEiOQs4S/7688f01fa99d7d62dd2dffa6fcb13928/ray-hennessy-299620-unsplash__1_.jpg"
 registrationType: "Eventbrite"

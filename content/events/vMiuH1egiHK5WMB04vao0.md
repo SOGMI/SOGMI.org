@@ -106,8 +106,8 @@ people:
   contentType: people
   id: 2fn2KHOWEow0K6EqCkaywa
 freeEvent: true
-startDate: 2019-02-02T10:00:00.000Z
-endDate: 2019-02-02T16:00:00.000Z
+startDate: 2019-02-02T16:00:00.000Z
+endDate: 2019-02-02T22:00:00.000Z
 timezone: "PHT"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3iNRxumaZI9EDu9O3E4IZ5/bc97c4312f165a97acd6a0f59f25c692/GenSan_SDCard_2-12.jpg"
 registrationType: "Registration is Closed"

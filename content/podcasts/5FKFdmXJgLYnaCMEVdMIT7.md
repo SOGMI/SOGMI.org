@@ -3,8 +3,8 @@ updated: 2021-09-23T16:24:06.473Z
 date: 2021-09-23T16:24:06.473Z
 title: "The Feast of Tabernacles"
 slug: "prophetic-voice-495"
-publishDate: 2021-09-20T00:00:00.000Z
-originalAirDate: 2021-09-24T19:00:00.000Z
+publishDate: 2021-09-20T05:00:00.000Z
+originalAirDate: 2021-09-25T00:00:00.000Z
 episodeNumber: 495
 keywords:
 - feast of tabernacles

@@ -10,7 +10,7 @@
     <div class="event-banner-container" style="z-index: 1">
         <div class="return-to-event-link"><a href="/events" class="return-to-event-link">return to events</a></div>
         {{ with .Params.startdate }}
-            <h3 class="heading-37">{{ dateFormat "January 2, 2006" . }}</h3>
+            <h3 id="title-date-str" data-date="{{ . }}" class="heading-37">{{ dateFormat "January 2, 2006" . }}</h3>
         {{ end }}
         <h1 class="heading-12">{{ .Title }}</h1>
         <h4 class="event-single-subheading">{{ .Params.Venue }}  |  {{ .Params.City }}, {{ .Params.State }}</h4>
@@ -87,12 +87,14 @@
                 <p class="paragraph-3">
                     {{ with .Params.StartDate }}
                         <b>Starts:&nbsp;</b>
-                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 PM"  }} {{ $tz }}
+                        <span id="start-date-str" data-date="{{ . }}">
+                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 PM UTC"  }}
+                        </span>
                         <br/>
                     {{ end }}
                     {{ with .Params.EndDate }}
                         <b>End: &nbsp;</b>
-                        {{ . | dateFormat "Monday, January 2, 2006 at 3:04 PM" }} {{ $tz }}
+                        <span id="end-date-str" data-date="{{ . }}">{{ . | dateFormat "Monday, January 2, 2006 at 3:04 PM UTC"  }}</span>
                     {{ end }}
                 </p>
                 <!--create variable for <faq> which will be used to split the main content of the .md file in the content directory-->
@@ -203,7 +205,35 @@
 {{ partial "transcript-popup.html" . }}
 {{ end }}
 
+<script>
+    // date renderer
+
+    // heading date
+    var titleDateContainer = document.getElementById("title-date-str");
+    var titleDateStr = titleDateContainer.getAttribute("data-date");
+    var titleDate = titleDateStr.length > 1 ? new Date(titleDateStr) : null;
+    if(titleDate) {
+        titleDateContainer.innerHTML = titleDate.toLocaleDateString();
+    }
+
+    // start date
+    var startDateContainer = document.getElementById("start-date-str");
+    var startDateStr = startDateContainer.getAttribute("data-date");
+    var startDate = startDateStr.length > 1 ? new Date(startDateStr) : null;
+    if(startDate) {
+        startDateContainer.innerHTML = startDate.toLocaleString();
+    }
+    // end date
+    var endDateContainer = document.getElementById("end-date-str");
+    var endDateStr = endDateContainer.getAttribute("data-date")
+    var endDate = endDateStr.length > 1 ? new Date(endDateStr) : null;
+    if(endDate) {
+        endDateContainer.innerHTML = endDate.toLocaleString();
+    }
+</script>
+
  <script>
+    // google maps renderer
     var geocoder;
     var map;
     function codeAddress() {

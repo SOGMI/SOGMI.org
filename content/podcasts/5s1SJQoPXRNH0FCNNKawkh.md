@@ -3,7 +3,7 @@ updated: 2021-05-16T01:59:45.484Z
 date: 2021-05-16T01:59:45.484Z
 title: "Focus on the Light"
 slug: "prophetic-voice-471"
-originalAirDate: 2021-04-09T19:00:00.000Z
+originalAirDate: 2021-04-10T00:00:00.000Z
 episodeNumber: 471
 keywords:
 - golden opportunities

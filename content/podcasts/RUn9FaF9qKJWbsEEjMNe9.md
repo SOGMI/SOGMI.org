@@ -3,7 +3,7 @@ updated: 2021-05-16T01:11:11.094Z
 date: 2021-05-16T01:11:11.094Z
 title: "Prophecies for America"
 slug: "prophetic-voice-468"
-originalAirDate: 2021-03-19T19:00:00.000Z
+originalAirDate: 2021-03-20T00:00:00.000Z
 episodeNumber: 468
 keywords:
 - america

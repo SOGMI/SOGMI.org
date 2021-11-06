@@ -3,8 +3,8 @@ updated: 2021-08-26T18:38:26.100Z
 date: 2021-08-26T18:38:26.100Z
 title: "Having a Lifestyle of Fasting and Praying"
 slug: "prophetic-voice-491"
-publishDate: 2021-08-30T00:00:00.000Z
-originalAirDate: 2021-08-27T19:00:00.000Z
+publishDate: 2021-08-30T05:00:00.000Z
+originalAirDate: 2021-08-28T00:00:00.000Z
 episodeNumber: 491
 keywords:
 - spiritual warfare

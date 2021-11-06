@@ -3,7 +3,7 @@ updated: 2021-07-14T16:11:04.165Z
 date: 2021-05-06T22:59:23.838Z
 title: "Restoration of Judges"
 slug: "prophetic-voice-455"
-originalAirDate: 2020-12-18T18:00:00.000Z
+originalAirDate: 2020-12-19T00:00:00.000Z
 episodeNumber: 455
 keywords:
 - judges

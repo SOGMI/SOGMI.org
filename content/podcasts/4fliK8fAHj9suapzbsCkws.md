@@ -3,7 +3,7 @@ updated: 2021-07-07T21:03:38.091Z
 date: 2021-05-03T20:44:38.831Z
 title: "What Are The Odds?"
 slug: "prophetic-voice-448"
-originalAirDate: 2020-10-30T19:00:00.000Z
+originalAirDate: 2020-10-31T00:00:00.000Z
 episodeNumber: 448
 keywords:
 - spiritual eyes

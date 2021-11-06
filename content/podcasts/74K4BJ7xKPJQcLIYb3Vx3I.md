@@ -3,7 +3,7 @@ updated: 2021-07-14T20:38:50.814Z
 date: 2021-05-12T16:31:33.669Z
 title: "Cutting Out Distractions and Focusing on God's Plan"
 slug: "prophetic-voice-458"
-originalAirDate: 2021-01-08T18:00:00.000Z
+originalAirDate: 2021-01-09T00:00:00.000Z
 episodeNumber: 458
 keywords:
 - david and goliath

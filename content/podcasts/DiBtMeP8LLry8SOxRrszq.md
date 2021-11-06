@@ -3,7 +3,7 @@ updated: 2021-05-16T01:22:31.756Z
 date: 2021-05-16T01:22:31.756Z
 title: "Let God Strengthen You"
 slug: "prophetic-voice-469"
-originalAirDate: 2021-03-26T19:00:00.000Z
+originalAirDate: 2021-03-27T00:00:00.000Z
 episodeNumber: 469
 keywords:
 - move of god

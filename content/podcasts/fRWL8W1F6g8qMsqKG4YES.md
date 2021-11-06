@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:06.189Z
 date: 2018-02-21T22:01:20.655Z
 title: "Prophecy is Your Weapon"
 slug: "prophetic-voice-239"
-publishDate: 2016-08-12T19:00:00.000Z
+publishDate: 2016-08-13T00:00:00.000Z
 episodeNumber: 239
 keywords:
 - prophecy

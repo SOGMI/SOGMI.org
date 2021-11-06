@@ -3,8 +3,8 @@ updated: 2018-09-05T01:56:37.561Z
 date: 2018-09-05T01:33:26.765Z
 title: "The Power Within Us (Part 2)"
 slug: "prophetic-voice-335"
-publishDate: 2018-09-03T19:00:00.000Z
-originalAirDate: 2018-08-31T19:00:00.000Z
+publishDate: 2018-09-04T00:00:00.000Z
+originalAirDate: 2018-09-01T00:00:00.000Z
 episodeNumber: 335
 keywords:
 - holy spirit

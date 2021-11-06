@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:14.455Z
 date: 2018-02-21T23:16:13.988Z
 title: "The New Covenant"
 slug: "prophetic-voice-268"
-publishDate: 2017-04-07T19:00:00.000Z
+publishDate: 2017-04-08T00:00:00.000Z
 episodeNumber: 268
 keywords:
 - order of melchizedek

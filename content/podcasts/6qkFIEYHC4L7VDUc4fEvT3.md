@@ -3,7 +3,7 @@ updated: 2021-07-13T20:21:22.114Z
 date: 2021-05-06T22:20:26.347Z
 title: "God is About to Part the Red Sea"
 slug: "prophetic-voice-453"
-originalAirDate: 2020-12-04T18:00:00.000Z
+originalAirDate: 2020-12-05T00:00:00.000Z
 episodeNumber: 453
 keywords:
 - prophecy from 2018

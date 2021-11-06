@@ -3,7 +3,7 @@ updated: 2019-11-04T18:33:08.784Z
 date: 2019-11-04T18:14:58.311Z
 title: "Expectations of Things to Come"
 slug: "prophetic-voice-396"
-originalAirDate: 2019-11-01T19:00:00.000Z
+originalAirDate: 2019-11-02T00:00:00.000Z
 episodeNumber: 396
 keywords:
 - prophecy

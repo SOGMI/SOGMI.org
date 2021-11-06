@@ -3,7 +3,7 @@ updated: 2020-06-19T21:30:47.136Z
 date: 2020-06-19T21:30:47.136Z
 title: "The Body of Christ in the Last Days"
 slug: "prophetic-voice-411"
-originalAirDate: 2020-02-14T18:00:00.000Z
+originalAirDate: 2020-02-15T00:00:00.000Z
 episodeNumber: 411
 keywords:
 - holy spirit

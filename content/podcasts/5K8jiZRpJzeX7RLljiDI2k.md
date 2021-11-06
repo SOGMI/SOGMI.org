@@ -3,7 +3,7 @@ updated: 2021-07-09T22:10:02.440Z
 date: 2021-05-05T19:20:24.017Z
 title: "Spiritual Warfare and Obeying God"
 slug: "prophetic-voice-451"
-originalAirDate: 2020-11-20T18:00:00.000Z
+originalAirDate: 2020-11-21T00:00:00.000Z
 episodeNumber: 451
 keywords:
 - obedience

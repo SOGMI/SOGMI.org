@@ -100,20 +100,22 @@ function writeEntriesForType(contentType) {
                 field === "publishDate" ||
                 field === "originalAirDate"
               ) {
-                const date = new Date(Date.parse(item.fields[field]));
+                const date = new Date(item.fields[field]);
+                console.log(date)
                 // const newDate = utcToZonedTime(
                 // 	date,
                 // 	"America/Chicago"
                 // );
-                const newDate = date;
-                let year = newDate.getFullYear();
-                let month = ("0" + (newDate.getMonth() + 1)).slice(-2);
-                let day = ("0" + newDate.getDate()).slice(-2);
-                let hour = ("0" + newDate.getHours()).slice(-2);
-                let minutes = ("0" + newDate.getMinutes()).slice(-2);
-                let millisec = ("0" + newDate.getMilliseconds()).slice(-2);
+                const dateFieldContent = date.toISOString()
+                // const newDate = date;
+                // let year = newDate.getFullYear();
+                // let month = ("0" + (newDate.getMonth() + 1)).slice(-2);
+                // let day = ("0" + newDate.getDate()).slice(-2);
+                // let hour = ("0" + newDate.getHours()).slice(-2);
+                // let minutes = ("0" + newDate.getMinutes()).slice(-2);
+                // let millisec = ("0" + newDate.getMilliseconds()).slice(-2);
 
-                fileContent += `${field}: ${year}-${month}-${day}T${hour}:${minutes}:${millisec}.000Z\n`;
+                fileContent += `${field}: ${dateFieldContent}\n`;
               } else {
                 fileContent += `${field}: ${JSON.stringify(
                   item.fields[field]

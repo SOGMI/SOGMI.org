@@ -3,7 +3,7 @@ updated: 2021-04-27T21:06:45.572Z
 date: 2021-02-22T18:20:03.123Z
 title: "Covenant of Love"
 slug: "prophetic-voice-439"
-originalAirDate: 2020-08-28T19:00:00.000Z
+originalAirDate: 2020-08-29T00:00:00.000Z
 episodeNumber: 439
 keywords:
 - Calling

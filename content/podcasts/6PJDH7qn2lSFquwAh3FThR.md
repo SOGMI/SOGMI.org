@@ -3,7 +3,7 @@ updated: 2019-09-16T17:04:23.675Z
 date: 2019-08-19T17:18:00.225Z
 title: "Prophets and Prophecy - Why They are Still Relevant"
 slug: "prophetic-voice-385"
-originalAirDate: 2019-08-16T19:00:00.000Z
+originalAirDate: 2019-08-17T00:00:00.000Z
 episodeNumber: 385
 keywords:
 - prophets

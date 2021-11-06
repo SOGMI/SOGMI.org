@@ -3,7 +3,7 @@ updated: 2021-08-26T18:50:44.455Z
 date: 2021-05-15T18:54:31.358Z
 title: "Prayer With Supernatural Results"
 slug: "prophetic-voice-464"
-originalAirDate: 2021-02-19T18:00:00.000Z
+originalAirDate: 2021-02-20T00:00:00.000Z
 episodeNumber: 464
 keywords:
 - word of knowledge

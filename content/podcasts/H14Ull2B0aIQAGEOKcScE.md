@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:04.659Z
 date: 2018-02-21T19:52:43.077Z
 title: "Removing the Barriers and Walking in Miracles"
 slug: "prophetic-voice-220"
-publishDate: 2016-03-18T19:00:00.000Z
+publishDate: 2016-03-19T00:00:00.000Z
 episodeNumber: 220
 keywords:
 - living in the supernatural

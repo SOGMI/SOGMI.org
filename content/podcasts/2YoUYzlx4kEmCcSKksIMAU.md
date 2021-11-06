@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:07.915Z
 date: 2018-02-21T22:29:53.774Z
 title: "Political Revival"
 slug: "prophetic-voice-251"
-publishDate: 2016-11-11T18:00:00.000Z
+publishDate: 2016-11-12T00:00:00.000Z
 episodeNumber: 251
 keywords:
 - political revival

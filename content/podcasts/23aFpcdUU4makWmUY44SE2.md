@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:05.288Z
 date: 2018-02-21T20:58:26.604Z
 title: "Greater Works - Part 2"
 slug: "prophetic-voice-231"
-publishDate: 2016-06-10T19:00:00.000Z
+publishDate: 2016-06-11T00:00:00.000Z
 episodeNumber: 231
 keywords:
 - living in the supernatural

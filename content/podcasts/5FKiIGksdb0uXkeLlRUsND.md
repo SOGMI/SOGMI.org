@@ -3,7 +3,7 @@ updated: 2020-08-04T21:50:46.227Z
 date: 2020-08-04T21:50:46.227Z
 title: "America, The Pandemic, and Uniting Under God"
 slug: "prophetic-voice-427"
-originalAirDate: 2020-06-05T19:00:00.000Z
+originalAirDate: 2020-06-06T00:00:00.000Z
 episodeNumber: 427
 keywords:
 - america

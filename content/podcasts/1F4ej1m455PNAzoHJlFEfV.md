@@ -3,7 +3,7 @@ updated: 2019-09-23T17:27:06.475Z
 date: 2019-09-23T17:27:06.474Z
 title: "We Are Living in the Book of Acts"
 slug: "prophetic-voice-390"
-originalAirDate: 2019-09-20T19:00:00.000Z
+originalAirDate: 2019-09-21T00:00:00.000Z
 episodeNumber: 390
 keywords:
 - prophecy

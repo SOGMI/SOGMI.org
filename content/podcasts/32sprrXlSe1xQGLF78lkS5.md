@@ -3,7 +3,7 @@ updated: 2021-07-09T22:52:50.806Z
 date: 2021-05-05T20:00:48.571Z
 title: "Harvest and Focusing on God"
 slug: "prophetic-voice-452"
-originalAirDate: 2020-11-27T18:00:00.000Z
+originalAirDate: 2020-11-28T00:00:00.000Z
 episodeNumber: 452
 keywords:
 - harvest

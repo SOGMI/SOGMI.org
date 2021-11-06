@@ -3,7 +3,7 @@ updated: 2020-08-21T19:00:11.669Z
 date: 2020-08-11T03:47:50.672Z
 title: "Focus on God and Look Forward"
 slug: "prophetic-voice-434"
-originalAirDate: 2020-07-24T19:00:00.000Z
+originalAirDate: 2020-07-25T00:00:00.000Z
 episodeNumber: 434
 keywords:
 - focus on god

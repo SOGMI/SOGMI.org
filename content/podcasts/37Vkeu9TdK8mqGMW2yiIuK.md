@@ -3,7 +3,7 @@ updated: 2018-12-18T01:26:17.649Z
 date: 2018-12-18T01:26:17.649Z
 title: "The Gifts and Plan of God"
 slug: "prophetic-voice-350"
-originalAirDate: 2018-12-14T18:00:00.000Z
+originalAirDate: 2018-12-15T00:00:00.000Z
 episodeNumber: 350
 keywords:
 - love of god

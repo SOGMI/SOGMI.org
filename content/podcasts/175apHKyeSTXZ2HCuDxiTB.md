@@ -3,7 +3,7 @@ updated: 2021-07-14T17:18:53.453Z
 date: 2021-05-06T23:12:16.843Z
 title: "2020 Christmas Broadcast"
 slug: "prophetic-voice-456"
-originalAirDate: 2020-12-25T18:00:00.000Z
+originalAirDate: 2020-12-26T00:00:00.000Z
 episodeNumber: 456
 keywords:
 - christmas

@@ -3,7 +3,7 @@ updated: 2021-07-07T20:39:53.876Z
 date: 2021-05-03T20:16:05.436Z
 title: "Dagon Will Bow Before God"
 slug: "prophetic-voice-447"
-originalAirDate: 2020-10-23T19:00:00.000Z
+originalAirDate: 2020-10-24T00:00:00.000Z
 episodeNumber: 447
 keywords:
 - prophecy from 2018

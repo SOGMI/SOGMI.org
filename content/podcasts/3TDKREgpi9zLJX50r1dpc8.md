@@ -3,7 +3,7 @@ updated: 2021-05-15T23:51:02.877Z
 date: 2021-05-15T23:51:02.877Z
 title: "Loving Like God"
 slug: "prophetic-voice-465"
-originalAirDate: 2021-02-26T18:00:00.000Z
+originalAirDate: 2021-02-27T00:00:00.000Z
 episodeNumber: 465
 keywords:
 - love

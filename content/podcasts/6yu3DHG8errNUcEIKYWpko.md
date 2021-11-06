@@ -3,7 +3,7 @@ updated: 2021-07-23T03:04:41.350Z
 date: 2021-05-12T19:19:20.682Z
 title: "We Must Increase in Number"
 slug: "prophetic-voice-461"
-originalAirDate: 2021-01-29T18:00:00.000Z
+originalAirDate: 2021-01-30T00:00:00.000Z
 episodeNumber: 461
 keywords:
 - maturity

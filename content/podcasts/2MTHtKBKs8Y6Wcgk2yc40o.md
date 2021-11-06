@@ -3,8 +3,8 @@ updated: 2018-07-17T21:50:06.392Z
 date: 2018-02-22T04:56:53.212Z
 title: "Double Portion Restoration"
 slug: "prophetic-voice-296"
-publishDate: 2017-11-10T18:00:00.000Z
-originalAirDate: 2017-11-10T18:00:00.000Z
+publishDate: 2017-11-11T00:00:00.000Z
+originalAirDate: 2017-11-11T00:00:00.000Z
 episodeNumber: 296
 keywords:
 - spiritual authority

@@ -3,7 +3,7 @@ updated: 2019-11-25T17:35:18.817Z
 date: 2019-11-25T17:35:18.817Z
 title: "Established and Rooted in Love - Continued"
 slug: "prophetic-voice-399"
-originalAirDate: 2019-11-22T18:00:00.000Z
+originalAirDate: 2019-11-23T00:00:00.000Z
 episodeNumber: 399
 keywords:
 - holy spirit

@@ -3,7 +3,7 @@ updated: 2021-08-26T19:16:17.725Z
 date: 2021-05-15T18:40:41.176Z
 title: "Walking in Obedience "
 slug: "prophetic-voice-463"
-originalAirDate: 2021-02-12T18:00:00.000Z
+originalAirDate: 2021-02-13T00:00:00.000Z
 episodeNumber: 463
 keywords:
 - obedience

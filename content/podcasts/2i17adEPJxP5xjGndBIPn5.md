@@ -3,7 +3,7 @@ updated: 2021-04-27T21:15:34.452Z
 date: 2020-08-11T04:32:19.609Z
 title: "The Power of Words and Unity in Christ"
 slug: "prophetic-voice-436"
-originalAirDate: 2020-08-07T19:00:00.000Z
+originalAirDate: 2020-08-08T00:00:00.000Z
 episodeNumber: 436
 keywords:
 - power of words

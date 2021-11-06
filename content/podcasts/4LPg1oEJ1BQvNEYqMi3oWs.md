@@ -3,7 +3,7 @@ updated: 2019-03-12T20:34:42.537Z
 date: 2019-03-12T20:34:42.537Z
 title: "The Journey of a Believer Part 2 - Through the Wilderness"
 slug: "prophetic-voice-362"
-originalAirDate: 2019-03-08T18:00:00.000Z
+originalAirDate: 2019-03-09T00:00:00.000Z
 episodeNumber: 362
 keywords:
 - blessings

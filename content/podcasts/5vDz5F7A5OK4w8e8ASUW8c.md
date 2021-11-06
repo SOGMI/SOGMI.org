@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:06.392Z
 date: 2018-02-22T05:00:50.113Z
 title: "Heavenly Sowing and Reaping"
 slug: "prophetic-voice-297"
-publishDate: 2017-11-17T18:00:00.000Z
+publishDate: 2017-11-18T00:00:00.000Z
 episodeNumber: 297
 keywords:
 - relationship with god

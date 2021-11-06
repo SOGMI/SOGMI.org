@@ -3,7 +3,7 @@ updated: 2020-06-19T21:54:23.416Z
 date: 2020-06-19T21:54:23.416Z
 title: "God's Way Not Our Way"
 slug: "prophetic-voice-412"
-originalAirDate: 2020-02-21T18:00:00.000Z
+originalAirDate: 2020-02-22T00:00:00.000Z
 episodeNumber: 412
 keywords:
 - plan of god

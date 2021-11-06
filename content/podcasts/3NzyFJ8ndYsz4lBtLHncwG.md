@@ -3,7 +3,7 @@ updated: 2021-07-07T21:54:10.462Z
 date: 2021-05-03T21:36:00.157Z
 title: "What to Expect for the Rest of the Year"
 slug: "prophetic-voice-449"
-originalAirDate: 2020-11-06T18:00:00.000Z
+originalAirDate: 2020-11-07T00:00:00.000Z
 episodeNumber: 449
 keywords:
 - faithfulness

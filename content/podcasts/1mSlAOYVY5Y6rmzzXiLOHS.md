@@ -3,7 +3,7 @@ updated: 2020-08-03T17:53:26.567Z
 date: 2020-08-03T17:53:26.567Z
 title: "Be Zealous and Trust in God"
 slug: "prophetic-voice-422"
-originalAirDate: 2020-05-01T19:00:00.000Z
+originalAirDate: 2020-05-02T00:00:00.000Z
 episodeNumber: 422
 keywords:
 - trust in god

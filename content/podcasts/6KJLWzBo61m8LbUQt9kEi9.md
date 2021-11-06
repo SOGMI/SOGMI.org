@@ -3,7 +3,7 @@ updated: 2021-07-07T19:04:46.950Z
 date: 2021-05-01T01:43:27.456Z
 title: "Harvest Time"
 slug: "prophetic-voice-446"
-originalAirDate: 2020-10-16T19:00:00.000Z
+originalAirDate: 2020-10-17T00:00:00.000Z
 episodeNumber: 446
 keywords:
 - placements and displacements

@@ -3,8 +3,8 @@ updated: 2020-08-27T16:56:58.247Z
 date: 2020-08-27T16:56:58.247Z
 title: "Prayer and America"
 slug: "prophetic-voice-438"
-publishDate: 2020-08-27T12:00:00.000Z
-originalAirDate: 2020-08-21T19:00:00.000Z
+publishDate: 2020-08-27T17:00:00.000Z
+originalAirDate: 2020-08-22T00:00:00.000Z
 episodeNumber: 438
 Series: "The Prophetic Voice of Our Time"
 audioLink: "https://episodes.castos.com/propheticvoice/08-22-23-20-Prophetic-Voice-of-our-Time-[mixdown]-01.mp3"

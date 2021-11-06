@@ -3,8 +3,8 @@ updated: 2020-08-23T14:50:35.813Z
 date: 2020-08-11T04:07:13.700Z
 title: "Yield to the Holy Spirit"
 slug: "prophetic-voice-435"
-publishDate: 2020-08-11T00:00:00.000Z
-originalAirDate: 2020-07-31T19:00:00.000Z
+publishDate: 2020-08-11T05:00:00.000Z
+originalAirDate: 2020-08-01T00:00:00.000Z
 episodeNumber: 435
 keywords:
 - harvest

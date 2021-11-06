@@ -3,7 +3,7 @@ updated: 2021-05-16T02:24:24.044Z
 date: 2021-05-16T02:24:24.044Z
 title: "God's Judgement and Not Giving in to Fear"
 slug: "prophetic-voice-472"
-originalAirDate: 2021-04-16T19:00:00.000Z
+originalAirDate: 2021-04-17T00:00:00.000Z
 episodeNumber: 472
 keywords:
 - instructions

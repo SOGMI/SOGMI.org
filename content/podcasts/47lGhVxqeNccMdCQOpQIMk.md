@@ -3,7 +3,7 @@ updated: 2021-07-22T22:03:48.420Z
 date: 2021-05-12T19:06:40.830Z
 title: "Focus on the Good News"
 slug: "focus-on-the-good-news"
-originalAirDate: 2021-01-22T18:00:00.000Z
+originalAirDate: 2021-01-23T00:00:00.000Z
 episodeNumber: 460
 keywords:
 - prophecy from 2019

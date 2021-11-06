@@ -3,8 +3,8 @@ updated: 2018-06-25T22:34:49.040Z
 date: 2018-06-18T19:43:31.957Z
 title: "How to Hear the Voice of God - Part 2"
 slug: "prophetic-voice-325"
-publishDate: 2018-06-17T19:00:00.000Z
-originalAirDate: 2018-06-15T19:00:00.000Z
+publishDate: 2018-06-18T00:00:00.000Z
+originalAirDate: 2018-06-16T00:00:00.000Z
 episodeNumber: 325
 keywords:
 - apostles and prophets

@@ -3,7 +3,7 @@ updated: 2018-07-17T21:51:08.595Z
 date: 2018-02-21T22:33:34.355Z
 title: "The Glory of God"
 slug: "prophetic-voice-254"
-publishDate: 2016-12-02T18:00:00.000Z
+publishDate: 2016-12-03T00:00:00.000Z
 episodeNumber: 254
 keywords:
 - prophecy

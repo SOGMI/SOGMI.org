@@ -3,7 +3,7 @@ updated: 2021-06-24T04:07:14.709Z
 date: 2021-04-28T17:55:41.967Z
 title: "Spiritual Warfare"
 slug: "prophetic-voice-444"
-originalAirDate: 2020-10-02T19:00:00.000Z
+originalAirDate: 2020-10-03T00:00:00.000Z
 episodeNumber: 444
 keywords:
 - instructions

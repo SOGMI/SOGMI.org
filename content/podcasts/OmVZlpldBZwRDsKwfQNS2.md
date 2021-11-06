@@ -3,7 +3,7 @@ updated: 2019-06-04T04:36:14.087Z
 date: 2019-06-04T04:36:14.087Z
 title: "The Relevance of Personal Prophecy"
 slug: "prophetic-voice-374"
-originalAirDate: 2019-05-31T19:00:00.000Z
+originalAirDate: 2019-06-01T00:00:00.000Z
 episodeNumber: 374
 keywords:
 - prophecy

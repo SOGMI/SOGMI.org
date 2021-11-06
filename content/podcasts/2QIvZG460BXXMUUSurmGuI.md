@@ -3,7 +3,7 @@ updated: 2021-07-09T21:35:12.597Z
 date: 2021-05-03T21:49:57.946Z
 title: "Our Option is Victory"
 slug: "prophetic-voice-450"
-originalAirDate: 2020-11-13T18:00:00.000Z
+originalAirDate: 2020-11-14T00:00:00.000Z
 episodeNumber: 450
 keywords:
 - prayer

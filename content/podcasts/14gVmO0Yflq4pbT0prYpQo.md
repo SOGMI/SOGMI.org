@@ -3,7 +3,7 @@ updated: 2021-04-27T21:13:31.650Z
 date: 2021-02-22T18:21:03.604Z
 title: "Relationship and the Promised Land"
 slug: "prophetic-voice-440"
-originalAirDate: 2020-09-04T19:00:00.000Z
+originalAirDate: 2020-09-05T00:00:00.000Z
 episodeNumber: 440
 keywords:
 - Relationship

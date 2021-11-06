@@ -3,7 +3,7 @@ updated: 2021-05-16T00:20:32.117Z
 date: 2021-05-16T00:20:32.117Z
 title: "The Gift of Tongues and Stopping Delays"
 slug: "prophetic-voice-466"
-originalAirDate: 2021-03-05T18:00:00.000Z
+originalAirDate: 2021-03-06T00:00:00.000Z
 episodeNumber: 466
 keywords:
 - prayer in tongues

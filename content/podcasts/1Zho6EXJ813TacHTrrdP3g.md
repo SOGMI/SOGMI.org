@@ -3,7 +3,7 @@ updated: 2020-06-19T22:42:17.390Z
 date: 2020-06-19T22:42:17.390Z
 title: "Being Led of the Lord"
 slug: "prophetic-voice-416"
-originalAirDate: 2020-03-20T19:00:00.000Z
+originalAirDate: 2020-03-21T00:00:00.000Z
 episodeNumber: 416
 keywords:
 - led of god

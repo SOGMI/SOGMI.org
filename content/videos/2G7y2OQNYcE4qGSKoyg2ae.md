@@ -3,7 +3,7 @@ updated: 2018-05-31T01:52:51.525Z
 date: 2018-05-30T06:51:47.887Z
 title: "Pastor Cristina Sosso \"How to Recognize God's Voice\" (05/27/2018)"
 slug: "how-to-recognize-gods-voice-05-27-2018"
-publishDate: 2018-05-28T19:00:00.000Z
+publishDate: 2018-05-29T00:00:00.000Z
 videoLink: "https://www.youtube.com/watch?v=GTywq8gMCeM"
 YoutubeID: "GTywq8gMCeM"
 metaDescription: "Pastor Cris talks about how recognized the voice of God. Too many Christians listen to the Devil or their own spirit, but in these days the people of God will hear the voice of the Lord and listen! We are entering the greatest season for the Body of Chr..."

@@ -3,7 +3,7 @@ updated: 2021-07-22T21:58:04.033Z
 date: 2021-05-12T18:49:15.966Z
 title: "Faith In Action"
 slug: "prophetic-voice-459"
-originalAirDate: 2021-01-15T18:00:00.000Z
+originalAirDate: 2021-01-16T00:00:00.000Z
 episodeNumber: 459
 keywords:
 - year of victory

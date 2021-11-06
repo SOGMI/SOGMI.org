@@ -3,7 +3,7 @@ updated: 2021-05-16T03:19:32.291Z
 date: 2021-05-16T03:18:53.233Z
 title: "God Has a Need of You"
 slug: "prophetic-voice-475"
-originalAirDate: 2021-05-07T19:00:00.000Z
+originalAirDate: 2021-05-08T00:00:00.000Z
 episodeNumber: 475
 keywords:
 - need of you

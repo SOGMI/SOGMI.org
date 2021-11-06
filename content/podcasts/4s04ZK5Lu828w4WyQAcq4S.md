@@ -3,8 +3,8 @@ updated: 2018-05-31T22:10:49.321Z
 date: 2018-05-29T17:40:55.411Z
 title: "The Holy Spirit is Our Source"
 slug: "prophetic-voice-322"
-publishDate: 2018-05-28T19:00:00.000Z
-originalAirDate: 2018-05-25T19:00:00.000Z
+publishDate: 2018-05-29T00:00:00.000Z
+originalAirDate: 2018-05-26T00:00:00.000Z
 episodeNumber: 322
 keywords:
 - holy spirit

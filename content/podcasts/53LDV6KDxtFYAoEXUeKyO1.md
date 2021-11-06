@@ -3,7 +3,7 @@ updated: 2019-02-16T23:05:40.916Z
 date: 2019-01-22T02:59:39.440Z
 title: "Prophecies for 2019 and Beyond Continued"
 slug: "prophetic-voice-355"
-originalAirDate: 2019-01-18T18:00:00.000Z
+originalAirDate: 2019-01-19T00:00:00.000Z
 episodeNumber: 355
 keywords:
 - prophecy

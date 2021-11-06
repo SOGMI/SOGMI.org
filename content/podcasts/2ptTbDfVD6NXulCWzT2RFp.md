@@ -3,7 +3,7 @@ updated: 2021-06-18T21:42:11.818Z
 date: 2021-04-28T16:24:50.480Z
 title: "Focus On The Good Things"
 slug: "prophetic-voice-442"
-originalAirDate: 2020-09-18T19:00:00.000Z
+originalAirDate: 2020-09-19T00:00:00.000Z
 episodeNumber: 442
 keywords:
 - instructions

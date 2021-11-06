@@ -16,8 +16,8 @@ people:
   id: 3zLvufAtlKgiiGIaEYs4S4
 freeEvent: false
 price: 25
-startDate: 2020-12-31T19:00:00.000Z
-endDate: 2020-12-31T23:00:00.000Z
+startDate: 2021-01-01T01:00:00.000Z
+endDate: 2021-01-01T05:00:00.000Z
 timezone: "CDT"
 registrationType: "Eventbrite"
 eventbriteId: 125519039827

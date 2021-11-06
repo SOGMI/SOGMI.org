@@ -3,7 +3,7 @@ updated: 2018-11-10T19:55:02.770Z
 date: 2018-02-20T20:34:49.135Z
 title: "I Am Restoring the Judges as in the Days of Old"
 slug: "i-am-restoring-the-judges-as-in-the-days-of-old"
-publishDate: 2010-08-21T19:00:00.000Z
+publishDate: 2010-08-22T00:00:00.000Z
 authors: "Cristina Sosso"
 description: "Prophecy from a Sunday service on August 22, 2010. "
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6o5dw9ihQAcmM0C2mAkSu0/b1d6f13daa41c774c03045f97f7395aa/Sans_C3_B3n_matando_al_le_C3_B3n_-_Pedro_Pablo_Rubens.jpg"

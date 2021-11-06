@@ -3,8 +3,8 @@ updated: 2021-08-24T23:48:33.955Z
 date: 2021-08-24T23:48:33.955Z
 title: "The Power of Prayer, Praise, and Intercession"
 slug: "prophetic-voice-490"
-publishDate: 2021-08-23T00:00:00.000Z
-originalAirDate: 2021-08-20T19:00:00.000Z
+publishDate: 2021-08-23T05:00:00.000Z
+originalAirDate: 2021-08-21T00:00:00.000Z
 episodeNumber: 490
 keywords:
 - personal relationship with god

@@ -3,7 +3,7 @@ updated: 2021-07-14T20:31:53.436Z
 date: 2021-05-06T23:27:35.261Z
 title: "First 2021 Broadcast"
 slug: "prophetic-voice-457"
-originalAirDate: 2021-01-01T18:00:00.000Z
+originalAirDate: 2021-01-02T00:00:00.000Z
 episodeNumber: 457
 keywords:
 - golden opportunities

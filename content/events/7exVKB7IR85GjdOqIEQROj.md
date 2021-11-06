@@ -12,8 +12,8 @@ people:
   contentType: people
   id: 3zLvufAtlKgiiGIaEYs4S4
 freeEvent: true
-startDate: 2020-04-16T19:00:00.000Z
-endDate: 2020-04-17T22:00:00.000Z
+startDate: 2020-04-17T00:00:00.000Z
+endDate: 2020-04-18T03:00:00.000Z
 timezone: "CST"
 registrationType: "Eventbrite"
 eventbriteId: 102641449338

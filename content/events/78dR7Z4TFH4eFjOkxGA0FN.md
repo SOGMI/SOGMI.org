@@ -26,8 +26,8 @@ people:
   id: 2fn2KHOWEow0K6EqCkaywa
 freeEvent: false
 price: 30
-startDate: 2019-05-25T09:30:00.000Z
-endDate: 2019-05-25T16:00:00.000Z
+startDate: 2019-05-25T14:30:00.000Z
+endDate: 2019-05-25T21:00:00.000Z
 timezone: "CST"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/QR1dWtxXKXS8NozKFYglQ/566c9ba92103ea1ffb93e14befaf5f2d/transitioning_from_good_to_god_s_best_event_banner.jpg"
 registrationType: "Eventbrite"

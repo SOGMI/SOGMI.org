@@ -3,7 +3,7 @@ updated: 2021-07-14T16:07:14.331Z
 date: 2021-05-06T22:39:54.728Z
 title: "Consecration is a Precursor to God's Move"
 slug: "prophetic-voice-454"
-originalAirDate: 2020-12-11T18:00:00.000Z
+originalAirDate: 2020-12-12T00:00:00.000Z
 episodeNumber: 454
 keywords:
 - consecration

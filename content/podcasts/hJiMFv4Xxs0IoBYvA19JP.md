@@ -3,7 +3,7 @@ updated: 2021-06-18T21:06:35.836Z
 date: 2021-04-28T16:10:04.254Z
 title: "For Such a Time as This"
 slug: "prophetic-voice-441"
-originalAirDate: 2020-09-11T19:00:00.000Z
+originalAirDate: 2020-09-12T00:00:00.000Z
 episodeNumber: 441
 keywords:
 - transfer of influence and affluence

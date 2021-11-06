@@ -3,7 +3,7 @@ updated: 2020-08-03T19:44:27.633Z
 date: 2020-08-03T19:44:27.633Z
 title: "The Exposing and Uprooting of Wickedness"
 slug: "prophetic-voice-425"
-originalAirDate: 2020-05-22T19:00:00.000Z
+originalAirDate: 2020-05-23T00:00:00.000Z
 episodeNumber: 425
 keywords:
 - prophecy

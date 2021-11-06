@@ -3,7 +3,7 @@ updated: 2018-05-31T01:52:51.499Z
 date: 2018-04-29T21:26:18.348Z
 title: "04/29/2018 | Prophecies Are Manifesting Today (Pastor Cris)"
 slug: "06-29-2018-service"
-publishDate: 2018-04-29T09:50:00.000Z
+publishDate: 2018-04-29T14:50:06.000Z
 videoLink: "https://www.youtube.com/watch?v=iePLVC75368"
 YoutubeID: "iePLVC75368"
 metaDescription: "Pastor Cris discusses many of the prophecies that were released from this ministry. Many of which we are beginning to see the manifestation of today."

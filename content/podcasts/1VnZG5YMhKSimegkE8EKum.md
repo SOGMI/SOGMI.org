@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:17.789Z
 date: 2018-02-22T03:20:31.952Z
 title: "Changes are Coming"
 slug: "prophetic-voice-282"
-publishDate: 2017-07-28T19:00:00.000Z
+publishDate: 2017-07-29T00:00:00.000Z
 episodeNumber: 282
 keywords:
 - transformation

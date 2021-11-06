@@ -3,7 +3,7 @@ updated: 2021-05-16T01:40:52.987Z
 date: 2021-05-16T01:40:52.987Z
 title: "Equality in Christ and the Importance of the Passover"
 slug: "prophetic-voice-470"
-originalAirDate: 2021-04-01T19:00:00.000Z
+originalAirDate: 2021-04-02T00:00:00.000Z
 episodeNumber: 470
 keywords:
 - instructions

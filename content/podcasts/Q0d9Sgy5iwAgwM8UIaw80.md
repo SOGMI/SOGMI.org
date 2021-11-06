@@ -3,8 +3,8 @@ updated: 2018-05-24T06:31:18.858Z
 date: 2018-04-30T17:50:40.475Z
 title: "Obedience is Better than Sacrifice"
 slug: "prophetic-voice-319"
-publishDate: 2018-04-29T19:00:00.000Z
-originalAirDate: 2018-04-27T19:00:00.000Z
+publishDate: 2018-04-30T00:00:00.000Z
+originalAirDate: 2018-04-28T00:00:00.000Z
 episodeNumber: 319
 keywords:
 - transfer of wealth

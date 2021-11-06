@@ -3,8 +3,8 @@ updated: 2020-08-26T14:48:30.197Z
 date: 2020-08-26T14:48:30.197Z
 title: "Prophecy Today"
 slug: "prophetic-voice-437"
-publishDate: 2020-08-26T10:00:00.000Z
-originalAirDate: 2020-08-14T19:00:00.000Z
+publishDate: 2020-08-26T15:00:00.000Z
+originalAirDate: 2020-08-15T00:00:00.000Z
 episodeNumber: 437
 Series: "The Prophetic Voice of Our Time"
 audioLink: "https://episodes.castos.com/propheticvoice/08-22-23-20-Prophetic-Voice-of-our-Time-[mixdown]-01.mp3"

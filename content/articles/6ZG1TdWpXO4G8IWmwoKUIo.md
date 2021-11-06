@@ -3,7 +3,7 @@ updated: 2018-03-29T10:09:04.618Z
 date: 2018-02-21T00:28:09.530Z
 title: "Prophecy for 2014"
 slug: "prophecy-for-2014"
-publishDate: 2014-01-02T18:00:00.000Z
+publishDate: 2014-01-03T00:00:00.000Z
 authors: "Coby Randal"
 description: "The following is an excerpt from the December 31, 2013 Prophetic Conference"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3M8OMexRTWGeOOWwaqoQ4a/ff926754e14755a0ace1d1a63e6d7af5/IMG_8984__1_.jpg"

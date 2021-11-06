@@ -3,7 +3,7 @@ updated: 2021-07-23T03:10:24.941Z
 date: 2021-05-12T19:37:34.024Z
 title: "Implementation"
 slug: "prophetic-voice-462"
-originalAirDate: 2021-02-05T18:00:00.000Z
+originalAirDate: 2021-02-06T00:00:00.000Z
 episodeNumber: 462
 keywords:
 - year of victory

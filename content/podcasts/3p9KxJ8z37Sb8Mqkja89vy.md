@@ -3,7 +3,7 @@ updated: 2021-05-16T00:56:20.926Z
 date: 2021-05-16T00:56:20.926Z
 title: "Major Manifestations and Judgements"
 slug: "prophetic-voice-467"
-originalAirDate: 2021-03-12T18:00:00.000Z
+originalAirDate: 2021-03-13T00:00:00.000Z
 episodeNumber: 467
 keywords:
 - america

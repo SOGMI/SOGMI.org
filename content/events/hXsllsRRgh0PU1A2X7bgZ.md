@@ -28,8 +28,8 @@ people:
   contentType: people
   id: 2yGkq46hH20MAmAakkmA60
 freeEvent: true
-startDate: 2020-09-10T19:00:00.000Z
-endDate: 2020-09-12T16:00:00.000Z
+startDate: 2020-09-11T00:00:00.000Z
+endDate: 2020-09-12T21:00:00.000Z
 timezone: "CST"
 registrationType: "Eventbrite"
 eventbriteId: 118405468945

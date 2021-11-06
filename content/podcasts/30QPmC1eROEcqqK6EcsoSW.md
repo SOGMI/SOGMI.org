@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:16.931Z
 date: 2018-02-22T03:14:16.430Z
 title: "Building our Faith in God"
 slug: "prophetic-voice-276"
-publishDate: 2017-06-09T19:00:00.000Z
+publishDate: 2017-06-10T00:00:00.000Z
 episodeNumber: 276
 keywords:
 - israel

@@ -3,7 +3,7 @@ updated: 2021-06-24T06:39:29.689Z
 date: 2021-04-28T18:07:28.892Z
 title: "Faith and Obedience to Manifest The Vision of God"
 slug: "prophetic-voice-445"
-originalAirDate: 2020-10-09T19:00:00.000Z
+originalAirDate: 2020-10-10T00:00:00.000Z
 episodeNumber: 445
 keywords:
 - kingdom of god

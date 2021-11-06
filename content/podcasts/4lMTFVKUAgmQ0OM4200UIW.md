@@ -3,7 +3,7 @@ updated: 2018-07-17T21:52:17.900Z
 date: 2018-02-22T03:22:29.411Z
 title: "A Priest to the Order of Melchizedek"
 slug: "prophetic-voice-283"
-publishDate: 2017-08-04T19:00:00.000Z
+publishDate: 2017-08-05T00:00:00.000Z
 episodeNumber: 283
 keywords:
 - order of melchizedek

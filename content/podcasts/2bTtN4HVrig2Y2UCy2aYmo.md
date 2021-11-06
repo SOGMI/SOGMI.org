@@ -3,7 +3,7 @@ updated: 2018-07-17T21:50:06.786Z
 date: 2018-02-22T05:03:29.122Z
 title: "The Reason for the Season"
 slug: "prophetic-voice-300"
-publishDate: 2017-12-08T18:00:00.000Z
+publishDate: 2017-12-09T00:00:00.000Z
 episodeNumber: 300
 keywords:
 - christmas
