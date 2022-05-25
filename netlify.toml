@@ -3,12 +3,12 @@ publish = "public"
 command = "npm run build"
 
 [context.production.environment]
-  HUGO_VERSION = "0.84.3"
-  NODE_VERSION = "14.17.0"
+  HUGO_VERSION = "0.98.0"
+  NODE_VERSION = "16.13.2"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.84.3"
-  NODE_VERSION = "14.17.0"
+  HUGO_VERSION = "0.98.0"
+  NODE_VERSION = "16.13.2"
 
 [context.deploy-preview]
   command = "hugo -b $DEPLOY_PRIME_URL"
