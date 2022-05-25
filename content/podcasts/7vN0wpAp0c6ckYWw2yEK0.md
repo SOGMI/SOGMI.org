@@ -1,8 +1,8 @@
 ---
-updated: 2018-12-14T05:02:14.303Z
+updated: 2021-12-02T22:12:32.154Z
 date: 2018-12-14T04:35:16.499Z
 title: "The Kingdom of Our God"
-slug: "the-kingdom-of-our-god"
+slug: "prophetic-voice-349"
 originalAirDate: 2018-12-08T00:00:00.000Z
 episodeNumber: 349
 keywords:
