@@ -12,17 +12,19 @@ slide1:
     button2text: Event Galleries
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     videoid: kTh3hP-HWnE
-    active: true 
+    showOverlay: true
+    active: false 
 slide2: 
-    header: The Prophetic Gathering of the Saints
-    subheader: It's a new year celebration like no other.
-    button1: "/events/prophetic-gathering-2018/"
+    header: Pentecost Sunday Celebration
+    subheader: Join us for our outdoor worship and healing service on June 5 at 9am
+    button1: "/events/pentecost-06-2022/"
     button2: "/events/"
-    button1text: Get Tickets
+    button1text: More Info
     button2text: View Other Events
-    imagelink: //images.ctfassets.net/vfgh62eq5a4k/DrzAsEIJa02m6mOogmuOK/7f8240b17e5a35277ba5d2b635f54d3d/2018-bright-celebrate-769525.jpg
+    imagelink: //images.ctfassets.net/vfgh62eq5a4k/3dULbRNI6Ijovjle5RBJNS/62c11f966ffe6e19bcdaaabf41ba0857/pentecost-2022-post-background-only__1_.jpg
     videoid: 
-    active: false
+    showOverlay: false
+    active: true
 grid1:
     header: Radio Show
     subheader: with Pastor Cris

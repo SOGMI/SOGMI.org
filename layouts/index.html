@@ -13,7 +13,9 @@
                 </div>
             </div>
         </div>
-        <div class="slide-overlay"></div>
+        {{ if ne .Params.Slide1.showOverlay false }}
+            <div class="slide-overlay"></div>
+        {{ end }}
         <div class="video-background-container">
             {{ if .Params.Slide1.VideoId }}
             <div class="html-embed-16 w-embed w-iframe">
@@ -36,7 +38,9 @@
                 </div>
             </div>
         </div>
+        {{ if ne .Params.Slide2.showOverlay false }}
         <div class="slide-overlay"></div>
+        {{ end }}
         <div class="video-background-container">
             {{ if .Params.Slide2.VideoId }}
             <div class="html-embed-16 w-embed w-iframe">
