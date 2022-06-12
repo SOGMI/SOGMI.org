@@ -13,7 +13,7 @@ slide1:
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     videoid: kTh3hP-HWnE
     showOverlay: true
-    active: false 
+    active: true 
 slide2: 
     header: Pentecost Sunday Celebration
     subheader: Join us for our outdoor worship and healing service on June 5 at 9am
@@ -24,7 +24,7 @@ slide2:
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/3dULbRNI6Ijovjle5RBJNS/62c11f966ffe6e19bcdaaabf41ba0857/pentecost-2022-post-background-only__1_.jpg
     videoid: 
     showOverlay: false
-    active: true
+    active: false
 grid1:
     header: Radio Show
     subheader: with Pastor Cris
