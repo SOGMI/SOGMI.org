@@ -25,5 +25,8 @@
     "slugify": "^1.6.5",
     "uglify-js": "^3.17.3",
     "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.92.3"
   }
 }
