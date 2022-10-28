@@ -1,30 +1,30 @@
 // contentful.js v4.x.x
-require("dotenv").config();
-const { utcToZonedTime } = require("date-fns-tz");
-const contentful = require("contentful");
-const slugify = require("slugify");
-const mkdirp = require("mkdirp");
-const fs = require("fs");
+import dotenv from "dotenv";
+import { ContentType, createClient } from "contentful";
+import slugify from "slugify";
+import fs from "fs-extra";
 
-const client = contentful.createClient({
-  space: process.env.CONTENTFUL_SPACE,
-  accessToken: process.env.CONTENTFUL_TOKEN,
+dotenv.config();
+
+const client = createClient({
+  space: process.env.CONTENTFUL_SPACE ?? "",
+  accessToken: process.env.CONTENTFUL_TOKEN ?? "",
 });
 
-const extractStringValue = (obj, key) => {
-    const oj = Object.getOwnPropertyDescriptor;
-  return obj ? oj(obj, key).value : "";
+const extractStringValue = (obj: any, key: string) => {
+  const oj = Object.getOwnPropertyDescriptor;
+  return obj ? oj(obj, key)?.value : "";
 };
 
-function writeEntriesForType(contentType) {
+function writeEntriesForType(contentType: ContentType) {
   let totalEntries = 0;
-  client
-    .getEntries({
+  return client
+    .getEntries<any>({
       content_type: contentType.sys.id,
       limit: 1000,
       order: "sys.updatedAt",
     })
-    .then((response) => {
+    .then(async (response) => {
       for (let item of response.items) {
         let fileContent = `---\nupdated: ${item.sys.updatedAt}\ndate: ${item.sys.createdAt}\n`;
         for (let field of Object.keys(item.fields)) {
@@ -51,23 +51,23 @@ function writeEntriesForType(contentType) {
                 let arrayList = ``;
                 let oj = Object.getOwnPropertyDescriptor;
                 for (let i = 0; i < itemResult.length; i++) {
-                  x = itemResult[i];
+                  let x = itemResult[i];
                   if (typeof x !== `object`) {
                     arrayList += `- ` + x + `\n`;
                   } else if (
-                    Object.getOwnPropertyDescriptor(x.sys, "type").value ===
+                    Object.getOwnPropertyDescriptor(x.sys, "type")?.value ===
                     "Asset"
                   ) {
                     arrayList +=
                       `- title: ` +
-                      oj(x.fields, "title").value +
+                      oj(x.fields, "title")?.value +
                       `\n  url: ` +
-                      oj(x.fields.file, "url").value +
+                      oj(x.fields.file, "url")?.value +
                       `\n`;
                     if (typeof oj(x.fields, "description") !== "undefined") {
                       arrayList +=
                         `  description: ` +
-                        oj(x.fields, "description").value +
+                        oj(x.fields, "description")?.value +
                         `\n`;
                     }
                   } else {
@@ -105,7 +105,7 @@ function writeEntriesForType(contentType) {
                 // 	date,
                 // 	"America/Chicago"
                 // );
-                const dateFieldContent = date.toISOString()
+                const dateFieldContent = date.toISOString();
                 // const newDate = date;
                 // let year = newDate.getFullYear();
                 // let month = ("0" + (newDate.getMonth() + 1)).slice(-2);
@@ -134,45 +134,33 @@ function writeEntriesForType(contentType) {
           contentType.sys.id !== "podcastSeries" &&
           contentType.sys.id !== "blogCollection"
         ) {
-          mkdirp.sync(`./content/${contentType.sys.id}`);
+          await fs.mkdirp(`./content/${contentType.sys.id}`);
         }
 
         if (contentType.sys.id == "live") {
-          fs.writeFile(
+          await fs.writeFile(
             `./content/${contentType.sys.id}/${slugify("_index")}.md`,
-            fileContent,
-            (error) => {
-              /* handle error */
-            }
+            fileContent
           );
           // console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
         } else if (contentType.sys.id == "podcastSeries") {
-          mkdirp.sync(`./content/series/${slugify(item.fields.slug)}`);
-          fs.writeFile(
+          await fs.mkdirp(`./content/series/${slugify(item.fields.slug)}`);
+          await fs.writeFile(
             `./content/series/${slugify(item.fields.slug)}/_index.md`,
-            fileContent,
-            (error) => {
-              /* handle error */
-            }
+            fileContent
           );
           // console.log(`[Contentful Import] _index.md (${item.fields.title}) created in /content/series/${slugify(item.fields.slug)}`)
         } else if (contentType.sys.id == "blogCollection") {
-          mkdirp.sync(`./content/collections/${slugify(item.fields.slug)}`);
-          fs.writeFile(
+          await fs.mkdirp(`./content/collections/${slugify(item.fields.slug)}`);
+          await fs.writeFile(
             `./content/collections/${slugify(item.fields.slug)}/_index.md`,
-            fileContent,
-            (error) => {
-              /* handle error */
-            }
+            fileContent
           );
           // console.log(`[Contentful Import] _index.md (${item.fields.title}) created in /content/collections/${slugify(item.fields.slug)}`)
         } else {
-          fs.writeFile(
+          await fs.writeFile(
             `./content/${contentType.sys.id}/${slugify(item.sys.id)}.md`,
-            fileContent,
-            (error) => {
-              /* handle error */
-            }
+            fileContent
           );
           // console.log("[Contentful Import] " + item.sys.id + ".md created in /content/" + contentType.sys.id )
         }
