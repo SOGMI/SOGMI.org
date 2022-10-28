@@ -1,5 +1,5 @@
 ---
-updated: 2022-05-25T16:14:25.815Z
+updated: 2022-05-26T00:46:57.276Z
 date: 2022-05-25T15:50:19.075Z
 title: "Pentecost Sunday Outdoor Service"
 slug: "pentecost-06-2022"
@@ -20,3 +20,4 @@ state: "TX"
 zipCode: 78023
 country: "United States"
 ---
+Celebrate God with us this Pentecost. We will be holding an outdoor celebration service in the Freedom Fellowship Church International parking lot. A large tent will be setup to keep us cool while we praise and honor God. We also encourage those who are sick or need a breakthrough are encouraged to attend as a portion of the service will be dedicated to laying hands on the sick to watch God perform many miracles.
