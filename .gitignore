@@ -1,6 +1,6 @@
 node_modules/
 .vscode/
 public/
-/.env
 resources
 .hugo_build.lock
+config.bat
