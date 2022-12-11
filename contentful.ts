@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import { ContentType, createClient } from "contentful";
 import slugify from "slugify";
 import fs from "fs-extra";
+import { utcToZonedTime } from "date-fns-tz";
 
 dotenv.config();
 
@@ -101,10 +102,7 @@ function writeEntriesForType(contentType: ContentType) {
                 field === "originalAirDate"
               ) {
                 const date = new Date(item.fields[field]);
-                // const newDate = utcToZonedTime(
-                // 	date,
-                // 	"America/Chicago"
-                // );
+                const newDate = utcToZonedTime(date, "America/Chicago");
                 const dateFieldContent = date.toISOString();
                 // const newDate = date;
                 // let year = newDate.getFullYear();

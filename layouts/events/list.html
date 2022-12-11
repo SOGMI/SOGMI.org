@@ -32,8 +32,8 @@
                   <div class="div-block-74">
                     <div class="text-block-30">{{ .Params.City }}, {{ .Params.State }}</div>
                     <h3 class="event-grid-title">{{ .Title }}</h3>
-                    {{ with .Params.startdate }}
-                    <div class="text-block-31">{{ . | dateFormat "January 2, 2006" }}</div>
+                    {{ with .Params.startDate }}
+                    <div class="text-block-31 date-to-format" data-date="{{ . }}">{{ . | dateFormat "January 2, 2006" }}</div>
                     {{ end }}
                   </div>
                 </a>
@@ -99,5 +99,33 @@
     </div>
   </div>
 </div>
+
+<script>
+
+      // date renderer
+    var datesToFormat = document.querySelectorAll('.date-to-format')
+    console.log(datesToFormat)
+    var monthList = [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+    for(var i = 0; i < datesToFormat.length; i++) {
+        var item = datesToFormat[i];
+        var newDate = new Date(item.getAttribute('data-date'));
+        console.log(newDate)
+        var dateStr = `${monthList[newDate.getMonth()]} ${newDate.getDate()}, ${newDate.getFullYear()}`
+        item.innerHTML = dateStr
+    }
+</script>
 
 {{ end }}

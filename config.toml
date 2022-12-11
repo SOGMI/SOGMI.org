@@ -5,6 +5,7 @@ title = "Sons of God Ministries International"
 canonifyURLs = false
 enableRobotsTXT = true
 ignoreErrors = ["error-output-taxonomy"]
+timeZone = "America/Chicago"
 
 [markup.goldmark.renderer]
 unsafe=true
@@ -33,6 +34,7 @@ imageplaceholder = "//images.ctfassets.net/vfgh62eq5a4k/CUILu9hmSc84kgEWGAsUo/d1
     [[params.socialmedia]]
     platform = "instagram"
     url = "https://instagram.com/sogmiofficial"
+
 
 [outputs]
 home = ["HTML", "RSS", "Algolia", "Test"]

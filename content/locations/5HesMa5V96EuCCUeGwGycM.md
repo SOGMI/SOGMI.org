@@ -1,5 +1,5 @@
 ---
-updated: 2021-03-25T00:44:52.824Z
+updated: 2022-11-14T01:35:40.197Z
 date: 2018-02-28T22:35:28.835Z
 Title: "Freedom Fellowship Church International"
 slug: "freedom-fellowship-church"
@@ -34,7 +34,7 @@ Led by Senior Pastor and SOGMI Co-Founder Pastor Cris, FFCI is SOGMI's home base
 
 ## Service Times
 - Wednesday Evening - 7:00pm
-- Sunday Morning - 10:30am
+- Sunday Morning - 9:30am
 - Sunday Evening - 7:00pm
 
 ## COVID-19 Policy
