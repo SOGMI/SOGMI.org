@@ -19,7 +19,12 @@
             <!-- Noscript content for added SEO -->
             <noscript><a href="{{ .Params.EventbriteURL }}" rel="noopener noreferrer" target="_blank"></noscript>
             <!-- You can customize this button any way you like -->
-            <button class="event-button w-button" id="eventbrite-widget-modal-trigger-{{ .Params.EventbriteId }}" type="button">Get Tickets</button>
+            <button class="event-button w-button" id="eventbrite-widget-modal-trigger-{{ .Params.EventbriteId }}" type="button">
+                {{ if .Params.freeEvent }}
+                    Register
+                {{ else }}
+                    Get Tickets
+                {{ end }}</button>
             <noscript></a>Buy Tickets on Eventbrite</noscript>
             <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>         
             <script type="text/javascript">
