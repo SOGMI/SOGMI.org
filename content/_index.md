@@ -13,7 +13,7 @@ slide1:
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     videoid: kTh3hP-HWnE
     showOverlay: true
-    active: false 
+    active: true 
 slide2: 
     header: The Prophetic Gathering of the Saints
     subheader: Join us for our end of the year prophetic conference. God is doing amazing things in the world and His purpose will stand!
@@ -24,7 +24,7 @@ slide2:
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/2EH433tqlt5UyEgY5npIsW/4e02c0a17d840928da250f329cb96f6c/erwan-hesry-WPTHZkA-M4I-unsplash__1_.jpg
     videoid: 
     showOverlay: true
-    active: true
+    active: false
 grid1:
     header: Radio Show
     subheader: with Pastor Cris
