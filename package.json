@@ -9,7 +9,7 @@
     "prebuild": "contentful-hugo --wait 6000",
     "build": "hugo --minify",
     "postbuild": "atomic-algolia & npm run compressjs",
-    "dev": "contentful-hugo && hugo server",
+    "dev": "contentful-hugo && hugo server --disableFastRender",
     "minifyjson": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext json",
     "compressjs": "uglifyjs ./public/js/sons-of-god.js --compress --mangle --output ./public/js/sons-of-god.js"
   },
