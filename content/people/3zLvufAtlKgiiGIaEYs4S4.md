@@ -1,6 +1,12 @@
 ---
-updated: 2020-04-05T16:47:20.224Z
-date: 2018-02-23T06:16:18.990Z
+sys:
+  id: "3zLvufAtlKgiiGIaEYs4S4"
+  updatedAt: "2018-02-23T06:16:18.990Z"
+  createdAt: "2020-04-05T16:47:20.224Z"
+  revision: 15
+  space: "vfgh62eq5a4k"
+  contentType: "people"
+date: "2018-02-23T06:16:18.990Z"
 title: "Cristina Sosso"
 slug: "cristina-sosso"
 show: true

@@ -1,0 +1,50 @@
+---
+sys:
+  id: "7debQ6LUsJbLCB73D7SAV7"
+  updatedAt: "2023-09-07T15:20:39.833Z"
+  createdAt: "2023-09-07T15:20:39.833Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "podcasts"
+date: "2023-09-07T15:20:39.833Z"
+title: "Focus on the Promise"
+slug: "prophetic-voice-597"
+publishDate: "2023-09-11T05:00:00.000Z"
+originalAirDate: "2023-09-09"
+episodeNumber: 597
+keywords:
+  - "book of james"
+  - "be the light"
+  - "light"
+  - "life"
+  - "darkness"
+  - "politics"
+  - "political"
+  - "be the solution"
+  - "transfer of wealth"
+  - "joshua"
+  - "book of ii kings"
+  - "book of 2 kings"
+  - "the promised land"
+  - "promise land"
+  - "book of 2 chronicles"
+  - "book of ii chronicles"
+  - "book of joshua"
+  - "promise of god"
+  - "vision of god"
+  - "twelve spies"
+  - "ten spies"
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/1551739/09-09-10-23-The-Prophetic-Voice-of-our-Time-mixdown-.mp3"
+hosts:
+  - "Joshua Sosso"
+description: "The promised land was full of people that did not believe in God, people that practiced witchcraft and detestable things. However, as the promise was followed, the wickedness had no choice but to flee, for the light drives out the dark. In the same way now, in every industry, we are sent to be the solution, to be the light. Let us not concern ourselves with the wickedness being done there now, for that too will be driven out. Let us focus instead on becoming disciplined in following God's instructions and in keeping a watch over our mouths. Let us focus on the promise of God."
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4FF8zgQBV45KIdmLNmN1w2/1c437277786ffdbc2644cbbfe290485e/hugo-villegas-gJiG3zJZmr8-unsplash__1_.jpg"
+photoCredit: "Hugo Villegas"
+podcastSeries:
+  id: "185CxkJ9QWqYAgE86EWWOC"
+  contentType: "podcastSeries"
+people:
+  - id: "2fn2KHOWEow0K6EqCkaywa"
+    contentType: "people"
+---

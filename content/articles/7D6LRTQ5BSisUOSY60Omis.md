@@ -1,16 +1,26 @@
 ---
-updated: 2018-03-30T14:24:10.042Z
-date: 2018-02-18T23:47:40.080Z
+sys:
+  id: "7D6LRTQ5BSisUOSY60Omis"
+  updatedAt: "2018-02-18T23:47:40.080Z"
+  createdAt: "2018-03-30T14:24:10.042Z"
+  revision: 9
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-18T23:47:40.080Z"
 title: "The Characteristics of a True Prophet"
 slug: "the-characteristics-of-a-true-prophet"
-publishDate: 2010-08-21T00:00:00.000Z
+publishDate: "2010-08-21"
 authors: "Ed Grubb"
+authorRef:
+  id: "2yGkq46hH20MAmAakkmA60"
+  contentType: "people"
 description: "Understanding the difference between a real Prophet of God and a false prophet. Someone with a trained eye can recognize a fake piece of jewelry, because they know where to look and recognize the flaw. We can train ourselves to recognize false pro..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/34rFC5FS5a2Su4YQs0GW0K/bf8e90962701acda5f785ee00663cefd/bible.jpg"
 tags:
-- prophecy
-- office of a prophet
+  - "prophecy"
+  - "office of a prophet"
 ---
+
 __Real vs Counterfeit and Prophet Defined__
 
 A certain jewelry store sold man-made stones as though they were priceless, natural gems. This was happening for years and scores of men & women bought what they thought were precious stones. No one questioned the authenticity until someone with trained eyes pointed out they were man-made. How were people deceived? The counterfeit looked remarkably like the real. The difference was not noticeable unless you had a trained eye. First you have to establish the criteria for the authentic: look at a real stone under a magnifying glass. Then will you be trained concerning what to look for in the counterfeit.

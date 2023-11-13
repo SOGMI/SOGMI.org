@@ -1,6 +1,12 @@
 ---
-updated: 2021-12-23T02:47:37.847Z
-date: 2018-02-23T06:17:20.527Z
+sys:
+  id: "3tNIuaXFiEqWksOw0YO2MM"
+  updatedAt: "2018-02-23T06:17:20.527Z"
+  createdAt: "2021-12-23T02:47:37.847Z"
+  revision: 4
+  space: "vfgh62eq5a4k"
+  contentType: "people"
+date: "2018-02-23T06:17:20.527Z"
 title: "Nicole Mendoza"
 slug: "nicole-mendoza"
 show: true

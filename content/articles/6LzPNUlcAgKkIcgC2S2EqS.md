@@ -1,14 +1,24 @@
 ---
-updated: 2018-02-23T06:40:58.183Z
-date: 2018-02-20T23:20:33.706Z
+sys:
+  id: "6LzPNUlcAgKkIcgC2S2EqS"
+  updatedAt: "2018-02-20T23:20:33.706Z"
+  createdAt: "2018-02-23T06:40:58.183Z"
+  revision: 2
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-20T23:20:33.706Z"
 title: "Prophecy From July 12, 2009"
 slug: "prophecy-from-july-12-2009"
-publishDate: 2009-07-12T00:00:00.000Z
+publishDate: "2009-07-12"
 authors: "Coby Randal"
+authorRef:
+  id: "1ejDXS06Q0uyUwK0QoWa40"
+  contentType: "people"
 description: "This is an excerpt of the July 12, 2009 prophecy given by the Lord through Pastor Cris."
 tags:
-- prophecy
+  - "prophecy"
 ---
+
 *This is an excerpt of the July 12, 2009 prophecy given by the Lord through Pastor Cris.*
 
 The same thing that I did in the Philippines, with accreditation of signs and wonders in the realm of finances, saith the Lord, I will do now, if you are going to confer with Me, if you are going to put Me first, and if you are going to obey what you have learned and your instructions, saith the Lord, it will manifest starting this year. And as far as the seeds that you have sown, some are in tears, some in faith, and yet you have obeyed Me and gave anyway, saith the Lord, it will be done unto your loved ones. And as far as the United States of America and the political leaders, from the local municipalities all the way to the White House, saith the Lord, I will start dealing with them and rooting them out, says the Lord. I will cause fear to fall upon the Senate, the Congress, the White House, and even in the governors’ mansions all over this country as well as in the mayoral office, saith the Lord. Thank You Father.

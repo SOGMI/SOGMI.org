@@ -1,17 +1,27 @@
 ---
-updated: 2018-11-10T19:55:02.770Z
-date: 2018-02-20T20:34:49.135Z
+sys:
+  id: "2logpUlhRqmQQaoeIQog8M"
+  updatedAt: "2018-02-20T20:34:49.135Z"
+  createdAt: "2018-11-10T19:55:02.770Z"
+  revision: 4
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-20T20:34:49.135Z"
 title: "I Am Restoring the Judges as in the Days of Old"
 slug: "i-am-restoring-the-judges-as-in-the-days-of-old"
-publishDate: 2010-08-22T00:00:00.000Z
+publishDate: "2010-08-22"
 authors: "Cristina Sosso"
+authorRef:
+  id: "3zLvufAtlKgiiGIaEYs4S4"
+  contentType: "people"
 description: "Prophecy from a Sunday service on August 22, 2010. "
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6o5dw9ihQAcmM0C2mAkSu0/b1d6f13daa41c774c03045f97f7395aa/Sans_C3_B3n_matando_al_le_C3_B3n_-_Pedro_Pablo_Rubens.jpg"
 tags:
-- prophecy
-- prophets
-- judges
+  - "prophecy"
+  - "prophets"
+  - "judges"
 ---
+
 *The following is a prophecy from August 22nd 2010.*
 
 Thus saith the Lord of hosts, “As I am restoring the judges as in the days of old, as I am a faithful God, not only for this nation, but for the nations of the Earth to bring forth the nations to the proper places of alignment and timing including the nation of Israel. This is your beckoning. This is your calling. You are being summoned by the Holy Spirit to be those judges, and I am calling My people. This is the beginning and the time and the hour that My people will know that I am a Holy God.

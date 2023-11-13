@@ -4,3 +4,4 @@ public/
 /.env
 resources
 .hugo_build.lock
+.contentful-hugo

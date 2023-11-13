@@ -44,7 +44,7 @@ SOGMI staff who wish to play around with this in a local environment message Jos
 
 While developing the site you can use:
 
-```npm run test```
+```npm run dev```
 
 This will pull all the Records in contentful and put it in the "content" folder and then make a live version of the website available at http://localhost:1313/. You can open the browser to view the website at that link as you make changes to the templates. All changes will update automatically as you work so you don't need to refresh the page.
 

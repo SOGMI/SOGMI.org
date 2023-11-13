@@ -1,6 +1,12 @@
 ---
-updated: 2018-03-29T06:21:52.010Z
-date: 2018-02-23T06:35:40.101Z
+sys:
+  id: "2yGkq46hH20MAmAakkmA60"
+  updatedAt: "2018-02-23T06:35:40.101Z"
+  createdAt: "2018-03-29T06:21:52.010Z"
+  revision: 6
+  space: "vfgh62eq5a4k"
+  contentType: "people"
+date: "2018-02-23T06:35:40.101Z"
 title: "Ed Grubb"
 slug: "ed-grubb"
 show: true

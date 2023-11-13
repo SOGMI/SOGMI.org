@@ -1,35 +1,31 @@
 {
   "name": "sogmi-website",
   "version": "1.0.0",
-  "license": "ISC",
+  "license": "MIT",
   "author": "Josh Michaels",
   "description": "Website for Sons of God Ministries International. Content is pulled from Contentful API and turned into Markdown files for Hugo to render as a static site.",
   "repository": "SOGMI/SOGMI.org",
   "scripts": {
-    "prebuild": "ts-node wait.ts && ts-node contentful.ts",
+    "prebuild": "contentful-hugo --wait 6000",
     "build": "hugo --minify",
     "postbuild": "atomic-algolia & npm run compressjs",
-    "start": "ts-node contentful.ts && hugo server",
+    "dev": "contentful-hugo && hugo server",
     "minifyjson": "html-minifier --input-dir ./public --output-dir ./public --collapse-whitespace --file-ext json",
     "compressjs": "uglifyjs ./public/js/sons-of-god.js --compress --mangle --output ./public/js/sons-of-god.js"
   },
   "dependencies": {
     "atomic-algolia": "^0.3.19",
-    "contentful": "^9.2.9",
-    "date-fns": "^2.29.3",
-    "date-fns-tz": "^1.3.7",
-    "dotenv": "^16.0.3",
-    "fs-extra": "^10.1.0",
-    "instantsearch.js": "^4.49.0",
-    "minimist": "^1.2.7",
-    "slugify": "^1.6.5",
-    "uglify-js": "^3.17.4",
-    "webpack": "^5.74.0"
+    "contentful": "^9.3.5",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "instantsearch.js": "^4.60.0",
+    "minimist": "^1.2.8",
+    "uglify-js": "^3.17.4"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.13",
-    "hugo-bin": "^0.93.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.8.4"
+    "@types/fs-extra": "^11.0.4",
+    "contentful-hugo": "^3.0.0",
+    "hugo-bin": "^0.116.4",
+    "typescript": "^5.2.2"
   }
 }

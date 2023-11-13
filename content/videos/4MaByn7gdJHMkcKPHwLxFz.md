@@ -1,0 +1,45 @@
+---
+sys:
+  id: "4MaByn7gdJHMkcKPHwLxFz"
+  updatedAt: "2023-02-05T17:34:10.189Z"
+  createdAt: "2023-02-05T17:34:10.189Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2023-02-05T17:34:10.189Z"
+title: "02/5/2023 | Spiritual Authority Pt. 2 (Deborah Ferrel And Pastor Mike Sosso)"
+slug: "Kdj9WyeQYU0"
+videoLink: "https://youtube.com/live/Kdj9WyeQYU0"
+YoutubeID: "Kdj9WyeQYU0"
+description: "Ms. Deborah Ferrel and Pastor Mike Sosso tagged teamed the message of spiritual authority.\nReminding us that our Father created us to have authority over the earth. Once His son Jesus came, he left us a gift that is beyond earthly power, the gift of the Holy Spirit. Jesus has given us His name to knock things into order. At the mention of Jesus name, demons tremble. In order to walk in authority, we need to be in Christ, and we will need to step into it ourselves. Our gathering of the saints, declared that in 2023 we are going to have and understand spiritual authority, as well as walk in it. Outside of Christ we can do nothing, all the authority we have been given at the cross means nothing if you do not walk with Christ. Our greatest example of how to live and carry ourselves was Jesus. We were put on this earth for a greater purpose, that purpose was The Great Commission. We are one body, we all are one in Christ and we all have the authority to move mountains for us and others, allowing our Father's glory to shine through. This sermon was delivered on February 05, 2023 at Freedom Fellowship Church by Deborah Ferrel and Pastor Mike Sosso."
+videoKeywords:
+  - "SOGMI"
+  - "Freedom Fellowship Church"
+  - "Pastor"
+  - "Mike"
+  - "Deb"
+  - "Deborah"
+  - "Matthew"
+  - "Psalms"
+  - "Habakkuk"
+  - "God's Plan"
+  - "The Great Commission"
+  - "Lord"
+  - "Purpose"
+  - "Christ"
+  - "Authority"
+  - "Demons Tremble"
+  - "Holy"
+  - "Spirit"
+  - "Understanding"
+playlists:
+  - "full sermons"
+speakers:
+  - "Michael Sosso"
+  - "Deborah Ferrel"
+people:
+  - id: "3ySMwt4Ym5MqnhFxbN8QR2"
+    contentType: "people"
+  - id: "6aQjATkbJuOcIYwuGcSciQ"
+    contentType: "people"
+---

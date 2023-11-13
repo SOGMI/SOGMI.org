@@ -1,16 +1,20 @@
 ---
-updated: 2022-09-28T22:11:50.911Z
-date: 2022-09-28T22:05:40.448Z
+sys:
+  id: "oAwAovLRnzSZgrDzlOZoB"
+  updatedAt: "2022-09-28T22:05:40.448Z"
+  createdAt: "2022-09-28T22:11:50.911Z"
+  revision: 4
+  space: "vfgh62eq5a4k"
+  contentType: "events"
+date: "2022-09-28T22:05:40.448Z"
 title: "October 2022 Philippines Livestream"
 slug: "october-2022-philippines-livestream"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/18qKKg8hu6kMwcBRjKsBtN/a97a756dfbd660df2ec640a6a775f943/jakob-owens-uWbRcJSJLV8-unsplash__1_.jpg"
-address:
-  longitude: -98.5472
-  latitude: 29.5169
+address: []
 hideFaq: true
 freeEvent: true
-startDate: 2022-10-08T00:00:00.000Z
-endDate: 2022-10-08T03:00:00.000Z
+startDate: "2022-10-08T00:00:00.000Z"
+endDate: "2022-10-08T03:00:00.000Z"
 timezone: "CST"
 registrationType: "Eventbrite"
 eventbriteId: 428842809387
@@ -21,4 +25,5 @@ state: "TX"
 zipCode: 78230
 country: "United States"
 ---
+
 Online registration for October leadership training livestream for the Philippines.

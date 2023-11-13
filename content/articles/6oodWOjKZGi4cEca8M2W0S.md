@@ -1,17 +1,27 @@
 ---
-updated: 2018-03-27T19:22:45.326Z
-date: 2018-02-20T23:36:06.518Z
+sys:
+  id: "6oodWOjKZGi4cEca8M2W0S"
+  updatedAt: "2018-02-20T23:36:06.518Z"
+  createdAt: "2018-03-27T19:22:45.326Z"
+  revision: 10
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-20T23:36:06.518Z"
 title: "A Warning to the False Prophets of Our Day"
 slug: "warning-to-the-false-prophets-of-our-day"
-publishDate: 2011-03-01T00:00:00.000Z
+publishDate: "2011-03-01"
 authors: "Cristina Sosso"
+authorRef:
+  id: "3zLvufAtlKgiiGIaEYs4S4"
+  contentType: "people"
 description: "Those prophets who prophesy doom and gloom and the demise of this country do not have the heart of God nor a love for God’s people. As a nation and as a person, it always grieves the heart of God when disaster falls upon His people because of wickedness because of His love, and He always l..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3Pcb2gom2sqwYAM0YcY4GA/80996a9f95185bf0498e86c27fc09428/wrong-way-sign-export-compressor.jpg"
 tags:
-- false prophets
-- prophecy
-- united states of america
+  - "false prophets"
+  - "prophecy"
+  - "united states of america"
 ---
+
 Brothers and sisters in Christ, these are exciting and glorious times. It is time for great expectations and also greater work. The United States of America is not going down! She is going up! For those “doom and gloom” prophets who prophesy against the United States and speak of its demise, they better not hold their breath, because it is not going to happen in this generation, not while you and I are still here!
 
 Mike and I attended the annual KCM (Kenneth Copeland) ministers’ conference this January and Brother Copeland read a word sent by a couple in South Africa. They wrote as they were praying for the United States, they received this from the Lord; (although the words are not exact, the message is intact):
@@ -56,4 +66,3 @@ A few years ago, I asked a sister in Christ to get me a book about the anti-Chri
 > Jeremiah 1:10 - See, today I appoint you over nations and kingdoms to uproot and tear down, to destroy and overthrow, to build and to plant.
 
 Let us join ranks with God’s faithful people and let us be counted as the faithful ones with clean hands and pure hearts! Even so, come Lord Jesus!
-

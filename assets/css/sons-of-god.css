@@ -407,7 +407,7 @@ figcaption {
 
 .header-section {
   position: relative;
-  z-index: 40;
+  /* z-index: 40; */
   width: 100%;
   border-bottom: 1px solid #dedede;
   background-color: transparent;

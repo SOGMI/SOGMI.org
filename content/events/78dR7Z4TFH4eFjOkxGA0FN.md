@@ -1,33 +1,29 @@
 ---
-updated: 2019-05-19T14:08:51.348Z
-date: 2019-05-05T17:38:26.484Z
+sys:
+  id: "78dR7Z4TFH4eFjOkxGA0FN"
+  updatedAt: "2019-05-05T17:38:26.484Z"
+  createdAt: "2019-05-19T14:08:51.348Z"
+  revision: 5
+  space: "vfgh62eq5a4k"
+  contentType: "events"
+date: "2019-05-05T17:38:26.484Z"
 title: "Transitioning From Good To God's Best"
 slug: "good-to-greatest-conference-2019"
 venue: "Freedom Fellowship Church International"
-address:
-  longitude: -98.54725339999999
-  latitude: 29.5169084
+address: []
 people:
-- title: Cristina Sosso
-  slug: cristina-sosso
-  contentType: people
-  id: 3zLvufAtlKgiiGIaEYs4S4
-- title: Mike Sosso
-  slug: mike-sosso
-  contentType: people
-  id: 6aQjATkbJuOcIYwuGcSciQ
-- title: Ed Grubb
-  slug: ed-grubb
-  contentType: people
-  id: 2yGkq46hH20MAmAakkmA60
-- title: Joshua Sosso
-  slug: joshua-sosso
-  contentType: people
-  id: 2fn2KHOWEow0K6EqCkaywa
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+  - id: "6aQjATkbJuOcIYwuGcSciQ"
+    contentType: "people"
+  - id: "2yGkq46hH20MAmAakkmA60"
+    contentType: "people"
+  - id: "2fn2KHOWEow0K6EqCkaywa"
+    contentType: "people"
 freeEvent: false
 price: 30
-startDate: 2019-05-25T14:30:00.000Z
-endDate: 2019-05-25T21:00:00.000Z
+startDate: "2019-05-25T14:30:00.000Z"
+endDate: "2019-05-25T21:00:00.000Z"
 timezone: "CST"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/QR1dWtxXKXS8NozKFYglQ/566c9ba92103ea1ffb93e14befaf5f2d/transitioning_from_good_to_god_s_best_event_banner.jpg"
 registrationType: "Eventbrite"
@@ -39,6 +35,7 @@ state: "TX"
 zipCode: 78230
 country: "United States"
 ---
+
 ## God is Preparing to Move Mightily
 
 The Body of Christ is in a transitional period right now where God is preparing us for the greater move. We are being transitioned from good to God's best for us. Let us come together to here the Word of the Lord.

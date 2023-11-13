@@ -1,0 +1,41 @@
+---
+sys:
+  id: "JsGvGT2iPAOnGQzg2XOKj"
+  updatedAt: "2023-02-02T02:47:51.333Z"
+  createdAt: "2023-02-02T02:47:51.333Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2023-02-02T02:47:51.333Z"
+title: "02/01/2023 | Keep Your Mind On The Ways Of God (James Sosso and Drew Ferrel)"
+slug: "mCPRPYdPKoI"
+videoLink: "https://youtube.com/live/mCPRPYdPKoI"
+YoutubeID: "mCPRPYdPKoI"
+description: "Two powerful messages tonight with the same goal, Mr. James Sosso and Mr. Drew Ferrel reminded us that though we may not feel like we have much purpose in God's kingdom, God has given us life for a greater purpose beyond our own understanding. Over the years we have been given many prophecies from our Father and it is up to us to claim those words and put them into action. What use is it to hear these words of greatness to let them fall to the ground? We need to continually re-listen and remind ourselves of what God has in store for us and what greatness we will bring. If we focus too much on our own flaws and failures, it could be easy to lose track of God's promises for us. Remember our words bring power, both in a negative and positive way, so keep a watch over our mouths, look yourself in the mirror and declare you victories to come daily.\nIt is worth noting that whenever you feel like you are being put into an uncomfortable for the benefit of God, that is exactly what is suppose to happen. Are we going to put our own comfortability above our Father? Be comfortable, being uncomfortable. This sermon was delivered at Freedom Fellowship Church on February 1, 2023 by Mr. James Sosso and Drew Ferrel. \n"
+videoKeywords:
+  - "SOGMI"
+  - "Jesus"
+  - "God's Will"
+  - "James Sosso"
+  - "Drew Ferrel"
+  - "Matthew"
+  - "Proverbs"
+  - "David"
+  - "Daniel"
+  - "Lions Den"
+  - "Focus"
+  - "Greater Purpose"
+  - "Comfortable "
+  - "Uncomfortable"
+  - "Positive"
+  - "Greatness"
+  - "Understanding"
+  - "Freedom Fellowship Church"
+  - "Prophecy"
+playlists:
+  - "full sermons"
+  - "livestreams"
+people:
+  - id: "6QQnsS7KFUar2ZVYNjMqti"
+    contentType: "people"
+---

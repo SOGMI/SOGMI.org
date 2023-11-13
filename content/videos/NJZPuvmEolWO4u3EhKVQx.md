@@ -1,0 +1,45 @@
+---
+sys:
+  id: "NJZPuvmEolWO4u3EhKVQx"
+  updatedAt: "2023-03-05T17:39:20.527Z"
+  createdAt: "2023-03-05T17:39:20.527Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2023-03-05T17:39:20.527Z"
+title: "03/05/2023 | Preparation For The Greatest Transition (Pastor Cristina Sosso)"
+slug: "VywNJgCyBoQ"
+videoLink: "https://youtube.com/live/VywNJgCyBoQ"
+YoutubeID: "VywNJgCyBoQ"
+description: "This morning was packed with wonderful revelations of our relationship with God. We are all in the smack middle of this great move, and though we may not feel like we are moving forward personally we are to not say with our mouths \"I don't feel like it\". Keep our eyes on our faithful Father, because we know that he is good. If you don't like the conditions of your city and/or area look to the church, and guess what you are part of that church! Don't complain about what has been going on around you, if you have not been doing your part and standing in the word of God.\nGod has given the keys to the youth, but do not feel you are excluded but rejoice, because your are a part of the move. Keep yourself prayed up and focused on God's instructions, walk your healings, so that you will be able to minister to and heal the sick, after all who then can convince you that the healing of our Father does not work? Be like David when hardship gets in your way. He did not concern himself with the size of Goliath, instead in went around confirming the reward for taking Goliath out. No one knew that he was being trained behind the scenes with a lion and a bear. The same for us we are the nameless faceless people being prepared, even when we do not realize it.\nWhen we do reach our potential, keep yourself grounded with God's word and not allowed ourselves to get big headed, jealous, envious, prideful, or controlling. Get ready for this transition take over the greatest economy in the world. This sermon was released at Freedom Fellowship Church International on March 5, 2023 by Pastor Cristina Sosso\n"
+videoKeywords:
+  - "SOGMI"
+  - "FFCI"
+  - "Pastor Cristina"
+  - "David And Goliath"
+  - "Jesus"
+  - "God"
+  - "Training"
+  - "Instructions"
+  - "To The Letter"
+  - "Reward"
+  - "Focus"
+  - "Potential"
+  - "Complaining"
+  - "Lions And Bears"
+  - "Church"
+  - "Faithful"
+  - "Father"
+  - "Revelations"
+  - "Greatest Economy"
+  - "Book Of Joel"
+  - "Book Of Ephesians"
+playlists:
+  - "full sermons"
+  - "livestreams"
+speakers:
+  - "Cristina Sosso"
+people:
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---

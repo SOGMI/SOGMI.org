@@ -1,6 +1,12 @@
 ---
-updated: 2022-01-27T20:43:11.490Z
-date: 2018-02-23T06:15:12.490Z
+sys:
+  id: "2fn2KHOWEow0K6EqCkaywa"
+  updatedAt: "2018-02-23T06:15:12.490Z"
+  createdAt: "2022-01-27T20:43:11.490Z"
+  revision: 12
+  space: "vfgh62eq5a4k"
+  contentType: "people"
+date: "2018-02-23T06:15:12.490Z"
 title: "Joshua Sosso"
 slug: "joshua-sosso"
 show: true

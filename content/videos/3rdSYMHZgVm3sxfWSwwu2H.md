@@ -1,0 +1,45 @@
+---
+sys:
+  id: "3rdSYMHZgVm3sxfWSwwu2H"
+  updatedAt: "2023-04-20T01:32:55.564Z"
+  createdAt: "2023-04-20T01:32:55.564Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2023-04-20T01:32:55.564Z"
+title: "04/19/2023 | Be A Doer And Implementer (Pastor Joshua Sosso)"
+slug: "LhynI2Tz_A4"
+videoLink: "https://youtube.com/live/LhynI2Tz_A4"
+YoutubeID: "LhynI2Tz_A4"
+description: "Pastor Joshua started the message comparing our walk with Christ to that of Peter walking on water. He reminded us that as long as Peter kept his eyes on Jesus, he did not sink. The moment he took his eyes off of Him, he began to sink, much like us when we put our focus on the things of this world. We need to really tighten up our walk with God, every out of line thing in our lives should have been corrected yesterday. Time and time again we have been told that time is of the essence. Pastor Joshua also talks about Nehemiah's heart towards God and His people. When they turned their backs on God's commandments. Instead of focusing on himself he focused on praying for the turning around of God's people. Just like Nehemiah, we need to focus on the Body of Christ instead of looking for our selfish desires. Nehemiah sets a great example for us by constantly going to God for permission and guidance. He let nothing get in his was of doing what task he had at hand. While he was rebuilding the walls of Jerusalem several prophets tried to get in the way of the goal, but he was focused on the task at hand. Take this man of God as a strong encouragement to not let anything get in the way of what instructions God has given you, even those who are also Christ followers. Be a doer and implementer. This sermon was released at Freedom Fellowship Church International on April 19, 2023 by Pastor Joshua Sosso\n"
+videoKeywords:
+  - "God"
+  - "SOGMI"
+  - "FFCI"
+  - "Joshua Sosso"
+  - "Pastor"
+  - "Nehemiah"
+  - "Selfish"
+  - "Repent"
+  - "Rebuilding"
+  - "Renew"
+  - "Permission "
+  - "Guidance"
+  - "Focus"
+  - "Discipline"
+  - "2 Peter"
+  - "Walk On Water"
+  - "World's Ways"
+  - "Heart After God"
+  - "Levites"
+  - "Correction"
+  - "Praying "
+playlists:
+  - "full sermons"
+  - "livestreams"
+speakers:
+  - "Joshua Sosso"
+people:
+  - id: "2fn2KHOWEow0K6EqCkaywa"
+    contentType: "people"
+---

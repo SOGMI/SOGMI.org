@@ -1,21 +1,23 @@
 ---
-updated: 2018-12-13T02:30:48.003Z
-date: 2018-07-27T12:07:17.374Z
+sys:
+  id: "1rLsIMq3bCoeGUSCwUyEYq"
+  updatedAt: "2018-07-27T12:07:17.374Z"
+  createdAt: "2018-12-13T02:30:48.003Z"
+  revision: 19
+  space: "vfgh62eq5a4k"
+  contentType: "events"
+date: "2018-07-27T12:07:17.374Z"
 title: "The Prophetic Gathering Of The Saints 2018"
 slug: "prophetic-gathering-2018"
 venue: "Hilton Garden Inn"
-address:
-  longitude: -98.5985038
-  latitude: 29.6022428
+address: []
 hideFaq: false
 people:
-- title: Cristina Sosso
-  slug: cristina-sosso
-  contentType: people
-  id: 3zLvufAtlKgiiGIaEYs4S4
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
 freeEvent: true
-startDate: 2019-01-01T01:00:00.000Z
-endDate: 2019-01-01T06:00:00.000Z
+startDate: "2019-01-01T01:00:00.000Z"
+endDate: "2019-01-01T06:00:00.000Z"
 timezone: "CST"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3dNPAXaQ1qkcQuQEiOQs4S/7688f01fa99d7d62dd2dffa6fcb13928/ray-hennessy-299620-unsplash__1_.jpg"
 registrationType: "Eventbrite"
@@ -27,6 +29,7 @@ state: "TX"
 zipCode: 78257
 country: "United States"
 ---
+
 Come join us for the 2019 Prophetic Gathering of the Saints here in San Antonio, TX, where we gather together as a Body to celebrate all the Lord has done, and will do in the new year. We model this event after the verse in Exodus 23:16, when God's people gather in all the increase the Lord has provided through their fields - and what an increase we've seen across the nation in 2018!
 
 Let us praise God corporately for His outpouring, and pray together as one Body as we enter 2019. Pastor Cristina Sosso will take the time to share prophetic words, for the nations, the Body of Christ, and for you individually as well!

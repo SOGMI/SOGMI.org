@@ -1,17 +1,28 @@
 ---
-updated: 2019-03-21T17:56:00.182Z
-date: 2018-03-21T18:23:41.082Z
+sys:
+  id: "4ROB3IbuNGcYw0mWecMyQU"
+  updatedAt: "2018-03-21T18:23:41.082Z"
+  createdAt: "2019-03-21T17:56:00.182Z"
+  revision: 7
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-03-21T18:23:41.082Z"
 title: "Why Prophecy is Still Important Today"
 slug: "why-prophecy-is-still-important-today"
-publishDate: 2018-03-30T00:00:00.000Z
+publishDate: "2018-03-30"
 authors: "Cristina Sosso"
+authorRef:
+  id: "3zLvufAtlKgiiGIaEYs4S4"
+  contentType: "people"
 description: "Prophecy can be seen as the most understood, misused, and abused spiritual gift. However prophecy has become increasingly important in our days, because the apostles and prophets are taking center stage. This is why we at SOGMI are trying to provide clear understanding about modern day prophets a..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3FU9BsWxmUUSKcWEGccyIs/989e1ff9d477ab8db0e8857d8f867e8a/priscilla-du-preez-607204-unsplash__1_.jpg"
+collection: "understanding-prophecy"
 tags:
-- prophecy
-- office of a prophet
+  - "prophecy"
+  - "office of a prophet"
 collections: "Understanding Prophecy"
 ---
+
 Right before our very eyes, we are seeing prophecies fulfilled! We are truly in the most exciting time in the history of the Church and in the history of the United States of America!
 
 It is my opinion that the most misunderstood, misused and abused gift in this day is the office of the prophet and the gift of prophecy. That is why, this ministry decided to offer prophetic school and do write ups about prophets and prophecy to educate, inspire, instruct, and train the body of Christ.
@@ -63,4 +74,3 @@ Prophets will lead the way in the things of God; they will promote and give all 
 
 It is time for your great destiny to be fulfilled and your inheritance in Christ Jesus manifest! 
 Even so, come Lord Jesus!
-

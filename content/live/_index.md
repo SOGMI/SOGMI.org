@@ -1,13 +1,20 @@
 ---
-updated: 2022-12-12T02:14:27.691Z
-date: 2018-03-26T03:49:28.571Z
+sys:
+  id: "rZbVH1iTnMQSqc8c0wWUM"
+  updatedAt: "2018-03-26T03:49:28.571Z"
+  createdAt: "2023-11-12T17:27:49.780Z"
+  revision: 1845
+  space: "vfgh62eq5a4k"
+  contentType: "live"
+date: "2018-03-26T03:49:28.571Z"
 title: "Livestreams"
-currentlyLiveStreaming: true
+currentlyLiveStreaming: false
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4VLQM9mH9SCWqieCQegGwO/e0033ce2e047c6583601b1a4c39790b9/pastor_cris_preaching.jpg"
 YoutubeChannel: "UCRNMCaJ6wnwcZ_ShOfMG8Sw"
-videoID: "lLLJQO3nhhE"
+videoID: "XlLpy8vH7Xs"
 Description: "Schedule for livestreaming of services and events."
 ---
+
 {{< StreamEvent image="//images.ctfassets.net/vfgh62eq5a4k/4OnQWiQju0AYIqWceuEOm4/cf486854f20f00bcebb04c9b51863792/1512775280560__1_.jpg" >}}
 ## Sunday Morning Service (Freedom Fellowship Church)
 
@@ -17,14 +24,14 @@ Every week we stream the morning service at Freedom Fellowship Church. Come join
 
 {{< /StreamEvent >}}
 
-{{< StreamEvent image="//images.ctfassets.net/vfgh62eq5a4k/42d7brbKeUg1KvbbY1qP9f/916457216c5d17eb2c607e7aad798950/maxresdefault.jpg" >}}
+<!-- {{< StreamEvent image="//images.ctfassets.net/vfgh62eq5a4k/42d7brbKeUg1KvbbY1qP9f/916457216c5d17eb2c607e7aad798950/maxresdefault.jpg" >}}
+
 ## Sunday Evening Service (Freedom Fellowship Church)
 
 ### Every Sunday Evening at 7:00 pm CST
+{{< /StreamEvent >}} -->
 
-{{< /StreamEvent >}}
-
-{{< StreamEvent >}}
+{{< StreamEvent image="//images.ctfassets.net/vfgh62eq5a4k/42d7brbKeUg1KvbbY1qP9f/916457216c5d17eb2c607e7aad798950/maxresdefault.jpg" >}}
 
 ## Wednesday Evening Service (Freedom Fellowship Church)
 

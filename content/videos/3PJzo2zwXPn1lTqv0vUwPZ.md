@@ -1,0 +1,45 @@
+---
+sys:
+  id: "3PJzo2zwXPn1lTqv0vUwPZ"
+  updatedAt: "2023-03-12T16:51:37.014Z"
+  createdAt: "2023-03-12T16:51:37.014Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2023-03-12T16:51:37.014Z"
+title: "03/12/2023 | What Is Your Foundation Built On? (Pastor Joshua Sosso)"
+slug: "KaH6C9vlbUo"
+videoLink: "https://youtube.com/live/KaH6C9vlbUo"
+YoutubeID: "KaH6C9vlbUo"
+description: "This morning Pastor Joshua's sermon focused on total surrender to our Father. Are we willing to give up everything to serve our Father. If we are not willing to to do this we should not expect anything from our Father. In all that we do, it needs to founded on God. For many of us we have built up things for ourselves without including our Father. These structures must be torn down and rebuilt with God as our foundation. We can not risk being doubled minded by believing our Father one day and the moment we feel push back from something important to us we pull back from our Father. This is evidence of disbelief and doubt in our Father. What do we have to lose by given everything up to Him? Are we afraid that if we give it up we will not get it back? This is a lie from the enemy! We have a awesome Father, everything we give to Him He will multiply. Be in God's good grace, be like Joseph, even when no one was looking he was a faithful man. God was with Joseph and all that he put his hands to prospered. Wouldn't it be nice to be able to know that everything we touch will be blessed by our Father and prosper? This sermon was released at Freedom Fellowship Church  International on March 12, 2023 by Pastor Joshua Sosso."
+videoKeywords:
+  - "SOGMI"
+  - "FFCI"
+  - "Pastor Joshua Sosso"
+  - "Pastor Cristina Sosso"
+  - "Prosper"
+  - "Multiply"
+  - "Joseph"
+  - "Foundation"
+  - "Faithful"
+  - "Father"
+  - "God"
+  - "Jesus"
+  - "Double Minded"
+  - "Disbelief"
+  - "Structures "
+  - "Book Of Luke"
+  - "Book Of James"
+  - "Book Of Matthew"
+playlists:
+  - "full sermons"
+  - "livestreams"
+speakers:
+  - "Joshua Sosso"
+  - "Cristina Sosso"
+people:
+  - id: "2fn2KHOWEow0K6EqCkaywa"
+    contentType: "people"
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---

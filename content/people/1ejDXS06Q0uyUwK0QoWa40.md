@@ -1,6 +1,12 @@
 ---
-updated: 2021-09-19T16:28:00.213Z
-date: 2018-02-23T06:16:45.420Z
+sys:
+  id: "1ejDXS06Q0uyUwK0QoWa40"
+  updatedAt: "2018-02-23T06:16:45.420Z"
+  createdAt: "2021-09-19T16:28:00.213Z"
+  revision: 7
+  space: "vfgh62eq5a4k"
+  contentType: "people"
+date: "2018-02-23T06:16:45.420Z"
 title: "Coby Randal"
 slug: "coby-randal"
 show: false

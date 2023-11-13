@@ -1,0 +1,48 @@
+---
+sys:
+  id: "17etH9tNbIWQd2nMOrvypV"
+  updatedAt: "2023-01-12T02:38:55.148Z"
+  createdAt: "2023-01-12T02:38:55.148Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2023-01-12T02:38:55.148Z"
+title: "01/11/2023 | These Are Exciting Times (Pastor Joshua Sosso)"
+slug: "X9DiyRdyW0k"
+videoLink: "https://youtu.be/X9DiyRdyW0k"
+YoutubeID: "X9DiyRdyW0k"
+description: "Rejoice for victory is at hand! No matter what chaos is going on in the world, praise our Father because his will will stand. All that we need to do is keep our own assumptions out of our decisions, and prayers. When we pray we need to keep ourselves out of the equation, instead we should lean on the Holy Spirits leading. You should not take a back seat and allow others to make spiritual steps for you. Just because someone appears more anointed than you is not an excuse for you to put no effort. Ask your heavenly Father for leading. Keep envy and jealousy out of your church, allowing these actions are the will of satan. Always focus on building each other up, after all we are all on the same team. Ask yourself \"How can I live a life that is worthy for our Father?\".  Live your life with mercy and kindness, just as our Father has given to us. Our Father has been giving up opportunity after opportunity, don't you think it is time for us to set ourselves into gear and do the will of our Father? Let us put a smile on our Fathers face! This sermon was delivered at Freedom Fellowship Church International on January 11, 2023 by Pastor Joshua Sosso. \n"
+videoKeywords:
+  - "SOGMI"
+  - "Freedom Fellowship Church"
+  - "Pastor Cristina"
+  - "Pastor Joshua "
+  - "Sosso"
+  - "Ephesians"
+  - "James"
+  - "God's Will"
+  - "Rejoice"
+  - "Malice"
+  - "Envy"
+  - "Jealousy"
+  - "Leading"
+  - "Father"
+  - "Kindness"
+  - "Mercy"
+  - "Anointed"
+  - "satan"
+  - "Worthy"
+  - "Love"
+  - "Opportunity"
+playlists:
+  - "full sermons"
+  - "livestreams"
+speakers:
+  - "Joshua Sosso"
+  - "Cristina Sosso"
+people:
+  - id: "2fn2KHOWEow0K6EqCkaywa"
+    contentType: "people"
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---

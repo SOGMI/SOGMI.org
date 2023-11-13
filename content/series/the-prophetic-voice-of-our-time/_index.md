@@ -1,6 +1,12 @@
 ---
-updated: 2021-05-20T00:48:50.419Z
-date: 2018-01-25T09:20:37.514Z
+sys:
+  id: "185CxkJ9QWqYAgE86EWWOC"
+  updatedAt: "2018-01-25T09:20:37.514Z"
+  createdAt: "2021-05-20T00:48:50.419Z"
+  revision: 22
+  space: "vfgh62eq5a4k"
+  contentType: "podcastSeries"
+date: "2018-01-25T09:20:37.514Z"
 title: "The Prophetic Voice of Our Time"
 slug: "the-prophetic-voice-of-our-time"
 description: "The Prophetic Voice of Our Time is a weekly radio show hosted by Pastor Cristina Sosso. It airs every Saturday and Sunday in the San Antonio area on [AM 630 The Word](https://am630theword.com/programguidedaily?dayOfWeek=Saturday&timeFilter=4 \"KSLR 630 AM Saturday Program Guide\") and in the Austin area on [The Bridge Austin (101.1 FM & 1120 AM)](https://thebridgeaustin.com/shows/the-prophetic-voice-of-our-time/ \"The Bridge Austin FM 101.1 & AM 1120\"). Join Pastor Cris as she covers a wide range of topics including: The United States of America, prophecy, developing a relationship with Jesus and more. New episodes are added to the podcast every Monday.\n\n\n---\n\n\n\nRevelation 19:10, \"Then I fell at his feet to worship him. But he said to me, “Do not do that; I am a fellow servant of yours and your brethren who hold the testimony of Jesus; worship God. For the testimony of Jesus is the spirit of prophecy.” (NIV)\n\n"

@@ -1,18 +1,22 @@
 ---
-updated: 2022-10-24T18:04:27.296Z
-date: 2022-10-09T13:15:48.976Z
+sys:
+  id: "8NP2S5xFIEwlePAK6NITI"
+  updatedAt: "2022-10-09T13:15:48.976Z"
+  createdAt: "2022-10-24T18:04:27.296Z"
+  revision: 7
+  space: "vfgh62eq5a4k"
+  contentType: "events"
+date: "2022-10-09T13:15:48.976Z"
 title: "SOGMI Prophetic Conference and Business School (October 2022)"
 slug: "sogmi-leadership-training-and-prophetic-school-october-2022"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/15nn1uVIM5Jp3yJfmPb046/e95a4e8e1e9c5504118ef89b1f03548f/2022_oct_business_school_and_prophetic_conference_banner.jpg"
 venue: "Freedom Fellowship Church International"
-address:
-  longitude: -98.5472
-  latitude: 29.5169
+address: []
 hideFaq: true
 freeEvent: false
 price: 25
-startDate: 2022-10-29T00:00:00.000Z
-endDate: 2022-10-29T21:00:00.000Z
+startDate: "2022-10-29T00:00:00.000Z"
+endDate: "2022-10-29T21:00:00.000Z"
 timezone: "CDT"
 registrationType: "Eventbrite"
 eventbriteId: 438559883417
@@ -24,6 +28,7 @@ state: "TX"
 zipCode: 78230
 country: "United States"
 ---
+
 ## Schedule
 
 Friday October 28 at 7:00 PM CST

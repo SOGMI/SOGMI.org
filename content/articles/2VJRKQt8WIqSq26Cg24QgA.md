@@ -1,13 +1,23 @@
 ---
-updated: 2018-02-23T06:40:40.100Z
-date: 2018-02-20T23:18:44.502Z
+sys:
+  id: "2VJRKQt8WIqSq26Cg24QgA"
+  updatedAt: "2018-02-20T23:18:44.502Z"
+  createdAt: "2018-02-23T06:40:40.100Z"
+  revision: 3
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-20T23:18:44.502Z"
 title: "Revival is Here"
 slug: "revival-is-here"
-publishDate: 2010-02-04T00:00:00.000Z
+publishDate: "2010-02-04"
 authors: "Coby Randal"
+authorRef:
+  id: "1ejDXS06Q0uyUwK0QoWa40"
+  contentType: "people"
 tags:
-- revival
+  - "revival"
 ---
+
 __The fruits and signs that revival has come include:__
 
 True repentance brought on by the Holy Spirit; Jesus becomes not just Savior, but Lord over every area.

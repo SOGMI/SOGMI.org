@@ -7,8 +7,7 @@
         </div>
     {{- end -}}
     
-    {{- $seriesPath := print "/series/" (urlize .Params.Series) "/_index.md" -}}
-
+    {{- $seriesPath := print "/series/" (urlize .Params.Series) -}}
     {{- if eq .Section "podcasts" -}}
         {{- with $.Site.GetPage $seriesPath -}}
             <div class="div-block-12">

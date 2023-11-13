@@ -1,15 +1,25 @@
 ---
-updated: 2018-02-25T07:36:47.423Z
-date: 2018-02-21T06:29:46.851Z
+sys:
+  id: "59PhnE3T1C8SuqkQEOSkyK"
+  updatedAt: "2018-02-21T06:29:46.851Z"
+  createdAt: "2018-02-25T07:36:47.423Z"
+  revision: 8
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-21T06:29:46.851Z"
 title: "New Radio Program - The Prophetic Voice of Our Time"
 slug: "new-radio-program-the-prophetic-voice-of-our-time"
-publishDate: 2012-01-01T00:00:00.000Z
+publishDate: "2012-01-01"
 authors: "Coby Randal"
+authorRef:
+  id: "1ejDXS06Q0uyUwK0QoWa40"
+  contentType: "people"
 description: "Sons of God Ministries International has launched a new radio show \"The Prophetic Voice of Our Time\" hosted by Pastor Cristina Sosso! The program will air every week on AM 630 KSLR in South Texas!"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4ZnFL8TtW0i6EoiUCI4MYE/3d494775182c64d906e1bef4e8be2e30/condenser-mic-compressor.jpg"
 tags:
-- announcements
+  - "announcements"
 ---
+
 We are excited to announce Pastor Cris is back on KSLR!
 
 A Prophet's Reward - Part 1 Find out what the word says about the office of a prophet. http://www.sogmi.org/podcasts/TPVOT/TPVOT_E010_12_10_13_A_Prophets_Reward_Part1.mp3

@@ -1,6 +1,12 @@
 ---
-updated: 2018-03-29T06:21:18.365Z
-date: 2018-02-23T06:17:47.343Z
+sys:
+  id: "6aQjATkbJuOcIYwuGcSciQ"
+  updatedAt: "2018-02-23T06:17:47.343Z"
+  createdAt: "2018-03-29T06:21:18.365Z"
+  revision: 6
+  space: "vfgh62eq5a4k"
+  contentType: "people"
+date: "2018-02-23T06:17:47.343Z"
 title: "Mike Sosso"
 slug: "mike-sosso"
 show: true

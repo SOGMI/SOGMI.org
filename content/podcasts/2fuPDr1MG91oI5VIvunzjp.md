@@ -1,36 +1,43 @@
 ---
-updated: 2019-07-08T23:03:19.192Z
-date: 2019-07-08T23:03:19.192Z
+sys:
+  id: "2fuPDr1MG91oI5VIvunzjp"
+  updatedAt: "2019-07-08T23:03:19.192Z"
+  createdAt: "2019-07-08T23:03:19.192Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "podcasts"
+date: "2019-07-08T23:03:19.192Z"
 title: "Mission Trip Report"
 slug: "prophetic-voice-379"
-originalAirDate: 2019-07-06T00:00:00.000Z
+originalAirDate: "2019-07-06"
 episodeNumber: 379
 keywords:
-- seedtime and harvest
-- uprooting
-- restoration
-- healing
-- miracles
-- mission report
-- nations
-- signs and wonders
-- women in the church
-- order of melchizedek
-- kingdom of god
-- body of christ
-- holy spirit
-- prophecy
+  - "seedtime and harvest"
+  - "uprooting"
+  - "restoration"
+  - "healing"
+  - "miracles"
+  - "mission report"
+  - "nations"
+  - "signs and wonders"
+  - "women in the church"
+  - "order of melchizedek"
+  - "kingdom of god"
+  - "body of christ"
+  - "holy spirit"
+  - "prophecy"
 Series: "The Prophetic Voice of Our Time"
 audioLink: "https://episodes.castos.com/propheticvoice/TPVOT-E379-19-07-06-07-Mission-Trip-Report.mp3"
 hosts:
-- Cristina Sosso
+  - "Cristina Sosso"
 showTranscript: false
 description: "I know I needed to go to the Philippines, and I know it is an awesome seed from us here in Texas as for the ministry and for our country. We need to sow these seeds to other nations. It was actually an emergency mission…"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/EKS4lR5KkRVo9uSy9P1d4/d9f7dec58016375853b76f8926d1996d/asia-blue-blue-sky-902288.jpg"
 photoCredit: "Photo by Krisia Vinzon from Pexels"
+podcastSeries:
+  id: "185CxkJ9QWqYAgE86EWWOC"
+  contentType: "podcastSeries"
 people:
-- title: Cristina Sosso
-  slug: cristina-sosso
-  contentType: people
-  id: 3zLvufAtlKgiiGIaEYs4S4
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
 ---

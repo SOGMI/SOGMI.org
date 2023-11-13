@@ -1,17 +1,27 @@
 ---
-updated: 2019-04-07T16:22:35.309Z
-date: 2018-02-20T23:36:30.564Z
+sys:
+  id: "5G0z4JTyiQmySq2WUcCoUe"
+  updatedAt: "2018-02-20T23:36:30.564Z"
+  createdAt: "2019-04-07T16:22:35.309Z"
+  revision: 6
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-20T23:36:30.564Z"
 title: "What a Great Time to be Alive"
 slug: "what-a-great-time-to-be-alive"
-publishDate: 2011-03-01T00:00:00.000Z
+publishDate: "2011-03-01"
 authors: "Cristina Sosso"
+authorRef:
+  id: "3zLvufAtlKgiiGIaEYs4S4"
+  contentType: "people"
 description: "I cannot put into words the awesome wonders of our Lord Jesus Christ! All I can say is that it is great to be alive (in Christ). Right before our eyes, we see the transformation of our nation and this is just the beginning! What’s even more exciting than this is the fact the..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4nw4mfMDOUUgUs4mOA08My/ac407c2b321fffd8b6052662550eb959/kristina-wagner-357533-unsplash__1_.jpg"
 tags:
-- united states of america
-- politics
-- prophetic instructions
+  - "united states of america"
+  - "politics"
+  - "prophetic instructions"
 ---
+
 I cannot put into words the awesome wonders of our Lord Jesus Christ! All I can say is that it is great to be alive (in Christ). Right before our eyes, we see the transformation of our nation and this is just the beginning! What’s even more exciting than this is the fact the Lord always shares His plans, His thoughts, and His heart with the Body of Christ if we have ears to hear and eyes to see! (John 15:15) He always tells us the end before it happens. We would not know how to do the things He does, but it is not our responsibility to figure things out (Isaiah 55:8-9). Our only responsibility is to believe (Romans 8:24) and obey what He commands us to do. Obey our instruction because the Word of God will never fail!
 
 I can now see the awakening and transformation of the American people where only a few months or years ago, we could not even think it could be possible. The Lord released His prophetic Word and now we are beginning to see the awesome move of His Holy Spirit in the hearts and minds of the American people and our country is undergoing a major transformation. I dare say the United States of America is about to enter one of its finest hours. I see prophecies fulfilled at such an accelerated pace and here are a few things we should shout for joy about.

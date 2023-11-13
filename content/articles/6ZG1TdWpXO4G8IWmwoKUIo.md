@@ -1,18 +1,28 @@
 ---
-updated: 2018-03-29T10:09:04.618Z
-date: 2018-02-21T00:28:09.530Z
+sys:
+  id: "6ZG1TdWpXO4G8IWmwoKUIo"
+  updatedAt: "2018-02-21T00:28:09.530Z"
+  createdAt: "2018-03-29T10:09:04.618Z"
+  revision: 6
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-21T00:28:09.530Z"
 title: "Prophecy for 2014"
 slug: "prophecy-for-2014"
-publishDate: 2014-01-03T00:00:00.000Z
+publishDate: "2014-01-03"
 authors: "Coby Randal"
+authorRef:
+  id: "1ejDXS06Q0uyUwK0QoWa40"
+  contentType: "people"
 description: "The following is an excerpt from the December 31, 2013 Prophetic Conference"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/3M8OMexRTWGeOOWwaqoQ4a/ff926754e14755a0ace1d1a63e6d7af5/IMG_8984__1_.jpg"
 tags:
-- prophetic word
-- prophecy
-- united states of america
-- personal prophecy
+  - "prophetic word"
+  - "prophecy"
+  - "united states of america"
+  - "personal prophecy"
 ---
+
 *The following is an excerpt from the December 31, 2013 Prophetic Conference:*
 
 ## Prophecy for 2014

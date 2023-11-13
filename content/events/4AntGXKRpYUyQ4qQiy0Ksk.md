@@ -1,30 +1,28 @@
 ---
-updated: 2018-09-05T08:38:31.626Z
-date: 2018-02-18T02:25:25.532Z
+sys:
+  id: "4AntGXKRpYUyQ4qQiy0Ksk"
+  updatedAt: "2018-02-18T02:25:25.532Z"
+  createdAt: "2018-09-05T08:38:31.626Z"
+  revision: 48
+  space: "vfgh62eq5a4k"
+  contentType: "events"
+date: "2018-02-18T02:25:25.532Z"
 title: "Prophetic Conference at Freedom Fellowship Church"
 slug: "prophetic-conference-at-freedom-fellowship-church"
 venue: "Freedom Fellowship Church"
-address:
-  longitude: -98.54725339999999
-  latitude: 29.5169084
+address: []
 hideFaq: false
 description: "Join us at Freedom Fellowship Church this March and experience a move of God! God has already begun moving mightily this year 2018 so we will continue to pursue Him and his will with full abandon."
 people:
-- title: Cristina Sosso
-  slug: cristina-sosso
-  contentType: people
-  id: 3zLvufAtlKgiiGIaEYs4S4
-- title: Joshua Sosso
-  slug: joshua-sosso
-  contentType: people
-  id: 2fn2KHOWEow0K6EqCkaywa
-- title: Mike Sosso
-  slug: mike-sosso
-  contentType: people
-  id: 6aQjATkbJuOcIYwuGcSciQ
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+  - id: "2fn2KHOWEow0K6EqCkaywa"
+    contentType: "people"
+  - id: "6aQjATkbJuOcIYwuGcSciQ"
+    contentType: "people"
 freeEvent: true
-startDate: 2018-03-31T00:00:00.000Z
-endDate: 2018-03-31T21:00:00.000Z
+startDate: "2018-03-31T00:00:00.000Z"
+endDate: "2018-03-31T21:00:00.000Z"
 timezone: "CST"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6t1oOVZIWWUo44sAKcASWk/75a9d281912c0f948f1d90ff792636fc/prophetic_gathering_2018_march_-_without_text__1_.jpg"
 registrationType: "Eventbrite"
@@ -36,6 +34,7 @@ state: "Texas"
 zipCode: 78023
 country: "United States"
 ---
+
 ## Event Schedule
 The event will last for 2 days. Please register for each day you will be attending.</P>
 

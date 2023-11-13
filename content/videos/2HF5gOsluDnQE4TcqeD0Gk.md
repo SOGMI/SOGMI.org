@@ -1,0 +1,46 @@
+---
+sys:
+  id: "2HF5gOsluDnQE4TcqeD0Gk"
+  updatedAt: "2023-03-16T01:27:28.538Z"
+  createdAt: "2023-03-16T01:27:28.538Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2023-03-16T01:27:28.538Z"
+title: "03/15/2023 | The Words Of The Prophets Will Manifest ( Pastor Cristina Sosso)"
+slug: "uMskAYN6Hyc"
+videoLink: "https://youtube.com/live/uMskAYN6Hyc"
+YoutubeID: "uMskAYN6Hyc"
+description: "With every prophecy that is given, it comes with conditions. These conditions are instructions given for you to follow to the letter. These prophecies are not to elevate the prophet but to give glory to our Father. When you follow the instructions, there is no need to worry about anything else because you are moving in God's perfect will. Be those nameless faceless people who are being trained to fear nothing but only the Holiness of God. You will live and walk with signs and wonders following you. Break free from these man-made doctrines that hold you back from God's full potential for you. If you  feel that you are tied up with these man-made doctrines, now is a good time to fall to your knees and ask our Father for instructions. When signs and wonders begin to follow you, keep your eyes on the Lord and stay humble, always remember litmus test, God gets all the glory, it benefits His people, and it benefits you. We all have to walk our own paths, all with the same goal in mind, our Father gets all the glory. You do not want to be in the way of this move of God, but to be apart of it. We are making history now. This sermon was released at Freedom Fellowship Church International on March 15, 2023 by Pastor Cristina Sosso"
+videoKeywords:
+  - "SOGMI"
+  - "FFCI"
+  - "Pastor Cristina"
+  - "God"
+  - "Jesus"
+  - "Cornerstone"
+  - "Book of 2 Peter"
+  - "Book Of Revelation"
+  - "David "
+  - "Goliath"
+  - "Book of Hebrews"
+  - "Book of 2 Kings"
+  - "Glory"
+  - "Litmus Test"
+  - "Signs and Wonders"
+  - "Phophecy"
+  - "Prphets"
+  - "Instructions "
+  - "Father"
+  - "Perfect Will"
+  - "Man-made Doctrines"
+  - "Potential"
+playlists:
+  - "full sermons"
+  - "livestreams"
+speakers:
+  - "Cristina Sosso"
+people:
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---

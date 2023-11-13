@@ -1,17 +1,27 @@
 ---
-updated: 2021-05-06T13:00:52.038Z
-date: 2021-05-06T02:11:05.687Z
+sys:
+  id: "641jPtjGLpQU9HVqlDLd6z"
+  updatedAt: "2021-05-06T02:11:05.687Z"
+  createdAt: "2021-05-06T13:00:52.038Z"
+  revision: 2
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2021-05-06T02:11:05.687Z"
 title: "11 Principles For The Transfer of Wealth"
 slug: "11-principles-for-the-transfer-of-wealth"
 authors: "Joshua Sosso"
+authorRef:
+  id: "2fn2KHOWEow0K6EqCkaywa"
+  contentType: "people"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/Ipk1RN1DhVJsYhibtMVUi/b12ebf8a6d2413c0bdae245595f11b55/money-spread-out-resized.jpg"
 tags:
-- transfer of wealth
-- influence and affluence
-- doing business god's way
-- wealth
-- finances
+  - "transfer of wealth"
+  - "influence and affluence"
+  - "doing business god's way"
+  - "wealth"
+  - "finances"
 ---
+
 [Download PDF of this Article](//assets.ctfassets.net/vfgh62eq5a4k/3QtV57Eh3KvYvZDOlO1qSF/4dbded20cce87014a088a4eb5852ce8d/11_Principles_for_the_Transfer_of_Wealth_-_2021_Version.docx.pdf)
 
 ## 1) Take inventory of your life

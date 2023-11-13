@@ -1,16 +1,28 @@
 ---
-updated: 2018-02-23T04:07:25.007Z
-date: 2018-02-21T00:12:22.789Z
+sys:
+  id: "1fbiGH7d2wgu0wkKKs2eqQ"
+  updatedAt: "2018-02-21T00:12:22.789Z"
+  createdAt: "2018-02-23T04:07:25.007Z"
+  revision: 2
+  space: "vfgh62eq5a4k"
+  contentType: "articles"
+date: "2018-02-21T00:12:22.789Z"
 title: "A Word About the Transfer of Wealth"
 slug: "a-word-about-the-transfer-of-wealth"
-publishDate: 2011-02-04T00:00:00.000Z
+publishDate: "2011-02-04"
 authors: "Cristina Sosso"
+authorRef:
+  sys:
+    type: "Link"
+    linkType: "Entry"
+    id: "5waxGeNUty6IsECKIqQ8gU"
 description: "In 1991, I was caught in a dream-like vision. In this encounter with God, He handed me a formula on how to find His kingdom. It was a series of very detailed instructions He expected me to follow. He told me that He would be sending laborers who would follow my lead, knowing fully well that they..."
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/1Konxep5rK8Y6egiImGAcG/d2d2b495e23632ab6c7cb5044d81c794/freddie-collins-309833-unsplash__1_.jpg"
 tags:
-- transfer of wealth
-- prosperity
+  - "transfer of wealth"
+  - "prosperity"
 ---
+
 In 1991, I was caught in a dream-like vision. In this encounter with God, He handed me a formula on how to find His kingdom. It was a series of very detailed instructions He expected me to follow. He told me that He would be sending laborers who would follow my lead, knowing fully well that they would find the kingdom. These people were matured and did not desire material things. In this vision, we set out to find the kingdom of God and stopped in the middle of a forest. Our instruction was to dig. As soon as the team started digging (I now know that this means studying the Word of God deeper), gold coins started coming out. The deeper we dug, the more coins we found, and soon, there was more gold than soil. We piled up a huge heap of gold, and the team continued digging. I picked up a round object from the pile of dirt and started cleaning it with a cloth. I discovered that it was a gold necklace. Suddenly God showed up, taking the gold from my hand and examining it very carefully. He went on to tell me that it was only half of a necklace, and we needed to continue searching for the other half. Then, He disappeared. I have been pondering this encounter since 1991.
 
 I now know that it is really the will of God for His people to prosper, and the deeper our relationship with God, the more blessings will come without toil. A few months after this encounter, in May 1991, the Lord took me to the heavenlies and gave me specific instructions that pertain to our present time. He emphasized to me at that time that I was being sent back to earth for the greater work: to preach to whomever will listen that His Son Jesus Christ is coming very, very soon. Body of Christ, these are the greater works.

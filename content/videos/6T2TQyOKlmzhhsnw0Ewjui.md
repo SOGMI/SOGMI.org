@@ -1,25 +1,29 @@
 ---
-updated: 2022-03-06T18:41:18.843Z
-date: 2022-03-06T18:41:18.843Z
+sys:
+  id: "6T2TQyOKlmzhhsnw0Ewjui"
+  updatedAt: "2022-03-06T18:41:18.843Z"
+  createdAt: "2022-03-06T18:41:18.843Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2022-03-06T18:41:18.843Z"
 title: "03/06/2022 | Understanding our Mission to Bring Forth the Kingdom (Pastor Mike Sosso)"
 slug: "ACxecza1Hq8"
 videoLink: "https://youtu.be/ACxecza1Hq8"
 YoutubeID: "ACxecza1Hq8"
 description: "Pastor Mike continued on previous sermons from him and Pastor Cris about the key to getting in the supernatural. He talks about casting your cares on God to totally rely on him. He gives the example of how he had a issue that he needed God to provide. He gave it to God and had peace in the situation, and was able to see God do the miraculous. You have to lay everything down for God to use you in the miraculous."
 videoKeywords:
-- miraculous
-- supernatural
-- key
-- transfer of wealth
-- instructions
+  - "miraculous"
+  - "supernatural"
+  - "key"
+  - "transfer of wealth"
+  - "instructions"
 playlists:
-- full sermons
-- livestreams
+  - "full sermons"
+  - "livestreams"
 speakers:
-- Michael Sosso
+  - "Michael Sosso"
 people:
-- title: Mike Sosso
-  slug: mike-sosso
-  contentType: people
-  id: 6aQjATkbJuOcIYwuGcSciQ
+  - id: "6aQjATkbJuOcIYwuGcSciQ"
+    contentType: "people"
 ---

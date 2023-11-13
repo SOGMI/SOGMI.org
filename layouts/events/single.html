@@ -58,6 +58,42 @@
         {{ if eq .Params.registrationType "No Registration Required" }}
             <a href="#" class="event-button w-button">Registration is not required.</a>
         {{ end }}
+        {{ if eq .Params.registrationType "HTML Embed"}}
+            {{ with .Params.htmlEmbedCode }}
+            <div class="event-embed-popup" id="event-embed-popup">
+                <div class="event-embed-popup-background event-embed-popup-closer"></div>
+                <div class="event-embed-popup-content">
+                    <div style="text-align: right; padding-bottom: 10px;">
+                        <button class="event-embed-popup-close-btn event-embed-popup-closer">X close</button>
+                    </div>
+                    <div>
+                        {{ . | safeHTML }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+            <button href="#" class="event-button w-button" id="event-embed-button">Click to Register</button>
+            <script>
+                const eventEmbedBtn = document.querySelector("#event-embed-button");
+                const eventEmbedPopup = document.querySelector("#event-embed-popup");
+                const eventEmbedPopupClosers = document.querySelectorAll(".event-embed-popup-closer");
+                if (eventEmbedBtn instanceof HTMLButtonElement) {
+                    eventEmbedBtn.addEventListener("click", (e) => {
+                        document.querySelector("html").classList.add('overflow-hidden');
+                        eventEmbedPopup.classList.add('active');
+                    });
+                }
+                for (let i = 0; i < eventEmbedPopupClosers.length; i++) {
+                    const item = eventEmbedPopupClosers[i];
+                    if(item instanceof HTMLElement) {
+                        item.addEventListener('click', (e) => {
+                            document.querySelector('html').classList.remove('overflow-hidden');
+                            eventEmbedPopup.classList.remove('active');
+                        })
+                    }
+                }
+            </script>
+        {{ end }}
     </div>
 </div>
 <div class="content-section">

@@ -1,19 +1,23 @@
 ---
-updated: 2020-04-14T04:56:37.592Z
-date: 2020-04-12T23:24:50.211Z
+sys:
+  id: "7exVKB7IR85GjdOqIEQROj"
+  updatedAt: "2020-04-12T23:24:50.211Z"
+  createdAt: "2020-04-14T04:56:37.592Z"
+  revision: 8
+  space: "vfgh62eq5a4k"
+  contentType: "events"
+date: "2020-04-12T23:24:50.211Z"
 title: "Prophetic School Livestream 2020"
 slug: "prophetic-school-livestream-2020"
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/RWUg9gUusab2o9y26gFSS/06648a0e7b00390812c4c4d984562eaf/online_prophetic_school_thumb.jpg"
 venue: "Freedom Fellowship Church International"
 hideFaq: false
 people:
-- title: Cristina Sosso
-  slug: cristina-sosso
-  contentType: people
-  id: 3zLvufAtlKgiiGIaEYs4S4
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
 freeEvent: true
-startDate: 2020-04-17T00:00:00.000Z
-endDate: 2020-04-18T03:00:00.000Z
+startDate: "2020-04-17T00:00:00.000Z"
+endDate: "2020-04-18T03:00:00.000Z"
 timezone: "CST"
 registrationType: "Eventbrite"
 eventbriteId: 102641449338
@@ -24,6 +28,7 @@ state: "TX"
 zipCode: 78230
 country: "United States"
 ---
+
 We are very excited to host our first ever online prophetic school! God is doing miraculous things even in these tumultuous times. Let's take a hold every opportunity God has for use today! Be sure to register today so you can join us!
 
 ## Schedule
