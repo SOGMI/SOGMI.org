@@ -2,13 +2,14 @@
 sys:
   id: "62nbFrzeC32fxipx2vzPsH"
   updatedAt: "2023-11-12T13:42:25.206Z"
-  createdAt: "2023-11-13T03:10:07.166Z"
-  revision: 2
+  createdAt: "2023-11-13T04:17:26.458Z"
+  revision: 3
   space: "vfgh62eq5a4k"
   contentType: "events"
 date: "2023-11-12T13:42:25.206Z"
 title: "2023 Prophetic Gathering of the Saints"
 slug: "2023-prophetic-gathering-of-the-saints"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6eAEpRi4j75oPXDLYR3PXR/19d05e0c2111a746d78727dbbe991b2b/ray-hennessy-gdTxVSAE5sk-unsplash.jpg"
 venue: "Freedom Fellowship Church International"
 address: []
 hideFaq: false
