@@ -1,0 +1,53 @@
+---
+sys:
+  id: "2SbWccLjppDP9mfaZ5Wct1"
+  updatedAt: "2024-03-21T22:58:42.731Z"
+  createdAt: "2024-03-21T22:58:42.731Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "podcasts"
+date: "2024-03-21T22:58:42.731Z"
+title: "Prophecy of Jesus"
+slug: "prophetic-voice-621"
+publishDate: "2024-02-26T06:00:00.000Z"
+originalAirDate: "2024-02-24"
+episodeNumber: 621
+keywords:
+  - "book of psalms"
+  - "prophecy"
+  - "prophets"
+  - "false prophets"
+  - "book of revelation"
+  - "book of revelations"
+  - "book of matthew"
+  - "book of 2 peter"
+  - "book of ii peter"
+  - "book of acts"
+  - "russia"
+  - "prophecy from 2024"
+  - "prophecy for 2024"
+  - "body of christ"
+  - "book of romans"
+  - "transfer of wealth and influence"
+  - "transfer of wealth"
+  - "transfer of influence"
+  - "focus"
+  - "heart after god"
+  - "fruits"
+  - "heart of god"
+  - "heart issues"
+  - "heart issue"
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/1693894/c1e-77di4q71oc28q8o-8m7k01vgf8xv-clx3us.mp3?_gl=1*xhs930*_gcl_au*MTc3ODk1Mzc0Mi4xNzEwNzc3NjI3"
+hosts:
+  - "Cristina Sosso"
+description: "Do not let false prophets who speak of doom and gloom distract you. We need discernment regarding the prophecies that are being released. It says in the Bible that many false prophets and teachers will appear, and that many will be deceived, so we must keep watch. Remember that we know them by their fruits. What are their hearts? What is their focus? Do they reflect the will of God and have a heart after Him? In a similar way, we must also review our own hearts and focus. We must ensure that we are in line with the will of God, always seeking Him and His presence."
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/peZYPHU3brlmsQsRpQryR/6a2934ca12880b8ddea364b1fdafec16/pablo-heimplatz-EAvS-4KnGrk-unsplash__1_.jpg"
+photoCredit: "Pablo Heimplatz"
+podcastSeries:
+  id: "185CxkJ9QWqYAgE86EWWOC"
+  contentType: "podcastSeries"
+people:
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---

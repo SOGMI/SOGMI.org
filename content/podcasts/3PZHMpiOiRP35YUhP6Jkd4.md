@@ -1,0 +1,52 @@
+---
+sys:
+  id: "3PZHMpiOiRP35YUhP6Jkd4"
+  updatedAt: "2024-01-02T04:05:08.190Z"
+  createdAt: "2024-01-02T04:05:08.190Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "podcasts"
+date: "2024-01-02T04:05:08.190Z"
+title: "Put Your Faith Into Action"
+slug: "prophetic-voice-613"
+publishDate: "2024-01-01T06:00:00.000Z"
+originalAirDate: "2024-01-06"
+episodeNumber: 613
+keywords:
+  - "2023"
+  - "year in review"
+  - "judges"
+  - "deborahs"
+  - "next generation"
+  - "book of luke"
+  - "obedience"
+  - "abraham"
+  - "transfer of wealth"
+  - "prophecy from 2016"
+  - "prophecy"
+  - "god's system"
+  - "governance"
+  - "government"
+  - "year of explosions"
+  - "america"
+  - "united states of america"
+  - "walk by faith"
+  - "faith"
+  - "reset"
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/1625526/c1e-zjvb8rvg7ingd1p-rom05dgoc446-wiib1g.mp3"
+hosts:
+  - "Cristina Sosso"
+  - "Joshua Sosso"
+description: "Wherever God is leading you, you must take a step of faith forward. We must always be sensitive to His leading.  And remember, blessings are not the goal, but a side effect of obeying God. The goal should always be to build up His kingdom. Things have been reset, and in a reset both the good and the bad have been done away with, so let us continue to look ahead instead of behind. Greater is still to come!"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/6dNQLXqCu2OUht2ba54jNL/52cbc82543144e984d0c7dc898ee3e98/raimond-klavins--Ga2RXHz_pI-unsplash__1_.jpg"
+photoCredit: "Raimond Klavins"
+podcastSeries:
+  id: "185CxkJ9QWqYAgE86EWWOC"
+  contentType: "podcastSeries"
+people:
+  - id: "2fn2KHOWEow0K6EqCkaywa"
+    contentType: "people"
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---

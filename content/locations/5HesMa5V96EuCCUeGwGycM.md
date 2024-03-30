@@ -2,8 +2,8 @@
 sys:
   id: "5HesMa5V96EuCCUeGwGycM"
   updatedAt: "2018-02-28T22:35:28.835Z"
-  createdAt: "2022-11-14T01:35:40.197Z"
-  revision: 35
+  createdAt: "2024-02-04T17:08:00.499Z"
+  revision: 37
   space: "vfgh62eq5a4k"
   contentType: "locations"
 date: "2018-02-28T22:35:28.835Z"
@@ -59,7 +59,3 @@ Led by Senior Pastor and SOGMI Co-Founder Pastor Cris, FFCI is SOGMI's home base
 ## Service Times
 - Wednesday Evening - 7:00pm
 - Sunday Morning - 9:30am
-- Sunday Evening - 7:00pm
-
-## COVID-19 Policy
-Anyone is now free to attend with or without a mask. However, we ask anyone that is showing symptoms of illness to stay home for the sake of others.
