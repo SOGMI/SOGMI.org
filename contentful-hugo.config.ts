@@ -1,15 +1,11 @@
-/**
- *
- * @param {import("contentful").Asset} input
- */
-function assetToUrl(input) {
+import { defineConfig } from "contentful-hugo";
+import { type Asset } from "contentful";
+
+function assetToUrl(input: any) {
   return input?.fields?.file?.url ?? "";
 }
 
-/**
- * @type {import('contentful-hugo').ContentfulHugoConfig}
- */
-module.exports = {
+export default defineConfig({
   singleTypes: [
     {
       id: "live",
@@ -34,7 +30,7 @@ module.exports = {
           valueTransformer: assetToUrl,
         },
         collection: {
-          valueTransformer(input) {
+          valueTransformer(input: any) {
             return input?.fields?.slug;
           },
         },
@@ -109,4 +105,4 @@ module.exports = {
       directory: "content/videos",
     },
   ],
-};
+});
