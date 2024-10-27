@@ -1203,7 +1203,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 20px 0px;
+    padding: 0px 0px;
 }
 
 .event-embed-popup.active {
@@ -1231,8 +1231,14 @@ p {
     overflow-y: auto;
     overflow-x: hidden;
     background-color: white;
-    padding: 10px;
+    padding: 0px;
     box-sizing: 0 0 20px rgba(0, 0, 0, 0.10);
+}
+
+@media (max-width: 800px) {
+    .event-embed-popup-content {
+        max-height: 100vh;
+    }
 }
 
 .event-embed-popup-close-btn {

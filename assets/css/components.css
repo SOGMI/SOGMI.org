@@ -934,7 +934,7 @@ textarea.w-select {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  z-index: 900;
+  z-index: 500;
 }
 .w-dropdown-btn,
 .w-dropdown-toggle,
