@@ -2,13 +2,14 @@
 sys:
   id: "5N2qAwslVV0CjAH9bvZ2fJ"
   updatedAt: "2024-10-27T12:38:18.092Z"
-  createdAt: "2024-10-27T12:38:18.092Z"
-  revision: 1
+  createdAt: "2024-10-27T13:04:49.376Z"
+  revision: 2
   space: "vfgh62eq5a4k"
   contentType: "events"
 date: "2024-10-27T12:38:18.092Z"
 title: "2024 Prophetic Gathering of the Saints"
 slug: "2024-prophetic-gathering-of-the-saints"
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4lSxNPX8yrDYCWsVP87WFw/4c01d1a3236049aa9e51850b078b3359/warm-fireworks.jpg"
 venue: "Freedom Fellowship Church Interntional"
 address: []
 hideFaq: true
