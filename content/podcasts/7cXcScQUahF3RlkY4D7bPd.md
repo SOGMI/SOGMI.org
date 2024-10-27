@@ -1,0 +1,50 @@
+---
+sys:
+  id: "7cXcScQUahF3RlkY4D7bPd"
+  updatedAt: "2024-08-03T19:29:24.403Z"
+  createdAt: "2024-08-03T19:47:21.235Z"
+  revision: 4
+  space: "vfgh62eq5a4k"
+  contentType: "podcasts"
+date: "2024-08-03T19:29:24.403Z"
+title: "Be Kingdom Minded"
+slug: "prophetic-voice-642"
+publishDate: "2024-07-22T05:00:00.000Z"
+originalAirDate: "2024-07-20"
+episodeNumber: 642
+keywords:
+  - "book of exodus"
+  - "book of amos"
+  - "trump"
+  - "donald trump"
+  - "america"
+  - "united states"
+  - "united states of america"
+  - "Biden"
+  - "joe biden"
+  - "us"
+  - "usa"
+  - "heart of god"
+  - "book of john"
+  - "book of revelation"
+  - "obedience"
+  - "prophecy for 2024"
+  - "prophecy from 2024"
+  - "instructions"
+  - "kingdom minded"
+  - "transfer of wealth"
+  - "kingdom minded"
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/1798167/c1e-118cjd9m6c1q4qk-1p0xpopzs3d-72fs8n.mp3?_gl=1*o05omw*_gcl_au*MTU0NTM4MTM2Ni4xNzE5NjM3NjM1"
+hosts:
+  - "Cristina Sosso"
+description: "We must get out of our own ambition, expectations, and desires and be kingdom minded. Our obedience and the revelation of our Lord Jesus Christ is the most prized pearl that we could acquire. Let us not get distracted by our \"own ministry\" or what we think is important. Let us always consider the heart of God, because He will always consider yours."
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4mp0jkpMltVdeL1H3a7Pwa/3cae3fce84fc36844e71ba5d50610654/keghan-crossland-F1oeYBKJsdw-unsplash__1_.jpg"
+photoCredit: "Keghan Crossland"
+podcastSeries:
+  id: "185CxkJ9QWqYAgE86EWWOC"
+  contentType: "podcastSeries"
+people:
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---

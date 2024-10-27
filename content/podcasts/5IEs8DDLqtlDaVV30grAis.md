@@ -1,0 +1,51 @@
+---
+sys:
+  id: "5IEs8DDLqtlDaVV30grAis"
+  updatedAt: "2024-04-02T05:02:03.266Z"
+  createdAt: "2024-04-02T05:41:02.387Z"
+  revision: 2
+  space: "vfgh62eq5a4k"
+  contentType: "podcasts"
+date: "2024-04-02T05:02:03.266Z"
+title: "The Great Divide"
+slug: "prophetic-voice-626"
+publishDate: "2024-04-01T05:00:00.000Z"
+originalAirDate: "2024-03-30"
+episodeNumber: 626
+keywords:
+  - "spiritual warfare"
+  - "book of ii chronicles"
+  - "book of 2 chronicles"
+  - "prayer"
+  - "america"
+  - "book of matthew"
+  - "unity"
+  - "united states"
+  - "government"
+  - "political"
+  - "book of revelations"
+  - "be proactive"
+  - "prophecy"
+  - "prophecy for 2024"
+  - "prophecy from 2024"
+  - "book of john"
+  - "book of acts"
+  - "authority"
+  - "great commission"
+  - "priesthood"
+  - "divide"
+  - "great divide"
+  - "body of christ"
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/1710485/c1e-qz9a2p392sn3734-gd429k5pi0zd-cpzyjh.mp3?_gl=1*15ieckq*_gcl_au*MTc3ODk1Mzc0Mi4xNzEwNzc3NjI3"
+hosts:
+  - "Cristina Sosso"
+description: "It is time for the Body of Christ to govern and call those things as though they were. We must unite and pray for our country and ask God what it is we need to do about the issues in this country. We must get engaged and make sure we have clean hands. We will see a great divide in the Body of Christ. Let us make sure we are on the right side."
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/1AoX1qB7yTC9YyfnTNlqJ7/bb7558c10ae2de44a503c4990bf382b3/pexels-diana-4445241__1_.jpg"
+podcastSeries:
+  id: "185CxkJ9QWqYAgE86EWWOC"
+  contentType: "podcastSeries"
+people:
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---
