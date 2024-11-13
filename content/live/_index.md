@@ -2,8 +2,8 @@
 sys:
   id: "rZbVH1iTnMQSqc8c0wWUM"
   updatedAt: "2018-03-26T03:49:28.571Z"
-  createdAt: "2024-10-24T01:12:11.369Z"
-  revision: 2145
+  createdAt: "2024-11-11T06:00:02.688Z"
+  revision: 2165
   space: "vfgh62eq5a4k"
   contentType: "live"
 date: "2018-03-26T03:49:28.571Z"
@@ -11,7 +11,7 @@ title: "Livestreams"
 currentlyLiveStreaming: false
 featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4VLQM9mH9SCWqieCQegGwO/e0033ce2e047c6583601b1a4c39790b9/pastor_cris_preaching.jpg"
 YoutubeChannel: "UCRNMCaJ6wnwcZ_ShOfMG8Sw"
-videoID: "UujICpT1tv0"
+videoID: "td-FJR0kUSw"
 Description: "Schedule for livestreaming of services and events."
 ---
 
