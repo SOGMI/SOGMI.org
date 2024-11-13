@@ -1,3 +1,7 @@
+{{ define "head-scripts" }}
+<script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
+{{ end }}
+
 {{ define "main" }}
 
 {{ $d := .Params.endDate }}
@@ -93,6 +97,9 @@
                     }
                 }
             </script>
+        {{ end }}
+        {{ if eq .Params.registrationType "URL" }}
+            <a href="{{ .Params.registrationUrl }}" class="event-button w-button">Click to Register</a>
         {{ end }}
     </div>
 </div>
