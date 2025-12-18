@@ -13,18 +13,18 @@ slide1:
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     videoid: kTh3hP-HWnE
     showOverlay: true
-    active: true 
+    active: false 
 slide2: 
-    header: The Prophetic Gathering of the Saints
-    subheader: Join us for our end of the year prophetic conference!
-    button1: "/events/2024-prophetic-gathering-of-the-saints/"
+    header: A Night of Celebration and Glory
+    subheader: Join us for the Prophetic Gathering this New Year's Eve!
+    button1: "/events/2025-prophetic-gathering-of-the-saints/"
     button2: "/events/past-events/"
     button1text: Register Today
     button2text: View Past Events
-    imagelink: ///images.ctfassets.net/vfgh62eq5a4k/4lSxNPX8yrDYCWsVP87WFw/4c01d1a3236049aa9e51850b078b3359/warm-fireworks.jpg
+    imagelink: //images.ctfassets.net/vfgh62eq5a4k/5OtBnaq04w3uAau7UFGuGy/6f26eaac2d46035ce4c33c2e3f917633/prophetic-gathering-bg.png
     videoid: 
     showOverlay: true
-    active: false
+    active: true
 grid1:
     header: Radio Show
     subheader: with Pastor Cris

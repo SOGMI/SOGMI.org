@@ -5,3 +5,4 @@ public/
 resources
 .hugo_build.lock
 .contentful-hugo
+**/.DS_Store
