@@ -2,8 +2,8 @@
 sys:
   id: "5N2qAwslVV0CjAH9bvZ2fJ"
   updatedAt: "2024-10-27T12:38:18.092Z"
-  createdAt: "2024-11-13T22:37:41.542Z"
-  revision: 4
+  createdAt: "2024-12-05T02:16:57.613Z"
+  revision: 5
   space: "vfgh62eq5a4k"
   contentType: "events"
 date: "2024-10-27T12:38:18.092Z"
@@ -16,7 +16,7 @@ hideFaq: true
 freeEvent: false
 price: 35
 startDate: "2025-01-01T01:00:00.000Z"
-endDate: "2024-12-01T06:30:00.000Z"
+endDate: "2025-01-01T06:30:00.000Z"
 timezone: "CST"
 registrationType: "URL"
 registrationUrl: "https://events.humanitix.com/prophetic-gathering-of-the-saints-2024/tickets?widget=popup"

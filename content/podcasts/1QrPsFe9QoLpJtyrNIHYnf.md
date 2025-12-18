@@ -1,0 +1,51 @@
+---
+sys:
+  id: "1QrPsFe9QoLpJtyrNIHYnf"
+  updatedAt: "2024-11-14T20:11:57.164Z"
+  createdAt: "2024-11-14T20:11:57.164Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "podcasts"
+date: "2024-11-14T20:11:57.164Z"
+title: "The Grace of God"
+slug: "prophetic-voice-657"
+publishDate: "2024-11-04T06:00:00.000Z"
+originalAirDate: "2024-11-02"
+episodeNumber: 657
+keywords:
+  - "book of proverbs"
+  - "instructions"
+  - "abortion"
+  - "politics"
+  - "instructions"
+  - "prophecy"
+  - "prophecy for 2024"
+  - "prophecy for america"
+  - "prophecy for the united states"
+  - "instructions from 2023"
+  - "united states of america"
+  - "united states"
+  - "america"
+  - "grace"
+  - "grace of god"
+  - "god's grace"
+  - "book of luke"
+  - "book of john"
+  - "book of psalms"
+  - "book of matthew"
+  - "book of acts"
+  - "book of romans"
+Series: "The Prophetic Voice of Our Time"
+audioLink: "https://episodes.castos.com/propheticvoice/1889344/c1e-mndtnpp0pfopxp5-qd4gv08zam6-hmxjcz.mp3?_gl=1*71xnk4*_gcl_au*MTIwMDg4MDg0NS4xNzI3NzEzNTUx"
+hosts:
+  - "Cristina Sosso"
+description: "In this episode, Pastor Cristina Sosso talks about what the grace of God is along with the things happening in our country. We as the body of Christ need to allow the Holy Spirit to transform us; the old wine skin cannot handle the new things that are coming."
+featuredImage: "//images.ctfassets.net/vfgh62eq5a4k/4SMYwleAOwBNxvSeydM9E0/e5a64f45c46879780130b837be155346/alice-donovan-rouse-UweNcthlmDc-unsplash.jpg"
+photoCredit: "Alice Donovan Rouse"
+podcastSeries:
+  id: "185CxkJ9QWqYAgE86EWWOC"
+  contentType: "podcastSeries"
+people:
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---

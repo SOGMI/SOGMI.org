@@ -1,0 +1,46 @@
+---
+sys:
+  id: "3rCf5Ax8GHaUkuEZm00NaU"
+  updatedAt: "2025-07-31T02:40:25.079Z"
+  createdAt: "2025-07-31T02:40:25.079Z"
+  revision: 1
+  space: "vfgh62eq5a4k"
+  contentType: "videos"
+date: "2025-07-31T02:40:25.079Z"
+title: "07/30/2025 | Eternal Investments Part 2: God is Removing the Darkness (Pastor Cristina Sosso)"
+slug: "kUuMo6H-dPs"
+videoLink: "https://youtube.com/live/kUuMo6H-dPs"
+YoutubeID: "kUuMo6H-dPs"
+description: "Let us celebrate, the dark days of the Church are behind us! God is cutting away those that have abused their position for their own selfish gain. During this time, it is vital that we invest our time and words wisely; everything we invest will return to us, both good and bad. And remember, we must come from a position of victory. As we follow God's leading, we should expect results from it. There is no favoritism in the kingdom of God, so let us not put one person above another. Each and every one of us is called to do great things, but it is up to us to obey Him. This sermon was delivered at Freedom Fellowship Church International in San Antonio, Texas. "
+videoKeywords:
+  - "SOGMI"
+  - "FFCI"
+  - "Book of John"
+  - "Book of Acts"
+  - "Book of Matthew"
+  - "Book of Proverbs"
+  - "Book of Psalms"
+  - "Book of Luke"
+  - "God"
+  - "Time Investment"
+  - "Dark days of the Church"
+  - "Cutting Away"
+  - "manifestation"
+  - "Calling of God"
+  - "God's Calling"
+  - "Spiritual Maturity"
+  - "Leadership in the Church"
+  - "Joy"
+  - "Position of Victory"
+  - "Prayer"
+  - "Timing"
+  - "Obedience "
+playlists:
+  - "full sermons"
+  - "livestreams"
+speakers:
+  - "Cristina Sosso"
+people:
+  - id: "3zLvufAtlKgiiGIaEYs4S4"
+    contentType: "people"
+---
