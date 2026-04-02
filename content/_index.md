@@ -13,7 +13,7 @@ slide1:
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/38txgSAVbyqyM4iaIEiu8m/fd0ce8a519c635e7a8559e8ef0467dd2/download__3_.jpg
     videoid: kTh3hP-HWnE
     showOverlay: true
-    active: false 
+    active: true 
 slide2: 
     header: A Night of Celebration and Glory
     subheader: Join us for the Prophetic Gathering this New Year's Eve!
@@ -24,7 +24,7 @@ slide2:
     imagelink: //images.ctfassets.net/vfgh62eq5a4k/5OtBnaq04w3uAau7UFGuGy/6f26eaac2d46035ce4c33c2e3f917633/prophetic-gathering-bg.png
     videoid: 
     showOverlay: true
-    active: true
+    active: false
 grid1:
     header: Radio Show
     subheader: with Pastor Cris
