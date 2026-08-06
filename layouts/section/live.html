@@ -10,7 +10,7 @@
                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
         </div>
         <div id="liveChat">
-            <iframe width="100%" height="auto" src="https://www.youtube.com/live_chat?v={{ .Params.VideoID }}&embed_domain=www.sogmi.org"></iframe>
+            <iframe id="liveChatIFrame" width="100%" height="auto" src=""></iframe>
             <a class="ytbutton w-button" href="https://www.youtube.com/watch?v={{ .Params.VideoID }}">Join the live chat on Youtube</a>
         </div>
     </div>
@@ -60,4 +60,25 @@
         </div>
     </div>
     </div>
+{{ end }}
+
+{{ define "addscripts" }}
+    {{ if .Params.VideoId }}
+    <script lang="js">
+        function updateChatTheme() {
+            const iframe = document.querySelector('#liveChatIFrame');
+            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const baseUrl = 'https://www.youtube.com/live_chat?v={{ .Params.VideoID }}&embed_domain=www.sogmi.org';
+
+            // 1. Append dark_theme parameter conditionally
+            iframe.src = isDark ? `${baseUrl}&dark_theme=1` : `${baseUrl}&dark_theme=0`;
+
+            // 2. Adjust iframe container styling to prevent canvas background glitches
+            iframe.style.colorScheme = isDark ? 'dark' : 'light';
+            // iframe.style.backgroundColor = isDark ? '#0f0f0f' : '#ffffff';
+        }
+        updateChatTheme();
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateChatTheme);
+    </script>
+    {{ end }}
 {{ end }}
